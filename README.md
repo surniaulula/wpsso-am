@@ -95,7 +95,8 @@ WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags fo
 * **Bugfixes**
 	* *None*
 * **Improvements**
-	* *None*
+	* Renamed the main library file from "appmeta" to "filters".
+	* Renamed the settings library files from "appmeta" to "am-general".
 * **New Features**
 	* *None*
 
@@ -109,6 +110,10 @@ WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags fo
 	* *None*
 
 <h3>Upgrade Notice</h3>
+
+<h4>1.2</h4>
+
+Renamed the settings and main library files.
 
 <h4>1.1.4</h4>
 
