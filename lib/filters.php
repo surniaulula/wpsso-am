@@ -8,9 +8,9 @@ Copyright 2012-2014 - Jean-Sebastien Morisset - http://surniaulula.com/
 if ( ! defined( 'ABSPATH' ) ) 
 	die( 'These aren\'t the droids you\'re looking for...' );
 
-if ( ! class_exists( 'WpssoAmAppmeta' ) ) {
+if ( ! class_exists( 'WpssoAmFilters' ) ) {
 
-	class WpssoAmAppmeta {
+	class WpssoAmFilters {
 
 		protected $p;
 		protected $plugin_filepath;
@@ -45,7 +45,7 @@ if ( ! class_exists( 'WpssoAmAppmeta' ) ) {
 			),
 		);
 
-		public function __construct( &$plugin, $plugin_filepath = WPSSOSP_FILEPATH ) {
+		public function __construct( &$plugin, $plugin_filepath = WPSSOAM_FILEPATH ) {
 			$this->p =& $plugin;
 			$this->plugin_filepath = $plugin_filepath;
 			$this->p->util->add_plugin_filters( $this, array( 

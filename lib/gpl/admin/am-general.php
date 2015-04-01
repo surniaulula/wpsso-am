@@ -8,9 +8,9 @@ Copyright 2012-2014 - Jean-Sebastien Morisset - http://surniaulula.com/
 if ( ! defined( 'ABSPATH' ) ) 
 	die( 'These aren\'t the droids you\'re looking for...' );
 
-if ( ! class_exists( 'WpssoAmGplAdminAppmeta' ) ) {
+if ( ! class_exists( 'WpssoAmGplAdminAmgeneral' ) ) {
 
-	class WpssoAmGplAdminAppmeta {
+	class WpssoAmGplAdminAmgeneral {
 
 		public function __construct( &$plugin ) {
 			$this->p =& $plugin;
@@ -102,7 +102,7 @@ if ( ! class_exists( 'WpssoAmGplAdminAppmeta' ) ) {
 			$rows[] = '<td colspan="2" align="center">'.$this->p->msgs->get( 'pro-feature-msg', array( 'lca' => 'wpssoam' ) ).'</td>';
 
 			$rows[] = $this->p->util->th( 'App Store Territory', null, 'am_ap_ast' ).
-				'<td class="blank">'.$this->p->options['am_ap_ast'].'</td>';
+			'<td class="blank">'.$this->p->options['am_ap_ast'].'</td>';
 
 			$checkboxes = '';
 			foreach ( $this->p->util->get_post_types( 'frontend' ) as $post_type )
@@ -110,7 +110,7 @@ if ( ! class_exists( 'WpssoAmGplAdminAppmeta' ) ) {
 					$post_type->label.' '.( empty( $post_type->description ) ? '' : '('.$post_type->description.')' ).'</p>';
 
 			$rows[] = $this->p->util->th( 'Show Tab on Post Types', null, 'am_ap_add_to' ).
-				'<td class="blank">'.$checkboxes.'</td>';
+			'<td class="blank">'.$checkboxes.'</td>';
 
 			return $rows;
 		}

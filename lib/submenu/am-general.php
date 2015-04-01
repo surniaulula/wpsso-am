@@ -8,9 +8,9 @@ Copyright 2012-2014 - Jean-Sebastien Morisset - http://surniaulula.com/
 if ( ! defined( 'ABSPATH' ) ) 
 	die( 'These aren\'t the droids you\'re looking for...' );
 
-if ( ! class_exists( 'WpssoAmSubmenuAppmeta' ) && class_exists( 'WpssoAdmin' ) ) {
+if ( ! class_exists( 'WpssoAmSubmenuAmgeneral' ) && class_exists( 'WpssoAdmin' ) ) {
 
-	class WpssoAmSubmenuAppmeta extends WpssoAdmin {
+	class WpssoAmSubmenuAmgeneral extends WpssoAdmin {
 
 		public function __construct( &$plugin, $id, $name ) {
 			$this->p =& $plugin;
@@ -20,8 +20,10 @@ if ( ! class_exists( 'WpssoAmSubmenuAppmeta' ) && class_exists( 'WpssoAdmin' ) )
 
 		protected function add_meta_boxes() {
 			// add_meta_box( $id, $title, $callback, $post_type, $context, $priority, $callback_args );
-			add_meta_box( $this->pagehook.'_webapp', 'Website App', array( &$this, 'show_metabox_webapp' ), $this->pagehook, 'normal' );
-			add_meta_box( $this->pagehook.'_appmeta', 'App Products', array( &$this, 'show_metabox_appmeta' ), $this->pagehook, 'normal' );
+			add_meta_box( $this->pagehook.'_webapp', 'Website App', 
+				array( &$this, 'show_metabox_webapp' ), $this->pagehook, 'normal' );
+			add_meta_box( $this->pagehook.'_appmeta', 'App Products', 
+				array( &$this, 'show_metabox_appmeta' ), $this->pagehook, 'normal' );
 		}
 
 		public function show_metabox_webapp() {
