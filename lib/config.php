@@ -42,7 +42,7 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 					),
 					'lib' => array(
 						'submenu' => array (
-							'wpssoam-separator-0' => 'AM',
+							'wpssoam-separator-0' => 'AM Extension',
 							'am-general' => 'App Meta',
 						),
 						'gpl' => array(
