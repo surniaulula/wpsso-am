@@ -15,28 +15,30 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 		public static $cf = array(
 			'plugin' => array(
 				'wpssoam' => array(
-					'version' => '1.2',	// plugin version
+					'version' => '1.3dev1',	// plugin version
 					'short' => 'WPSSO AM',
 					'name' => 'WPSSO App Meta (WPSSO AM)',
 					'desc' => 'WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags for Apple\'s mobile Safari and Twitter\'s App Card.',
 					'slug' => 'wpsso-am',
 					'base' => 'wpsso-am/wpsso-am.php',
 					'img' => array(
-						'icon-small' => 'https://ps.w.org/wpsso-am/assets/icon-128x128.png?rev=',
-						'icon-medium' => 'https://ps.w.org/wpsso-am/assets/icon-256x256.png?rev=',
+						'icon-small' => 'images/icon-128x128.png',
+						'icon-medium' => 'images/icon-256x256.png',
 					),
 					'url' => array(
+						// wordpress
 						'download' => 'https://wordpress.org/plugins/wpsso-am/',
-						'update' => 'http://update.surniaulula.com/extend/plugins/wpsso-am/update/',
-						'purchase' => 'http://surniaulula.com/extend/plugins/wpsso-am/',
 						'review' => 'https://wordpress.org/support/view/plugin-reviews/wpsso-am#postform',
 						'readme' => 'https://plugins.svn.wordpress.org/wpsso-am/trunk/readme.txt',
+						'wp_support' => 'https://wordpress.org/support/plugin/wpsso-am',
+						// surniaulula
+						'update' => 'http://surniaulula.com/extend/plugins/wpsso-am/update/',
+						'purchase' => 'http://surniaulula.com/extend/plugins/wpsso-am/',
 						'changelog' => 'http://surniaulula.com/extend/plugins/wpsso-am/changelog/',
 						'codex' => 'http://surniaulula.com/codex/plugins/wpsso-am/',
 						'faq' => 'http://surniaulula.com/codex/plugins/wpsso-am/faq/',
 						'notes' => '',
 						'feed' => 'http://surniaulula.com/category/application/wordpress/wp-plugins/wpsso-am/feed/',
-						'wp_support' => 'https://wordpress.org/support/plugin/wpsso-am',
 						'pro_support' => 'http://support.wpsso-am.surniaulula.com/',
 						'pro_ticket' => 'http://ticket.wpsso-am.surniaulula.com/',
 					),
@@ -231,15 +233,13 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 			define( 'WPSSOAM_PLUGINBASE', plugin_basename( $plugin_filepath ) );
 			define( 'WPSSOAM_TEXTDOM', $slug );
 			define( 'WPSSOAM_URLPATH', trailingslashit( plugins_url( '', $plugin_filepath ) ) );
-
-			if ( ! defined( 'WPSSOAM_HEAD_PRIORITY' ) )
-				define( 'WPSSOAM_HEAD_PRIORITY', 5 );
 		}
 
 		public static function require_libs( $plugin_filepath ) {
 			add_filter( 'wpssoam_load_lib', array( 'WpssoAmConfig', 'load_lib' ), 10, 3 );
 		}
 
+		// gpl / pro library loader
 		public static function load_lib( $ret = false, $filespec = '', $classname = '' ) {
 			if ( $ret === false && ! empty( $filespec ) ) {
 				$filepath = WPSSOAM_PLUGINDIR.'lib/'.$filespec.'.php';
