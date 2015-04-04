@@ -11,7 +11,7 @@
  * Tested Up To: 4.1.1
  * Version: 1.3dev1
  * 
- * Copyright 2014 - Jean-Sebastien Morisset - http://surniaulula.com/
+ * Copyright 2014-2015 - Jean-Sebastien Morisset - http://surniaulula.com/
 */
 
 if ( ! defined( 'ABSPATH' ) ) 
