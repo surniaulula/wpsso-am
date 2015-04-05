@@ -51,7 +51,8 @@ if ( ! class_exists( 'WpssoAm' ) ) {
 
 		// this filter is executed at init priority -1
 		public function filter_get_config( $cf ) {
-			if ( version_compare( $cf['plugin']['wpsso']['version'], $this->wpsso_min_version, '<' ) ) {
+			if ( version_compare( $cf['plugin']['wpsso']['version'], 
+				$this->wpsso_min_version, '<' ) ) {
 				$this->wpsso_has_min_ver = false;
 				return $cf;
 			}
@@ -72,7 +73,7 @@ if ( ! class_exists( 'WpssoAm' ) ) {
 		public function init_options() {
 			$this->p =& Wpsso::get_instance();
 			if ( $this->wpsso_has_min_ver === false )
-				return;
+				return;		// stop here
 			$this->p->is_avail['am'] = true;
 			$this->p->is_avail['admin']['am-general'] = true;
 			$this->p->is_avail['head']['twittercard'] = true;
@@ -85,17 +86,9 @@ if ( ! class_exists( 'WpssoAm' ) ) {
 
 		// this action is executed once all class objects have been defined and modules have been loaded
 		public function init_plugin() {
-			if ( $this->wpsso_has_min_ver === false ) {
-				$shortname = WpssoAmConfig::$cf['plugin']['wpssoam']['short'];
-				$wpsso_version = $this->p->cf['plugin']['wpsso']['version'];
-				if ( $this->p->debug_enabled )
-					$this->p->debug->log( $shortname.' requires WPSSO version '.
-						$this->wpsso_min_version.' or newer ('.$wpsso_version.' installed)' );
-				if ( is_admin() )
-					$this->p->notice->err( $shortname.' v'.WpssoAmConfig::$cf['plugin']['wpssoam']['version'].
-						' requires WPSSO v'.$this->wpsso_min_version.' or newer ('.$wpsso_version.' is currently installed).', true );
-				return;
-			}
+			if ( $this->wpsso_has_min_ver === false )
+				return $this->min_version_warning( WpssoAmConfig::$cf['plugin']['wpssoam'] );
+
 			if ( ! empty( $this->p->options['plugin_wpssoam_tid'] ) )
 				add_filter( 'wpssoam_installed_version', array( &$this, 'filter_installed_version' ), 10, 1 );
 		}
@@ -104,6 +97,16 @@ if ( ! class_exists( 'WpssoAm' ) ) {
 			if ( ! $this->p->check->aop( 'wpssoam', false ) )
 				$version = '0.'.$version;
 			return $version;
+		}
+
+		private function min_version_warning( $info ) {
+			$wpsso_version = $this->p->cf['plugin']['wpsso']['version'];
+			if ( $this->p->debug->enabled )
+				$this->p->debug->log( $info['name'].' requires WPSSO version '.$this->wpsso_min_version.
+					' or newer ('.$wpsso_version.' installed)' );
+			if ( is_admin() )
+				$this->p->notice->err( $info['name'].' v'.$info['version'].' requires WPSSO v'.$this->wpsso_min_version.
+					' or newer ('.$wpsso_version.' is currently installed).', true );
 		}
 	}
 
