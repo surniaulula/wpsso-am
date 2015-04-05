@@ -1,4 +1,4 @@
-<h1>WPSSO App Meta</h1><h3>for Apple's mobile Safari and Twitter's App Card</h3>
+=== WPSSO App Meta - for Apple's mobile Safari and Twitter's App Card ===
 <blockquote>
 <strong>Contributors</strong>: jsmoriss<br/>
 <strong>Donate Link</strong>: https://surniaulula.com/extend/plugins/wpsso-am/<br/>
@@ -10,7 +10,11 @@
 <strong>Stable Tag</strong>: 1.2<br/>
 </blockquote>
 
+<p>
+
 WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari and Twitter's App Card.
+
+</p>
 
 <h3>Description</h3>
 
