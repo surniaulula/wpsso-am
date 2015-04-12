@@ -1,4 +1,5 @@
-=== WPSSO App Meta - for Apple's mobile Safari and Twitter's App Card ===
+<h1>WPSSO App Meta</h1><h3>for Apple's mobile Safari and Twitter's App Card</h3>
+
 <blockquote>
 <strong>Contributors</strong>: jsmoriss<br/>
 <strong>Donate Link</strong>: https://surniaulula.com/extend/plugins/wpsso-am/<br/>
