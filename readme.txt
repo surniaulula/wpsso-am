@@ -93,7 +93,7 @@ WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags fo
 * **Bugfixes**
 	* *None*
 * **Improvements**
-	* Moved minimum version checks to Wpssoam::min_version_warning().
+	* Moved the minimum version checks to a new `Wpssoam::min_version_warning()` method.
 	* Refactored code for the new "WPSSO Pro Update Manager (WPSSO UM)" extension plugin.
 * **New Features**
 	* *None*
