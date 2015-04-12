@@ -90,31 +90,22 @@ WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags fo
 
 = Version 1.3 (2015/04/12) =
 
-* **Bugfixes**
+* **New Features**
 	* *None*
 * **Improvements**
-	* Moved the minimum version checks to a new `Wpssoam::min_version_warning()` method.
+	* Moved the minimum version checks to a new `WpssoAm::min_version_warning()` method.
 	* Refactored code for the new "WPSSO Pro Update Manager (WPSSO UM)" extension plugin.
-* **New Features**
+* **Bugfixes**
 	* *None*
 
 = Version 1.2 (2015/04/02) =
 
-* **Bugfixes**
+* **New Features**
 	* *None*
 * **Improvements**
 	* Renamed the main library file from "appmeta" to "filters".
 	* Renamed the settings library files from "appmeta" to "am-general".
-* **New Features**
-	* *None*
-
-= Version 1.1.4 =
-
 * **Bugfixes**
-	* Fixed validation of network-activated plugin dependencies by checking for the Wpsso class only.
-* **Improvements**
-	* *None*
-* **New Features**
 	* *None*
 
 == Upgrade Notice ==
@@ -122,8 +113,4 @@ WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags fo
 = 1.2 =
 
 Renamed the settings and main library files.
-
-= 1.1.4 =
-
-Fixed validation of network-activated plugin dependencies by checking for the Wpsso class only.
 
