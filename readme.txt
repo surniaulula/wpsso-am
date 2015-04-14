@@ -83,7 +83,7 @@ WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags fo
 
 == Changelog ==
 
-= Repositories =
+= Free / Basic Version Repository =
 
 * GitHub: https://github.com/SurniaUlula/wpsso-am
 * WordPress.org: https://wordpress.org/plugins/wpsso-am/developers/
