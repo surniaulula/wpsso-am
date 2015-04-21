@@ -115,8 +115,9 @@ if ( ! class_exists( 'WpssoAm' ) ) {
 				$this->p->debug->log( $info['name'].' requires WPSSO version '.$this->wpsso_min_version.
 					' or newer ('.$wpsso_version.' installed)' );
 			if ( is_admin() )
-				$this->p->notice->err( $info['name'].' v'.$info['version'].' requires WPSSO v'.$this->wpsso_min_version.
-					' or newer ('.$wpsso_version.' is currently installed).', true );
+				$this->p->notice->err( 'The '.$info['name'].' version '.$info['version'].
+					' extension requires WPSSO version '.$this->wpsso_min_version.
+					' or newer (version '.$wpsso_version.' is currently installed).', true );
 		}
 	}
 
