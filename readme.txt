@@ -119,6 +119,10 @@ WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags fo
 
 == Upgrade Notice ==
 
+= 1.3.1 =
+
+Replaced self-deactivation when WPSSO is not found by a warning notice instead.
+
 = 1.3 =
 
 Refactored code for the new "WPSSO Pro Update Manager (WPSSO UM)" Free extension plugin.
