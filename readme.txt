@@ -94,6 +94,7 @@ WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags fo
 	* *None*
 * **Improvements**
 	* Replaced self-deactivation by a warning notice if the WPSSO plugin is not found.
+	* Made use of the new table row class 'hide_in_basic' from WPSSO v3.0.5 for the Social Settings metabox tab options.
 * **Bugfixes**
 	* Fixed variable references to a deprecated 'plugin_display' option.
 
