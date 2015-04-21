@@ -52,8 +52,7 @@ if ( ! class_exists( 'WpssoAm' ) ) {
 
 		// this filter is executed at init priority -1
 		public function wpsso_get_config( $cf ) {
-			if ( version_compare( $cf['plugin']['wpsso']['version'], 
-				$this->wpsso_min_version, '<' ) ) {
+			if ( version_compare( $cf['plugin']['wpsso']['version'], $this->wpsso_min_version, '<' ) ) {
 				$this->wpsso_has_min_ver = false;
 				return $cf;
 			}
@@ -89,6 +88,8 @@ if ( ! class_exists( 'WpssoAm' ) ) {
 		}
 
 		public function wpsso_init_objects() {
+			if ( $this->wpsso_has_min_ver === false )
+				return;		// stop here
 			WpssoAmConfig::load_lib( false, 'filters' );
 			$this->p->am = new WpssoAmFilters( $this->p, __FILE__ );
 		}
