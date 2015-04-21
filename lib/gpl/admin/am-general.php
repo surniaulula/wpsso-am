@@ -38,68 +38,70 @@ if ( ! class_exists( 'WpssoAmGplAdminAmgeneral' ) ) {
 
 		public function filter_meta_appmeta_rows( $rows, $form, $post_info ) {
 			$post_status = get_post_status( $post_info['id'] );
-			$th_width = $this->p->options['plugin_display'] == 'all' ? null : 'medium';
 			$def_name = $this->p->webpage->get_title( 0, '', true );
 
-			$rows[] = '<td colspan="2" align="center">'.$this->p->msgs->get( 'pro-feature-msg', array( 'lca' => 'wpssoam' ) ).'</td>';
+			$rows[] = '<td colspan="2" align="center">'.
+				$this->p->msgs->get( 'pro-feature-msg', array( 'lca' => 'wpssoam' ) ).'</td>';
 
-			$rows[] = $this->p->util->th( 'App Store Territory', $th_width, 'am_ap_ast' ).
+			$rows[] = $this->p->util->th( 'App Store Territory', 'medium', 'am_ap_ast' ).
 			'<td class="blank">'.$form->get_options( 'am_ap_ast', '(value from settings)' ).'</td>';
 
 			$rows[] = '<td colspan="2" class="subsection"><h4>Apple Store</h4></td>';
 
-			$rows[] = $this->p->util->th( 'iPhone App ID', $th_width, 'postmeta-am_iphone_app_id' ). 
+			$rows[] = $this->p->util->th( 'iPhone App ID', 'medium', 'postmeta-am_iphone_app_id' ). 
 			'<td class="blank">'.$form->get_options( 'am_iphone_app_id' ).'</td>';
 
 			if ( $post_status == 'auto-draft' )
-				$rows[] = $this->p->util->th( 'iPhone App Name', $th_width, 'postmeta-am_iphone_app_name' ). 
+				$rows[] = $this->p->util->th( 'iPhone App Name', 'medium', 'postmeta-am_iphone_app_name' ). 
 				'<td class="blank"><em>Save a draft version or publish the '.$post_info['ptn'].' to update and display this value.</em></td>';
 			else
-				$rows[] = $this->p->util->th( 'iPhone App Name', $th_width, 'postmeta-am_iphone_app_name' ). 
+				$rows[] = $this->p->util->th( 'iPhone App Name', 'medium', 'postmeta-am_iphone_app_name' ). 
 				'<td class="blank">'.$form->get_options( 'am_iphone_app_name' ).'</td>';
 
-			if ( $this->p->options['plugin_display'] == 'all' )
-				$rows[] = $this->p->util->th( 'iPhone App Custom URL Scheme', $th_width, 'postmeta-am_iphone_app_url' ). 
-				'<td class="blank">'.$form->get_options( 'am_iphone_app_url' ).'</td>';
+			$rows[] = '<tr class="hide_in_basic">'.
+			$this->p->util->th( 'iPhone App Custom URL Scheme', 'medium nowrap', 'postmeta-am_iphone_app_url' ). 
+			'<td class="blank">'.$form->get_options( 'am_iphone_app_url' ).'</td>';
 
-			$rows[] = $this->p->util->th( 'iPad App ID', $th_width, 'postmeta-am_ipad_app_id' ). 
+			$rows[] = $this->p->util->th( 'iPad App ID', 'medium', 'postmeta-am_ipad_app_id' ). 
 			'<td class="blank">'.$form->get_options( 'am_ipad_app_id' ).'</td>';
 
 			if ( $post_status == 'auto-draft' )
-				$rows[] = $this->p->util->th( 'iPad App Name', $th_width, 'postmeta-am_ipad_app_name' ). 
+				$rows[] = $this->p->util->th( 'iPad App Name', 'medium', 'postmeta-am_ipad_app_name' ). 
 				'<td class="blank"><em>Save a draft version or publish the '.$post_info['ptn'].' to update and display this value.</em></td>';
 			else
-				$rows[] = $this->p->util->th( 'iPad App Name', $th_width, 'postmeta-am_ipad_app_name' ). 
+				$rows[] = $this->p->util->th( 'iPad App Name', 'medium', 'postmeta-am_ipad_app_name' ). 
 				'<td class="blank">'.$form->get_options( 'am_ipad_app_name' ).'</td>';
 
-			if ( $this->p->options['plugin_display'] == 'all' )
-				$rows[] = $this->p->util->th( 'iPad App Custom URL Scheme', $th_width, 'postmeta-am_ipad_app_url' ). 
-				'<td class="blank">'.$form->get_options( 'am_ipad_app_url' ).'</td>';
+			$rows[] = '<tr class="hide_in_basic">'.
+			$this->p->util->th( 'iPad App Custom URL Scheme', 'medium nowrap', 'postmeta-am_ipad_app_url' ). 
+			'<td class="blank">'.$form->get_options( 'am_ipad_app_url' ).'</td>';
 
 			$rows[] = '<td colspan="2" class="subsection"><h4>Google Play</h4></td>';
 
-			$rows[] = $this->p->util->th( 'App ID', $th_width, 'postmeta-am_gplay_app_id' ). 
+			$rows[] = $this->p->util->th( 'App ID', 'medium', 'postmeta-am_gplay_app_id' ). 
 			'<td class="blank">'.$form->get_options( 'am_gplay_app_id' ).'</td>';
 
 			if ( $post_status == 'auto-draft' )
-				$rows[] = $this->p->util->th( 'App Name', $th_width, 'postmeta-am_gplay_app_name' ). 
+				$rows[] = $this->p->util->th( 'App Name', 'medium', 'postmeta-am_gplay_app_name' ). 
 				'<td class="blank"><em>Save a draft version or publish the '.$post_info['ptn'].' to update and display this value.</em></td>';
 			else
-				$rows[] = $this->p->util->th( 'App Name', $th_width, 'postmeta-am_gplay_app_name' ). 
+				$rows[] = $this->p->util->th( 'App Name', 'medium', 'postmeta-am_gplay_app_name' ). 
 				'<td class="blank">'.$form->get_options( 'am_gplay_app_name' ).'</td>';
 
-			if ( $this->p->options['plugin_display'] == 'all' )
-				$rows[] = $this->p->util->th( 'App Custom URL Scheme', $th_width, 'postmeta-am_gplay_app_url' ). 
-				'<td class="blank">'.$form->get_options( 'am_gplay_app_url' ).'</td>';
+			$rows[] = '<tr class="hide_in_basic">'.
+			$this->p->util->th( 'App Custom URL Scheme', 'medium nowrap', 'postmeta-am_gplay_app_url' ). 
+			'<td class="blank">'.$form->get_options( 'am_gplay_app_url' ).'</td>';
 
 			return $rows;
 		}
 
 		public function filter_appmeta_general_rows( $rows, $form ) {
 
-			$rows[] = '<td colspan="2" style="padding-bottom:10px;">'.$this->p->msgs->get( 'info-appmeta-general' ).'</td>';
+			$rows[] = '<td colspan="2" style="padding-bottom:10px;">'.
+				$this->p->msgs->get( 'info-appmeta-general' ).'</td>';
 
-			$rows[] = '<td colspan="2" align="center">'.$this->p->msgs->get( 'pro-feature-msg', array( 'lca' => 'wpssoam' ) ).'</td>';
+			$rows[] = '<td colspan="2" align="center">'.
+				$this->p->msgs->get( 'pro-feature-msg', array( 'lca' => 'wpssoam' ) ).'</td>';
 
 			$rows[] = $this->p->util->th( 'App Store Territory', null, 'am_ap_ast' ).
 			'<td class="blank">'.$this->p->options['am_ap_ast'].'</td>';
