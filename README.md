@@ -103,7 +103,7 @@ WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags fo
 * **Improvements**
 	* Replaced self-deactivation when WPSSO is not found by a warning notice instead.
 * **Bugfixes**
-	* *None*
+	* Fixed reference to a deprecated 'plugin_display' option.
 
 <h4>Version 1.3 (2015/04/12)</h4>
 
