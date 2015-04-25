@@ -89,7 +89,15 @@
 <h3>Other Notes</h3>
 
 <h3>Other Notes</h3>
-<h4>Additional Documentation</h4><h3>Changelog</h3>
+<h4>Additional Documentation</h4><h3>Screenshots</h3>
+
+<p align="center"><img align="center" src="https://surniaulula.github.io/wpsso-am/assets/screenshot-01.png"/><br/>
+The WPSSO AM Settings Page</p>
+
+<p align="center"><img align="center" src="https://surniaulula.github.io/wpsso-am/assets/screenshot-02.png"/><br/>
+The App Product Tab</p>
+
+<h3>Changelog</h3>
 
 <h4>Free / Basic Version Repository</h4>
 
