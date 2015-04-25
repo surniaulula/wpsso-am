@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Wpsso-am by SurniaUlula</title>
+    <title>WPSSO AM by SurniaUlula</title>
 
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
@@ -15,7 +15,7 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1>Wpsso-am</h1>
+        <h1>WPSSO AM</h1>
         <p>WPSSO App Meta (WPSSO AM)</p>
 
         <p class="view"><a href="https://github.com/SurniaUlula/wpsso-am">View the Project on GitHub <small>SurniaUlula/wpsso-am</small></a></p>
@@ -39,16 +39,20 @@
 <strong>License</strong>: GPLv3<br>
 <strong>License URI</strong>: http://www.gnu.org/licenses/gpl.txt<br>
 <strong>Requires At Least</strong>: 3.0<br>
-<strong>Tested Up To</strong>: 4.1.1<br>
-<strong>Stable Tag</strong>: 1.2<br>
+<strong>Tested Up To</strong>: 4.2<br>
+<strong>Stable Tag</strong>: 1.3.1<br>
 </blockquote>
 
-<p>WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari and Twitter's App Card.</p>
+<p>
+
+WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari and Twitter's App Card.
+
+</p>
 
 <h3>
 <a id="description" class="anchor" href="#description" aria-hidden="true"><span class="octicon octicon-link"></span></a>Description</h3>
 
-<p align="center"><img src="https://ps.w.org/wpsso-am/assets/icon-256x256.png?rev=" width="256" height="256"></p>
+<p align="center"><img src="https://surniaulula.github.io/wpsso-am/assets/icon-256x256.png" width="256" height="256"></p>
 
 <p><strong>Do you have a mobile App for your website</strong> that you'd like to promote as a banner in Apple's mobile Safari?</p>
 
@@ -153,12 +157,66 @@
 <a id="changelog" class="anchor" href="#changelog" aria-hidden="true"><span class="octicon octicon-link"></span></a>Changelog</h3>
 
 <h4>
-<a id="repositories" class="anchor" href="#repositories" aria-hidden="true"><span class="octicon octicon-link"></span></a>Repositories</h4>
+<a id="free--basic-version-repository" class="anchor" href="#free--basic-version-repository" aria-hidden="true"><span class="octicon octicon-link"></span></a>Free / Basic Version Repository</h4>
 
 <ul>
-<li>GitHub: <a href="https://github.com/SurniaUlula/wpsso-am">https://github.com/SurniaUlula/wpsso-am</a>
+<li><a href="https://github.com/SurniaUlula/wpsso-am">GitHub</a></li>
+<li><a href="https://wordpress.org/plugins/wpsso-am/developers/">WordPress.org</a></li>
+</ul>
+
+<h4>
+<a id="version-131-20150421" class="anchor" href="#version-131-20150421" aria-hidden="true"><span class="octicon octicon-link"></span></a>Version 1.3.1 (2015/04/21)</h4>
+
+<ul>
+<li>
+<strong>New Features</strong>
+
+<ul>
+<li><em>None</em></li>
+</ul>
 </li>
-<li>WordPress.org: <a href="https://wordpress.org/plugins/wpsso-am/developers/">https://wordpress.org/plugins/wpsso-am/developers/</a>
+<li>
+<strong>Improvements</strong>
+
+<ul>
+<li>Replaced self-deactivation by a warning notice if the WPSSO plugin is not found.</li>
+<li>Made use of the new table row class 'hide_in_basic' from WPSSO v3.0.5 for the Social Settings metabox tab options.</li>
+</ul>
+</li>
+<li>
+<strong>Bugfixes</strong>
+
+<ul>
+<li>Fixed variable references to a deprecated 'plugin_display' option.</li>
+</ul>
+</li>
+</ul>
+
+<h4>
+<a id="version-13-20150412" class="anchor" href="#version-13-20150412" aria-hidden="true"><span class="octicon octicon-link"></span></a>Version 1.3 (2015/04/12)</h4>
+
+<ul>
+<li>
+<strong>New Features</strong>
+
+<ul>
+<li><em>None</em></li>
+</ul>
+</li>
+<li>
+<strong>Improvements</strong>
+
+<ul>
+<li>Moved the minimum version checks to a new <code>WpssoAm::min_version_warning()</code> method.</li>
+<li>Refactored code for the new "WPSSO Pro Update Manager (WPSSO UM)" <em>Free</em> extension plugin.</li>
+</ul>
+</li>
+<li>
+<strong>Bugfixes</strong>
+
+<ul>
+<li><em>None</em></li>
+</ul>
 </li>
 </ul>
 
@@ -167,7 +225,7 @@
 
 <ul>
 <li>
-<strong>Bugfixes</strong>
+<strong>New Features</strong>
 
 <ul>
 <li><em>None</em></li>
@@ -182,34 +240,7 @@
 </ul>
 </li>
 <li>
-<strong>New Features</strong>
-
-<ul>
-<li><em>None</em></li>
-</ul>
-</li>
-</ul>
-
-<h4>
-<a id="version-114" class="anchor" href="#version-114" aria-hidden="true"><span class="octicon octicon-link"></span></a>Version 1.1.4</h4>
-
-<ul>
-<li>
 <strong>Bugfixes</strong>
-
-<ul>
-<li>Fixed validation of network-activated plugin dependencies by checking for the Wpsso class only.</li>
-</ul>
-</li>
-<li>
-<strong>Improvements</strong>
-
-<ul>
-<li><em>None</em></li>
-</ul>
-</li>
-<li>
-<strong>New Features</strong>
 
 <ul>
 <li><em>None</em></li>
@@ -221,14 +252,19 @@
 <a id="upgrade-notice" class="anchor" href="#upgrade-notice" aria-hidden="true"><span class="octicon octicon-link"></span></a>Upgrade Notice</h3>
 
 <h4>
+<a id="131" class="anchor" href="#131" aria-hidden="true"><span class="octicon octicon-link"></span></a>1.3.1</h4>
+
+<p>Replaced self-deactivation by a warning notice if the WPSSO plugin is not found.</p>
+
+<h4>
+<a id="13" class="anchor" href="#13" aria-hidden="true"><span class="octicon octicon-link"></span></a>1.3</h4>
+
+<p>Refactored code for the new "WPSSO Pro Update Manager (WPSSO UM)" Free extension plugin.</p>
+
+<h4>
 <a id="12" class="anchor" href="#12" aria-hidden="true"><span class="octicon octicon-link"></span></a>1.2</h4>
 
 <p>Renamed the settings and main library files.</p>
-
-<h4>
-<a id="114" class="anchor" href="#114" aria-hidden="true"><span class="octicon octicon-link"></span></a>1.1.4</h4>
-
-<p>Fixed validation of network-activated plugin dependencies by checking for the Wpsso class only.</p>
       </section>
       <footer>
         <p>This project is maintained by <a href="https://github.com/SurniaUlula">SurniaUlula</a></p>
