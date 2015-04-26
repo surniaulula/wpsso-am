@@ -1,14 +1,14 @@
 <h1>WPSSO App Meta</h1><h3>for Apple&#039;s mobile Safari and Twitter&#039;s App Card</h3>
 
 <table>
+<tr><th align="right" valign="top" nowrap>Plugin Name</th><td>WPSSO App Meta (WPSSO AM)</td></tr>
+<tr><th align="right" valign="top" nowrap>Stable Version</th><td>1.3.1</td></tr>
 <tr><th align="right" valign="top" nowrap>Contributors</th><td>jsmoriss</td></tr>
-<tr><th align="right" valign="top" nowrap>Donate Link</th><td><a href="https://surniaulula.com/extend/plugins/wpsso-am/">https://surniaulula.com/extend/plugins/wpsso-am/</a></td></tr>
-<tr><th align="right" valign="top" nowrap>Tags</th><td>wpsso, app, iphone, ipad, googleplay, meta, tags, itunes</td></tr>
-<tr><th align="right" valign="top" nowrap>License</th><td>GPLv3</td></tr>
-<tr><th align="right" valign="top" nowrap>License URI</th><td><a href="http://www.gnu.org/licenses/gpl.txt">http://www.gnu.org/licenses/gpl.txt</a></td></tr>
-<tr><th align="right" valign="top" nowrap>Requires At Least</th><td>3.0</td></tr>
-<tr><th align="right" valign="top" nowrap>Tested Up To</th><td>4.2</td></tr>
-<tr><th align="right" valign="top" nowrap>Stable Tag</th><td>1.3.1</td></tr>
+<tr><th align="right" valign="top" nowrap>Donate / Purchase</th><td><a href="https://surniaulula.com/extend/plugins/wpsso-am/">https://surniaulula.com/extend/plugins/wpsso-am/</a></td></tr>
+<tr><th align="right" valign="top" nowrap>Tags / Keywords</th><td>wpsso, app, iphone, ipad, googleplay, meta, tags, itunes</td></tr>
+<tr><th align="right" valign="top" nowrap>License</th><td><a href="http://www.gnu.org/licenses/gpl.txt">GPLv3</a></td></tr>
+<tr><th align="right" valign="top" nowrap>Requires At Least</th><td>WordPress 3.0</td></tr>
+<tr><th align="right" valign="top" nowrap>Tested Up To</th><td>WordPress 4.2</td></tr>
 </table>
 
 <p>WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags for Apple&#039;s mobile Safari and Twitter&#039;s App Card.</p>

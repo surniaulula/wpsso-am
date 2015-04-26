@@ -1,4 +1,5 @@
 === WPSSO App Meta - for Apple's mobile Safari and Twitter's App Card ===
+Plugin Name: WPSSO App Meta (WPSSO AM)
 Plugin Slug: wpsso-am
 Contributors: jsmoriss
 Donate Link: https://surniaulula.com/extend/plugins/wpsso-am/
