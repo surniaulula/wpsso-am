@@ -75,6 +75,8 @@
 <blockquote>
 <p><a href="https://wordpress.org/plugins/wpsso/">WordPress Social Sharing Optimization</a> plugin is required to use the WPSSO AM extension. You can use the <em>Free version</em> of WPSSO AM with either WPSSO Free or Pro, but the <a href="http://surniaulula.com/extend/plugins/wpsso-am/">WPSSO AM Pro version</a> requires the use of <a href="http://surniaulula.com/extend/plugins/wpsso/">WPSSO Pro</a> as well.</p>
 </blockquote>
+
+
 <h3>Installation</p>
 
 <h4>Install and Uninstall</h4>
@@ -83,99 +85,15 @@
     <li><a href="http://surniaulula.com/codex/plugins/wpsso-am/installation/install-the-plugin/">Install the Plugin</a></li>
     <li><a href="http://surniaulula.com/codex/plugins/wpsso-am/installation/uninstall-the-plugin/">Uninstall the Plugin</a></li>
 </ul>
+
+
 <h3>Frequently Asked Questions</h3>
 
 <h4>Frequently Asked Questions</h4>
-<h3>Other Notes</h3>
+
 
 <h3>Other Notes</h3>
-<h4>Additional Documentation</h4><h3>Screenshots</h3>
 
-<p align="center"><img align="center" src="https://surniaulula.github.io/wpsso-am/assets/screenshot-01.png"/><br/>
-The WPSSO AM Settings Page</p>
-
-<p align="center"><img align="center" src="https://surniaulula.github.io/wpsso-am/assets/screenshot-02.png"/><br/>
-The App Product Tab</p>
-
-<h3>Changelog</h3>
-
-<h4>Free / Basic Version Repository</h4>
-
-<ul>
-<li><a href="https://github.com/SurniaUlula/wpsso-am">GitHub</a></li>
-<li><a href="https://wordpress.org/plugins/wpsso-am/developers/">WordPress.org</a></li>
-</ul>
-
-<h4>Version 1.3.1 (2015/04/21)</h4>
-
-<ul>
-<li><strong>New Features</strong>
-
-<ul>
-<li><em>None</em></li>
-</ul></li>
-<li><strong>Improvements</strong>
-
-<ul>
-<li>Replaced self-deactivation by a warning notice if the WPSSO plugin is not found.</li>
-<li>Made use of the new table row class 'hide_in_basic' from WPSSO v3.0.5 for the Social Settings metabox tab options.</li>
-</ul></li>
-<li><strong>Bugfixes</strong>
-
-<ul>
-<li>Fixed variable references to a deprecated 'plugin_display' option.</li>
-</ul></li>
-</ul>
-
-<h4>Version 1.3 (2015/04/12)</h4>
-
-<ul>
-<li><strong>New Features</strong>
-
-<ul>
-<li><em>None</em></li>
-</ul></li>
-<li><strong>Improvements</strong>
-
-<ul>
-<li>Moved the minimum version checks to a new <code>WpssoAm::min_version_warning()</code> method.</li>
-<li>Refactored code for the new "WPSSO Pro Update Manager (WPSSO UM)" <em>Free</em> extension plugin.</li>
-</ul></li>
-<li><strong>Bugfixes</strong>
-
-<ul>
-<li><em>None</em></li>
-</ul></li>
-</ul>
-
-<h4>Version 1.2 (2015/04/02)</h4>
-
-<ul>
-<li><strong>New Features</strong>
-
-<ul>
-<li><em>None</em></li>
-</ul></li>
-<li><strong>Improvements</strong>
-
-<ul>
-<li>Renamed the main library file from "appmeta" to "filters".</li>
-<li>Renamed the settings library files from "appmeta" to "am-general".</li>
-</ul></li>
-<li><strong>Bugfixes</strong>
-
-<ul>
-<li><em>None</em></li>
-</ul></li>
-</ul>
-<h3>Upgrade Notice</h3>
-
-<h4>1.3.1</h4>
-<p>Replaced self-deactivation by a warning notice if the WPSSO plugin is not found.</p>
-
-<h4>1.3</h4>
-<p>Refactored code for the new &quot;WPSSO Pro Update Manager (WPSSO UM)&quot; Free extension plugin.</p>
-
-<h4>1.2</h4>
-<p>Renamed the settings and main library files.</p>
+<h3>Other Notes</h3>
+<h4>Additional Documentation</h4>
 
