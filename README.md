@@ -7,7 +7,7 @@
 <tr><th align="right" valign="top" nowrap>Requires At Least</th><td>WordPress 3.0</td></tr>
 <tr><th align="right" valign="top" nowrap>Tested Up To</th><td>WordPress 4.2.2</td></tr>
 <tr><th align="right" valign="top" nowrap>Contributors</th><td>jsmoriss</td></tr>
-<tr><th align="right" valign="top" nowrap>Website URL</th><td><a href="https://surniaulula.com/extend/plugins/wpsso-am/">https://surniaulula.com/extend/plugins/wpsso-am/</a></td></tr>
+<tr><th align="right" valign="top" nowrap>Website URL</th><td><a href="https://wpsso.com/extend/plugins/wpsso-am/">https://wpsso.com/extend/plugins/wpsso-am/</a></td></tr>
 <tr><th align="right" valign="top" nowrap>License</th><td><a href="http://www.gnu.org/licenses/gpl.txt">GPLv3</a></td></tr>
 <tr><th align="right" valign="top" nowrap>Tags / Keywords</th><td>wpsso, app, iphone, ipad, googleplay, meta, tags, itunes</td></tr>
 </table>
@@ -20,7 +20,7 @@
 
 <p>WPSSO App Meta (WPSSO AM) works in conjunction with the <a href="https://wordpress.org/plugins/wpsso/">WordPress Social Sharing Optimization (WPSSO)</a> plugin, extending its features with additional settings pages, tabs, and options, to include iPhone, iPad, and Google Play App meta tags in your webpages (for Apple's mobile Safari and Twitter's App Card). WPSSO AM is <em>fast</em>, <em>efficient</em>, and &mdash; using WPSSO as its framework &mdash; provides <em>accurate</em> information about your content to social websites.</p>
 
-<p>You can download the <a href="https://wordpress.org/plugins/wpsso-am/">Free version of WPSSO AM on wordpress.org</a> and <a href="(http://surniaulula.com/extend/plugins/wpsso-am/">purchase Pro license(s) on surniaulula.com</a> (includes a <strong>No Risk 30 Day Refund Policy</strong>). The banner advertisement feature for mobile Safari is included with the Free version, and the Twitter App Card feature is provided with the Pro version.</p>
+<p>You can download the <a href="https://wordpress.org/plugins/wpsso-am/">Free version of WPSSO AM on WordPress.org</a> and <a href="(http://wpsso.com/extend/plugins/wpsso-am/">purchase Pro license(s) on WPSSO.com</a> (includes a <strong>No Risk 30 Day Refund Policy</strong>). The banner advertisement feature for mobile Safari is included with the Free version, and the Twitter App Card feature is provided with the Pro version.</p>
 
 <h4>Quick List of Features</h4>
 
@@ -72,7 +72,7 @@
 </ul>
 
 <blockquote>
-<p><a href="https://wordpress.org/plugins/wpsso/">WordPress Social Sharing Optimization</a> plugin is required to use the WPSSO AM extension. You can use the <em>Free version</em> of WPSSO AM with either WPSSO Free or Pro, but the <a href="http://surniaulula.com/extend/plugins/wpsso-am/">WPSSO AM Pro version</a> requires the use of <a href="http://surniaulula.com/extend/plugins/wpsso/">WPSSO Pro</a> as well.</p>
+<p><a href="https://wordpress.org/plugins/wpsso/">WordPress Social Sharing Optimization</a> plugin is required to use the WPSSO AM extension. You can use the <em>Free version</em> of WPSSO AM with either WPSSO Free or Pro, but the <a href="http://wpsso.com/extend/plugins/wpsso-am/">WPSSO AM Pro version</a> requires the use of <a href="http://wpsso.com/extend/plugins/wpsso/">WPSSO Pro</a> as well.</p>
 </blockquote>
 
 
@@ -81,8 +81,8 @@
 <h4>Install and Uninstall</h4>
 
 <ul>
-    <li><a href="http://surniaulula.com/codex/plugins/wpsso-am/installation/install-the-plugin/">Install the Plugin</a></li>
-    <li><a href="http://surniaulula.com/codex/plugins/wpsso-am/installation/uninstall-the-plugin/">Uninstall the Plugin</a></li>
+    <li><a href="http://wpsso.com/codex/plugins/wpsso-am/installation/install-the-plugin/">Install the Plugin</a></li>
+    <li><a href="http://wpsso.com/codex/plugins/wpsso-am/installation/uninstall-the-plugin/">Uninstall the Plugin</a></li>
 </ul>
 
 
