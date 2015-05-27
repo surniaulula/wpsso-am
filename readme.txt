@@ -2,7 +2,7 @@
 Plugin Name: WPSSO App Meta (WPSSO AM)
 Plugin Slug: wpsso-am
 Contributors: jsmoriss
-Donate Link: https://wpsso.com/extend/plugins/wpsso-am/
+Donate Link: https://wpsso.com/
 Tags: wpsso, app, iphone, ipad, googleplay, meta, tags, itunes
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.txt
