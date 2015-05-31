@@ -95,7 +95,7 @@ WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags fo
 * **New Features**
 	* *None*
 * **Improvements**
-	* Code compatibility with WPSSO v3.3.
+	* Renamed the 'postmeta' filter hooks to 'post' for compatibility with WPSSO v3.3.
 * **Bugfixes**
 	* *None*
 * **Developer Notes**
