@@ -50,15 +50,15 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 			$this->plugin_filepath = $plugin_filepath;
 			$this->p->util->add_plugin_filters( $this, array( 
 				'get_defaults' => 1,
-				'get_meta_defaults' => 1,
+				'get_post_defaults' => 1,
 			) );
 			if ( is_admin() ) {
 				$this->p->util->add_plugin_filters( $this, array( 
 					'option_type' => 2,
-					'tooltip_side' => 2,            // tooltip messages for side boxes
-					'tooltip_postmeta' => 3,        // tooltip messages for post social settings
-					'messages_info' => 2,		// info messages filter
-					'messages' => 2,		// messages filter
+					'tooltip_side' => 2,	// tooltip messages for side boxes
+					'tooltip_post' => 3,	// tooltip messages for post social settings
+					'messages_info' => 2,	// info messages filter
+					'messages' => 2,	// messages filter
 				) );
 				$this->p->util->add_plugin_filters( $this, array( 
 					'status_gpl_features' => 3,
@@ -75,7 +75,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 			return $opts_def;
 		}
 
-		public function filter_get_meta_defaults( $opts_def ) {
+		public function filter_get_post_defaults( $opts_def ) {
 			$opts_def = array_merge( $opts_def, array(
 				'am_ap_ast' => -1,
 				'am_iphone_app_id' => '',
@@ -142,37 +142,37 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 			return $text;
 		}
 
-		public function filter_tooltip_postmeta( $text, $idx, $atts ) {
+		public function filter_tooltip_post( $text, $idx, $atts ) {
 			$ptn = empty( $atts['ptn'] ) ? 'Post' : $atts['ptn'];
 			switch ( $idx ) {
 				// post metabox settings tab
-				case ( strpos( $idx, 'tooltip-postmeta-am_' ) !== false ? true : false ):
+				case ( strpos( $idx, 'tooltip-post-am_' ) !== false ? true : false ):
 					switch ( $idx ) {
-						case 'tooltip-postmeta-am_iphone_app_id':
+						case 'tooltip-post-am_iphone_app_id':
 							$text = 'The numeric representation of your iPhone App ID in the App Store (.i.e. "307234931").';
 							break;
-						case 'tooltip-postmeta-am_iphone_app_name':
+						case 'tooltip-post-am_iphone_app_name':
 							$text = 'The name of your iPhone App.';
 							break;
-						case 'tooltip-postmeta-am_iphone_app_url':
+						case 'tooltip-post-am_iphone_app_url':
 							$text = 'Your iPhone App\'s custom URL scheme (you must include "://" after the scheme name).';
 							break;
-						case 'tooltip-postmeta-am_ipad_app_id':
+						case 'tooltip-post-am_ipad_app_id':
 							$text = 'The numeric representation of your iPad App ID in the App Store (.i.e. "307234931").';
 							break;
-						case 'tooltip-postmeta-am_ipad_app_name':
+						case 'tooltip-post-am_ipad_app_name':
 							$text = 'The name of your iPad App.';
 							break;
-						case 'tooltip-postmeta-am_ipad_app_url':
+						case 'tooltip-post-am_ipad_app_url':
 							$text = 'Your iPad App\'s custom URL scheme (you must include \'://\' after the scheme name).';
 							break;
-						case 'tooltip-postmeta-am_gplay_app_id':
+						case 'tooltip-post-am_gplay_app_id':
 							$text = 'The fully qualified package name of your Google Play App (.i.e. "com.google.android.apps.maps").';
 							break;
-						case 'tooltip-postmeta-am_gplay_app_name':
+						case 'tooltip-post-am_gplay_app_name':
 							$text = 'The name of your Google Play App.';
 							break;
-						case 'tooltip-postmeta-am_gplay_app_url':
+						case 'tooltip-post-am_gplay_app_url':
 							$text = 'Your Google Play App\'s custom URL scheme (you must include \'://\' after the scheme name).';
 							break;
 					}

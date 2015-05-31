@@ -2,7 +2,7 @@
 /*
  * License: GPLv3
  * License URI: http://www.gnu.org/licenses/gpl.txt
- * Copyright 2014-2015 - Jean-Sebastien Morisset - http://surniaulula.com/
+ * Copyright 2014-2015 - Jean-Sebastien Morisset - http://wpsso.com/
  */
 
 if ( ! defined( 'ABSPATH' ) ) 
@@ -15,7 +15,7 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 		public static $cf = array(
 			'plugin' => array(
 				'wpssoam' => array(
-					'version' => '1.3.1',	// plugin version
+					'version' => '1.3.2',	// plugin version
 					'short' => 'WPSSO AM',
 					'name' => 'WPSSO App Meta (WPSSO AM)',
 					'desc' => 'WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags for Apple\'s mobile Safari and Twitter\'s App Card.',
@@ -33,15 +33,14 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 						'readme' => 'https://plugins.svn.wordpress.org/wpsso-am/trunk/readme.txt',
 						'wp_support' => 'https://wordpress.org/support/plugin/wpsso-am',
 						// surniaulula
-						'update' => 'http://surniaulula.com/extend/plugins/wpsso-am/update/',
-						'purchase' => 'http://surniaulula.com/extend/plugins/wpsso-am/',
-						'changelog' => 'http://surniaulula.com/extend/plugins/wpsso-am/changelog/',
-						'codex' => 'http://surniaulula.com/codex/plugins/wpsso-am/',
-						'faq' => 'http://surniaulula.com/codex/plugins/wpsso-am/faq/',
+						'update' => 'http://wpsso.com/extend/plugins/wpsso-am/update/',
+						'purchase' => 'http://wpsso.com/extend/plugins/wpsso-am/',
+						'changelog' => 'http://wpsso.com/extend/plugins/wpsso-am/changelog/',
+						'codex' => 'http://wpsso.com/codex/plugins/wpsso-am/',
+						'faq' => 'http://wpsso.com/codex/plugins/wpsso-am/faq/',
 						'notes' => '',
-						'feed' => 'http://surniaulula.com/category/application/wordpress/wp-plugins/wpsso-am/feed/',
-						'pro_support' => 'http://support.wpsso-am.surniaulula.com/',
-						'pro_ticket' => 'http://ticket.wpsso-am.surniaulula.com/',
+						'feed' => 'http://wpsso.com/category/application/wordpress/wp-plugins/wpsso-am/feed/',
+						'pro_support' => 'http://wpsso-am.support.wpsso.com/',
 					),
 					'lib' => array(
 						'submenu' => array (
