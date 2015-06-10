@@ -135,7 +135,7 @@ WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags fo
 
 == Upgrade Notice ==
 
-= 1.3.1 =
+= 1.3.2 =
 
-Replaced self-deactivation by a warning notice if the WPSSO plugin is not found.
+Renamed the 'postmeta' filter hooks to 'post' for compatibility with WPSSO v3.3.
 
