@@ -15,7 +15,7 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 		public static $cf = array(
 			'plugin' => array(
 				'wpssoam' => array(
-					'version' => '1.3.2',	// plugin version
+					'version' => '1.3.3',	// plugin version
 					'short' => 'WPSSO AM',
 					'name' => 'WPSSO App Meta (WPSSO AM)',
 					'desc' => 'WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags for Apple\'s mobile Safari and Twitter\'s App Card.',
@@ -229,7 +229,7 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 			$slug = self::$cf['plugin'][$lca]['slug'];
 
 			define( 'WPSSOAM_FILEPATH', $plugin_filepath );						
-			define( 'WPSSOAM_PLUGINDIR', trailingslashit( plugin_dir_path( $plugin_filepath ) ) );
+			define( 'WPSSOAM_PLUGINDIR', trailingslashit( realpath( dirname( $plugin_filepath ) ) ) );
 			define( 'WPSSOAM_PLUGINBASE', plugin_basename( $plugin_filepath ) );
 			define( 'WPSSOAM_TEXTDOM', $slug );
 			define( 'WPSSOAM_URLPATH', trailingslashit( plugins_url( '', $plugin_filepath ) ) );

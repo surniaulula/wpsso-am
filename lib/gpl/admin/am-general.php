@@ -43,53 +43,53 @@ if ( ! class_exists( 'WpssoAmGplAdminAmgeneral' ) ) {
 			$rows[] = '<td colspan="2" align="center">'.
 				$this->p->msgs->get( 'pro-feature-msg', array( 'lca' => 'wpssoam' ) ).'</td>';
 
-			$rows[] = $this->p->util->th( 'App Store Territory', 'medium', 'am_ap_ast' ).
+			$rows[] = $this->p->util->get_th( 'App Store Territory', 'medium', 'am_ap_ast' ).
 			'<td class="blank">'.$form->get_options( 'am_ap_ast', '(value from settings)' ).'</td>';
 
 			$rows[] = '<td colspan="2" class="subsection"><h4>Apple Store</h4></td>';
 
-			$rows[] = $this->p->util->th( 'iPhone App ID', 'medium', 'post-am_iphone_app_id' ). 
+			$rows[] = $this->p->util->get_th( 'iPhone App ID', 'medium', 'post-am_iphone_app_id' ). 
 			'<td class="blank">'.$form->get_options( 'am_iphone_app_id' ).'</td>';
 
 			if ( $post_status == 'auto-draft' )
-				$rows[] = $this->p->util->th( 'iPhone App Name', 'medium', 'post-am_iphone_app_name' ). 
+				$rows[] = $this->p->util->get_th( 'iPhone App Name', 'medium', 'post-am_iphone_app_name' ). 
 				'<td class="blank"><em>Save a draft version or publish the '.$post_info['ptn'].' to update and display this value.</em></td>';
 			else
-				$rows[] = $this->p->util->th( 'iPhone App Name', 'medium', 'post-am_iphone_app_name' ). 
+				$rows[] = $this->p->util->get_th( 'iPhone App Name', 'medium', 'post-am_iphone_app_name' ). 
 				'<td class="blank">'.$form->get_options( 'am_iphone_app_name' ).'</td>';
 
 			$rows[] = '<tr class="hide_in_basic">'.
-			$this->p->util->th( 'iPhone App Custom URL Scheme', 'medium nowrap', 'post-am_iphone_app_url' ). 
+			$this->p->util->get_th( 'iPhone App Custom URL Scheme', 'medium nowrap', 'post-am_iphone_app_url' ). 
 			'<td class="blank">'.$form->get_options( 'am_iphone_app_url' ).'</td>';
 
-			$rows[] = $this->p->util->th( 'iPad App ID', 'medium', 'post-am_ipad_app_id' ). 
+			$rows[] = $this->p->util->get_th( 'iPad App ID', 'medium', 'post-am_ipad_app_id' ). 
 			'<td class="blank">'.$form->get_options( 'am_ipad_app_id' ).'</td>';
 
 			if ( $post_status == 'auto-draft' )
-				$rows[] = $this->p->util->th( 'iPad App Name', 'medium', 'post-am_ipad_app_name' ). 
+				$rows[] = $this->p->util->get_th( 'iPad App Name', 'medium', 'post-am_ipad_app_name' ). 
 				'<td class="blank"><em>Save a draft version or publish the '.$post_info['ptn'].' to update and display this value.</em></td>';
 			else
-				$rows[] = $this->p->util->th( 'iPad App Name', 'medium', 'post-am_ipad_app_name' ). 
+				$rows[] = $this->p->util->get_th( 'iPad App Name', 'medium', 'post-am_ipad_app_name' ). 
 				'<td class="blank">'.$form->get_options( 'am_ipad_app_name' ).'</td>';
 
 			$rows[] = '<tr class="hide_in_basic">'.
-			$this->p->util->th( 'iPad App Custom URL Scheme', 'medium nowrap', 'post-am_ipad_app_url' ). 
+			$this->p->util->get_th( 'iPad App Custom URL Scheme', 'medium nowrap', 'post-am_ipad_app_url' ). 
 			'<td class="blank">'.$form->get_options( 'am_ipad_app_url' ).'</td>';
 
 			$rows[] = '<td colspan="2" class="subsection"><h4>Google Play</h4></td>';
 
-			$rows[] = $this->p->util->th( 'App ID', 'medium', 'post-am_gplay_app_id' ). 
+			$rows[] = $this->p->util->get_th( 'App ID', 'medium', 'post-am_gplay_app_id' ). 
 			'<td class="blank">'.$form->get_options( 'am_gplay_app_id' ).'</td>';
 
 			if ( $post_status == 'auto-draft' )
-				$rows[] = $this->p->util->th( 'App Name', 'medium', 'post-am_gplay_app_name' ). 
+				$rows[] = $this->p->util->get_th( 'App Name', 'medium', 'post-am_gplay_app_name' ). 
 				'<td class="blank"><em>Save a draft version or publish the '.$post_info['ptn'].' to update and display this value.</em></td>';
 			else
-				$rows[] = $this->p->util->th( 'App Name', 'medium', 'post-am_gplay_app_name' ). 
+				$rows[] = $this->p->util->get_th( 'App Name', 'medium', 'post-am_gplay_app_name' ). 
 				'<td class="blank">'.$form->get_options( 'am_gplay_app_name' ).'</td>';
 
 			$rows[] = '<tr class="hide_in_basic">'.
-			$this->p->util->th( 'App Custom URL Scheme', 'medium nowrap', 'post-am_gplay_app_url' ). 
+			$this->p->util->get_th( 'App Custom URL Scheme', 'medium nowrap', 'post-am_gplay_app_url' ). 
 			'<td class="blank">'.$form->get_options( 'am_gplay_app_url' ).'</td>';
 
 			return $rows;
@@ -103,7 +103,7 @@ if ( ! class_exists( 'WpssoAmGplAdminAmgeneral' ) ) {
 			$rows[] = '<td colspan="2" align="center">'.
 				$this->p->msgs->get( 'pro-feature-msg', array( 'lca' => 'wpssoam' ) ).'</td>';
 
-			$rows[] = $this->p->util->th( 'App Store Territory', null, 'am_ap_ast' ).
+			$rows[] = $this->p->util->get_th( 'App Store Territory', null, 'am_ap_ast' ).
 			'<td class="blank">'.$this->p->options['am_ap_ast'].'</td>';
 
 			$checkboxes = '';
@@ -111,7 +111,7 @@ if ( ! class_exists( 'WpssoAmGplAdminAmgeneral' ) ) {
 				$checkboxes .= '<p>'.$form->get_no_checkbox( 'am_ap_add_to_'.$post_type->name ).' '.
 					$post_type->label.' '.( empty( $post_type->description ) ? '' : '('.$post_type->description.')' ).'</p>';
 
-			$rows[] = $this->p->util->th( 'Show Tab on Post Types', null, 'am_ap_add_to' ).
+			$rows[] = $this->p->util->get_th( 'Show Tab on Post Types', null, 'am_ap_add_to' ).
 			'<td class="blank">'.$checkboxes.'</td>';
 
 			return $rows;
