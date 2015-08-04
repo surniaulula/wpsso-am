@@ -147,6 +147,10 @@ WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags fo
 
 == Upgrade Notice ==
 
+= 1.3.3 =
+
+Confirmed WordPress v4.2.4 compatibility. Renamed the deprecated SucomUtil `th()` method to `get_th()`.
+
 = 1.3.2 =
 
 Renamed the 'postmeta' filter hooks to 'post' for compatibility with WPSSO v3.3.
