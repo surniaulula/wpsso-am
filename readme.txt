@@ -92,7 +92,7 @@ WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags fo
 * [GitHub](https://github.com/SurniaUlula/wpsso-am)
 * [WordPress.org](https://wordpress.org/plugins/wpsso-am/developers/)
 
-= Version 1.3.4 =
+= Version 1.3.4 (2015/09/03) =
 
 * **New Features**
 	* *None*
@@ -101,7 +101,7 @@ WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags fo
 * **Bugfixes**
 	* *None*
 * **Developer Notes**
-	* Updated the tooltip message filter hooks for WPSSO v3.8.
+	* Updated the tooltip message filter names for WPSSO v3.8.
 	* Removed the WPSSO AM specific 'installed_version' filter.
 
 = Version 1.3.3 (2015/08/04) =
@@ -158,6 +158,10 @@ WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags fo
 	* *None*
 
 == Upgrade Notice ==
+
+= 1.3.4 =
+
+Updated the tooltip message filter names for WPSSO v3.8.
 
 = 1.3.3 =
 
