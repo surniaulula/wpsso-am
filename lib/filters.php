@@ -55,10 +55,10 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 			if ( is_admin() ) {
 				$this->p->util->add_plugin_filters( $this, array( 
 					'option_type' => 2,
-					'tooltip_side' => 2,	// tooltip messages for side boxes
-					'tooltip_post' => 3,	// tooltip messages for post social settings
-					'messages_info' => 2,	// info messages filter
-					'messages' => 2,	// messages filter
+					'messages_tooltip_side' => 2,	// tooltip messages for side boxes
+					'messages_tooltip_post' => 2,	// tooltip messages for post social settings
+					'messages_tooltip' => 2,	// tooltip messages filter
+					'messages_info' => 2,		// info messages filter
 				) );
 				$this->p->util->add_plugin_filters( $this, array( 
 					'status_gpl_features' => 3,
@@ -124,7 +124,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 			return $type;
 		}
 
-		public function filter_tooltip_side( $text, $idx ) {
+		public function filter_messages_tooltip_side( $text, $idx ) {
 			switch ( $idx ) {
 				case 'tooltip-side-website-app-meta':
 					$text = 'Creates a banner advertisement in Apple\'s mobile Safari for your website\'s mobile App 
@@ -142,40 +142,72 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 			return $text;
 		}
 
-		public function filter_tooltip_post( $text, $idx, $atts ) {
-			$ptn = empty( $atts['ptn'] ) ? 'Post' : $atts['ptn'];
+		public function filter_messages_tooltip_post( $text, $idx ) {
+			if ( strpos( $idx, 'tooltip-post-am_' ) !== 0 )
+				return $text;
+
 			switch ( $idx ) {
-				// post metabox settings tab
-				case ( strpos( $idx, 'tooltip-post-am_' ) !== false ? true : false ):
-					switch ( $idx ) {
-						case 'tooltip-post-am_iphone_app_id':
-							$text = 'The numeric representation of your iPhone App ID in the App Store (.i.e. "307234931").';
-							break;
-						case 'tooltip-post-am_iphone_app_name':
-							$text = 'The name of your iPhone App.';
-							break;
-						case 'tooltip-post-am_iphone_app_url':
-							$text = 'Your iPhone App\'s custom URL scheme (you must include "://" after the scheme name).';
-							break;
-						case 'tooltip-post-am_ipad_app_id':
-							$text = 'The numeric representation of your iPad App ID in the App Store (.i.e. "307234931").';
-							break;
-						case 'tooltip-post-am_ipad_app_name':
-							$text = 'The name of your iPad App.';
-							break;
-						case 'tooltip-post-am_ipad_app_url':
-							$text = 'Your iPad App\'s custom URL scheme (you must include \'://\' after the scheme name).';
-							break;
-						case 'tooltip-post-am_gplay_app_id':
-							$text = 'The fully qualified package name of your Google Play App (.i.e. "com.google.android.apps.maps").';
-							break;
-						case 'tooltip-post-am_gplay_app_name':
-							$text = 'The name of your Google Play App.';
-							break;
-						case 'tooltip-post-am_gplay_app_url':
-							$text = 'Your Google Play App\'s custom URL scheme (you must include \'://\' after the scheme name).';
-							break;
-					}
+				case 'tooltip-post-am_iphone_app_id':
+					$text = 'The numeric representation of your iPhone App ID in the App Store (.i.e. "307234931").';
+					break;
+				case 'tooltip-post-am_iphone_app_name':
+					$text = 'The name of your iPhone App.';
+					break;
+				case 'tooltip-post-am_iphone_app_url':
+					$text = 'Your iPhone App\'s custom URL scheme (you must include "://" after the scheme name).';
+					break;
+				case 'tooltip-post-am_ipad_app_id':
+					$text = 'The numeric representation of your iPad App ID in the App Store (.i.e. "307234931").';
+					break;
+				case 'tooltip-post-am_ipad_app_name':
+					$text = 'The name of your iPad App.';
+					break;
+				case 'tooltip-post-am_ipad_app_url':
+					$text = 'Your iPad App\'s custom URL scheme (you must include \'://\' after the scheme name).';
+					break;
+				case 'tooltip-post-am_gplay_app_id':
+					$text = 'The fully qualified package name of your Google Play App (.i.e. "com.google.android.apps.maps").';
+					break;
+				case 'tooltip-post-am_gplay_app_name':
+					$text = 'The name of your Google Play App.';
+					break;
+				case 'tooltip-post-am_gplay_app_url':
+					$text = 'Your Google Play App\'s custom URL scheme (you must include \'://\' after the scheme name).';
+					break;
+			}
+			return $text;
+		}
+
+		public function filter_messages_tooltip( $text, $idx ) {
+			if ( strpos( $idx, 'tooltip-am_' ) !== 0 )
+				return $text;
+
+			switch ( $idx ) {
+				case 'tooltip-am_ws_on_index':
+					$text = 'Add meta tags for the website\'s mobile App to index and archive pages.';
+					break;
+				case 'tooltip-am_ws_on_front':
+					$text = 'Add meta tags for the website\'s mobile App to a static front page.';
+					break;
+				case 'tooltip-am_ws_add_to':
+					$text = 'Add meta tags for the website\'s mobile App to Posts, Pages, and custom post types.';
+					break;
+				case 'tooltip-am_ws_itunes_app_id':
+					$text = 'Your website\'s App ID in the Apple Store (.i.e. "307234931").';
+					break;
+				case 'tooltip-am_ws_itunes_app_aff':
+					$text = 'An optional iTunes affiliate string, if you are an iTunes affiliate.';
+					break;
+				case 'tooltip-am_ws_itunes_app_arg':
+					$text = 'A string, that may include any one or more inline variables, to provide context to your 
+					website\'s mobile App. If the user has your mobile App installed, this string may allow them 
+					to jump from your website, to the same content in the mobile App.';
+					break;
+				case 'tooltip-am_ap_ast':
+					$text = 'The App Store country providing your App.';
+					break;
+				case 'tooltip-am_ap_add_to':
+					$text = 'Include the <em>App Product</em> tab in the Social Settings metabox on Posts, Pages, etc.';
 					break;
 			}
 			return $text;
@@ -202,43 +234,6 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 					allowing you to enter specific information about a mobile App. This information is then used to create 
 					meta tags for Twitter\'s App Card (instead of generating a Product Card, for example).
 					</blockquote>';
-					break;
-			}
-			return $text;
-		}
-
-		public function filter_messages( $text, $idx ) {
-			switch ( $idx ) {
-				// app meta plugin settings page
-				case ( strpos( $idx, 'tooltip-am_' ) !== false ? true : false ):
-					switch ( $idx ) {
-						case 'tooltip-am_ws_on_index':
-							$text = 'Add meta tags for the website\'s mobile App to index and archive pages.';
-							break;
-						case 'tooltip-am_ws_on_front':
-							$text = 'Add meta tags for the website\'s mobile App to a static front page.';
-							break;
-						case 'tooltip-am_ws_add_to':
-							$text = 'Add meta tags for the website\'s mobile App to Posts, Pages, and custom post types.';
-							break;
-						case 'tooltip-am_ws_itunes_app_id':
-							$text = 'Your website\'s App ID in the Apple Store (.i.e. "307234931").';
-							break;
-						case 'tooltip-am_ws_itunes_app_aff':
-							$text = 'An optional iTunes affiliate string, if you are an iTunes affiliate.';
-							break;
-						case 'tooltip-am_ws_itunes_app_arg':
-							$text = 'A string, that may include any one or more inline variables, to provide context to your 
-							website\'s mobile App. If the user has your mobile App installed, this string may allow them 
-							to jump from your website, to the same content in the mobile App.';
-							break;
-						case 'tooltip-am_ap_ast':
-							$text = 'The App Store country providing your App.';
-							break;
-						case 'tooltip-am_ap_add_to':
-							$text = 'Include the <em>App Product</em> tab in the Social Settings metabox on Posts, Pages, etc.';
-							break;
-					}
 					break;
 			}
 			return $text;

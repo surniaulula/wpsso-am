@@ -15,7 +15,7 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 		public static $cf = array(
 			'plugin' => array(
 				'wpssoam' => array(
-					'version' => '1.3.3',	// plugin version
+					'version' => '1.3.4',	// plugin version
 					'short' => 'WPSSO AM',
 					'name' => 'WPSSO App Meta (WPSSO AM)',
 					'desc' => 'WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags for Apple\'s mobile Safari and Twitter\'s App Card.',
@@ -29,7 +29,7 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 					'url' => array(
 						// wordpress
 						'download' => 'https://wordpress.org/plugins/wpsso-am/',
-						'review' => 'https://wordpress.org/support/view/plugin-reviews/wpsso-am#postform',
+						'review' => 'https://wordpress.org/support/view/plugin-reviews/wpsso-am?filter=5&rate=5#postform',
 						'readme' => 'https://plugins.svn.wordpress.org/wpsso-am/trunk/readme.txt',
 						'wp_support' => 'https://wordpress.org/support/plugin/wpsso-am',
 						// surniaulula
@@ -225,8 +225,7 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 		);
 
 		public static function set_constants( $plugin_filepath ) { 
-			$lca = 'wpssoam';
-			$slug = self::$cf['plugin'][$lca]['slug'];
+			$slug = self::$cf['plugin']['wpssoam']['slug'];
 
 			define( 'WPSSOAM_FILEPATH', $plugin_filepath );						
 			define( 'WPSSOAM_PLUGINDIR', trailingslashit( realpath( dirname( $plugin_filepath ) ) ) );

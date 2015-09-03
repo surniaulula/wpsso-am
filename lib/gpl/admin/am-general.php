@@ -36,9 +36,9 @@ if ( ! class_exists( 'WpssoAmGplAdminAmgeneral' ) ) {
 			return $new_tabs;
 		}
 
-		public function filter_post_appmeta_rows( $rows, $form, $post_info ) {
-			$post_status = get_post_status( $post_info['id'] );
-			$def_name = $this->p->webpage->get_title( 0, '', true );
+		public function filter_post_appmeta_rows( $rows, $form, $head_info ) {
+
+			$post_status = get_post_status( $head_info['post_id'] );
 
 			$rows[] = '<td colspan="2" align="center">'.
 				$this->p->msgs->get( 'pro-feature-msg', array( 'lca' => 'wpssoam' ) ).'</td>';
@@ -53,7 +53,7 @@ if ( ! class_exists( 'WpssoAmGplAdminAmgeneral' ) ) {
 
 			if ( $post_status == 'auto-draft' )
 				$rows[] = $this->p->util->get_th( 'iPhone App Name', 'medium', 'post-am_iphone_app_name' ). 
-				'<td class="blank"><em>Save a draft version or publish the '.$post_info['ptn'].' to update and display this value.</em></td>';
+				'<td class="blank"><em>Save a draft version or publish the '.$head_info['ptn'].' to update and display this value.</em></td>';
 			else
 				$rows[] = $this->p->util->get_th( 'iPhone App Name', 'medium', 'post-am_iphone_app_name' ). 
 				'<td class="blank">'.$form->get_options( 'am_iphone_app_name' ).'</td>';
@@ -67,7 +67,7 @@ if ( ! class_exists( 'WpssoAmGplAdminAmgeneral' ) ) {
 
 			if ( $post_status == 'auto-draft' )
 				$rows[] = $this->p->util->get_th( 'iPad App Name', 'medium', 'post-am_ipad_app_name' ). 
-				'<td class="blank"><em>Save a draft version or publish the '.$post_info['ptn'].' to update and display this value.</em></td>';
+				'<td class="blank"><em>Save a draft version or publish the '.$head_info['ptn'].' to update and display this value.</em></td>';
 			else
 				$rows[] = $this->p->util->get_th( 'iPad App Name', 'medium', 'post-am_ipad_app_name' ). 
 				'<td class="blank">'.$form->get_options( 'am_ipad_app_name' ).'</td>';
@@ -83,7 +83,7 @@ if ( ! class_exists( 'WpssoAmGplAdminAmgeneral' ) ) {
 
 			if ( $post_status == 'auto-draft' )
 				$rows[] = $this->p->util->get_th( 'App Name', 'medium', 'post-am_gplay_app_name' ). 
-				'<td class="blank"><em>Save a draft version or publish the '.$post_info['ptn'].' to update and display this value.</em></td>';
+				'<td class="blank"><em>Save a draft version or publish the '.$head_info['ptn'].' to update and display this value.</em></td>';
 			else
 				$rows[] = $this->p->util->get_th( 'App Name', 'medium', 'post-am_gplay_app_name' ). 
 				'<td class="blank">'.$form->get_options( 'am_gplay_app_name' ).'</td>';
