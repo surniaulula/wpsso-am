@@ -92,6 +92,17 @@ WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags fo
 * [GitHub](https://github.com/SurniaUlula/wpsso-am)
 * [WordPress.org](https://wordpress.org/plugins/wpsso-am/developers/)
 
+= Version 1.3.5 =
+
+* **New Features**
+	* *None*
+* **Improvements**
+	* *None*
+* **Bugfixes**
+	* *None*
+* **Developer Notes**
+	* Added a WpssoAmRegister class with `WpssoUtil::save_time()` calls during activation to save install / activation / update timestamps.
+
 = Version 1.3.4 (2015/09/03) =
 
 * **New Features**
@@ -158,6 +169,10 @@ WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags fo
 	* *None*
 
 == Upgrade Notice ==
+
+= 1.3.5 =
+
+Added a WpssoAmRegister class with method calls during activation to save install / activation / update timestamps.
 
 = 1.3.4 =
 
