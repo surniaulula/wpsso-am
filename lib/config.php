@@ -15,7 +15,7 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 		public static $cf = array(
 			'plugin' => array(
 				'wpssoam' => array(
-					'version' => '1.3.4',	// plugin version
+					'version' => '1.3.5',	// plugin version
 					'short' => 'WPSSO AM',
 					'name' => 'WPSSO App Meta (WPSSO AM)',
 					'desc' => 'WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags for Apple\'s mobile Safari and Twitter\'s App Card.',
@@ -235,10 +235,10 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 		}
 
 		public static function require_libs( $plugin_filepath ) {
+			require_once( WPSSOAM_PLUGINDIR.'lib/register.php' );
 			add_filter( 'wpssoam_load_lib', array( 'WpssoAmConfig', 'load_lib' ), 10, 3 );
 		}
 
-		// gpl / pro library loader
 		public static function load_lib( $ret = false, $filespec = '', $classname = '' ) {
 			if ( $ret === false && ! empty( $filespec ) ) {
 				$filepath = WPSSOAM_PLUGINDIR.'lib/'.$filespec.'.php';
