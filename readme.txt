@@ -24,16 +24,15 @@ WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags fo
 <p>You can download the <a href="https://wordpress.org/plugins/wpsso-am/">Free version of WPSSO AM on WordPress.org</a> and <a href="(http://wpsso.com/extend/plugins/wpsso-am/">purchase the Pro version on WPSSO.com</a> (includes a No Risk 30 Day Refund Policy). The banner advertisement feature for mobile Safari is included with the Free version, and the Twitter App Card feature is provided with the Pro version.</p>
 </blockquote>
 
-= Quick List of Features =
+<h4>Quick List of Features</h4>
 
-**Free / Basic Version**
+<strong>Free / Basic Features</strong>
 
 * Create an optional **banner advertisement** in Apple's mobile Safari for your website's Apple Store App.
 * Include the **banner advertisement** on index and archive webpages, a static home page, Posts, Pages, and custom post types (ie. Product pages).
 
-**Pro / Power-User Version**
+<strong>Pro / Power-User Features</strong>
 
-* **No Risk 30 Day Refund Policy**
 * Add an *App Product* tab to WPSSO's Social Settings metabox with additional options:
 	* App Store Territory.
 	* Apple Store iPhone App ID, Name, and Custom URL Scheme.
@@ -60,7 +59,7 @@ WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags fo
 	* twitter:app:url:googleplay
 
 <blockquote>
-<p>The WordPress Social Sharing Optimization (WPSSO) plugin is required to use the WPSSO AM extension. You can use the Free version of WPSSO AM with both the Free and Pro versions of WPSSO, but <a href="http://wpsso.com/extend/plugins/wpsso-am/">WPSSO AM Pro</a> requires the use of <a href="http://wpsso.com/extend/plugins/wpsso/">WPSSO Pro</a> as well.</p>
+<p>The WordPress Social Sharing Optimization (WPSSO) plugin is required to use the WPSSO AM extension. You can use the Free version of WPSSO AM with <em>both</em> the Free and Pro versions of WPSSO, but <a href="http://wpsso.com/extend/plugins/wpsso-am/">WPSSO AM Pro</a> requires the use of <a href="http://wpsso.com/extend/plugins/wpsso/">WPSSO Pro</a> as well. <a href="http://wpsso.com/extend/plugins/wpsso-am/">Purchase the WPSSO AM Pro extension</a> (includes a <em>No Risk 30 Day Refund Policy</em>).</p>
 </blockquote>
 
 == Installation ==
