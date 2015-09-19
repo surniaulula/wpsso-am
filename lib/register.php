@@ -74,7 +74,7 @@ if ( ! class_exists( 'WpssoAmRegister' ) ) {
 				WpssoUtil::save_time( $lca, $version, 'update', $version );	// $protect only if same version
 				WpssoUtil::save_time( $lca, $version, 'install', true );	// $protect = true
 				WpssoUtil::save_time( $lca, $version, 'activate' );		// always update timestamp
-			}
+			} else WpssoAm::wpsso_missing_notice( true );				// $deactivate = true
 		}
 
 		private function deactivate_plugin() {
