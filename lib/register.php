@@ -70,11 +70,9 @@ if ( ! class_exists( 'WpssoAmRegister' ) ) {
 		private function activate_plugin() {
 			$lca = 'wpssoam';
 			$version = WpssoAmConfig::$cf['plugin'][$lca]['version'];	// only our config
-			if ( class_exists( 'WpssoUtil' ) ) {
-				WpssoUtil::save_time( $lca, $version, 'update', $version );	// $protect only if same version
-				WpssoUtil::save_time( $lca, $version, 'install', true );	// $protect = true
-				WpssoUtil::save_time( $lca, $version, 'activate' );		// always update timestamp
-			} else WpssoAm::wpsso_missing_notice( true );				// $deactivate = true
+			if ( class_exists( 'WpssoUtil' ) )
+				WpssoUtil::save_all_times( $lca, $version );
+			else WpssoAm::wpsso_missing_notice( true );			// $deactivate = true
 		}
 
 		private function deactivate_plugin() {
