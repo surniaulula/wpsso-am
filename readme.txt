@@ -1,6 +1,8 @@
 === WPSSO App Meta - for Apple's mobile Safari and Twitter's App Card ===
 Plugin Name: WPSSO App Meta (WPSSO AM)
 Plugin Slug: wpsso-am
+Text Domain: wpsso-am
+Domain Path: /languages
 Contributors: jsmoriss
 Donate Link: https://wpsso.com/
 Tags: wpsso, app, iphone, ipad, googleplay, meta, tags, itunes
