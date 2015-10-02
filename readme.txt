@@ -105,7 +105,7 @@ WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags fo
 * **Developer Notes**
 	* Added a POT (Portable Object Template) file with translation strings in wpsso-am/languages/wpsso-am.pot.
 
-= Version 1.3.6 (2015/09/19) =
+= Version 1.3.6 2015/09/19 =
 
 * **New Features**
 	* *None*
@@ -116,7 +116,7 @@ WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags fo
 * **Developer Notes**
 	* Added a self-deactivation feature when WPSSO AM is activated and WPSSO is missing. 
 
-= Version 1.3.5 (2015/09/09) =
+= Version 1.3.5 2015/09/09 =
 
 * **New Features**
 	* *None*
@@ -127,7 +127,7 @@ WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags fo
 * **Developer Notes**
 	* Added a WpssoAmRegister class with `WpssoUtil::save_time()` calls during activation to save install / activation / update timestamps.
 
-= Version 1.3.4 (2015/09/03) =
+= Version 1.3.4 2015/09/03 =
 
 * **New Features**
 	* *None*
@@ -139,7 +139,7 @@ WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags fo
 	* Updated the tooltip message filter names for WPSSO v3.8.
 	* Removed the WPSSO AM specific 'installed_version' filter.
 
-= Version 1.3.3 (2015/08/04) =
+= Version 1.3.3 2015/08/04 =
 
 * **New Features**
 	* *None*
@@ -162,7 +162,7 @@ WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags fo
 * **Developer Notes**
 	* *None*
 
-= Version 1.3.1 (2015/04/21) =
+= Version 1.3.1 2015/04/21 =
 
 * **New Features**
 	* *None*
@@ -172,7 +172,7 @@ WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags fo
 * **Bugfixes**
 	* Fixed variable references to a deprecated 'plugin_display' option.
 
-= Version 1.3 (2015/04/12) =
+= Version 1.3 2015/04/12 =
 
 * **New Features**
 	* *None*
@@ -186,5 +186,5 @@ WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags fo
 
 = 1.3.6 =
 
-Added a self-deactivation feature when WPSSO AM is activated and WPSSO is missing. 
+2015/09/19 Added a self-deactivation feature when WPSSO AM is activated and WPSSO is missing. 
 
