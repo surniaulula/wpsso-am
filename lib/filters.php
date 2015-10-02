@@ -127,16 +127,13 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 		public function filter_messages_tooltip_side( $text, $idx ) {
 			switch ( $idx ) {
 				case 'tooltip-side-website-app-meta':
-					$text = 'Creates a banner advertisement in Apple\'s mobile Safari for your website\'s mobile App 
-					(as an alternative to using a mobile browser).';
+					$text = 'Creates a banner advertisement in Apple\'s mobile Safari for your website\'s mobile App (as an alternative to using a mobile browser).';
 					break;
 				case 'tooltip-side-app-product-options':
-					$text = 'An <em>App Product</em> tab can be added to the Social Settings metabox on Posts, Pages, and 
-					custom post types, allowing you to enter specific information about a mobile App.';
+					$text = 'An <em>App Product</em> tab can be added to the Social Settings metabox on Posts, Pages, and custom post types, allowing you to enter specific information about a mobile App.';
 					break;
 				case 'tooltip-side-twitter-app-card':
-					$text = 'The <em>App Product</em> information is used to create meta tags for Twitter\'s App Card
-					(instead of generating a Product Card, for example) ';
+					$text = 'The <em>App Product</em> information is used to create meta tags for Twitter\'s App Card (instead of generating a Product Card, for example) ';
 					break;
 			}
 			return $text;
@@ -199,9 +196,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 					$text = 'An optional iTunes affiliate string, if you are an iTunes affiliate.';
 					break;
 				case 'tooltip-am_ws_itunes_app_arg':
-					$text = 'A string, that may include any one or more inline variables, to provide context to your 
-					website\'s mobile App. If the user has your mobile App installed, this string may allow them 
-					to jump from your website, to the same content in the mobile App.';
+					$text = 'A string, that may include any one or more inline variables, to provide context to your website\'s mobile App. If the user has your mobile App installed, this string may allow them to jump from your website, to the same content in the mobile App.';
 					break;
 				case 'tooltip-am_ap_ast':
 					$text = 'The App Store country providing your App.';
@@ -216,51 +211,42 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 		public function filter_messages_info( $text, $idx ) {
 			switch ( $idx ) {
 				case 'info-webapp-general':
-					$text = '<blockquote style="margin-top:0;margin-bottom:10px;">
-					<p>If you have a mobile App to navigate your <em>website</em> (as an alternative to using a mobile web browser
-					to navigate your website), you can enter its details here.</p>
-					</blockquote>';
+					$text = '<blockquote class="top-info"><p>'.__( 'If you have a mobile App to access your website (as an alternative to using a mobile web browser), enter its details here.', 'wpsso-am' ).'</p></blockquote>';
 					break;
 				case 'info-webapp-itunes':
-					$text = '<blockquote style="margin-top:0;margin-bottom:10px;">
-					<p>These values are used to create a <em>banner advertisement</em> in Apple\'s mobile Safari 
-					for your <em>website\'s</em> Apple Store App. The banner allows users to download and/or switch to 
-					your Apple Store App instead of continuing to navigate the website in Apple\'s mobile Safari.</p>
-					</blockquote>';
+					$text = '<blockquote class="top-info"><p>'.__( 'These values are used to create a <em>banner advertisement</em> in Apple\'s mobile Safari for your <em>website\'s</em> Apple Store App.', 'wpsso-am' ).' '.__( 'The banner advertisement allows users to download and/or switch to the Apple Store App instead of navigating your website using Apple\'s mobile Safari.', 'wpsso-am' ).'</p></blockquote>';
 					break;
 				case 'info-appmeta-general':
-					$text = '<blockquote style="margin-top:0;margin-bottom:10px;">
-					<p>An <em>App Product</em> tab can be added to the Social Settings metabox on Posts, Pages, and custom post types,
-					allowing you to enter specific information about a mobile App. This information is then used to create 
-					meta tags for Twitter\'s App Card (instead of generating a Product Card, for example).
-					</blockquote>';
+					$text = '<blockquote class="top-info"><p>'.__( 'An <em>App Product</em> tab can be added to the Social Settings metabox on Posts, Pages, and custom post types, allowing you to enter specific information about a mobile App.', 'wpsso-am' ).' '.__( 'The mobile App information is used to create meta tags for Twitter\'s App Card (instead of a Large Image Summary Card, for example).', 'wpsso-am' ).'</p></blockquote>';
 					break;
 			}
 			return $text;
 		}
 
-		// adds the website app meta tag to the $meta_name array
-		public function filter_meta_name( $meta_name, $use_post = false ) {
+		// adds the website app meta tag to the $mt_name array
+		public function filter_meta_name( $mt_name, $use_post = false ) {
 			if ( empty( $this->p->options['am_ws_itunes_app_id'] ) )
-				return $meta_name;
+				return $mt_name;
 
 			if ( ! is_singular() && empty( $this->p->options['am_ws_on_index'] ) ) {
-				$this->p->debug->log( 'filter skipped: index page without am_ws_on_index enabled' );
-				return $meta_name;
+				if ( $this->p->debug->enabled )
+					$this->p->debug->log( 'filter skipped: index page without am_ws_on_index enabled' );
+				return $mt_name;
 			} elseif ( is_front_page() && empty( $this->p->options['am_ws_on_front'] ) ) {
-				$this->p->debug->log( 'filter skipped: front page without am_ws_on_front enabled' );
-				return $meta_name;
+				if ( $this->p->debug->enabled )
+					$this->p->debug->log( 'filter skipped: front page without am_ws_on_front enabled' );
+				return $mt_name;
 			} 
 
-			$meta_name['apple-itunes-app'] = 'app-id='.$this->p->options['am_ws_itunes_app_id'];
+			$mt_name['apple-itunes-app'] = 'app-id='.$this->p->options['am_ws_itunes_app_id'];
 
 			if ( ! empty( $this->p->options['am_ws_itunes_app_aff'] ) )
-				$meta_name['apple-itunes-app'] .= ', affiliate-data='.$this->p->options['am_ws_itunes_app_aff'];
+				$mt_name['apple-itunes-app'] .= ', affiliate-data='.$this->p->options['am_ws_itunes_app_aff'];
 				
 			if ( ! empty( $this->p->options['am_ws_itunes_app_arg'] ) )
-				$meta_name['apple-itunes-app'] .= ', app-argument='.$this->p->options['am_ws_itunes_app_arg'];
+				$mt_name['apple-itunes-app'] .= ', app-argument='.$this->p->options['am_ws_itunes_app_arg'];
 
-			return $meta_name;
+			return $mt_name;
 		}
 
 		public function filter_status_gpl_features( $features, $lca, $info ) {

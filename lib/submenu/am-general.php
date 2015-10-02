@@ -56,34 +56,43 @@ if ( ! class_exists( 'WpssoAmSubmenuAmgeneral' ) && class_exists( 'WpssoAdmin' )
 			switch ( $metabox.'-'.$key ) {
 				case 'webapp-general':
 
-					$rows[] = '<td colspan="2" style="padding-bottom:10px;">'.$this->p->msgs->get( 'info-webapp-general' ).'</td>';
+					$rows[] = '<td colspan="2">'.
+						$this->p->msgs->get( 'info-webapp-general' ).'</td>';
 
-					$rows[] = $this->p->util->get_th( 'Add to Index Webpages', null, 'am_ws_on_index' ).
+					$rows[] = $this->p->util->get_th( __( 'Add to Index Webpages',
+						'wpsso-am' ), null, 'am_ws_on_index' ).
 					'<td>'.$this->form->get_checkbox( 'am_ws_on_index' ).'</td>';
 
-					$rows[] = $this->p->util->get_th( 'Add to Static Homepage', null, 'am_ws_on_front' ).
+					$rows[] = $this->p->util->get_th( __( 'Add to Static Homepage',
+						'wpsso-am' ), null, 'am_ws_on_front' ).
 					'<td>'.$this->form->get_checkbox( 'am_ws_on_front' ).'</td>';
 
 					$checkboxes = '';
 					foreach ( $this->p->util->get_post_types( 'frontend' ) as $post_type )
 						$checkboxes .= '<p>'.$this->form->get_checkbox( 'am_ws_add_to_'.$post_type->name ).' '.
-							$post_type->label.' '.( empty( $post_type->description ) ? '' : '('.$post_type->description.')' ).'</p>';
+							$post_type->label.' '.( empty( $post_type->description ) ?
+								'' : '('.$post_type->description.')' ).'</p>';
 
-					$rows[] = $this->p->util->get_th( 'Add to Post Types', null, 'am_ws_add_to' ).'<td>'.$checkboxes.'</td>';
+					$rows[] = $this->p->util->get_th( __( 'Add to Post Types',
+						'wpsso-am' ), null, 'am_ws_add_to' ).'<td>'.$checkboxes.'</td>';
 
 					break;
 
 				case 'webapp-itunes':
 
-					$rows[] = '<td colspan="2" style="padding-bottom:10px;">'.$this->p->msgs->get( 'info-webapp-itunes' ).'</td>';
+					$rows[] = '<td colspan="2">'.
+						$this->p->msgs->get( 'info-webapp-itunes' ).'</td>';
 
-					$rows[] = $this->p->util->get_th( 'App ID Number', null, 'am_ws_itunes_app_id' ).
+					$rows[] = $this->p->util->get_th( __( 'App ID Number',
+						'wpsso-am' ), null, 'am_ws_itunes_app_id' ).
 					'<td>'.$this->form->get_input( 'am_ws_itunes_app_id' ).'</td>';
 
-					$rows[] = $this->p->util->get_th( 'Affiliate Data', null, 'am_ws_itunes_app_aff' ).
+					$rows[] = $this->p->util->get_th( __( 'Affiliate Data',
+						'wpsso-am' ), null, 'am_ws_itunes_app_aff' ).
 					'<td>'.$this->form->get_input( 'am_ws_itunes_app_aff' ).'</td>';
 
-					$rows[] = $this->p->util->get_th( 'Argument String', null, 'am_ws_itunes_app_arg' ).
+					$rows[] = $this->p->util->get_th( __( 'Argument String',
+						'wpsso-am' ), null, 'am_ws_itunes_app_arg' ).
 					'<td>'.$this->form->get_input( 'am_ws_itunes_app_arg', 'wide' ).'</td>';
 
 					break;
