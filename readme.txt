@@ -93,6 +93,18 @@ WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags fo
 * [GitHub](https://github.com/SurniaUlula/wpsso-am)
 * [WordPress.org](https://wordpress.org/plugins/wpsso-am/developers/)
 
+= Version 1.3.7 =
+
+* **New Features**
+	* *None*
+* **Improvements**
+	* Updated the text domain in preparation for plugin import to translate.wordpress.org.
+	* Added the translation function to all option labels in the settings pages and metaboxes.
+* **Bugfixes**
+	* *None*
+* **Developer Notes**
+	* Added a POT (Portable Object Template) file with translation strings in wpsso-am/languages/wpsso-am.pot.
+
 = Version 1.3.6 (2015/09/19) =
 
 * **New Features**
@@ -170,35 +182,9 @@ WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags fo
 * **Bugfixes**
 	* *None*
 
-= Version 1.2 (2015/04/02) =
-
-* **New Features**
-	* *None*
-* **Improvements**
-	* Renamed the main library file from "appmeta" to "filters".
-	* Renamed the settings library files from "appmeta" to "am-general".
-* **Bugfixes**
-	* *None*
-
 == Upgrade Notice ==
 
 = 1.3.6 =
 
 Added a self-deactivation feature when WPSSO AM is activated and WPSSO is missing. 
-
-= 1.3.5 =
-
-Added a WpssoAmRegister class with method calls during activation to save install / activation / update timestamps.
-
-= 1.3.4 =
-
-Updated the tooltip message filter names for WPSSO v3.8.
-
-= 1.3.3 =
-
-Confirmed WordPress v4.2.4 compatibility. Renamed the deprecated SucomUtil `th()` method to `get_th()`.
-
-= 1.3.2 =
-
-Renamed the 'postmeta' filter hooks to 'post' for compatibility with WPSSO v3.3.
 
