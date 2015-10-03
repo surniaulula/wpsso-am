@@ -22,28 +22,24 @@ WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags fo
 
 <p>WPSSO App Meta (WPSSO AM) works in conjunction with the <a href="https://wordpress.org/plugins/wpsso/">WordPress Social Sharing Optimization (WPSSO)</a> plugin, extending its features with additional settings pages, tabs, and options, to include iPhone, iPad, and Google Play App meta tags in your webpages (for Apple's mobile Safari and Twitter's App Card). WPSSO AM is <em>fast</em>, <em>efficient</em>, and &mdash; using WPSSO as its framework &mdash; provides <em>accurate</em> information about your content to social websites.</p>
 
-<blockquote>
-<p>You can download the <a href="https://wordpress.org/plugins/wpsso-am/">Free version of WPSSO AM on WordPress.org</a> and <a href="(http://wpsso.com/extend/plugins/wpsso-am/">purchase the Pro version on WPSSO.com</a> (includes a No Risk 30 Day Refund Policy). The banner advertisement feature for mobile Safari is included with the Free version, and the Twitter App Card feature is provided with the Pro version.</p>
-</blockquote>
-
 <h4>Quick List of Features</h4>
 
 <strong>Free / Basic Features</strong>
 
 * Create an optional **banner advertisement** in Apple's mobile Safari for your website's Apple Store App.
-* Include the **banner advertisement** on index and archive webpages, a static home page, Posts, Pages, and custom post types (ie. Product pages).
+* Include the **banner advertisement** on index and archive webpages, a static home page, Posts, Pages, and custom post types (e-commerce Product pages, for example).
 
 <strong>Pro / Power-User Features</strong>
 
-* Add an *App Product* tab to WPSSO's Social Settings metabox with additional options:
+* Add an App Product tab to WPSSO's Social Settings metabox with additional options:
 	* App Store Territory.
 	* Apple Store iPhone App ID, Name, and Custom URL Scheme.
 	* Apple Store iPad App ID, Name, and Custom URL Scheme.
 	* Google Play App ID, Name, and Custom URL Scheme.
-* Include the *App Product* tab on Posts, Pages, and custom post types (ie. Product pages).
-* Adds the **Twitter App Card** meta tags to *App Product* webpages for social sharing.
+* Include the App Product tab on Posts, Pages, and custom post types (e-commerce Product pages, for example).
+* Adds the **Twitter App Card** meta tags to App Product webpages for social sharing.
 
-= App Meta Tags =
+<h4>App Meta Tags</h4>
 
 * **Apple mobile Safari Meta Tags**
 	* apple-itunes-app
@@ -60,9 +56,9 @@ WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags fo
 	* twitter:app:url:ipad
 	* twitter:app:url:googleplay
 
-<blockquote>
+<h4>WPSSO Plugin Required</h4>
+
 <p>The WordPress Social Sharing Optimization (WPSSO) plugin is required to use the WPSSO AM extension. You can use the Free version of WPSSO AM with <em>both</em> the Free and Pro versions of WPSSO, but <a href="http://wpsso.com/extend/plugins/wpsso-am/">WPSSO AM Pro</a> requires the use of <a href="http://wpsso.com/extend/plugins/wpsso/">WPSSO Pro</a> as well. <a href="http://wpsso.com/extend/plugins/wpsso-am/">Purchase the WPSSO AM Pro extension</a> (includes a <em>No Risk 30 Day Refund Policy</em>).</p>
-</blockquote>
 
 == Installation ==
 
@@ -93,17 +89,17 @@ WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags fo
 * [GitHub](https://github.com/SurniaUlula/wpsso-am)
 * [WordPress.org](https://wordpress.org/plugins/wpsso-am/developers/)
 
-= Version 1.3.7 =
+= Version 1.3.7 2015/10/04 =
 
 * **New Features**
 	* *None*
 * **Improvements**
+	* Added translation function calls to all option labels in the settings pages and metaboxes.
 	* Updated the text domain in preparation for plugin import to translate.wordpress.org.
-	* Added the translation function to all option labels in the settings pages and metaboxes.
 * **Bugfixes**
 	* *None*
 * **Developer Notes**
-	* Added a POT (Portable Object Template) file with translation strings in wpsso-am/languages/wpsso-am.pot.
+	* Added a POT (Portable Object Template) file with translation strings in languages/wpsso-am.pot.
 
 = Version 1.3.6 2015/09/19 =
 
@@ -183,6 +179,10 @@ WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags fo
 	* *None*
 
 == Upgrade Notice ==
+
+= 1.3.7 =
+
+2015/10/04 Added translation function calls to all option labels in settings pages and metaboxes. Added POT (Portable Object Template) file with translation strings in languages/wpsso-am.pot.
 
 = 1.3.6 =
 
