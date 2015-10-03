@@ -14,11 +14,9 @@
 
 <h2>Description</h2>
 
-<p align="center"><img src="https://surniaulula.github.io/wpsso-am/assets/icon-256x256.png" width="256" height="256" /></p><p><strong>Do you have a mobile App for your website</strong> that you'd like to promote as a banner in Apple's mobile Safari?</p>
+<p align="center"><img src="https://surniaulula.github.io/wpsso-am/assets/icon-256x256.png" width="256" height="256" /></p><p><strong>Do you have a mobile App for your website</strong> that you'd like to promote as a banner in Apple's mobile Safari? <strong>Do you sell Apple Store Apps</strong>, and you'd like to support the Twitter App Card for your product pages?</p>
 
-<p><strong>Do you sell Apple Store Apps</strong>, and you'd like to support the Twitter App Card for your product pages?</p>
-
-<p>WPSSO App Meta (WPSSO AM) works in conjunction with the <a href="https://wordpress.org/plugins/wpsso/">WordPress Social Sharing Optimization (WPSSO)</a> plugin, extending its features with additional settings pages, tabs, and options, to include iPhone, iPad, and Google Play App meta tags in your webpages (for Apple's mobile Safari and Twitter's App Card). WPSSO AM is <em>fast</em>, <em>efficient</em>, and &mdash; using WPSSO as its framework &mdash; provides <em>accurate</em> information about your content to social websites.</p>
+<p>WPSSO App Meta (WPSSO AM) works in conjunction with the <a href="https://wordpress.org/plugins/wpsso/">WordPress Social Sharing Optimization (WPSSO)</a> plugin, extending its features with additional settings pages, tabs, and options, to <strong>include iPhone, iPad, and Google Play App meta tags in your webpages</strong> (for Apple's mobile Safari and Twitter's App Card). WPSSO AM is <em>fast</em>, <em>efficient</em>, and &mdash; using WPSSO as its framework &mdash; provides <em>accurate</em> information about your content to social websites.</p>
 
 <h4>Quick List of Features</h4>
 
