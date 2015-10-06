@@ -27,11 +27,12 @@ if ( ! class_exists( 'WpssoAmGplAdminAmgeneral' ) ) {
 			$post_type = get_post_type_object( $obj->post_type );
 			if ( empty( $this->p->options[ 'am_ap_add_to_'.$post_type->name ] ) )
 				return $tabs;
-			$new_tabs = array();
+			$new_tabs = array();	// new array to insert am after media tab
 			foreach ( $tabs as $key => $val ) {
 				$new_tabs[$key] = $val;
 				if ( $key === 'media' )
-					$new_tabs['appmeta'] = 'App Product';
+					$new_tabs['appmeta'] = _x( 'App Product',
+						'normal metabox tab', 'wpsso-am' );
 			}
 			return $new_tabs;
 		}

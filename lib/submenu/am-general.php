@@ -20,9 +20,11 @@ if ( ! class_exists( 'WpssoAmSubmenuAmgeneral' ) && class_exists( 'WpssoAdmin' )
 
 		protected function add_meta_boxes() {
 			// add_meta_box( $id, $title, $callback, $post_type, $context, $priority, $callback_args );
-			add_meta_box( $this->pagehook.'_webapp', 'Website App', 
+			add_meta_box( $this->pagehook.'_webapp',
+				_x( 'Website App', 'normal metabox title', 'wpsso-am' ), 
 				array( &$this, 'show_metabox_webapp' ), $this->pagehook, 'normal' );
-			add_meta_box( $this->pagehook.'_appmeta', 'App Products', 
+			add_meta_box( $this->pagehook.'_appmeta', 
+				_x( 'App Products', 'normal metabox title', 'wpsso-am' ),
 				array( &$this, 'show_metabox_appmeta' ), $this->pagehook, 'normal' );
 		}
 
@@ -33,8 +35,10 @@ if ( ! class_exists( 'WpssoAmSubmenuAmgeneral' ) && class_exists( 'WpssoAdmin' )
 				$this->get_rows( $metabox, 'general' ), $this->form ) as $row )
 					echo '<tr>'.$row.'</tr>';
 			echo '</table>';
-			$tabs = array( 'itunes' => 'Apple Store' );
-			$tabs = apply_filters( $this->p->cf['lca'].'_'.$metabox.'_tabs', $tabs );
+
+			$tabs = apply_filters( $this->p->cf['lca'].'_'.$metabox.'_tabs', array(
+				'itunes' => _x( 'Apple Store', 'normal metabox tab', 'wpsso-am' ),
+			) );
 			$rows = array();
 			foreach ( $tabs as $key => $title )
 				$rows[$key] = array_merge( $this->get_rows( $metabox, $key ), 
