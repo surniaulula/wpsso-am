@@ -39,7 +39,7 @@
 <li>Apple Store iPad App ID, Name, and Custom URL Scheme.</li>
 <li>Google Play App ID, Name, and Custom URL Scheme.</li>
 </ul></li>
-<li>Adds the Twitter App Card meta tags to App Product webpages for social sharing.</li>
+<li>Adds the Twitter App Card meta tags to <em>App Product</em> webpages for social sharing.</li>
 </ul>
 
 <h4>App Meta Tags</h4>
