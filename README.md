@@ -23,8 +23,8 @@
 <p><strong>Free / Basic Features</strong></p>
 
 <ul>
-<li>Create an optional <strong>banner advertisement</strong> in Apple's mobile Safari for your website's Apple Store App.</li>
-<li>Include the <strong>banner advertisement</strong> on index and archive webpages, a static home page, Posts, Pages, and custom post types (e-commerce Product pages, for example).</li>
+<li>Create an optional banner advertisement in Apple's mobile Safari for your website's Apple Store App.</li>
+<li>Include the banner advertisement on index and archive webpages, a static home page, Posts, Pages, and custom post types (e-commerce Product pages, for example).</li>
 </ul>
 
 <p><strong>Pro / Power-User Features</strong></p>
@@ -39,7 +39,7 @@
 <li>Apple Store iPad App ID, Name, and Custom URL Scheme.</li>
 <li>Google Play App ID, Name, and Custom URL Scheme.</li>
 </ul></li>
-<li>Adds the <strong>Twitter App Card</strong> meta tags to App Product webpages for social sharing.</li>
+<li>Adds the Twitter App Card meta tags to App Product webpages for social sharing.</li>
 </ul>
 
 <h4>App Meta Tags</h4>

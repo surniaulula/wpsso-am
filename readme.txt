@@ -24,8 +24,8 @@ WPSSO App Meta (WPSSO AM) works in conjunction with the [WordPress Social Sharin
 
 **Free / Basic Features**
 
-* Create an optional **banner advertisement** in Apple's mobile Safari for your website's Apple Store App.
-* Include the **banner advertisement** on index and archive webpages, a static home page, Posts, Pages, and custom post types (e-commerce Product pages, for example).
+* Create an optional banner advertisement in Apple's mobile Safari for your website's Apple Store App.
+* Include the banner advertisement on index and archive webpages, a static home page, Posts, Pages, and custom post types (e-commerce Product pages, for example).
 
 **Pro / Power-User Features**
 
@@ -35,7 +35,7 @@ WPSSO App Meta (WPSSO AM) works in conjunction with the [WordPress Social Sharin
 	* Apple Store iPhone App ID, Name, and Custom URL Scheme.
 	* Apple Store iPad App ID, Name, and Custom URL Scheme.
 	* Google Play App ID, Name, and Custom URL Scheme.
-* Adds the **Twitter App Card** meta tags to App Product webpages for social sharing.
+* Adds the Twitter App Card meta tags to App Product webpages for social sharing.
 
 = App Meta Tags =
 
