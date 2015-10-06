@@ -18,30 +18,29 @@ WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags fo
 
 <p><img src="https://surniaulula.github.io/wpsso-am/assets/icon-256x256.png" width="256" height="256" style="width:33%;min-width:128px;max-width:256px;float:left;margin:0 40px 20px 0;" /><strong>Do you have a mobile App for your website</strong> that you'd like to promote as a banner in Apple's mobile Safari? <strong>Do you sell Apple Store Apps</strong>, and you'd like to support the Twitter App Card for your product pages?</p>
 
-<p>WPSSO App Meta (WPSSO AM) works in conjunction with the <a href="https://wordpress.org/plugins/wpsso/">WordPress Social Sharing Optimization (WPSSO)</a> plugin, extending its features with additional settings pages, tabs, and options, to <strong>include iPhone, iPad, and Google Play App meta tags in your webpages</strong> (for Apple's mobile Safari and Twitter's App Card).</p>
+WPSSO App Meta (WPSSO AM) works in conjunction with the [WordPress Social Sharing Optimization (WPSSO)](https://wordpress.org/plugins/wpsso/) plugin, extending its features with additional settings pages, tabs, and options, to include iPhone, iPad, and Google Play App meta tags in your webpages (for Apple's mobile Safari and Twitter's App Card).
 
-<h4>Quick List of Features</h4>
+= Quick List of Features =
 
-<strong>Free / Basic Features</strong>
+**Free / Basic Features**
 
 * Create an optional **banner advertisement** in Apple's mobile Safari for your website's Apple Store App.
 * Include the **banner advertisement** on index and archive webpages, a static home page, Posts, Pages, and custom post types (e-commerce Product pages, for example).
 
-<strong>Pro / Power-User Features</strong>
+**Pro / Power-User Features**
 
-* Add an App Product tab to WPSSO's Social Settings metabox with additional options:
+* Show the *App Product* tab on Posts, Pages, and custom post types (e-commerce Product pages, for example).
+* Add an *App Product* tab to WPSSO's Social Settings metabox with additional options:
 	* App Store Territory.
 	* Apple Store iPhone App ID, Name, and Custom URL Scheme.
 	* Apple Store iPad App ID, Name, and Custom URL Scheme.
 	* Google Play App ID, Name, and Custom URL Scheme.
-* Include the App Product tab on Posts, Pages, and custom post types (e-commerce Product pages, for example).
 * Adds the **Twitter App Card** meta tags to App Product webpages for social sharing.
 
-<h4>App Meta Tags</h4>
+= App Meta Tags =
 
 * **Apple mobile Safari Meta Tags**
 	* apple-itunes-app
-
 * **Twitter App Card Meta Tags** (Pro version)
 	* twitter:app:country
 	* twitter:app:id:iphone
@@ -54,18 +53,16 @@ WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags fo
 	* twitter:app:url:ipad
 	* twitter:app:url:googleplay
 
-<h4>WPSSO Plugin Required</h4>
+= WPSSO Plugin Required =
 
-<p>The WordPress Social Sharing Optimization (WPSSO) plugin is required to use the WPSSO AM extension. You can use the Free version of WPSSO AM with <em>both</em> the Free and Pro versions of WPSSO, but <a href="http://wpsso.com/extend/plugins/wpsso-am/">WPSSO AM Pro</a> requires the use of <a href="http://wpsso.com/extend/plugins/wpsso/">WPSSO Pro</a> as well. <a href="http://wpsso.com/extend/plugins/wpsso-am/">Purchase the WPSSO AM Pro extension</a> (includes a <em>No Risk 30 Day Refund Policy</em>).</p>
+The WordPress Social Sharing Optimization (WPSSO) plugin is required to use the WPSSO AM extension. You can use the Free version of WPSSO AM with *both* the Free and Pro versions of WPSSO, but [WPSSO AM Pro](http://wpsso.com/extend/plugins/wpsso-am/) requires the use of the [WPSSO Pro](http://wpsso.com/extend/plugins/wpsso/) plugin as well. [Purchase the WPSSO AM Pro extension](http://wpsso.com/extend/plugins/wpsso-am/) (includes a *No Risk 30 Day Refund Policy*).
 
 == Installation ==
 
 = Install and Uninstall =
 
-<ul>
-	<li><a href="http://wpsso.com/codex/plugins/wpsso-am/installation/install-the-plugin/">Install the Plugin</a></li>
-	<li><a href="http://wpsso.com/codex/plugins/wpsso-am/installation/uninstall-the-plugin/">Uninstall the Plugin</a></li>
-</ul>
+* [Install the Plugin](http://wpsso.com/codex/plugins/wpsso-am/installation/install-the-plugin/)
+* [Uninstall the Plugin](http://wpsso.com/codex/plugins/wpsso-am/installation/uninstall-the-plugin/)
 
 == Frequently Asked Questions ==
 
@@ -92,7 +89,7 @@ WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags fo
 * **New Features**
 	* *None*
 * **Improvements**
-	* Added translation function calls to all option labels in the settings pages and metaboxes.
+	* Added translation function calls to all option labels and popup help messages.
 	* Updated the text domain in preparation for plugin import to translate.wordpress.org.
 * **Bugfixes**
 	* *None*
@@ -180,7 +177,7 @@ WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags fo
 
 = 1.3.7 =
 
-2015/10/04 Added translation function calls to all option labels in settings pages and metaboxes. Added POT (Portable Object Template) file with translation strings in languages/wpsso-am.pot.
+2015/10/04 Added translation function calls to all option labels and popup help messages. Added POT (Portable Object Template) file with translation strings in languages/wpsso-am.pot.
 
 = 1.3.6 =
 

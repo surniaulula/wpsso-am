@@ -16,7 +16,7 @@
 
 <p align="center"><img src="https://surniaulula.github.io/wpsso-am/assets/icon-256x256.png" width="256" height="256" /></p><p><strong>Do you have a mobile App for your website</strong> that you'd like to promote as a banner in Apple's mobile Safari? <strong>Do you sell Apple Store Apps</strong>, and you'd like to support the Twitter App Card for your product pages?</p>
 
-<p>WPSSO App Meta (WPSSO AM) works in conjunction with the <a href="https://wordpress.org/plugins/wpsso/">WordPress Social Sharing Optimization (WPSSO)</a> plugin, extending its features with additional settings pages, tabs, and options, to <strong>include iPhone, iPad, and Google Play App meta tags in your webpages</strong> (for Apple's mobile Safari and Twitter's App Card).</p>
+<p>WPSSO App Meta (WPSSO AM) works in conjunction with the <a href="https://wordpress.org/plugins/wpsso/">WordPress Social Sharing Optimization (WPSSO)</a> plugin, extending its features with additional settings pages, tabs, and options, to include iPhone, iPad, and Google Play App meta tags in your webpages (for Apple's mobile Safari and Twitter's App Card).</p>
 
 <h4>Quick List of Features</h4>
 
@@ -30,7 +30,8 @@
 <p><strong>Pro / Power-User Features</strong></p>
 
 <ul>
-<li>Add an App Product tab to WPSSO's Social Settings metabox with additional options:
+<li>Show the <em>App Product</em> tab on Posts, Pages, and custom post types (e-commerce Product pages, for example).</li>
+<li>Add an <em>App Product</em> tab to WPSSO's Social Settings metabox with additional options:
 
 <ul>
 <li>App Store Territory.</li>
@@ -38,19 +39,18 @@
 <li>Apple Store iPad App ID, Name, and Custom URL Scheme.</li>
 <li>Google Play App ID, Name, and Custom URL Scheme.</li>
 </ul></li>
-<li>Include the App Product tab on Posts, Pages, and custom post types (e-commerce Product pages, for example).</li>
 <li>Adds the <strong>Twitter App Card</strong> meta tags to App Product webpages for social sharing.</li>
 </ul>
 
 <h4>App Meta Tags</h4>
 
 <ul>
-<li><p><strong>Apple mobile Safari Meta Tags</strong></p>
+<li><strong>Apple mobile Safari Meta Tags</strong>
 
 <ul>
 <li>apple-itunes-app</li>
 </ul></li>
-<li><p><strong>Twitter App Card Meta Tags</strong> (Pro version)</p>
+<li><strong>Twitter App Card Meta Tags</strong> (Pro version)
 
 <ul>
 <li>twitter:app:country</li>
@@ -68,7 +68,7 @@
 
 <h4>WPSSO Plugin Required</h4>
 
-<p>The WordPress Social Sharing Optimization (WPSSO) plugin is required to use the WPSSO AM extension. You can use the Free version of WPSSO AM with <em>both</em> the Free and Pro versions of WPSSO, but <a href="http://wpsso.com/extend/plugins/wpsso-am/">WPSSO AM Pro</a> requires the use of <a href="http://wpsso.com/extend/plugins/wpsso/">WPSSO Pro</a> as well. <a href="http://wpsso.com/extend/plugins/wpsso-am/">Purchase the WPSSO AM Pro extension</a> (includes a <em>No Risk 30 Day Refund Policy</em>).</p>
+<p>The WordPress Social Sharing Optimization (WPSSO) plugin is required to use the WPSSO AM extension. You can use the Free version of WPSSO AM with <em>both</em> the Free and Pro versions of WPSSO, but <a href="http://wpsso.com/extend/plugins/wpsso-am/">WPSSO AM Pro</a> requires the use of the <a href="http://wpsso.com/extend/plugins/wpsso/">WPSSO Pro</a> plugin as well. <a href="http://wpsso.com/extend/plugins/wpsso-am/">Purchase the WPSSO AM Pro extension</a> (includes a <em>No Risk 30 Day Refund Policy</em>).</p>
 
 
 <h2>Installation</h2>
@@ -76,8 +76,8 @@
 <h4>Install and Uninstall</h4>
 
 <ul>
-    <li><a href="http://wpsso.com/codex/plugins/wpsso-am/installation/install-the-plugin/">Install the Plugin</a></li>
-    <li><a href="http://wpsso.com/codex/plugins/wpsso-am/installation/uninstall-the-plugin/">Uninstall the Plugin</a></li>
+<li><a href="http://wpsso.com/codex/plugins/wpsso-am/installation/install-the-plugin/">Install the Plugin</a></li>
+<li><a href="http://wpsso.com/codex/plugins/wpsso-am/installation/uninstall-the-plugin/">Uninstall the Plugin</a></li>
 </ul>
 
 
