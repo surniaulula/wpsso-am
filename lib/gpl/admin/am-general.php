@@ -50,7 +50,8 @@ if ( ! class_exists( 'WpssoAmGplAdminAmgeneral' ) ) {
 
 			$rows[] = $this->p->util->get_th( __( 'App Store Territory',
 				'wpsso-am' ), 'medium', 'am_ap_ast' ).
-			'<td class="blank">'.$form->get_options( 'am_ap_ast', '(value from settings)' ).'</td>';
+			'<td class="blank">'.$form->get_options( 'am_ap_ast',
+				'(value from settings)' ).'</td>';
 
 			$rows[] = '<td colspan="2" class="subsection"><h4>'.
 				__( 'Apple Store', 'wpsso-am' ).'</h4></td>';

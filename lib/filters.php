@@ -127,13 +127,13 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 		public function filter_messages_tooltip_side( $text, $idx ) {
 			switch ( $idx ) {
 				case 'tooltip-side-website-app-meta':
-					$text = 'Creates a banner advertisement in Apple\'s mobile Safari for your website\'s mobile App (as an alternative to using a mobile browser).';
+					$text = __( 'Creates a banner advertisement in Apple\'s mobile Safari for your website\'s mobile App (as an alternative to using a mobile browser).', 'wpsso-am' );
 					break;
 				case 'tooltip-side-app-product-options':
-					$text = 'An <em>App Product</em> tab can be added to the Social Settings metabox on Posts, Pages, and custom post types, allowing you to enter specific information about a mobile App.';
+					$text = __( 'An <em>App Product</em> tab can be added to the Social Settings metabox on Posts, Pages, and custom post types, allowing you to enter specific information about a mobile App.', 'wpsso-am' );
 					break;
 				case 'tooltip-side-twitter-app-card':
-					$text = 'The <em>App Product</em> information is used to create meta tags for Twitter\'s App Card (instead of generating a Product Card, for example) ';
+					$text = __( 'The <em>App Product</em> information is used to create meta tags for Twitter\'s App Card (instead of generating a Product Card, for example).', 'wpsso-am' );
 					break;
 			}
 			return $text;
@@ -145,31 +145,31 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 
 			switch ( $idx ) {
 				case 'tooltip-post-am_iphone_app_id':
-					$text = 'The numeric representation of your iPhone App ID in the App Store (.i.e. "307234931").';
+					$text = __( 'The numeric representation of your iPhone App ID in the App Store (example: "307234931").', 'wpsso-am' );
 					break;
 				case 'tooltip-post-am_iphone_app_name':
-					$text = 'The name of your iPhone App.';
+					$text = __( 'The name of your iPhone App.', 'wpsso-am' );
 					break;
 				case 'tooltip-post-am_iphone_app_url':
-					$text = 'Your iPhone App\'s custom URL scheme (you must include "://" after the scheme name).';
+					$text = __( 'Your iPhone App\'s custom URL scheme (you must include "://" after the scheme name).', 'wpsso-am' );
 					break;
 				case 'tooltip-post-am_ipad_app_id':
-					$text = 'The numeric representation of your iPad App ID in the App Store (.i.e. "307234931").';
+					$text = __( 'The numeric representation of your iPad App ID in the App Store (example: "307234931").', 'wpsso-am' );
 					break;
 				case 'tooltip-post-am_ipad_app_name':
-					$text = 'The name of your iPad App.';
+					$text = __( 'The name of your iPad App.', 'wpsso-am' );
 					break;
 				case 'tooltip-post-am_ipad_app_url':
-					$text = 'Your iPad App\'s custom URL scheme (you must include \'://\' after the scheme name).';
+					$text = __( 'Your iPad App\'s custom URL scheme (you must include \'://\' after the scheme name).', 'wpsso-am' );
 					break;
 				case 'tooltip-post-am_gplay_app_id':
-					$text = 'The fully qualified package name of your Google Play App (.i.e. "com.google.android.apps.maps").';
+					$text = __( 'The fully qualified package name of your Google Play App (example: "com.google.android.apps.maps").', 'wpsso-am' );
 					break;
 				case 'tooltip-post-am_gplay_app_name':
-					$text = 'The name of your Google Play App.';
+					$text = __( 'The name of your Google Play App.', 'wpsso-am' );
 					break;
 				case 'tooltip-post-am_gplay_app_url':
-					$text = 'Your Google Play App\'s custom URL scheme (you must include \'://\' after the scheme name).';
+					$text = __( 'Your Google Play App\'s custom URL scheme (you must include \'://\' after the scheme name).', 'wpsso-am' );
 					break;
 			}
 			return $text;
@@ -181,28 +181,28 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 
 			switch ( $idx ) {
 				case 'tooltip-am_ws_on_index':
-					$text = 'Add meta tags for the website\'s mobile App to index and archive pages.';
+					$text = __( 'Add meta tags for the website\'s mobile App to index and archive pages.', 'wpsso-am' );
 					break;
 				case 'tooltip-am_ws_on_front':
-					$text = 'Add meta tags for the website\'s mobile App to a static front page.';
+					$text = __( 'Add meta tags for the website\'s mobile App to a static front page.', 'wpsso-am' );
 					break;
 				case 'tooltip-am_ws_add_to':
-					$text = 'Add meta tags for the website\'s mobile App to Posts, Pages, and custom post types.';
+					$text = __( 'Add meta tags for the website\'s mobile App to Posts, Pages, and custom post types.', 'wpsso-am' );
 					break;
 				case 'tooltip-am_ws_itunes_app_id':
-					$text = 'Your website\'s App ID in the Apple Store (.i.e. "307234931").';
+					$text = __( 'Your website\'s App ID in the Apple Store (example: "307234931").', 'wpsso-am' );
 					break;
 				case 'tooltip-am_ws_itunes_app_aff':
-					$text = 'An optional iTunes affiliate string, if you are an iTunes affiliate.';
+					$text = __( 'An optional iTunes affiliate string, if you are an iTunes affiliate.', 'wpsso-am' );
 					break;
 				case 'tooltip-am_ws_itunes_app_arg':
-					$text = 'A string, that may include any one or more inline variables, to provide context to your website\'s mobile App. If the user has your mobile App installed, this string may allow them to jump from your website, to the same content in the mobile App.';
+					$text = __( 'A string, that may include any one or more inline variables, to provide context to your website\'s mobile App. If the user has your mobile App installed, this string may allow them to jump from your website, to the same content in the mobile App.', 'wpsso-am' );
 					break;
 				case 'tooltip-am_ap_ast':
-					$text = 'The App Store country providing your App.';
+					$text = __( 'The App Store country providing your App.', 'wpsso-am' );
 					break;
 				case 'tooltip-am_ap_add_to':
-					$text = 'Include the <em>App Product</em> tab in the Social Settings metabox on Posts, Pages, etc.';
+					$text = __( 'Include the <em>App Product</em> tab in the Social Settings metabox on Posts, Pages, etc.', 'wpsso-am' );
 					break;
 			}
 			return $text;
