@@ -102,7 +102,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 			switch ( $key ) {
 				case 'am_iphone_app_id':
 				case 'am_ipad_app_id':
-					return 'numeric';
+					return 'blank_num';
 					break;
 				// text strings that can be blank
 				case 'am_ws_itunes_app_id':
