@@ -1,5 +1,5 @@
-=== WPSSO App Meta - for Apple's mobile Safari and Twitter's App Card ===
-Plugin Name: WPSSO App Meta (WPSSO AM)
+=== WPSSO Mobile App Meta - for Apple's mobile Safari and Twitter's App Card ===
+Plugin Name: WPSSO Mobile App Meta (WPSSO AM)
 Plugin Slug: wpsso-am
 Text Domain: wpsso-am
 Domain Path: /languages
@@ -16,28 +16,30 @@ WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags fo
 
 == Description ==
 
-<p><img src="https://surniaulula.github.io/wpsso-am/assets/icon-256x256.png" width="256" height="256" style="width:33%;min-width:128px;max-width:256px;float:left;margin:0 40px 20px 0;" /><strong>Do you have a mobile App for your website</strong> that you'd like to promote as a banner in Apple's mobile Safari? <strong>Do you sell Apple Store Apps</strong>, and you'd like to support the Twitter App Card for your product pages?</p>
+<p><img src="https://surniaulula.github.io/wpsso-am/assets/icon-256x256.png" width="256" height="256" style="width:33%;min-width:128px;max-width:256px;float:left;margin:0 40px 20px 0;" /><strong>Do you have a mobile App for your website</strong> that you'd like to promote as a banner in Apple's mobile Safari?</p>
 
-WPSSO App Meta (WPSSO AM) works in conjunction with the [WordPress Social Sharing Optimization (WPSSO)](https://wordpress.org/plugins/wpsso/) plugin, extending its features with additional settings pages, tabs, and options, to include iPhone, iPad, and Google Play App meta tags in your webpages (for Apple's mobile Safari and Twitter's App Card).
+**Do you sell Apple Store mobile Apps**, and you'd like to support the [Twitter App Card](https://dev.twitter.com/cards/types/app) on your product pages?
+
+WPSSO Mobile App Meta (WPSSO AM) works in conjunction with the [WordPress Social Sharing Optimization (WPSSO)](https://wordpress.org/plugins/wpsso/) plugin, extending its features with additional settings pages, tabs, and options to include iPhone, iPad, and Google Play App meta tags in your webpages (for Apple's mobile Safari and [Twitter's App Card](https://dev.twitter.com/cards/types/app)).
 
 = Quick List of Features =
 
 **Free / Basic Features**
 
-* Create an optional banner advertisement in Apple's mobile Safari for your website's Apple Store App.
-* Include the banner advertisement on index and archive webpages, a static home page, Posts, Pages, and custom post types (e-commerce Product pages, for example).
+* Adds an optional banner advertisement in Apple's mobile Safari for your website's Apple Store mobile App.
+* Include the banner advertisement on index / archive webpages, a your static home page, Posts, Pages, and custom post types (e-commerce Product pages, for example).
 
 **Pro / Power-User Features**
 
-* Show the *App Product* tab on Posts, Pages, and custom post types (e-commerce Product pages, for example).
 * Add an *App Product* tab to WPSSO's Social Settings metabox with additional options:
-	* App Store Territory.
+	* The App Store Territory.
 	* Apple Store iPhone App ID, Name, and Custom URL Scheme.
 	* Apple Store iPad App ID, Name, and Custom URL Scheme.
 	* Google Play App ID, Name, and Custom URL Scheme.
-* Adds the Twitter App Card meta tags to *App Product* webpages for social sharing.
+* Include the *App Product* tab on Posts, Pages, and custom post types (e-commerce Product pages, for example).
+* Adds [Twitter App Card](https://dev.twitter.com/cards/types/app) meta tags for *App Product* webpages.
 
-= App Meta Tags =
+= Mobile App Meta Tags =
 
 * **Apple mobile Safari Meta Tags**
 	* apple-itunes-app
@@ -55,7 +57,7 @@ WPSSO App Meta (WPSSO AM) works in conjunction with the [WordPress Social Sharin
 
 = WPSSO Plugin Required =
 
-The WordPress Social Sharing Optimization (WPSSO) plugin is required to use the WPSSO AM extension. You can use the Free version of WPSSO AM with *both* the Free and Pro versions of WPSSO, but [WPSSO AM Pro](http://wpsso.com/extend/plugins/wpsso-am/) requires the use of the [WPSSO Pro](http://wpsso.com/extend/plugins/wpsso/) plugin as well. [Purchase the WPSSO AM Pro extension](http://wpsso.com/extend/plugins/wpsso-am/) (includes a *No Risk 30 Day Refund Policy*).
+The WordPress Social Sharing Optimization (WPSSO) plugin is required to use the WPSSO AM extension. You can use the Free version of WPSSO AM with *both* the Free and Pro versions of WPSSO, but [WPSSO AM Pro](http://wpsso.com/extend/plugins/wpsso-am/) requires the use of the [WPSSO Pro](http://wpsso.com/extend/plugins/wpsso/) plugin as well. [Purchase the WPSSO Mobile App Meta (WPSSO AM) Pro extension](http://wpsso.com/extend/plugins/wpsso-am/) (includes a *No Risk 30 Day Refund Policy*).
 
 == Installation ==
 
