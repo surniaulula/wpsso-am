@@ -21,10 +21,10 @@ if ( ! class_exists( 'WpssoAmSubmenuAmgeneral' ) && class_exists( 'WpssoAdmin' )
 		protected function add_meta_boxes() {
 			// add_meta_box( $id, $title, $callback, $post_type, $context, $priority, $callback_args );
 			add_meta_box( $this->pagehook.'_webapp',
-				_x( 'Website App', 'normal metabox title', 'wpsso-am' ), 
+				_x( 'Website Mobile App', 'metabox title', 'wpsso-am' ), 
 				array( &$this, 'show_metabox_webapp' ), $this->pagehook, 'normal' );
 			add_meta_box( $this->pagehook.'_appmeta', 
-				_x( 'App Products', 'normal metabox title', 'wpsso-am' ),
+				_x( 'Mobile App Products', 'metabox title', 'wpsso-am' ),
 				array( &$this, 'show_metabox_appmeta' ), $this->pagehook, 'normal' );
 		}
 
@@ -37,7 +37,7 @@ if ( ! class_exists( 'WpssoAmSubmenuAmgeneral' ) && class_exists( 'WpssoAdmin' )
 			echo '</table>';
 
 			$tabs = apply_filters( $this->p->cf['lca'].'_'.$metabox.'_tabs', array(
-				'itunes' => _x( 'Apple Store', 'normal metabox tab', 'wpsso-am' ),
+				'itunes' => _x( 'Apple Store', 'metabox tab', 'wpsso-am' ),
 			) );
 			$rows = array();
 			foreach ( $tabs as $key => $title )
@@ -63,12 +63,12 @@ if ( ! class_exists( 'WpssoAmSubmenuAmgeneral' ) && class_exists( 'WpssoAdmin' )
 					$rows[] = '<td colspan="2">'.
 						$this->p->msgs->get( 'info-webapp-general' ).'</td>';
 
-					$rows[] = $this->p->util->get_th( __( 'Add to Index Webpages',
-						'wpsso-am' ), null, 'am_ws_on_index' ).
+					$rows[] = $this->p->util->get_th( _x( 'Add to Index Webpages',
+						'option label', 'wpsso-am' ), null, 'am_ws_on_index' ).
 					'<td>'.$this->form->get_checkbox( 'am_ws_on_index' ).'</td>';
 
-					$rows[] = $this->p->util->get_th( __( 'Add to Static Homepage',
-						'wpsso-am' ), null, 'am_ws_on_front' ).
+					$rows[] = $this->p->util->get_th( _x( 'Add to Static Homepage',
+						'option label', 'wpsso-am' ), null, 'am_ws_on_front' ).
 					'<td>'.$this->form->get_checkbox( 'am_ws_on_front' ).'</td>';
 
 					$checkboxes = '';
@@ -77,8 +77,8 @@ if ( ! class_exists( 'WpssoAmSubmenuAmgeneral' ) && class_exists( 'WpssoAdmin' )
 							$post_type->label.' '.( empty( $post_type->description ) ?
 								'' : '('.$post_type->description.')' ).'</p>';
 
-					$rows[] = $this->p->util->get_th( __( 'Add to Post Types',
-						'wpsso-am' ), null, 'am_ws_add_to' ).'<td>'.$checkboxes.'</td>';
+					$rows[] = $this->p->util->get_th( _x( 'Add to Post Types',
+						'option label', 'wpsso-am' ), null, 'am_ws_add_to' ).'<td>'.$checkboxes.'</td>';
 
 					break;
 
@@ -87,16 +87,16 @@ if ( ! class_exists( 'WpssoAmSubmenuAmgeneral' ) && class_exists( 'WpssoAdmin' )
 					$rows[] = '<td colspan="2">'.
 						$this->p->msgs->get( 'info-webapp-itunes' ).'</td>';
 
-					$rows[] = $this->p->util->get_th( __( 'App ID Number',
-						'wpsso-am' ), null, 'am_ws_itunes_app_id' ).
+					$rows[] = $this->p->util->get_th( _x( 'App ID Number',
+						'option label', 'wpsso-am' ), null, 'am_ws_itunes_app_id' ).
 					'<td>'.$this->form->get_input( 'am_ws_itunes_app_id' ).'</td>';
 
-					$rows[] = $this->p->util->get_th( __( 'Affiliate Data',
-						'wpsso-am' ), null, 'am_ws_itunes_app_aff' ).
+					$rows[] = $this->p->util->get_th( _x( 'Affiliate Data',
+						'option label', 'wpsso-am' ), null, 'am_ws_itunes_app_aff' ).
 					'<td>'.$this->form->get_input( 'am_ws_itunes_app_aff' ).'</td>';
 
-					$rows[] = $this->p->util->get_th( __( 'Argument String',
-						'wpsso-am' ), null, 'am_ws_itunes_app_arg' ).
+					$rows[] = $this->p->util->get_th( _x( 'Argument String',
+						'option label', 'wpsso-am' ), null, 'am_ws_itunes_app_arg' ).
 					'<td>'.$this->form->get_input( 'am_ws_itunes_app_arg', 'wide' ).'</td>';
 
 					break;

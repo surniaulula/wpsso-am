@@ -15,9 +15,9 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 		public static $cf = array(
 			'plugin' => array(
 				'wpssoam' => array(
-					'version' => '1.3.7',	// plugin version
+					'version' => '1.3.8',	// plugin version
 					'short' => 'WPSSO AM',
-					'name' => 'WPSSO App Meta (WPSSO AM)',
+					'name' => 'WPSSO Mobile App Meta (WPSSO AM)',
 					'desc' => 'WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags for Apple\'s mobile Safari and Twitter\'s App Card.',
 					'slug' => 'wpsso-am',
 					'base' => 'wpsso-am/wpsso-am.php',
@@ -47,16 +47,16 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 					'lib' => array(
 						'submenu' => array (
 							'wpssoam-separator-0' => 'AM Extension',
-							'am-general' => 'App Meta',
+							'am-general' => 'Mobile App Meta',
 						),
 						'gpl' => array(
 							'admin' => array(
-								'am-general' => 'App Meta',
+								'am-general' => 'Mobile App Meta',
 							),
 						),
 						'pro' => array(
 							'admin' => array(
-								'am-general' => 'App Meta',
+								'am-general' => 'Mobile App Meta',
 							),
 							'head' => array(
 								'twittercard' => 'Twitter App Card',

@@ -130,10 +130,10 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 					$text = __( 'Creates a banner advertisement in Apple\'s mobile Safari for your website\'s mobile App (as an alternative to using a mobile browser).', 'wpsso-am' );
 					break;
 				case 'tooltip-side-app-product-options':
-					$text = __( 'An <em>App Product</em> tab can be added to the Social Settings metabox on Posts, Pages, and custom post types, allowing you to enter specific information about a mobile App.', 'wpsso-am' );
+					$text = sprintf( __( 'An <em>%1$s</em> tab can be added to the %2$s metabox on Posts, Pages, and custom post types, allowing you to enter specific information about a mobile App.', 'wpsso-am' ), _x( 'App Product', 'metabox tab', 'wpsso-am' ), _x( 'Social Settings', 'metabox title', 'wpsso' ) );
 					break;
 				case 'tooltip-side-twitter-app-card':
-					$text = __( 'The <em>App Product</em> information is used to create meta tags for Twitter\'s App Card (instead of generating a Product Card, for example).', 'wpsso-am' );
+					$text = sprintf( __( 'The <em>%s</em> information is used to create meta tags for Twitter\'s App Card (instead of generating a Summary Card, for example).', 'wpsso-am' ), _x( 'App Product', 'metabox tab', 'wpsso-am' ) );
 					break;
 			}
 			return $text;
@@ -145,28 +145,28 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 
 			switch ( $idx ) {
 				case 'tooltip-post-am_iphone_app_id':
-					$text = __( 'The numeric representation of your iPhone App ID in the App Store (example: "307234931").', 'wpsso-am' );
+					$text = __( 'The numeric representation of your iPhone application ID in the App Store (example: "307234931").', 'wpsso-am' );
 					break;
 				case 'tooltip-post-am_iphone_app_name':
-					$text = __( 'The name of your iPhone App.', 'wpsso-am' );
+					$text = __( 'The name of your iPhone application.', 'wpsso-am' );
 					break;
 				case 'tooltip-post-am_iphone_app_url':
 					$text = __( 'Your iPhone App\'s custom URL scheme (you must include "://" after the scheme name).', 'wpsso-am' );
 					break;
 				case 'tooltip-post-am_ipad_app_id':
-					$text = __( 'The numeric representation of your iPad App ID in the App Store (example: "307234931").', 'wpsso-am' );
+					$text = __( 'The numeric representation of your iPad application ID in the App Store (example: "307234931").', 'wpsso-am' );
 					break;
 				case 'tooltip-post-am_ipad_app_name':
-					$text = __( 'The name of your iPad App.', 'wpsso-am' );
+					$text = __( 'The name of your iPad application.', 'wpsso-am' );
 					break;
 				case 'tooltip-post-am_ipad_app_url':
 					$text = __( 'Your iPad App\'s custom URL scheme (you must include \'://\' after the scheme name).', 'wpsso-am' );
 					break;
 				case 'tooltip-post-am_gplay_app_id':
-					$text = __( 'The fully qualified package name of your Google Play App (example: "com.google.android.apps.maps").', 'wpsso-am' );
+					$text = __( 'The fully qualified package name of your Google Play application (example: "com.google.android.apps.maps").', 'wpsso-am' );
 					break;
 				case 'tooltip-post-am_gplay_app_name':
-					$text = __( 'The name of your Google Play App.', 'wpsso-am' );
+					$text = __( 'The name of your Google Play application.', 'wpsso-am' );
 					break;
 				case 'tooltip-post-am_gplay_app_url':
 					$text = __( 'Your Google Play App\'s custom URL scheme (you must include \'://\' after the scheme name).', 'wpsso-am' );
@@ -190,19 +190,19 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 					$text = __( 'Add meta tags for the website\'s mobile App to Posts, Pages, and custom post types.', 'wpsso-am' );
 					break;
 				case 'tooltip-am_ws_itunes_app_id':
-					$text = __( 'Your website\'s App ID in the Apple Store (example: "307234931").', 'wpsso-am' );
+					$text = __( 'Your website\'s mobile App ID in the Apple Store (example: "307234931").', 'wpsso-am' );
 					break;
 				case 'tooltip-am_ws_itunes_app_aff':
-					$text = __( 'An optional iTunes affiliate string, if you are an iTunes affiliate.', 'wpsso-am' );
+					$text = __( 'If you have an iTunes affiliate string, enter it here.', 'wpsso-am' );
 					break;
 				case 'tooltip-am_ws_itunes_app_arg':
-					$text = __( 'A string, that may include any one or more inline variables, to provide context to your website\'s mobile App. If the user has your mobile App installed, this string may allow them to jump from your website, to the same content in the mobile App.', 'wpsso-am' );
+					$text = __( 'A query string - which may include one or more inline variables - to provide context to your website\'s mobile App. If the user has your mobile App installed, this string can allow them to jump from your website to the same content in the mobile App.', 'wpsso-am' );
 					break;
 				case 'tooltip-am_ap_ast':
-					$text = __( 'The App Store country providing your App.', 'wpsso-am' );
+					$text = __( 'The App Store country providing your application.', 'wpsso-am' );
 					break;
 				case 'tooltip-am_ap_add_to':
-					$text = __( 'Include the <em>App Product</em> tab in the Social Settings metabox on Posts, Pages, etc.', 'wpsso-am' );
+					$text = sprintf( __( 'Include the <em>%1$s</em> tab in the %2$s metabox on Posts, Pages, etc.', 'wpsso-am' ), _x( 'App Product', 'metabox tab', 'wpsso-am' ), _x( 'Social Settings', 'metabox title', 'wpsso' ) );
 					break;
 			}
 			return $text;
@@ -214,10 +214,10 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 					$text = '<blockquote class="top-info"><p>'.__( 'If you have a mobile App to access your website (as an alternative to using a mobile web browser), enter its details here.', 'wpsso-am' ).'</p></blockquote>';
 					break;
 				case 'info-webapp-itunes':
-					$text = '<blockquote class="top-info"><p>'.__( 'These values are used to create a <em>banner advertisement</em> in Apple\'s mobile Safari for your <em>website\'s</em> Apple Store App.', 'wpsso-am' ).' '.__( 'The banner advertisement allows users to download and/or switch to the Apple Store App instead of navigating your website using Apple\'s mobile Safari.', 'wpsso-am' ).'</p></blockquote>';
+					$text = '<blockquote class="top-info"><p>'.__( 'These values are used to create a banner advertisement in Apple\'s mobile Safari for your website\'s Apple Store mobile App.', 'wpsso-am' ).' '.__( 'The banner advertisement allows users to download your mobile App and/or switch to the Apple Store App instead of navigating your website using Apple\'s mobile Safari.', 'wpsso-am' ).'</p></blockquote>';
 					break;
 				case 'info-appmeta-general':
-					$text = '<blockquote class="top-info"><p>'.__( 'An <em>App Product</em> tab can be added to the Social Settings metabox on Posts, Pages, and custom post types, allowing you to enter specific information about a mobile App.', 'wpsso-am' ).' '.__( 'The mobile App information is used to create meta tags for Twitter\'s App Card (instead of a Large Image Summary Card, for example).', 'wpsso-am' ).'</p></blockquote>';
+					$text = '<blockquote class="top-info"><p>'.sprintf( __( 'An <em>%1$s</em> tab can be added to the %2$s metabox on Posts, Pages, and custom post types, allowing you to enter specific information about a mobile App.', 'wpsso-am' ), _x( 'App Product', 'metabox tab', 'wpsso-am' ), _x( 'Social Settings', 'metabox title', 'wpsso' ) ).' '.__( 'The mobile App information is used to create meta tags for Twitter\'s App Card (instead of a Summary Card, for example).', 'wpsso-am' ).'</p></blockquote>';
 					break;
 			}
 			return $text;

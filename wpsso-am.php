@@ -12,7 +12,7 @@
  * Description: WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari and Twitter's App Card.
  * Requires At Least: 3.1
  * Tested Up To: 4.3.1
- * Version: 1.3.7
+ * Version: 1.3.8
  * 
  * Copyright 2014-2015 - Jean-Sebastien Morisset - http://surniaulula.com/
  */
@@ -31,7 +31,7 @@ if ( ! class_exists( 'WpssoAm' ) ) {
 
 		private static $wpsso_short = 'WPSSO';
 		private static $wpsso_name = 'WordPress Social Sharing Optimization (WPSSO)';
-		private static $wpsso_min_version = '3.10.3';
+		private static $wpsso_min_version = '3.11.0';
 		private static $wpsso_has_min_ver = true;
 		private static $opt_version_suffix = 'am7';
 
@@ -63,21 +63,16 @@ if ( ! class_exists( 'WpssoAm' ) ) {
 		}
 
 		public static function wpsso_missing_notice( $deactivate = false ) {
-			$lca = 'wpssoam';
-			$info = WpssoAmConfig::$cf['plugin'][$lca];
+			$info = WpssoAmConfig::$cf['plugin']['wpssoam'];
 			load_plugin_textdomain( $info['text_domain'], false, $info['slug'].$info['domain_path'] );
 
 			if ( $deactivate === true ) {
 				require_once( ABSPATH.'wp-admin/includes/plugin.php' );
 				deactivate_plugins( $info['base'] );
 
-				wp_die( '<p>'.sprintf( __( 'The %1$s extension requires the %2$s plugin &mdash; '.
-					'please install and activate the %3$s plugin before trying to re-activate the %4$s extension.',
-						'wpsso-am' ), $info['name'], self::$wpsso_name, self::$wpsso_short, $info['short'] ).'</p>' );
+				wp_die( '<p>'.sprintf( __( 'The %1$s extension requires the %2$s plugin &mdash; please install and activate the %3$s plugin before trying to re-activate the %4$s extension.', 'wpsso-am' ), $info['name'], self::$wpsso_name, self::$wpsso_short, $info['short'] ).'</p>' );
 
-			} else echo '<div class="error"><p>'.sprintf( __( 'The %1$s extension requires the %2$s plugin &mdash; '.
-				'please install and activate the %3$s plugin.',
-					'wpsso-am' ), $info['name'], self::$wpsso_name, self::$wpsso_short ).'</p></div>';
+			} else echo '<div class="error"><p>'.sprintf( __( 'The %1$s extension requires the %2$s plugin &mdash; please install and activate the %3$s plugin.', 'wpsso-am' ), $info['name'], self::$wpsso_name, self::$wpsso_short ).'</p></div>';
 		}
 
 		public function wpsso_get_config( $cf ) {
@@ -92,9 +87,13 @@ if ( ! class_exists( 'WpssoAm' ) ) {
 		}
 
 		public function wpsso_init_options() {
-			$this->p =& Wpsso::get_instance();
+			if ( method_exists( 'Wpsso', 'get_instance' ) )
+				$this->p =& Wpsso::get_instance();
+			else $this->p =& $GLOBALS['wpsso'];
+
 			if ( self::$wpsso_has_min_ver === false )
 				return;		// stop here
+
 			$this->p->is_avail['am'] = true;
 			$this->p->is_avail['admin']['am-general'] = true;
 			$this->p->is_avail['head']['twittercard'] = true;
@@ -103,25 +102,27 @@ if ( ! class_exists( 'WpssoAm' ) ) {
 		public function wpsso_init_objects() {
 			if ( self::$wpsso_has_min_ver === false )
 				return;		// stop here
+
 			WpssoAmConfig::load_lib( false, 'filters' );
 			$this->p->am = new WpssoAmFilters( $this->p, __FILE__ );
 		}
 
 		public function wpsso_init_plugin() {
 			if ( self::$wpsso_has_min_ver === false )
-				return $this->warning_wpsso_version( WpssoAmConfig::$cf['plugin']['wpssoam'] );
+				return $this->warning_wpsso_version();
 		}
 
-		private function warning_wpsso_version( $info ) {
+		private function warning_wpsso_version() {
+			$info = WpssoAmConfig::$cf['plugin']['wpssoam'];
 			$wpsso_version = $this->p->cf['plugin']['wpsso']['version'];
+			load_plugin_textdomain( $info['text_domain'], false, $info['slug'].$info['domain_path'] );
+
 			if ( $this->p->debug->enabled )
 				$this->p->debug->log( $info['name'].' requires '.self::$wpsso_short.' version '.
 					self::$wpsso_min_version.' or newer ('.$wpsso_version.' installed)' );
+
 			if ( is_admin() )
-				$this->p->notice->err( sprintf( __( 'The %1$s extension version %2$s requires the use of '.
-					'%3$s version %4$s or newer (version %5$s is currently installed).',
-						'wpsso-am' ), $info['name'], $info['version'], self::$wpsso_short, 
-							self::$wpsso_min_version, $wpsso_version ), true );
+				$this->p->notice->err( sprintf( __( 'The %1$s extension version %2$s requires the use of %3$s version %4$s or newer (version %5$s is currently installed).', 'wpsso-am' ), $info['name'], $info['version'], self::$wpsso_short, self::$wpsso_min_version, $wpsso_version ), true );
 		}
 	}
 
