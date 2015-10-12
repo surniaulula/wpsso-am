@@ -24,12 +24,12 @@ WPSSO Mobile App Meta (WPSSO AM) works in conjunction with the [WordPress Social
 
 = Quick List of Features =
 
-**Free / Basic Features**
+**WPSSO AM Free / Basic Features**
 
 * Adds an optional banner advertisement in Apple's mobile Safari for your website's Apple Store mobile App.
 * Include the banner advertisement on index / archive webpages, a your static home page, Posts, Pages, and custom post types (e-commerce Product pages, for example).
 
-**Pro / Power-User Features**
+**WPSSO AM Pro / Power-User Features**
 
 * Add an *App Product* tab to WPSSO's Social Settings metabox with additional options:
 	* The App Store Territory.
