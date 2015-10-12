@@ -22,7 +22,7 @@ WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags fo
 
 WPSSO Mobile App Meta (WPSSO AM) works in conjunction with the [WordPress Social Sharing Optimization (WPSSO)](https://wordpress.org/plugins/wpsso/) plugin, extending its features with additional settings pages, tabs, and options to include iPhone, iPad, and Google Play App meta tags in your webpages (for Apple's mobile Safari and [Twitter's App Card](https://dev.twitter.com/cards/types/app)).
 
-**Available in multiple languages:**
+= Available in Multiple Languages =
 
 * English (US)
 * French (France)
