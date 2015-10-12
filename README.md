@@ -20,6 +20,14 @@
 
 <p>WPSSO Mobile App Meta (WPSSO AM) works in conjunction with the <a href="https://wordpress.org/plugins/wpsso/">WordPress Social Sharing Optimization (WPSSO)</a> plugin, extending its features with additional settings pages, tabs, and options to include iPhone, iPad, and Google Play App meta tags in your webpages (for Apple's mobile Safari and <a href="https://dev.twitter.com/cards/types/app">Twitter's App Card</a>).</p>
 
+<p><strong>Available in multiple languages:</strong></p>
+
+<ul>
+<li>English (US)</li>
+<li>French (France)</li>
+<li>More to come...</li>
+</ul>
+
 <h4>Quick List of Features</h4>
 
 <p><strong>WPSSO AM Free / Basic Features</strong></p>
@@ -68,7 +76,7 @@
 </ul></li>
 </ul>
 
-<h4>WPSSO Plugin Required</h4>
+<h4>WPSSO Framework Required</h4>
 
 <p>The WordPress Social Sharing Optimization (WPSSO) plugin is required to use the WPSSO AM extension. You can use the Free version of WPSSO AM with <em>both</em> the Free and Pro versions of WPSSO, but <a href="http://wpsso.com/extend/plugins/wpsso-am/">WPSSO AM Pro</a> requires the use of the <a href="http://wpsso.com/extend/plugins/wpsso/">WPSSO Pro</a> plugin as well. <a href="http://wpsso.com/extend/plugins/wpsso-am/">Purchase the WPSSO Mobile App Meta (WPSSO AM) Pro extension</a> (includes a <em>No Risk 30 Day Refund Policy</em>).</p>
 
