@@ -48,8 +48,10 @@ if ( ! class_exists( 'WpssoAm' ) ) {
 			WpssoAmConfig::require_libs( __FILE__ );
 			$this->reg = new WpssoAmRegister();		// activate, deactivate, uninstall hooks
 
-			if ( is_admin() )
+			if ( is_admin() ) {
+				load_plugin_textdomain( 'wpsso-am', false, 'wpsso-am/languages/' );
 				add_action( 'admin_init', array( &$this, 'check_for_wpsso' ) );
+			}
 
 			add_filter( 'wpsso_get_config', array( &$this, 'wpsso_get_config' ), 10, 1 );
 			add_action( 'wpsso_init_options', array( &$this, 'wpsso_init_options' ), 10 );
@@ -64,7 +66,6 @@ if ( ! class_exists( 'WpssoAm' ) ) {
 
 		public static function wpsso_missing_notice( $deactivate = false ) {
 			$info = WpssoAmConfig::$cf['plugin']['wpssoam'];
-			load_plugin_textdomain( $info['text_domain'], false, $info['slug'].$info['domain_path'] );
 
 			if ( $deactivate === true ) {
 				require_once( ABSPATH.'wp-admin/includes/plugin.php' );
@@ -115,7 +116,6 @@ if ( ! class_exists( 'WpssoAm' ) ) {
 		private function warning_wpsso_version() {
 			$info = WpssoAmConfig::$cf['plugin']['wpssoam'];
 			$wpsso_version = $this->p->cf['plugin']['wpsso']['version'];
-			load_plugin_textdomain( $info['text_domain'], false, $info['slug'].$info['domain_path'] );
 
 			if ( $this->p->debug->enabled )
 				$this->p->debug->log( $info['name'].' requires '.self::$wpsso_short.' version '.
