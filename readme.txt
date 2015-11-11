@@ -10,7 +10,7 @@ License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.txt
 Requires At Least: 3.1
 Tested Up To: 4.3.1
-Stable Tag: 1.3.8
+Stable Tag: 1.3.9
 
 WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari and Twitter's App Card.
 
@@ -92,7 +92,18 @@ The WordPress Social Sharing Optimization (WPSSO) plugin is required to use the 
 * [GitHub](https://github.com/SurniaUlula/wpsso-am)
 * [WordPress.org](https://wordpress.org/plugins/wpsso-am/developers/)
 
-= Version 1.3.8 2015/10/11 =
+= Version 1.3.9 (2015/11/11) =
+
+* **New Features**
+	* *None*
+* **Improvements**
+	* *None*
+* **Bugfixes**
+	* Fixed a check for the 'tc_enable' option key, which is no longer required.
+* **Developer Notes**
+	* *None*
+
+= Version 1.3.8 (2015/10/11) =
 
 * **New Features**
 	* Added a French language (fr_FR) translation.
@@ -103,7 +114,7 @@ The WordPress Social Sharing Optimization (WPSSO) plugin is required to use the 
 * **Developer Notes**
 	* *None*
 
-= Version 1.3.7 2015/10/04 =
+= Version 1.3.7 (2015/10/04) =
 
 * **New Features**
 	* *None*
@@ -115,7 +126,7 @@ The WordPress Social Sharing Optimization (WPSSO) plugin is required to use the 
 * **Developer Notes**
 	* Added a POT (Portable Object Template) file with translation strings in languages/wpsso-am.pot.
 
-= Version 1.3.6 2015/09/19 =
+= Version 1.3.6 (2015/09/19) =
 
 * **New Features**
 	* *None*
@@ -137,7 +148,7 @@ The WordPress Social Sharing Optimization (WPSSO) plugin is required to use the 
 * **Developer Notes**
 	* Added a WpssoAmRegister class with `WpssoUtil::save_time()` calls during activation to save install / activation / update timestamps.
 
-= Version 1.3.4 2015/09/03 =
+= Version 1.3.4 (2015/09/03) =
 
 * **New Features**
 	* *None*
@@ -149,7 +160,7 @@ The WordPress Social Sharing Optimization (WPSSO) plugin is required to use the 
 	* Updated the tooltip message filter names for WPSSO v3.8.
 	* Removed the WPSSO AM specific 'installed_version' filter.
 
-= Version 1.3.3 2015/08/04 =
+= Version 1.3.3 (2015/08/04) =
 
 * **New Features**
 	* *None*
@@ -172,7 +183,7 @@ The WordPress Social Sharing Optimization (WPSSO) plugin is required to use the 
 * **Developer Notes**
 	* *None*
 
-= Version 1.3.1 2015/04/21 =
+= Version 1.3.1 (2015/04/21) =
 
 * **New Features**
 	* *None*
@@ -182,7 +193,7 @@ The WordPress Social Sharing Optimization (WPSSO) plugin is required to use the 
 * **Bugfixes**
 	* Fixed variable references to a deprecated 'plugin_display' option.
 
-= Version 1.3 2015/04/12 =
+= Version 1.3 (2015/04/12) =
 
 * **New Features**
 	* *None*
@@ -193,6 +204,10 @@ The WordPress Social Sharing Optimization (WPSSO) plugin is required to use the 
 	* *None*
 
 == Upgrade Notice ==
+
+= 1.3.9 =
+
+2015/10/11 Fixed a check for the 'tc_enable' option key, which is no longer required.
 
 = 1.3.8 =
 
