@@ -20,16 +20,16 @@ if ( ! class_exists( 'WpssoAmSubmenuAmgeneral' ) && class_exists( 'WpssoAdmin' )
 
 		protected function add_meta_boxes() {
 			// add_meta_box( $id, $title, $callback, $post_type, $context, $priority, $callback_args );
-			add_meta_box( $this->pagehook.'_webapp',
-				_x( 'Website Mobile App', 'metabox title', 'wpsso-am' ), 
-				array( &$this, 'show_metabox_webapp' ), $this->pagehook, 'normal' );
 			add_meta_box( $this->pagehook.'_appmeta', 
 				_x( 'Mobile App Products', 'metabox title', 'wpsso-am' ),
 				array( &$this, 'show_metabox_appmeta' ), $this->pagehook, 'normal' );
+			add_meta_box( $this->pagehook.'_banner',
+				_x( 'Mobile App Banner', 'metabox title', 'wpsso-am' ), 
+				array( &$this, 'show_metabox_banner' ), $this->pagehook, 'normal' );
 		}
 
-		public function show_metabox_webapp() {
-			$metabox = 'webapp';
+		public function show_metabox_banner() {
+			$metabox = 'banner';
 			echo '<table class="sucom-setting">';
 			foreach ( apply_filters( $this->p->cf['lca'].'_'.$metabox.'_general_rows', 
 				$this->get_rows( $metabox, 'general' ), $this->form ) as $row )
@@ -37,7 +37,7 @@ if ( ! class_exists( 'WpssoAmSubmenuAmgeneral' ) && class_exists( 'WpssoAdmin' )
 			echo '</table>';
 
 			$tabs = apply_filters( $this->p->cf['lca'].'_'.$metabox.'_tabs', array(
-				'itunes' => _x( 'Apple Store', 'metabox tab', 'wpsso-am' ),
+				'itunes' => _x( 'Apple Store App', 'metabox tab', 'wpsso-am' ),
 			) );
 			$rows = array();
 			foreach ( $tabs as $key => $title )
@@ -58,16 +58,16 @@ if ( ! class_exists( 'WpssoAmSubmenuAmgeneral' ) && class_exists( 'WpssoAdmin' )
 		protected function get_rows( $metabox, $key ) {
 			$rows = array();
 			switch ( $metabox.'-'.$key ) {
-				case 'webapp-general':
+				case 'banner-general':
 
 					$rows[] = '<td colspan="2">'.
-						$this->p->msgs->get( 'info-webapp-general' ).'</td>';
+						$this->p->msgs->get( 'info-banner-general' ).'</td>';
 
-					$rows[] = $this->p->util->get_th( _x( 'Add to Index Webpages',
+					$rows[] = $this->p->util->get_th( _x( 'Add Banner to Index Webpages',
 						'option label', 'wpsso-am' ), null, 'am_ws_on_index' ).
 					'<td>'.$this->form->get_checkbox( 'am_ws_on_index' ).'</td>';
 
-					$rows[] = $this->p->util->get_th( _x( 'Add to Static Homepage',
+					$rows[] = $this->p->util->get_th( _x( 'Add Banner to Static Homepage',
 						'option label', 'wpsso-am' ), null, 'am_ws_on_front' ).
 					'<td>'.$this->form->get_checkbox( 'am_ws_on_front' ).'</td>';
 
@@ -77,25 +77,25 @@ if ( ! class_exists( 'WpssoAmSubmenuAmgeneral' ) && class_exists( 'WpssoAdmin' )
 							$post_type->label.' '.( empty( $post_type->description ) ?
 								'' : '('.$post_type->description.')' ).'</p>';
 
-					$rows[] = $this->p->util->get_th( _x( 'Add to Post Types',
+					$rows[] = $this->p->util->get_th( _x( 'Add Banner to Post Types',
 						'option label', 'wpsso-am' ), null, 'am_ws_add_to' ).'<td>'.$checkboxes.'</td>';
 
 					break;
 
-				case 'webapp-itunes':
+				case 'banner-itunes':
 
 					$rows[] = '<td colspan="2">'.
-						$this->p->msgs->get( 'info-webapp-itunes' ).'</td>';
+						$this->p->msgs->get( 'info-banner-itunes' ).'</td>';
 
-					$rows[] = $this->p->util->get_th( _x( 'App ID Number',
+					$rows[] = $this->p->util->get_th( _x( 'Default App ID Number',
 						'option label', 'wpsso-am' ), null, 'am_ws_itunes_app_id' ).
 					'<td>'.$this->form->get_input( 'am_ws_itunes_app_id' ).'</td>';
 
-					$rows[] = $this->p->util->get_th( _x( 'Affiliate Data',
+					$rows[] = $this->p->util->get_th( _x( 'Default Affiliate Data',
 						'option label', 'wpsso-am' ), null, 'am_ws_itunes_app_aff' ).
 					'<td>'.$this->form->get_input( 'am_ws_itunes_app_aff' ).'</td>';
 
-					$rows[] = $this->p->util->get_th( _x( 'Argument String',
+					$rows[] = $this->p->util->get_th( _x( 'Default Argument String',
 						'option label', 'wpsso-am' ), null, 'am_ws_itunes_app_arg' ).
 					'<td>'.$this->form->get_input( 'am_ws_itunes_app_arg', 'wide' ).'</td>';
 

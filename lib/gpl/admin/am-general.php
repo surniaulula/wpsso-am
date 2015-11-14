@@ -31,7 +31,7 @@ if ( ! class_exists( 'WpssoAmGplAdminAmgeneral' ) ) {
 			foreach ( $tabs as $key => $val ) {
 				$new_tabs[$key] = $val;
 				if ( $key === 'media' )
-					$new_tabs['appmeta'] = _x( 'App Product',
+					$new_tabs['appmeta'] = _x( 'App Products',
 						'metabox tab', 'wpsso-am' );
 			}
 			return $new_tabs;
@@ -49,17 +49,16 @@ if ( ! class_exists( 'WpssoAmGplAdminAmgeneral' ) ) {
 				$this->p->msgs->get( 'pro-feature-msg', 
 					array( 'lca' => 'wpssoam' ) ).'</td>';
 
+			$rows[] = '<td colspan="2" class="subsection"><h4>'.
+				_x( 'Twitter App Card', 'metabox title', 'wpsso-am' ).'</h4></td>';
+
 			$rows[] = $this->p->util->get_th( _x( 'App Store Territory',
 				'option label', 'wpsso-am' ), 'medium', 'am_ap_ast' ).
-			'<td class="blank">'.$form->get_options( 'am_ap_ast',
-				'(value from settings)' ).'</td>';
-
-			$rows[] = '<td colspan="2" class="subsection"><h4>'.
-				_x( 'Apple Store', 'metabox title', 'wpsso-am' ).'</h4></td>';
+			'<td class="blank">'.$this->p->options['am_ap_ast'].'</td>';
 
 			$rows[] = $this->p->util->get_th( _x( 'iPhone App ID',
 				'option label', 'wpsso-am' ), 'medium', 'post-am_iphone_app_id' ). 
-			'<td class="blank">'.$form->get_options( 'am_iphone_app_id' ).'</td>';
+			'<td class="blank"></td>';
 
 			if ( $post_status === 'auto-draft' )
 				$rows[] = $this->p->util->get_th( _x( 'iPhone App Name',
@@ -68,16 +67,16 @@ if ( ! class_exists( 'WpssoAmGplAdminAmgeneral' ) ) {
 			else
 				$rows[] = $this->p->util->get_th( _x( 'iPhone App Name',
 					'option label', 'wpsso-am' ), 'medium', 'post-am_iphone_app_name' ). 
-				'<td class="blank">'.$form->get_options( 'am_iphone_app_name' ).'</td>';
+				'<td class="blank"></td>';
 
 			$rows[] = '<tr class="hide_in_basic">'.
-			$this->p->util->get_th( _x( 'iPhone App Custom URL Scheme',
+			$this->p->util->get_th( _x( 'iPhone App URL Scheme',
 				'option label', 'wpsso-am' ), 'medium nowrap', 'post-am_iphone_app_url' ). 
-			'<td class="blank">'.$form->get_options( 'am_iphone_app_url' ).'</td>';
+			'<td class="blank"></td>';
 
 			$rows[] = $this->p->util->get_th( _x( 'iPad App ID',
 				'option label', 'wpsso-am' ), 'medium', 'post-am_ipad_app_id' ). 
-			'<td class="blank">'.$form->get_options( 'am_ipad_app_id' ).'</td>';
+			'<td class="blank"></td>';
 
 			if ( $post_status === 'auto-draft' )
 				$rows[] = $this->p->util->get_th( _x( 'iPad App Name',
@@ -86,33 +85,45 @@ if ( ! class_exists( 'WpssoAmGplAdminAmgeneral' ) ) {
 			else
 				$rows[] = $this->p->util->get_th( _x( 'iPad App Name',
 					'option label', 'wpsso-am' ), 'medium', 'post-am_ipad_app_name' ). 
-				'<td class="blank">'.$form->get_options( 'am_ipad_app_name' ).'</td>';
+				'<td class="blank"></td>';
 
 			$rows[] = '<tr class="hide_in_basic">'.
-			$this->p->util->get_th( _x( 'iPad App Custom URL Scheme',
+			$this->p->util->get_th( _x( 'iPad App URL Scheme',
 				'option label', 'wpsso-am' ), 'medium nowrap', 'post-am_ipad_app_url' ). 
-			'<td class="blank">'.$form->get_options( 'am_ipad_app_url' ).'</td>';
+			'<td class="blank"></td>';
+
+			$rows[] = $this->p->util->get_th( _x( 'Google Play App ID',
+				'option label', 'wpsso-am' ), 'medium', 'post-am_gplay_app_id' ). 
+			'<td class="blank"></td>';
+
+			if ( $post_status === 'auto-draft' )
+				$rows[] = $this->p->util->get_th( _x( 'Google Play App Name',
+					'option label', 'wpsso-am' ), 'medium', 'post-am_gplay_app_name' ). 
+				'<td class="blank"><em>'.$draft_msg.'</em></td>';
+			else
+				$rows[] = $this->p->util->get_th( _x( 'Google Play App Name',
+					'option label', 'wpsso-am' ), 'medium', 'post-am_gplay_app_name' ). 
+				'<td class="blank"></td>';
+
+			$rows[] = '<tr class="hide_in_basic">'.
+			$this->p->util->get_th( _x( 'Google Play App URL Scheme',
+				'option label', 'wpsso-am' ), 'medium nowrap', 'post-am_gplay_app_url' ). 
+			'<td class="blank"></td>';
 
 			$rows[] = '<td colspan="2" class="subsection"><h4>'.
-				_x( 'Google Play', 'metabox title', 'wpsso-am' ).'</h4></td>';
+				_x( 'Mobile App Banner', 'metabox title', 'wpsso-am' ).'</h4></td>';
 
-			$rows[] = $this->p->util->get_th( _x( 'App ID',
-				'option label', 'wpsso-am' ), 'medium', 'post-am_gplay_app_id' ). 
-			'<td class="blank">'.$form->get_options( 'am_gplay_app_id' ).'</td>';
+			$rows[] = $this->p->util->get_th( _x( 'App ID Number',
+				'option label', 'wpsso-am' ), 'medium', 'am_ws_itunes_app_id' ). 
+			'<td class="blank">'.$this->p->options['am_ws_itunes_app_id'].'</td>';
 
-			if ( $post_status === 'auto-draft' )
-				$rows[] = $this->p->util->get_th( _x( 'App Name',
-					'option label', 'wpsso-am' ), 'medium', 'post-am_gplay_app_name' ). 
-				'<td class="blank"><em>'.$draft_msg.'</em></td>';
-			else
-				$rows[] = $this->p->util->get_th( _x( 'App Name',
-					'option label', 'wpsso-am' ), 'medium', 'post-am_gplay_app_name' ). 
-				'<td class="blank">'.$form->get_options( 'am_gplay_app_name' ).'</td>';
+			$rows[] = $this->p->util->get_th( _x( 'Affiliate Data',
+				'option label', 'wpsso-am' ), 'medium', 'am_ws_itunes_app_aff' ).
+			'<td class="blank">'.$this->p->options['am_ws_itunes_app_aff'].'</td>';
 
-			$rows[] = '<tr class="hide_in_basic">'.
-			$this->p->util->get_th( _x( 'App Custom URL Scheme',
-				'option label', 'wpsso-am' ), 'medium nowrap', 'post-am_gplay_app_url' ). 
-			'<td class="blank">'.$form->get_options( 'am_gplay_app_url' ).'</td>';
+			$rows[] = $this->p->util->get_th( _x( 'Argument String',
+				'option label', 'wpsso-am' ), 'medium', 'am_ws_itunes_app_arg' ).
+			'<td class="blank">'.$this->p->options['am_ws_itunes_app_arg'].'</td>';
 
 			return $rows;
 		}
@@ -126,10 +137,6 @@ if ( ! class_exists( 'WpssoAmGplAdminAmgeneral' ) ) {
 				$this->p->msgs->get( 'pro-feature-msg', 
 					array( 'lca' => 'wpssoam' ) ).'</td>';
 
-			$rows[] = $this->p->util->get_th( _x( 'App Store Territory',
-				'option label', 'wpsso-am' ), null, 'am_ap_ast' ).
-			'<td class="blank">'.$this->p->options['am_ap_ast'].'</td>';
-
 			$checkboxes = '';
 			foreach ( $this->p->util->get_post_types( 'frontend' ) as $post_type )
 				$checkboxes .= '<p>'.$form->get_no_checkbox( 'am_ap_add_to_'.$post_type->name ).' '.
@@ -138,6 +145,10 @@ if ( ! class_exists( 'WpssoAmGplAdminAmgeneral' ) ) {
 			$rows[] = $this->p->util->get_th( _x( 'Show Tab on Post Types',
 				'option label', 'wpsso-am' ), null, 'am_ap_add_to' ).
 			'<td class="blank">'.$checkboxes.'</td>';
+
+			$rows[] = $this->p->util->get_th( _x( 'Default App Store Territory',
+				'option label', 'wpsso-am' ), null, 'am_ap_ast' ).
+			'<td class="blank">'.$this->p->options['am_ap_ast'].'</td>';
 
 			return $rows;
 		}
