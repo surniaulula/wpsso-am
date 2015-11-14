@@ -71,8 +71,8 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 
 		public function filter_get_defaults( $opts_def ) {
 			$opts_def = array_merge( $opts_def, self::$cf['opt']['defaults'] );
-			$opts_def = $this->p->util->push_add_to_options( $opts_def, array( 'am_ws' => 'frontend' ) );
-			$opts_def = $this->p->util->push_add_to_options( $opts_def, array( 'am_ap' => 'frontend' ) );
+			$opts_def = $this->p->util->push_add_to_options( $opts_def, array( 'am_ap' => 'frontend' ), 0 );
+			$opts_def = $this->p->util->push_add_to_options( $opts_def, array( 'am_ws' => 'frontend' ), 1 );
 			return $opts_def;
 		}
 
@@ -113,16 +113,18 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 				case 'am_ws_itunes_app_aff':
 				case 'am_ws_itunes_app_arg':
 				case 'am_iphone_app_name':
-				case 'am_iphone_app_url':
 				case 'am_ipad_app_name':
-				case 'am_ipad_app_url':
 				case 'am_gplay_app_id':
 				case 'am_gplay_app_name':
-				case 'am_gplay_app_url':
 					return 'ok_blank';
 					break;
 				case 'am_ap_ast':
 					return 'not_blank';
+					break;
+				case 'am_iphone_app_url':
+				case 'am_ipad_app_url':
+				case 'am_gplay_app_url':
+					return 'url';
 					break;
 			}
 			return $type;
@@ -164,7 +166,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 					$text = __( 'The name of your iPad application.', 'wpsso-am' );
 					break;
 				case 'tooltip-post-am_ipad_app_url':
-					$text = __( 'Your iPad App\'s <em>custom</em> URL scheme (you must include \'://\' after the scheme name).', 'wpsso-am' );
+					$text = __( 'Your iPad App\'s <em>custom</em> URL scheme (you must include "://" after the scheme name).', 'wpsso-am' );
 					break;
 				case 'tooltip-post-am_gplay_app_id':
 					$text = __( 'The fully qualified package name of your Google Play application (example: "com.google.android.apps.maps").', 'wpsso-am' );
@@ -173,7 +175,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 					$text = __( 'The name of your Google Play application.', 'wpsso-am' );
 					break;
 				case 'tooltip-post-am_gplay_app_url':
-					$text = __( 'Your Google Play App\'s <em>custom</em> URL scheme (you must include \'://\' after the scheme name).', 'wpsso-am' );
+					$text = __( 'Your Google Play App\'s <em>custom</em> URL scheme (you must include "://" after the scheme name).', 'wpsso-am' );
 					break;
 			}
 			return $text;
