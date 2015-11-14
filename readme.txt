@@ -92,7 +92,24 @@ The WordPress Social Sharing Optimization (WPSSO) plugin is required to use the 
 * [GitHub](https://github.com/SurniaUlula/wpsso-am)
 * [WordPress.org](https://wordpress.org/plugins/wpsso-am/developers/)
 
+= Version 1.4.0 (2015/11/13) =
+
+Official announcement: N/A
+
+* **New Features**
+	* Added a "Mobile App Banner" section under the App Products tab in the Social Settings metabox -- this allows for different Apple Store App IDs to be used in the mobile App banner for each Post, Page, and custom post type.
+* **Improvements**
+	* Re-grouped the Apple Store and Google Play options under a single "Twitter App Card" section under the App Products tab.
+	* Renamed the "Website Mobile App" metbox to "Mobile App Banner" on the WPSSO AM settings page.
+	* Updated various status and help messages, along with the French translation files.
+* **Bugfixes**
+	* *None*
+* **Developer Notes**
+	* *None*
+
 = Version 1.3.9 (2015/11/11) =
+
+Official announcement: N/A
 
 * **New Features**
 	* *None*
@@ -105,6 +122,8 @@ The WordPress Social Sharing Optimization (WPSSO) plugin is required to use the 
 
 = Version 1.3.8 (2015/10/11) =
 
+Official announcement: N/A
+
 * **New Features**
 	* Added a French language (fr_FR) translation.
 * **Improvements**
@@ -115,6 +134,8 @@ The WordPress Social Sharing Optimization (WPSSO) plugin is required to use the 
 	* *None*
 
 = Version 1.3.7 (2015/10/04) =
+
+Official announcement: N/A
 
 * **New Features**
 	* *None*
@@ -128,6 +149,8 @@ The WordPress Social Sharing Optimization (WPSSO) plugin is required to use the 
 
 = Version 1.3.6 (2015/09/19) =
 
+Official announcement: N/A
+
 * **New Features**
 	* *None*
 * **Improvements**
@@ -139,6 +162,8 @@ The WordPress Social Sharing Optimization (WPSSO) plugin is required to use the 
 
 = Version 1.3.5 2015/09/09 =
 
+Official announcement: N/A
+
 * **New Features**
 	* *None*
 * **Improvements**
@@ -149,6 +174,8 @@ The WordPress Social Sharing Optimization (WPSSO) plugin is required to use the 
 	* Added a WpssoAmRegister class with `WpssoUtil::save_time()` calls during activation to save install / activation / update timestamps.
 
 = Version 1.3.4 (2015/09/03) =
+
+Official announcement: N/A
 
 * **New Features**
 	* *None*
@@ -162,6 +189,8 @@ The WordPress Social Sharing Optimization (WPSSO) plugin is required to use the 
 
 = Version 1.3.3 (2015/08/04) =
 
+Official announcement: N/A
+
 * **New Features**
 	* *None*
 * **Improvements**
@@ -174,6 +203,8 @@ The WordPress Social Sharing Optimization (WPSSO) plugin is required to use the 
 
 = Version 1.3.2 =
 
+Official announcement: N/A
+
 * **New Features**
 	* *None*
 * **Improvements**
@@ -185,6 +216,8 @@ The WordPress Social Sharing Optimization (WPSSO) plugin is required to use the 
 
 = Version 1.3.1 (2015/04/21) =
 
+Official announcement: N/A
+
 * **New Features**
 	* *None*
 * **Improvements**
@@ -194,6 +227,8 @@ The WordPress Social Sharing Optimization (WPSSO) plugin is required to use the 
 	* Fixed variable references to a deprecated 'plugin_display' option.
 
 = Version 1.3 (2015/04/12) =
+
+Official announcement: N/A
 
 * **New Features**
 	* *None*
@@ -205,15 +240,11 @@ The WordPress Social Sharing Optimization (WPSSO) plugin is required to use the 
 
 == Upgrade Notice ==
 
+= 1.4.0 =
+
+2015/11/13 Added a "Mobile App Banner" section under the App Products tab in the Social Settings metabox.
+
 = 1.3.9 =
 
 2015/10/11 Fixed a check for the 'tc_enable' option key, which is no longer required.
-
-= 1.3.8 =
-
-2015/10/11 Added a French language (fr_FR) translation. Minor improvements to title / option text strings and contextual help messages.
-
-= 1.3.7 =
-
-2015/10/04 Added translation function calls to all option labels and popup help messages. Added POT (Portable Object Template) file with translation strings in languages/wpsso-am.pot.
 
