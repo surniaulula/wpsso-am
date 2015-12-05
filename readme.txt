@@ -92,6 +92,19 @@ The WordPress Social Sharing Optimization (WPSSO) plugin is required to use the 
 * [GitHub](https://github.com/SurniaUlula/wpsso-am)
 * [WordPress.org](https://wordpress.org/plugins/wpsso-am/developers/)
 
+= Version 1.4.1 (TBD) =
+
+Official announcement: N/A
+
+* **New Features**
+	* *None*
+* **Improvements**
+	* Renamed the "App Products" tab to "Mobile Apps".
+* **Bugfixes**
+	* *None*
+* **Developer Notes**
+	* *None*
+
 = Version 1.4.0 (2015/11/13) =
 
 Official announcement: N/A
@@ -160,7 +173,7 @@ Official announcement: N/A
 * **Developer Notes**
 	* Added a self-deactivation feature when WPSSO AM is activated and WPSSO is missing. 
 
-= Version 1.3.5 2015/09/09 =
+= Version 1.3.5 (2015/09/09) =
 
 Official announcement: N/A
 
@@ -243,8 +256,4 @@ Official announcement: N/A
 = 1.4.0 =
 
 2015/11/13 Added a "Mobile App Banner" section under the App Products tab in the Social Settings metabox.
-
-= 1.3.9 =
-
-2015/10/11 Fixed a check for the 'tc_enable' option key, which is no longer required.
 
