@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WPSSO App Meta (WPSSO AM) 1.3.8\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-am\n"
-"POT-Creation-Date: 2015-11-14 08:57-0700\n"
-"PO-Revision-Date: 2015-11-14 09:00-0700\n"
+"POT-Creation-Date: 2015-12-06 06:33-0700\n"
+"PO-Revision-Date: 2015-12-06 06:34-0700\n"
 "Last-Translator: JS Morisset <jsm@surniaulula.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -53,8 +53,8 @@ msgstr ""
 #: lib/filters.php:220 lib/filters.php:229 lib/gpl/admin/am-general.php:34
 #: lib/pro/admin/am-general.php:40
 msgctxt "metabox tab"
-msgid "App Products"
-msgstr "Produits App"
+msgid "Mobile Apps"
+msgstr "Apps Mobile"
 
 #: lib/filters.php:139 lib/filters.php:211 lib/filters.php:220
 #: lib/filters.php:229
@@ -330,32 +330,32 @@ msgctxt "metabox tab"
 msgid "Apple Store App"
 msgstr "App du Apple Store"
 
-#: lib/submenu/am-general.php:66
+#: lib/submenu/am-general.php:67
 msgctxt "option label"
 msgid "Add Banner to Index Webpages"
 msgstr "Ajouter aux pages Web d'index"
 
-#: lib/submenu/am-general.php:70
+#: lib/submenu/am-general.php:71
 msgctxt "option label"
 msgid "Add Banner to Static Homepage"
 msgstr "Ajouter à la page d'accueil statique"
 
-#: lib/submenu/am-general.php:80
+#: lib/submenu/am-general.php:81
 msgctxt "option label"
 msgid "Add Banner to Post Types"
 msgstr "Ajouter aux articles de type"
 
-#: lib/submenu/am-general.php:90
+#: lib/submenu/am-general.php:91
 msgctxt "option label"
 msgid "Default App ID Number"
 msgstr "Numéro d'ID App par défaut"
 
-#: lib/submenu/am-general.php:94
+#: lib/submenu/am-general.php:95
 msgctxt "option label"
 msgid "Default Affiliate Data"
 msgstr "Donnée d'affilié par défaut"
 
-#: lib/submenu/am-general.php:98
+#: lib/submenu/am-general.php:99
 msgctxt "option label"
 msgid "Default Argument String"
 msgstr "Chaîne d'arguments par défaut"
@@ -401,8 +401,8 @@ msgstr ""
 "Google Play App pour mobile Safari de Apple et la carte App de Twitter."
 
 #. Author of the plugin/theme
-msgid "Jean-Sebastien Morisset"
-msgstr "Jean-Sebastien Morisset"
+msgid "JS Morisset"
+msgstr "JS Morisset"
 
 #. Author URI of the plugin/theme
 msgid "http://surniaulula.com/"
