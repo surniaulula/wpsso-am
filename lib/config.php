@@ -15,7 +15,7 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 		public static $cf = array(
 			'plugin' => array(
 				'wpssoam' => array(
-					'version' => '1.4.0',	// plugin version
+					'version' => '1.4.1',	// plugin version
 					'short' => 'WPSSO AM',
 					'name' => 'WPSSO Mobile App Meta (WPSSO AM)',
 					'desc' => 'WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags for Apple\'s mobile Safari and Twitter\'s App Card.',

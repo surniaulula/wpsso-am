@@ -39,6 +39,7 @@ if ( ! class_exists( 'WpssoAmSubmenuAmgeneral' ) && class_exists( 'WpssoAdmin' )
 			$tabs = apply_filters( $this->p->cf['lca'].'_'.$metabox.'_tabs', array(
 				'itunes' => _x( 'Apple Store App', 'metabox tab', 'wpsso-am' ),
 			) );
+
 			$rows = array();
 			foreach ( $tabs as $key => $title )
 				$rows[$key] = array_merge( $this->get_rows( $metabox, $key ), 

@@ -31,7 +31,7 @@ if ( ! class_exists( 'WpssoAmGplAdminAmgeneral' ) ) {
 			foreach ( $tabs as $key => $val ) {
 				$new_tabs[$key] = $val;
 				if ( $key === 'media' )
-					$new_tabs['appmeta'] = _x( 'App Products',
+					$new_tabs['appmeta'] = _x( 'Mobile Apps',
 						'metabox tab', 'wpsso-am' );
 			}
 			return $new_tabs;
