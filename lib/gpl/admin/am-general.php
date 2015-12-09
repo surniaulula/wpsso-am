@@ -15,16 +15,13 @@ if ( ! class_exists( 'WpssoAmGplAdminAmgeneral' ) ) {
 		public function __construct( &$plugin ) {
 			$this->p =& $plugin;
 			$this->p->util->add_plugin_filters( $this, array( 
-				'post_tabs' => 1,
+				'post_tabs' => 3,
 				'post_appmeta_rows' => 3,
 				'appmeta_general_rows' => 2,
 			), 100 );
 		}
 
-		public function filter_post_tabs( $tabs ) {
-			if ( ( $obj = $this->p->util->get_post_object() ) === false ) 
-				return $tabs;
-			$post_type = get_post_type_object( $obj->post_type );
+		public function filter_post_tabs( $tabs, $post, $post_type ) {
 			if ( empty( $this->p->options[ 'am_ap_add_to_'.$post_type->name ] ) )
 				return $tabs;
 			$new_tabs = array();	// new array to insert am after media tab
@@ -138,9 +135,10 @@ if ( ! class_exists( 'WpssoAmGplAdminAmgeneral' ) ) {
 					array( 'lca' => 'wpssoam' ) ).'</td>';
 
 			$checkboxes = '';
-			foreach ( $this->p->util->get_post_types( 'frontend' ) as $post_type )
+			foreach ( $this->p->util->get_post_types() as $post_type )
 				$checkboxes .= '<p>'.$form->get_no_checkbox( 'am_ap_add_to_'.$post_type->name ).' '.
-					$post_type->label.' '.( empty( $post_type->description ) ? '' : '('.$post_type->description.')' ).'</p>';
+					$post_type->label.' '.( empty( $post_type->description ) ? 
+						'' : '('.$post_type->description.')' ).'</p>';
 
 			$rows[] = $this->p->util->get_th( _x( 'Show Tab on Post Types',
 				'option label', 'wpsso-am' ), null, 'am_ap_add_to' ).

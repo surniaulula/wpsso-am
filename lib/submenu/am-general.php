@@ -73,7 +73,7 @@ if ( ! class_exists( 'WpssoAmSubmenuAmgeneral' ) && class_exists( 'WpssoAdmin' )
 					'<td>'.$this->form->get_checkbox( 'am_ws_on_front' ).'</td>';
 
 					$checkboxes = '';
-					foreach ( $this->p->util->get_post_types( 'frontend' ) as $post_type )
+					foreach ( $this->p->util->get_post_types() as $post_type )
 						$checkboxes .= '<p>'.$this->form->get_checkbox( 'am_ws_add_to_'.$post_type->name ).' '.
 							$post_type->label.' '.( empty( $post_type->description ) ?
 								'' : '('.$post_type->description.')' ).'</p>';

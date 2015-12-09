@@ -71,8 +71,10 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 
 		public function filter_get_defaults( $opts_def ) {
 			$opts_def = array_merge( $opts_def, self::$cf['opt']['defaults'] );
-			$opts_def = $this->p->util->push_add_to_options( $opts_def, array( 'am_ap' => 'frontend' ), 0 );
-			$opts_def = $this->p->util->push_add_to_options( $opts_def, array( 'am_ws' => 'frontend' ), 1 );
+			$opts_def = $this->p->util->add_ptns_to_opts( $opts_def, array(
+				'am_ap_add_to' => 0,
+				'am_ws_add_to' => 1,
+			) );
 			return $opts_def;
 		}
 
