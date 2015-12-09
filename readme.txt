@@ -92,6 +92,19 @@ The WordPress Social Sharing Optimization (WPSSO) plugin is required to use the 
 * [GitHub](https://github.com/SurniaUlula/wpsso-am)
 * [WordPress.org](https://wordpress.org/plugins/wpsso-am/developers/)
 
+= Version 1.4.2 (2015/12/09) =
+
+* **New Features**
+	* *None*
+* **Improvements**
+	* *None*
+* **Bugfixes**
+	* *None*
+* **Developer Notes**
+	* Updated tested up to WP v4.4.
+	* Updated minimum required version to WPSSO v3.18.0.
+	* Updated method names and arguments for WPSSO v3.18.0. 
+
 = Version 1.4.1 (2015/12/06) =
 
 Official announcement: N/A
@@ -121,6 +134,10 @@ Official announcement: N/A
 	* *None*
 
 == Upgrade Notice ==
+
+= 1.4.2 =
+
+2015/12/09 Updated the required and tested version strings. Updated method names and arguments for WPSSO v3.18.0. 
 
 = 1.4.1 =
 
