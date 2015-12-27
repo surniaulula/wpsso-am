@@ -92,6 +92,18 @@ The WordPress Social Sharing Optimization (WPSSO) plugin is required to use the 
 * [GitHub](https://github.com/SurniaUlula/wpsso-am)
 * [WordPress.org](https://wordpress.org/plugins/wpsso-am/developers/)
 
+= Version 1.4.3 (2015/12/27) =
+
+* **New Features**
+	* *None*
+* **Improvements**
+	* *None*
+* **Bugfixes**
+	* *None*
+* **Developer Notes**
+	* Updated minimum required version to WPSSO v3.20.0.
+	* Updated the settings page construct to include the library name argument.
+
 = Version 1.4.2 (2015/12/09) =
 
 * **New Features**
@@ -135,11 +147,11 @@ Official announcement: N/A
 
 == Upgrade Notice ==
 
+= 1.4.3 =
+
+2015/12/27 - Updated minimum required version to WPSSO v3.20.0. Updated the settings page construct to include the library name argument.
+
 = 1.4.2 =
 
 2015/12/09 - Updated the required and tested version strings. Updated method names and arguments for WPSSO v3.18.0. 
-
-= 1.4.1 =
-
-2015/12/06 - Renamed the "App Products" tab to "Mobile Apps".
 
