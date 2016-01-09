@@ -151,7 +151,3 @@ Official announcement: N/A
 
 2015/12/27 - Updated minimum required version to WPSSO v3.20.0. Updated the settings page construct to include the library name argument.
 
-= 1.4.2 =
-
-2015/12/09 - Updated the required and tested version strings. Updated method names and arguments for WPSSO v3.18.0. 
-
