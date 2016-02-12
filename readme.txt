@@ -98,36 +98,36 @@ The WordPress Social Sharing Optimization (WPSSO) plugin is required to use the 
 
 Maintenance release for WordPress Social Sharing Optimization (WPSSO) v3.24.0.
 
-* **New Features**
-	* *None*
-* **Improvements**
-	* *None*
-* **Bugfixes**
-	* *None*
-* **Developer Notes**
+* *New Features*
+	* None
+* *Improvements*
+	* None
+* *Bugfixes*
+	* None
+* *Developer Notes*
 	* Renamed all core 'wpsso_*_tabs' filters for WPSSO v3.24.0.
 
 **Version 1.4.3 (2015/12/27)**
 
-* **New Features**
-	* *None*
-* **Improvements**
-	* *None*
-* **Bugfixes**
-	* *None*
-* **Developer Notes**
+* *New Features*
+	* None
+* *Improvements*
+	* None
+* *Bugfixes*
+	* None
+* *Developer Notes*
 	* Updated minimum required version to WPSSO v3.20.0.
 	* Updated the settings page construct to include the library name argument.
 
 **Version 1.4.2 (2015/12/09)**
 
-* **New Features**
-	* *None*
-* **Improvements**
-	* *None*
-* **Bugfixes**
-	* *None*
-* **Developer Notes**
+* *New Features*
+	* None
+* *Improvements*
+	* None
+* *Bugfixes*
+	* None
+* *Developer Notes*
 	* Updated tested up to WP v4.4.
 	* Updated minimum required version to WPSSO v3.18.0.
 	* Updated method names and arguments for WPSSO v3.18.0. 
@@ -136,29 +136,29 @@ Maintenance release for WordPress Social Sharing Optimization (WPSSO) v3.24.0.
 
 Official announcement: N/A
 
-* **New Features**
-	* *None*
-* **Improvements**
+* *New Features*
+	* None
+* *Improvements*
 	* Renamed the "App Products" tab to "Mobile Apps".
-* **Bugfixes**
-	* *None*
-* **Developer Notes**
-	* *None*
+* *Bugfixes*
+	* None
+* *Developer Notes*
+	* None
 
 **Version 1.4.0 (2015/11/13)**
 
 Official announcement: N/A
 
-* **New Features**
+* *New Features*
 	* Added a "Mobile App Banner" section under the App Products tab in the Social Settings metabox -- this allows for different Apple Store App IDs to be used in the mobile App banner for each Post, Page, and custom post type.
-* **Improvements**
+* *Improvements*
 	* Re-grouped the Apple Store and Google Play options under a single "Twitter App Card" section under the App Products tab.
 	* Renamed the "Website Mobile App" metbox to "Mobile App Banner" on the WPSSO AM settings page.
 	* Updated various status and help messages, along with the French translation files.
-* **Bugfixes**
-	* *None*
-* **Developer Notes**
-	* *None*
+* *Bugfixes*
+	* None
+* *Developer Notes*
+	* None
 
 == Upgrade Notice ==
 
