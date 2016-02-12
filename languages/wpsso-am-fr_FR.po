@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WPSSO App Meta (WPSSO AM) 1.5.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-am\n"
-"POT-Creation-Date: 2015-12-08 11:49-0700\n"
-"PO-Revision-Date: 2015-12-08 11:50-0700\n"
+"POT-Creation-Date: 2016-02-12 08:04-0400\n"
+"PO-Revision-Date: 2016-02-12 08:04-0400\n"
 "Last-Translator: JS Morisset <jsm@surniaulula.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -284,7 +284,7 @@ msgid "Google Play App URL Scheme"
 msgstr "Schéma URL App Google Play"
 
 #: lib/gpl/admin/am-general.php:111 lib/pro/admin/am-general.php:117
-#: lib/submenu/am-general.php:27
+#: lib/submenu/am-general.php:28
 msgctxt "metabox title"
 msgid "Mobile App Banner"
 msgstr "Bannière App Mobile"
@@ -320,42 +320,42 @@ msgstr ""
 "Enregistrer une version brouillon ou publier le %s pour mettre à jour et "
 "activer ce champ."
 
-#: lib/submenu/am-general.php:24
+#: lib/submenu/am-general.php:25
 msgctxt "metabox title"
 msgid "Mobile App Products"
 msgstr "Produits App Mobile"
 
-#: lib/submenu/am-general.php:40
+#: lib/submenu/am-general.php:41
 msgctxt "metabox tab"
 msgid "Apple Store App"
 msgstr "App du Apple Store"
 
-#: lib/submenu/am-general.php:67
+#: lib/submenu/am-general.php:68
 msgctxt "option label"
 msgid "Add Banner to Index Webpages"
 msgstr "Ajouter aux pages Web d'index"
 
-#: lib/submenu/am-general.php:71
+#: lib/submenu/am-general.php:72
 msgctxt "option label"
 msgid "Add Banner to Static Homepage"
 msgstr "Ajouter à la page d'accueil statique"
 
-#: lib/submenu/am-general.php:81
+#: lib/submenu/am-general.php:82
 msgctxt "option label"
 msgid "Add Banner to Post Types"
 msgstr "Ajouter aux articles de type"
 
-#: lib/submenu/am-general.php:91
+#: lib/submenu/am-general.php:92
 msgctxt "option label"
 msgid "Default App ID Number"
 msgstr "Numéro d'ID App par défaut"
 
-#: lib/submenu/am-general.php:95
+#: lib/submenu/am-general.php:96
 msgctxt "option label"
 msgid "Default Affiliate Data"
 msgstr "Donnée d'affilié par défaut"
 
-#: lib/submenu/am-general.php:99
+#: lib/submenu/am-general.php:100
 msgctxt "option label"
 msgid "Default Argument String"
 msgstr "Chaîne d'arguments par défaut"
