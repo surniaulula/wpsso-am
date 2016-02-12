@@ -94,6 +94,8 @@ The WordPress Social Sharing Optimization (WPSSO) plugin is required to use the 
 
 = Version 1.5.0 (TBD) =
 
+Maintenance release for WordPress Social Sharing Optimization (WPSSO) v3.24.0.
+
 * **New Features**
 	* *None*
 * **Improvements**
@@ -101,7 +103,7 @@ The WordPress Social Sharing Optimization (WPSSO) plugin is required to use the 
 * **Bugfixes**
 	* *None*
 * **Developer Notes**
-	* *None*
+	* Renamed all core 'wpsso_*_tabs' filters for WPSSO v3.24.0.
 
 = Version 1.4.3 (2015/12/27) =
 
@@ -158,7 +160,7 @@ Official announcement: N/A
 
 == Upgrade Notice ==
 
-= 1.4.3 =
+= 1.5.0 =
 
-2015/12/27 - Updated minimum required version to WPSSO v3.20.0. Updated the settings page construct to include the library name argument.
+2016/02/13 - Maintenance release for WordPress Social Sharing Optimization (WPSSO) v3.24.0.
 
