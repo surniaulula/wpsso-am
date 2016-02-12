@@ -37,7 +37,7 @@ if ( ! class_exists( 'WpssoAmSubmenuAmgeneral' ) && class_exists( 'WpssoAdmin' )
 					echo '<tr>'.$row.'</tr>';
 			echo '</table>';
 
-			$tabs = apply_filters( $this->p->cf['lca'].'_'.$metabox.'_tabs', array(
+			$tabs = apply_filters( $this->p->cf['lca'].'_general_banner_tabs', array(
 				'itunes' => _x( 'Apple Store App', 'metabox tab', 'wpsso-am' ),
 			) );
 

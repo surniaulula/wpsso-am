@@ -15,13 +15,13 @@ if ( ! class_exists( 'WpssoAmGplAdminAmgeneral' ) ) {
 		public function __construct( &$plugin ) {
 			$this->p =& $plugin;
 			$this->p->util->add_plugin_filters( $this, array( 
-				'post_tabs' => 3,
+				'post_social_settings_tabs' => 3,
 				'post_appmeta_rows' => 3,
 				'appmeta_general_rows' => 2,
 			), 100 );
 		}
 
-		public function filter_post_tabs( $tabs, $post, $post_type ) {
+		public function filter_post_social_settings_tabs( $tabs, $post, $post_type ) {
 			if ( empty( $this->p->options[ 'am_ap_add_to_'.$post_type->name ] ) )
 				return $tabs;
 			$new_tabs = array();	// new array to insert am after media tab
