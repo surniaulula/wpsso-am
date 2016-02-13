@@ -26,6 +26,7 @@ if ( ! class_exists( 'WpssoAm' ) ) {
 
 		public $p;			// Wpsso
 		public $reg;			// WpssoAmRegister
+		public $filters;		// WpssoAmFilters
 
 		protected static $instance = null;
 
@@ -104,8 +105,7 @@ if ( ! class_exists( 'WpssoAm' ) ) {
 			if ( self::$wpsso_has_min_ver === false )
 				return;		// stop here
 
-			WpssoAmConfig::load_lib( false, 'filters' );
-			$this->p->am = new WpssoAmFilters( $this->p, __FILE__ );
+			$this->filters = new WpssoAmFilters( $this->p, __FILE__ );
 		}
 
 		public function wpsso_init_plugin() {
