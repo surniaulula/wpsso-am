@@ -236,7 +236,8 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 
 		// adds the website app meta tag to the $mt_name array
 		public function filter_meta_name( $mt_name, $use_post, $obj ) {
-			$this->p->debug->mark();
+			if ( $this->p->debug->enabled )
+				$this->p->debug->mark();
 			$post_type = false;
 
 			if ( ! is_singular() ) {
@@ -273,7 +274,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 				}
 				if ( $this->p->debug->enabled )
 					$this->p->debug->log( 'loading options from object ID '.$obj->ID );
-				$opts = $this->p->mods['util']['post']->get_options( $obj->ID );
+				$opts = $this->p->m['util']['post']->get_options( $obj->ID );
 			}
 
 			if ( ! empty( $opts['am_ws_itunes_app_aff'] ) )
