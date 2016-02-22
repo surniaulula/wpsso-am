@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WPSSO App Meta (WPSSO AM) 1.5.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-am\n"
-"POT-Creation-Date: 2016-02-12 08:04-0400\n"
-"PO-Revision-Date: 2016-02-12 08:04-0400\n"
+"POT-Creation-Date: 2016-02-14 07:15-0400\n"
+"PO-Revision-Date: 2016-02-14 07:15-0400\n"
 "Last-Translator: JS Morisset <jsm@surniaulula.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -360,7 +360,7 @@ msgctxt "option label"
 msgid "Default Argument String"
 msgstr "Chaîne d'arguments par défaut"
 
-#: wpsso-am.php:74
+#: wpsso-am.php:75
 msgid ""
 "The %1$s extension requires the %2$s plugin &mdash; please install and "
 "activate the %3$s plugin before trying to re-activate the %4$s extension."
@@ -368,7 +368,7 @@ msgstr ""
 "L'extension %1$s requiert %2$s &mdash; s'il vous plaît installer et activer "
 "l'extension %3$s avant d'essayer de re-activer %4$s."
 
-#: wpsso-am.php:76
+#: wpsso-am.php:77
 msgid ""
 "The %1$s extension requires the %2$s plugin &mdash; please install and "
 "activate the %3$s plugin."
