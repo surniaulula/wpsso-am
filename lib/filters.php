@@ -50,7 +50,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 			$this->plugin_filepath = $plugin_filepath;
 			$this->p->util->add_plugin_filters( $this, array( 
 				'get_defaults' => 1,
-				'get_post_defaults' => 1,
+				'get_meta_defaults' => 2,
 			) );
 			if ( is_admin() ) {
 				$this->p->util->add_plugin_filters( $this, array( 
@@ -69,17 +69,17 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 				) );
 		}
 
-		public function filter_get_defaults( $opts_def ) {
-			$opts_def = array_merge( $opts_def, self::$cf['opt']['defaults'] );
-			$opts_def = $this->p->util->add_ptns_to_opts( $opts_def, array(
+		public function filter_get_defaults( $def_opts ) {
+			$def_opts = array_merge( $def_opts, self::$cf['opt']['defaults'] );
+			$def_opts = $this->p->util->add_ptns_to_opts( $def_opts, array(
 				'am_ap_add_to' => 0,
 				'am_ws_add_to' => 1,
 			) );
-			return $opts_def;
+			return $def_opts;
 		}
 
-		public function filter_get_post_defaults( $opts_def ) {
-			$opts_def = array_merge( $opts_def, array(
+		public function filter_get_meta_defaults( $def_opts, $mod_name ) {
+			$def_opts = array_merge( $def_opts, array(
 				'am_ap_ast' => -1,
 				'am_iphone_app_id' => '',
 				'am_iphone_app_name' => '',
@@ -94,7 +94,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 				'am_ws_itunes_app_aff' => '',
 				'am_ws_itunes_app_arg' => '',
 			) );
-			return $opts_def;
+			return $def_opts;
 		}
 
 		public function filter_option_type( $type, $key ) {
