@@ -98,6 +98,19 @@ Purchase the [WPSSO Mobile App Meta (WPSSO AM) Pro](http://wpsso.com/extend/plug
 
 = Changelog / Release Notes =
 
+**Version 1.5.1 (2016/02/23)**
+
+Official announcement: N/A
+
+* *New Features*
+	* None
+* *Improvements*
+	* None
+* *Bugfixes*
+	* Fixed default option values in the Social Settings metabox by renaming the 'wpsso_get_post_defaults' filter hook to 'wpsso_get_meta_defaults'.
+* *Developer Notes*
+	* None
+
 **Version 1.5.0 (2016/02/14)**
 
 Maintenance release for WordPress Social Sharing Optimization (WPSSO) v3.24.0.
@@ -112,6 +125,10 @@ Maintenance release for WordPress Social Sharing Optimization (WPSSO) v3.24.0.
 	* Renamed all core 'wpsso_*_tabs' filters for WPSSO v3.24.0.
 
 == Upgrade Notice ==
+
+= 1.5.1 =
+
+2016/02/23 - Fixed default option values in the Social Settings metabox.
 
 = 1.5.0 =
 
