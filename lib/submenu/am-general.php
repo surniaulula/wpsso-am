@@ -12,11 +12,12 @@ if ( ! class_exists( 'WpssoAmSubmenuAmgeneral' ) && class_exists( 'WpssoAdmin' )
 
 	class WpssoAmSubmenuAmgeneral extends WpssoAdmin {
 
-		public function __construct( &$plugin, $id, $name, $lib ) {
+		public function __construct( &$plugin, $id, $name, $lib, $ext ) {
 			$this->p =& $plugin;
 			$this->menu_id = $id;
 			$this->menu_name = $name;
 			$this->menu_lib = $lib;
+			$this->menu_ext = $ext;
 		}
 
 		protected function add_meta_boxes() {
