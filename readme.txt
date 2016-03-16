@@ -98,6 +98,19 @@ Purchase the [WPSSO Mobile App Meta (WPSSO AM) Pro](http://wpsso.com/extend/plug
 
 = Changelog / Release Notes =
 
+**Version 1.6.0 (TBD)**
+
+Official announcement: N/A
+
+* *New Features*
+	* None
+* *Improvements*
+	* None
+* *Bugfixes*
+	* None
+* *Developer Notes*
+	* None
+
 **Version 1.5.1 (2016/02/23)**
 
 Official announcement: N/A
