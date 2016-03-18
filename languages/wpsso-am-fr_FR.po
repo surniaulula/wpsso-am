@@ -2,10 +2,10 @@
 # This file is distributed under the same license as the WPSSO App Meta (WPSSO AM) package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WPSSO App Meta (WPSSO AM) 1.5.1\n"
+"Project-Id-Version: WPSSO App Meta (WPSSO AM) 1.6.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-am\n"
-"POT-Creation-Date: 2016-02-23 07:42-0400\n"
-"PO-Revision-Date: 2016-02-23 07:42-0400\n"
+"POT-Creation-Date: 2016-03-18 08:54-0400\n"
+"PO-Revision-Date: 2016-03-18 08:54-0400\n"
 "Last-Translator: JS Morisset <jsm@surniaulula.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -29,7 +29,7 @@ msgstr ""
 "Une extension WPSSO qui fournie des balises méta Apple Store / iTunes et "
 "Google Play App pour mobile Safari de Apple et la carte App de Twitter."
 
-#: lib/filters.php:138
+#: lib/filters.php:137
 msgid ""
 "Creates a banner advertisement in Apple's mobile Safari for your website's "
 "mobile App (as an alternative to using a mobile browser)."
@@ -38,7 +38,7 @@ msgstr ""
 "application mobile de site Web (comme alternative à l'utilisation d'un "
 "navigateur mobile)."
 
-#: lib/filters.php:141 lib/filters.php:231
+#: lib/filters.php:140 lib/filters.php:230
 msgid ""
 "An <em>%1$s</em> tab can be added to the %2$s metabox on Posts, Pages, and "
 "custom post types, allowing you to enter specific information about one or "
@@ -49,20 +49,20 @@ msgstr ""
 "d'entrer des informations d'une ou plusieurs applications mobile Apple Store "
 "et Google Play."
 
-#: lib/filters.php:141 lib/filters.php:144 lib/filters.php:213
-#: lib/filters.php:222 lib/filters.php:231 lib/gpl/admin/am-general.php:31
-#: lib/pro/admin/am-general.php:37
+#: lib/filters.php:140 lib/filters.php:143 lib/filters.php:212
+#: lib/filters.php:221 lib/filters.php:230 lib/gpl/admin/am-post.php:30
+#: lib/pro/admin/am-post.php:41
 msgctxt "metabox tab"
 msgid "Mobile Apps"
 msgstr "Apps Mobile"
 
-#: lib/filters.php:141 lib/filters.php:213 lib/filters.php:222
-#: lib/filters.php:231
+#: lib/filters.php:140 lib/filters.php:212 lib/filters.php:221
+#: lib/filters.php:230
 msgctxt "metabox title"
 msgid "Social Settings"
 msgstr "Réglages Sociaux"
 
-#: lib/filters.php:144 lib/filters.php:231
+#: lib/filters.php:143 lib/filters.php:230
 msgid ""
 "The <em>%s</em> information is used to create meta tags for Twitter's App "
 "Card and customize a mobile App banner for Apple's mobile Safari."
@@ -71,7 +71,7 @@ msgstr ""
 "la carte App de Twitter et personnaliser la bannière d'App pour le "
 "navigateur mobile Safari d'Apple."
 
-#: lib/filters.php:156
+#: lib/filters.php:155
 msgid ""
 "The numeric representation of your iPhone application ID in the App Store "
 "(example: \"307234931\")."
@@ -79,11 +79,11 @@ msgstr ""
 "La représentation numérique de votre ID d'application iPhone dans l'App "
 "Store (exemple: \"307234931\")."
 
-#: lib/filters.php:159
+#: lib/filters.php:158
 msgid "The name of your iPhone application."
 msgstr "Le nom de votre application iPhone."
 
-#: lib/filters.php:162
+#: lib/filters.php:161
 msgid ""
 "Your iPhone App's <em>custom</em> URL scheme (you must include \"://\" after "
 "the scheme name)."
@@ -91,7 +91,7 @@ msgstr ""
 "Le schéma d'URL <em>personnalisé</em> de votre App iPhone (vous devez "
 "inclure \"://\" suivant le nom du schéma)."
 
-#: lib/filters.php:165
+#: lib/filters.php:164
 msgid ""
 "The numeric representation of your iPad application ID in the App Store "
 "(example: \"307234931\")."
@@ -99,11 +99,11 @@ msgstr ""
 "La représentation numérique de votre ID d'application iPad dans l'App Store "
 "(exemple: \"307234931\")."
 
-#: lib/filters.php:168
+#: lib/filters.php:167
 msgid "The name of your iPad application."
 msgstr "Le nom de votre application iPad."
 
-#: lib/filters.php:171
+#: lib/filters.php:170
 msgid ""
 "Your iPad App's <em>custom</em> URL scheme (you must include \"://\" after "
 "the scheme name)."
@@ -111,7 +111,7 @@ msgstr ""
 "Le schéma d'URL <em>personnalisé</em> de votre App iPad (vous devez inclure "
 "\"://\" suivant le nom du schéma)."
 
-#: lib/filters.php:174
+#: lib/filters.php:173
 msgid ""
 "The fully qualified package name of your Google Play application (example: "
 "\"com.google.android.apps.maps\")."
@@ -119,11 +119,11 @@ msgstr ""
 "Le nom complet du paquet de votre application Google Play (example: \"com."
 "google.android.apps.maps\")."
 
-#: lib/filters.php:177
+#: lib/filters.php:176
 msgid "The name of your Google Play application."
 msgstr "Le nom de votre application Google Play."
 
-#: lib/filters.php:180
+#: lib/filters.php:179
 msgid ""
 "Your Google Play App's <em>custom</em> URL scheme (you must include \"://\" "
 "after the scheme name)."
@@ -131,19 +131,19 @@ msgstr ""
 "Le schéma d'URL <em>personnalisé</em> de votre application Google Play (vous "
 "devez inclure \"://\" suivant le nom du schéma)."
 
-#: lib/filters.php:192
+#: lib/filters.php:191
 msgid "Add meta tags for the website's mobile App to index and archive pages."
 msgstr ""
 "Ajouter les balises méta pour l'App mobile du site Web aux pages d'index et "
 "archives."
 
-#: lib/filters.php:195
+#: lib/filters.php:194
 msgid "Add meta tags for the website's mobile App to a static front page."
 msgstr ""
 "Ajouter les balises méta pour l'App mobile du site Web à la page d'accueil "
 "statique."
 
-#: lib/filters.php:198
+#: lib/filters.php:197
 msgid ""
 "Add meta tags for the website's mobile App to Posts, Pages, and custom post "
 "types."
@@ -151,15 +151,15 @@ msgstr ""
 "Ajouter les balises méta pour l'App mobile du site Web aux Articles, Pages, "
 "et articles de type personnalisé."
 
-#: lib/filters.php:201
+#: lib/filters.php:200
 msgid "A mobile App ID in the Apple Store (example: \"307234931\")."
 msgstr "L'ID d'une App mobile dans l'Apple Store (exemple: \"307234931\")."
 
-#: lib/filters.php:204
+#: lib/filters.php:203
 msgid "If you have an iTunes affiliate string, enter it here."
 msgstr "Si vous avez une chaîne d'affiliation iTunes, entrez-la ici."
 
-#: lib/filters.php:207
+#: lib/filters.php:206
 msgid ""
 "A query string - which may include one or more inline variables - to provide "
 "context to your website's mobile App. If the user has your mobile App "
@@ -171,17 +171,17 @@ msgstr ""
 "votre App mobile installée, cette chaîne permet de sauter du site Web au "
 "même contenu sur l'App mobile."
 
-#: lib/filters.php:210
+#: lib/filters.php:209
 msgid "The App Store country providing your application."
 msgstr "Le pays du App Store fournissant votre application."
 
-#: lib/filters.php:213
+#: lib/filters.php:212
 msgid "Include the <em>%1$s</em> tab in the %2$s metabox on Posts, Pages, etc."
 msgstr ""
 "Inclure l'onglet <em>%1$s</em> dans la metabox %2$s, sur les Pages, "
 "Articles, etc.."
 
-#: lib/filters.php:222
+#: lib/filters.php:221
 msgid ""
 "These options provide a way to present a banner advertisement in Apple's "
 "mobile Safari for your Apple Store App(s)."
@@ -189,7 +189,7 @@ msgstr ""
 "Ces options offrent un moyen de présenter une bannière publicitaire pour vos "
 "Apps du Apple Store dans le navigateur mobile Safari d'Apple."
 
-#: lib/filters.php:222
+#: lib/filters.php:221
 msgid ""
 "The banner advertisement allows users of your website to download your "
 "mobile App and/or switch to your mobile App when using Apple's mobile Safari."
@@ -198,7 +198,7 @@ msgstr ""
 "mobile et/ou de basculer vers l'application du Apple Store au lieu "
 "d'utiliser le navigateur Safari mobile d'Apple."
 
-#: lib/filters.php:222
+#: lib/filters.php:221
 msgid ""
 "The Apple Store App information can be customized for each Post, Page, and "
 "custom post type under the <em>%1$s</em> tab (enabled above) in the %2$s "
@@ -208,7 +208,7 @@ msgstr ""
 "chaque Article, Page et les article de type personnalisé, dans l'onglet <em>"
 "%1$s</em> (activé ci-dessus) dans le metabox %2$s."
 
-#: lib/filters.php:227
+#: lib/filters.php:226
 msgid ""
 "If you have an Apple Store App to access your website (as an alternative to "
 "using mobile web browsers, for example) and/or want to promote a single "
@@ -218,144 +218,147 @@ msgstr ""
 "(comme alternative au navigateurs web mobile) et/ou vous voulez promouvoir "
 "une seule App du Apple Store sur votre site Web, entrer ces détailles ici."
 
-#: lib/gpl/admin/am-general.php:42
-msgid ""
-"Save a draft version or publish the %s to update and display this value."
-msgstr ""
-"Enregistrer une version brouillon ou publier le %s pour mettre à jour et "
-"afficher cette valeur."
-
-#: lib/gpl/admin/am-general.php:50 lib/pro/admin/am-general.php:54
-msgctxt "metabox title"
-msgid "Twitter App Card"
-msgstr "Carte Twitter App"
-
-#: lib/gpl/admin/am-general.php:52 lib/pro/admin/am-general.php:56
-msgctxt "option label"
-msgid "App Store Territory"
-msgstr "Territoire du App Store"
-
-#: lib/gpl/admin/am-general.php:56 lib/pro/admin/am-general.php:62
-msgctxt "option label"
-msgid "iPhone App ID"
-msgstr "ID d'App iPhone"
-
-#: lib/gpl/admin/am-general.php:61 lib/gpl/admin/am-general.php:65
-#: lib/pro/admin/am-general.php:67 lib/pro/admin/am-general.php:71
-msgctxt "option label"
-msgid "iPhone App Name"
-msgstr "Nom d'App iPhone"
-
-#: lib/gpl/admin/am-general.php:70 lib/pro/admin/am-general.php:76
-msgctxt "option label"
-msgid "iPhone App URL Scheme"
-msgstr "Schéma URL App iPhone"
-
-#: lib/gpl/admin/am-general.php:74 lib/pro/admin/am-general.php:80
-msgctxt "option label"
-msgid "iPad App ID"
-msgstr "ID d'App iPad"
-
-#: lib/gpl/admin/am-general.php:79 lib/gpl/admin/am-general.php:83
-#: lib/pro/admin/am-general.php:85 lib/pro/admin/am-general.php:89
-msgctxt "option label"
-msgid "iPad App Name"
-msgstr "Nom d'App iPad"
-
-#: lib/gpl/admin/am-general.php:88 lib/pro/admin/am-general.php:94
-msgctxt "option label"
-msgid "iPad App URL Scheme"
-msgstr "Schéma URL App iPad"
-
-#: lib/gpl/admin/am-general.php:92 lib/pro/admin/am-general.php:98
-msgctxt "option label"
-msgid "Google Play App ID"
-msgstr "ID d'App Google Play"
-
-#: lib/gpl/admin/am-general.php:97 lib/gpl/admin/am-general.php:101
-#: lib/pro/admin/am-general.php:103 lib/pro/admin/am-general.php:107
-msgctxt "option label"
-msgid "Google Play App Name"
-msgstr "Nom d'App Google Play"
-
-#: lib/gpl/admin/am-general.php:106 lib/pro/admin/am-general.php:112
-msgctxt "option label"
-msgid "Google Play App URL Scheme"
-msgstr "Schéma URL App Google Play"
-
-#: lib/gpl/admin/am-general.php:111 lib/pro/admin/am-general.php:117
-#: lib/submenu/am-general.php:28
-msgctxt "metabox title"
-msgid "Mobile App Banner"
-msgstr "Bannière App Mobile"
-
-#: lib/gpl/admin/am-general.php:113 lib/pro/admin/am-general.php:119
-msgctxt "option label"
-msgid "App ID Number"
-msgstr "Numéro d'ID App"
-
-#: lib/gpl/admin/am-general.php:117 lib/pro/admin/am-general.php:124
-msgctxt "option label"
-msgid "Affiliate Data"
-msgstr "Donnée d'affilié"
-
-#: lib/gpl/admin/am-general.php:121 lib/pro/admin/am-general.php:129
-msgctxt "option label"
-msgid "Argument String"
-msgstr "Chaîne d'arguments"
-
-#: lib/gpl/admin/am-general.php:143 lib/pro/admin/am-general.php:148
+#: lib/gpl/admin/am-general.php:37 lib/pro/admin/am-general.php:44
 msgctxt "option label"
 msgid "Show Tab on Post Types"
 msgstr "Afficher l'onglet sur articles de type"
 
-#: lib/gpl/admin/am-general.php:147 lib/pro/admin/am-general.php:152
+#: lib/gpl/admin/am-general.php:41 lib/pro/admin/am-general.php:48
 msgctxt "option label"
 msgid "Default App Store Territory"
 msgstr "Territoire du App Store par défaut"
 
-#: lib/pro/admin/am-general.php:50
-msgid "Save a draft version or publish the %s to update and enable this field."
-msgstr ""
-"Enregistrer une version brouillon ou publier le %s pour mettre à jour et "
-"activer ce champ."
+#: lib/gpl/admin/am-post.php:42 lib/pro/admin/am-post.php:53
+msgid "Save a draft version or publish the %s to display these options."
+msgstr "Enregistrer un brouillon ou publier pour activer ces options."
 
-#: lib/submenu/am-general.php:25
+#: lib/gpl/admin/am-post.php:60 lib/pro/admin/am-post.php:67
+msgctxt "metabox title"
+msgid "Twitter App Card"
+msgstr "Carte Twitter App"
+
+#: lib/gpl/admin/am-post.php:66 lib/pro/admin/am-post.php:73
+msgctxt "option label"
+msgid "App Store Territory"
+msgstr "Territoire du App Store"
+
+#: lib/gpl/admin/am-post.php:75 lib/pro/admin/am-post.php:83
+msgctxt "metabox title"
+msgid "iPhone App Details"
+msgstr "Détails App iPhone"
+
+#: lib/gpl/admin/am-post.php:78 lib/pro/admin/am-post.php:86
+msgctxt "option label"
+msgid "iPhone App ID"
+msgstr "ID d'App iPhone"
+
+#: lib/gpl/admin/am-post.php:83 lib/pro/admin/am-post.php:91
+msgctxt "option label"
+msgid "iPhone App Name"
+msgstr "Nom d'App iPhone"
+
+#: lib/gpl/admin/am-post.php:89 lib/pro/admin/am-post.php:97
+msgctxt "option label"
+msgid "iPhone App URL Scheme"
+msgstr "Schéma URL App iPhone"
+
+#: lib/gpl/admin/am-post.php:98 lib/pro/admin/am-post.php:106
+msgctxt "metabox title"
+msgid "iPad App Details"
+msgstr "Détails App iPad"
+
+#: lib/gpl/admin/am-post.php:101 lib/pro/admin/am-post.php:109
+msgctxt "option label"
+msgid "iPad App ID"
+msgstr "ID d'App iPad"
+
+#: lib/gpl/admin/am-post.php:106 lib/pro/admin/am-post.php:114
+msgctxt "option label"
+msgid "iPad App Name"
+msgstr "Nom d'App iPad"
+
+#: lib/gpl/admin/am-post.php:112 lib/pro/admin/am-post.php:120
+msgctxt "option label"
+msgid "iPad App URL Scheme"
+msgstr "Schéma URL App iPad"
+
+#: lib/gpl/admin/am-post.php:121 lib/pro/admin/am-post.php:129
+msgctxt "metabox title"
+msgid "Google Play App Details"
+msgstr "Détails App Google Play"
+
+#: lib/gpl/admin/am-post.php:124 lib/pro/admin/am-post.php:132
+msgctxt "option label"
+msgid "Google Play App ID"
+msgstr "ID d'App Google Play"
+
+#: lib/gpl/admin/am-post.php:129 lib/pro/admin/am-post.php:137
+msgctxt "option label"
+msgid "Google Play App Name"
+msgstr "Nom d'App Google Play"
+
+#: lib/gpl/admin/am-post.php:135 lib/pro/admin/am-post.php:143
+msgctxt "option label"
+msgid "Google Play App URL Scheme"
+msgstr "Schéma URL App Google Play"
+
+#: lib/gpl/admin/am-post.php:145 lib/pro/admin/am-post.php:153
+#: lib/submenu/am-general.php:32
+msgctxt "metabox title"
+msgid "Mobile App Banner"
+msgstr "Bannière App Mobile"
+
+#: lib/gpl/admin/am-post.php:148 lib/pro/admin/am-post.php:156
+msgctxt "option label"
+msgid "App ID Number"
+msgstr "Numéro d'ID App"
+
+#: lib/gpl/admin/am-post.php:153 lib/pro/admin/am-post.php:162
+msgctxt "option label"
+msgid "Affiliate Data"
+msgstr "Donnée d'affilié"
+
+#: lib/gpl/admin/am-post.php:158 lib/pro/admin/am-post.php:168
+msgctxt "option label"
+msgid "Argument String"
+msgstr "Chaîne d'arguments"
+
+#: lib/submenu/am-general.php:29
 msgctxt "metabox title"
 msgid "Mobile App Products"
 msgstr "Produits App Mobile"
 
-#: lib/submenu/am-general.php:41
+#: lib/submenu/am-general.php:45
 msgctxt "metabox tab"
 msgid "Apple Store App"
 msgstr "App du Apple Store"
 
-#: lib/submenu/am-general.php:68
+#: lib/submenu/am-general.php:72
 msgctxt "option label"
 msgid "Add Banner to Index Webpages"
 msgstr "Ajouter aux pages Web d'index"
 
-#: lib/submenu/am-general.php:72
+#: lib/submenu/am-general.php:76
 msgctxt "option label"
 msgid "Add Banner to Static Homepage"
 msgstr "Ajouter à la page d'accueil statique"
 
-#: lib/submenu/am-general.php:82
+#: lib/submenu/am-general.php:86
 msgctxt "option label"
 msgid "Add Banner to Post Types"
 msgstr "Ajouter aux articles de type"
 
-#: lib/submenu/am-general.php:92
+#: lib/submenu/am-general.php:96
 msgctxt "option label"
 msgid "Default App ID Number"
 msgstr "Numéro d'ID App par défaut"
 
-#: lib/submenu/am-general.php:96
+#: lib/submenu/am-general.php:100
 msgctxt "option label"
 msgid "Default Affiliate Data"
 msgstr "Donnée d'affilié par défaut"
 
-#: lib/submenu/am-general.php:100
+#: lib/submenu/am-general.php:104
 msgctxt "option label"
 msgid "Default Argument String"
 msgstr "Chaîne d'arguments par défaut"
@@ -376,7 +379,7 @@ msgstr ""
 "L'extension %1$s requiert %2$s &mdash; s'il vous plaît installer et activer "
 "l'extension %3$s."
 
-#: wpsso-am.php:125
+#: wpsso-am.php:126
 msgid ""
 "The %1$s extension version %2$s requires the use of %3$s version %4$s or "
 "newer (version %5$s is currently installed)."
