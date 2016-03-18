@@ -98,14 +98,16 @@ Purchase the [WPSSO Mobile App Meta (WPSSO AM) Pro](http://wpsso.com/extend/plug
 
 = Changelog / Release Notes =
 
-**Version 1.6.0 (TBD)**
+**Version 1.6.0 (ETA 2016/03/20)**
 
 Official announcement: N/A
+
+> Required update for WordPress Social Sharing Optimization (WPSSO) version 3.28.0.
 
 * *New Features*
 	* None
 * *Improvements*
-	* None
+	* Improved the Social Settings options display (Free version).
 * *Bugfixes*
 	* None
 * *Developer Notes*
@@ -139,11 +141,11 @@ Maintenance release for WordPress Social Sharing Optimization (WPSSO) v3.24.0.
 
 == Upgrade Notice ==
 
+= 1.6.0 =
+
+ETA 2016/03/20 - Required update for WPSSO v3.28.0. Improved the Social Settings options display (Free version).
+
 = 1.5.1 =
 
 2016/02/23 - Fixed default option values in the Social Settings metabox.
-
-= 1.5.0 =
-
-2016/02/14 - Maintenance release for WordPress Social Sharing Optimization (WPSSO) v3.24.0.
 
