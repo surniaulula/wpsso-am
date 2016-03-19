@@ -45,13 +45,14 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 			),
 		);
 
-		public function __construct( &$plugin, $plugin_filepath = WPSSOAM_FILEPATH ) {
+		public function __construct( &$plugin ) {
 			$this->p =& $plugin;
-			$this->plugin_filepath = $plugin_filepath;
+
 			$this->p->util->add_plugin_filters( $this, array( 
 				'get_defaults' => 1,			// option defaults
 				'get_md_defaults' => 1,			// meta data defaults
 			) );
+
 			if ( is_admin() ) {
 				$this->p->util->add_plugin_filters( $this, array( 
 					'option_type' => 2,
@@ -64,6 +65,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 					'status_gpl_features' => 3,
 					'status_pro_features' => 3,
 				), 10, 'wpssoam' );
+
 			} else $this->p->util->add_plugin_filters( $this, array(
 					'meta_name' => 3,
 				) );

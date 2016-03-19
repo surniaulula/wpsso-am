@@ -32,7 +32,7 @@ if ( ! class_exists( 'WpssoAm' ) ) {
 
 		private static $wpsso_short = 'WPSSO';
 		private static $wpsso_name = 'WordPress Social Sharing Optimization (WPSSO)';
-		private static $wpsso_min_version = '3.28.0';
+		private static $wpsso_min_version = '3.28.1';
 		private static $wpsso_has_min_ver = true;
 		private static $opt_version_suffix = 'am7';
 
@@ -106,7 +106,7 @@ if ( ! class_exists( 'WpssoAm' ) ) {
 			if ( self::$wpsso_has_min_ver === false )
 				return;		// stop here
 
-			$this->filters = new WpssoAmFilters( $this->p, __FILE__ );
+			$this->filters = new WpssoAmFilters( $this->p );
 		}
 
 		public function wpsso_init_plugin() {
