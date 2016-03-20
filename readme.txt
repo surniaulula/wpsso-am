@@ -10,7 +10,7 @@ License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.txt
 Requires At Least: 3.1
 Tested Up To: 4.4.2
-Stable Tag: 1.5.1
+Stable Tag: 1.6.0
 
 WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari and Twitter's App Card.
 
@@ -98,7 +98,7 @@ Purchase the [WPSSO Mobile App Meta (WPSSO AM) Pro](http://wpsso.com/extend/plug
 
 = Changelog / Release Notes =
 
-**Version 1.6.0 (ETA 2016/03/20)**
+**Version 1.6.0 (2016/03/20)**
 
 Official announcement: N/A
 
@@ -143,7 +143,7 @@ Maintenance release for WordPress Social Sharing Optimization (WPSSO) v3.24.0.
 
 = 1.6.0 =
 
-ETA 2016/03/20 - Required update for WPSSO v3.28.1. Improved the Social Settings options display (Free version).
+2016/03/20 - Required update for WPSSO v3.28.1. Improved the Social Settings options display (Free version).
 
 = 1.5.1 =
 
