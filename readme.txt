@@ -113,39 +113,9 @@ Official announcement: N/A
 * *Developer Notes*
 	* None
 
-**Version 1.5.1 (2016/02/23)**
-
-Official announcement: N/A
-
-* *New Features*
-	* None
-* *Improvements*
-	* None
-* *Bugfixes*
-	* Fixed default option values in the Social Settings metabox by renaming the 'wpsso_get_post_defaults' filter hook to 'wpsso_get_meta_defaults'.
-* *Developer Notes*
-	* None
-
-**Version 1.5.0 (2016/02/14)**
-
-Maintenance release for WordPress Social Sharing Optimization (WPSSO) v3.24.0.
-
-* *New Features*
-	* None
-* *Improvements*
-	* None
-* *Bugfixes*
-	* None
-* *Developer Notes*
-	* Renamed all core 'wpsso_*_tabs' filters for WPSSO v3.24.0.
-
 == Upgrade Notice ==
 
 = 1.6.0 =
 
 2016/03/20 - Required update for WPSSO v3.28.1. Improved the Social Settings options display (Free version).
-
-= 1.5.1 =
-
-2016/02/23 - Fixed default option values in the Social Settings metabox.
 
