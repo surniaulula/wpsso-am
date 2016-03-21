@@ -100,7 +100,7 @@ Purchase the [WPSSO Mobile App Meta (WPSSO AM) Pro](http://wpsso.com/extend/plug
 
 **Version 1.6.0 (2016/03/20)**
 
-Official announcement: N/A
+Official announcement: [WPSSO Update - AMP Support and Several Core Changes](http://wpsso.com/2016/03/20/wpsso-update-amp-support-and-several-core-changes/)
 
 > Required update for WordPress Social Sharing Optimization (WPSSO) version 3.28.1.
 
