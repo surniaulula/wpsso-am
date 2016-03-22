@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WPSSO App Meta (WPSSO AM) package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WPSSO App Meta (WPSSO AM) 1.6.0\n"
+"Project-Id-Version: WPSSO App Meta (WPSSO AM) 1.6.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-am\n"
 "POT-Creation-Date: 2016-MO-DA HO:MI+ZONE\n"
 "MIME-Version: 1.0\n"
@@ -313,19 +313,19 @@ msgctxt "option label"
 msgid "Default Argument String"
 msgstr ""
 
-#: wpsso-am.php:75
+#: wpsso-am.php:74
 msgid ""
 "The %1$s extension requires the %2$s plugin &mdash; please install and "
 "activate the %3$s plugin before trying to re-activate the %4$s extension."
 msgstr ""
 
-#: wpsso-am.php:77
+#: wpsso-am.php:76
 msgid ""
 "The %1$s extension requires the %2$s plugin &mdash; please install and "
 "activate the %3$s plugin."
 msgstr ""
 
-#: wpsso-am.php:126
+#: wpsso-am.php:122
 msgid ""
 "The %1$s extension version %2$s requires the use of %3$s version %4$s or "
 "newer (version %5$s is currently installed)."

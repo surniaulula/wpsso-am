@@ -44,7 +44,7 @@ if ( ! class_exists( 'WpssoAmGplAdminAmpost' ) ) {
 				return $table_rows;	// abort
 			}
 
-			$def_app_name = $this->p->webpage->get_title( 0, '', $mod['use_post'] );
+			$def_app_name = $this->p->webpage->get_title( 0, '', $mod );
 
 			$table_rows[] = '<td colspan="2">'.
 				$this->p->msgs->get( 'pro-feature-msg', 
