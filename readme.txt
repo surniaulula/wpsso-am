@@ -98,7 +98,7 @@ Purchase the [WPSSO Mobile App Meta (WPSSO AM) Pro](http://wpsso.com/extend/plug
 
 = Changelog / Release Notes =
 
-**Version 1.6.1 (ETA 2016/03/23)**
+**Version 1.6.1 (2016/03/23)**
 
 Official announcement: N/A
 
@@ -130,7 +130,7 @@ Official announcement: [WPSSO Update - AMP Support and Several Core Changes](htt
 
 = 1.6.1 =
 
-ETA 2016/03/23 - Modified several SucomWebage method arguments to use the new $mod array.
+2016/03/23 - Modified several SucomWebage method arguments to use the new $mod array.
 
 = 1.6.0 =
 
