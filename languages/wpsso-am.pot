@@ -278,7 +278,7 @@ msgctxt "metabox title"
 msgid "Mobile App Products"
 msgstr ""
 
-#: lib/submenu/am-general.php:45
+#: lib/submenu/am-general.php:54
 msgctxt "metabox tab"
 msgid "Apple Store App"
 msgstr ""

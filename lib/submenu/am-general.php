@@ -33,6 +33,15 @@ if ( ! class_exists( 'WpssoAmSubmenuAmgeneral' ) && class_exists( 'WpssoAdmin' )
 				array( &$this, 'show_metabox_banner' ), $this->pagehook, 'normal' );
 		}
 
+		public function show_metabox_appmeta() {
+			$metabox = 'appmeta';
+			echo '<table class="sucom-setting">';
+			foreach ( apply_filters( $this->p->cf['lca'].'_'.$metabox.'_general_rows', 
+				$this->get_table_rows( $metabox, 'general' ), $this->form ) as $row )
+					echo '<tr>'.$row.'</tr>';
+			echo '</table>';
+		}
+
 		public function show_metabox_banner() {
 			$metabox = 'banner';
 			echo '<table class="sucom-setting">';
@@ -50,15 +59,6 @@ if ( ! class_exists( 'WpssoAmSubmenuAmgeneral' ) && class_exists( 'WpssoAdmin' )
 				$table_rows[$key] = array_merge( $this->get_table_rows( $metabox, $key ), 
 					apply_filters( $this->p->cf['lca'].'_'.$metabox.'_'.$key.'_rows', array(), $this->form ) );
 			$this->p->util->do_metabox_tabs( $metabox, $tabs, $table_rows );
-		}
-
-		public function show_metabox_appmeta() {
-			$metabox = 'appmeta';
-			echo '<table class="sucom-setting">';
-			foreach ( apply_filters( $this->p->cf['lca'].'_'.$metabox.'_general_rows', 
-				$this->get_table_rows( $metabox, 'general' ), $this->form ) as $row )
-					echo '<tr>'.$row.'</tr>';
-			echo '</table>';
 		}
 
 		protected function get_table_rows( $metabox, $key ) {
