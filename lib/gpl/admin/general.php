@@ -8,9 +8,9 @@
 if ( ! defined( 'ABSPATH' ) ) 
 	die( 'These aren\'t the droids you\'re looking for...' );
 
-if ( ! class_exists( 'WpssoAmGplAdminAmgeneral' ) ) {
+if ( ! class_exists( 'WpssoAmGplAdminGeneral' ) ) {
 
-	class WpssoAmGplAdminAmgeneral {
+	class WpssoAmGplAdminGeneral {
 
 		public function __construct( &$plugin ) {
 			$this->p =& $plugin;

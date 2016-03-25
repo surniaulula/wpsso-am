@@ -15,7 +15,7 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 		public static $cf = array(
 			'plugin' => array(
 				'wpssoam' => array(
-					'version' => '1.6.1',		// plugin version
+					'version' => '1.6.2',		// plugin version
 					'opt_version' => '7',		// increment when changing default options
 					'short' => 'WPSSO AM',		// short plugin name
 					'name' => 'WPSSO Mobile App Meta (WPSSO AM)',
@@ -46,20 +46,21 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 						'pro_support' => 'http://wpsso-am.support.wpsso.com/',
 					),
 					'lib' => array(
+						// submenu items must have unique keys
 						'submenu' => array (
-							'wpssoam-separator-0' => 'AM Extension',
-							'am-general' => 'Mobile App Meta',
+							//'wpssoam-separator-0' => 'AM Extension',
+							'am-general' => 'Mobile App Meta',	// general settings
 						),
 						'gpl' => array(
 							'admin' => array(
-								'am-general' => 'Mobile App Meta',
-								'am-post' => 'Mobile Apps Tab',
+								'general' => 'General Settings',
+								'post' => 'Post Settings',
 							),
 						),
 						'pro' => array(
 							'admin' => array(
-								'am-general' => 'Mobile App Meta',
-								'am-post' => 'Mobile Apps Tab',
+								'general' => 'General Settings',
+								'post' => 'Post Settings',
 							),
 							'head' => array(
 								'twittercard' => 'Twitter App Card',
