@@ -9,7 +9,7 @@ Tags: wpsso, app, iphone, ipad, googleplay, meta, tags, itunes
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.txt
 Requires At Least: 3.1
-Tested Up To: 4.4.2
+Tested Up To: 4.5
 Stable Tag: 1.6.1
 
 WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari and Twitter's App Card.
@@ -98,6 +98,20 @@ Purchase the [WPSSO Mobile App Meta (WPSSO AM) Pro](http://wpsso.com/extend/plug
 
 = Changelog / Release Notes =
 
+**Version 1.6.2 (2016/03/25)**
+
+Official announcement: N/A
+
+* *New Features*
+	* None
+* *Improvements*
+	* None
+* *Bugfixes*
+	* None
+* *Developer Notes*
+	* Tested with WordPress v4.5-RC1-37079.
+	* Standardized the general and post library file and class names.
+
 **Version 1.6.1 (2016/03/23)**
 
 Official announcement: N/A
@@ -127,6 +141,10 @@ Official announcement: [WPSSO Update - AMP Support and Several Core Changes](htt
 	* None
 
 == Upgrade Notice ==
+
+= 1.6.2 =
+
+2016/03/23 - Standardized the general and post library file and class names. Tested with WordPress v4.5-RC1-37079.
 
 = 1.6.1 =
 
