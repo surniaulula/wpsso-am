@@ -82,19 +82,19 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 
 		public function filter_get_md_defaults( $def_opts ) {
 			return array_merge( $def_opts, array(
-				'am_ap_ast' => -1,
-				'am_iphone_app_id' => '',
-				'am_iphone_app_name' => '',
-				'am_iphone_app_url' => '',
-				'am_ipad_app_id' => '',
-				'am_ipad_app_name' => '',
-				'am_ipad_app_url' => '',
-				'am_gplay_app_id' => '',
-				'am_gplay_app_name' => '',
-				'am_gplay_app_url' => '',
-				'am_ws_itunes_app_id' => '',
-				'am_ws_itunes_app_aff' => '',
-				'am_ws_itunes_app_arg' => '',
+				'am_ap_ast' => -1,		// App Store Territory
+				'am_iphone_app_id' => '',	// iPhone App ID
+				'am_iphone_app_name' => '',	// iPhone App Name
+				'am_iphone_app_url' => '',	// iPhone App URL Scheme
+				'am_ipad_app_id' => '',		// iPad App ID
+				'am_ipad_app_name' => '',	// iPad App Name
+				'am_ipad_app_url' => '',	// iPad App URL Scheme
+				'am_gplay_app_id' => '',	// Google Play App ID
+				'am_gplay_app_name' => '',	// Google Play App Name
+				'am_gplay_app_url' => '',	// Google Play App URL Scheme
+				'am_ws_itunes_app_id' => '',	// App ID Number
+				'am_ws_itunes_app_aff' => '',	// Affiliate Data
+				'am_ws_itunes_app_arg' => '', 	// Argument String
 			) );
 		}
 
