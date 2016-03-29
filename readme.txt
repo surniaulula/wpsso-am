@@ -80,9 +80,13 @@ Purchase the [WPSSO Mobile App Meta (WPSSO AM) Pro](http://wpsso.com/extend/plug
 
 = Frequently Asked Questions =
 
+* None
+
 == Other Notes ==
 
 = Additional Documentation =
+
+* None
 
 == Screenshots ==
 
