@@ -102,7 +102,7 @@ Purchase the [WPSSO Mobile App Meta (WPSSO AM) Pro](http://wpsso.com/extend/plug
 
 = Changelog / Release Notes =
 
-**Version 1.6.2 (2016/03/25)**
+**Version 1.6.3-1 (2016/03/30)**
 
 Official announcement: N/A
 
@@ -111,50 +111,14 @@ Official announcement: N/A
 * *Improvements*
 	* None
 * *Bugfixes*
-	* None
+	* Added the WPSSO AM meta tags on the back-end as well so they are included in the Head Tags list.
 * *Developer Notes*
-	* Tested with WordPress v4.5-RC1-37079.
-	* Standardized the general and post library file and class names.
-
-**Version 1.6.1 (2016/03/23)**
-
-Official announcement: N/A
-
-* *New Features*
-	* None
-* *Improvements*
-	* None
-* *Bugfixes*
-	* None
-* *Developer Notes*
-	* Modified the SucomWebpage `get_caption()`, `get_title()`, and `get_description()` method arguments to use the new `$mod` array.
-
-**Version 1.6.0 (2016/03/20)**
-
-Official announcement: [WPSSO Update - AMP Support and Several Core Changes](http://wpsso.com/2016/03/20/wpsso-update-amp-support-and-several-core-changes/)
-
-> Required update for WordPress Social Sharing Optimization (WPSSO) version 3.28.1.
-
-* *New Features*
-	* None
-* *Improvements*
-	* Improved the Social Settings options display (Free version).
-* *Bugfixes*
-	* None
-* *Developer Notes*
-	* None
+	* Adopted a standard version numbering system:
+		* {major}.{minor}.{bugfix}-{stage}{level}
 
 == Upgrade Notice ==
 
-= 1.6.2 =
+= 1.6.3-1 =
 
-2016/03/23 - Standardized the general and post library file and class names. Tested with WordPress v4.5-RC1-37079.
-
-= 1.6.1 =
-
-2016/03/23 - Modified several SucomWebage method arguments to use the new $mod array.
-
-= 1.6.0 =
-
-2016/03/20 - Required update for WPSSO v3.28.1. Improved the Social Settings options display (Free version).
+2016/03/30 - Added the WPSSO AM meta tags on the back-end as well so they are included in the Head Tags list.
 
