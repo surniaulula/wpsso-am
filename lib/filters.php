@@ -51,11 +51,12 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 			$this->p->util->add_plugin_filters( $this, array( 
 				'get_defaults' => 1,			// option defaults
 				'get_md_defaults' => 1,			// meta data defaults
+				'meta_name' => 3,
 			) );
 
 			if ( is_admin() ) {
 				$this->p->util->add_plugin_filters( $this, array( 
-					'option_type' => 2,
+					'option_type' => 2,		// define the value type for each option
 					'messages_tooltip_side' => 2,	// tooltip messages for side boxes
 					'messages_tooltip_post' => 2,	// tooltip messages for post social settings
 					'messages_tooltip' => 2,	// tooltip messages filter
@@ -66,17 +67,17 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 					'status_pro_features' => 3,
 				), 10, 'wpssoam' );
 
-			} else $this->p->util->add_plugin_filters( $this, array(
-					'meta_name' => 3,
-				) );
+			}
 		}
 
 		public function filter_get_defaults( $def_opts ) {
 			$def_opts = array_merge( $def_opts, self::$cf['opt']['defaults'] );
+
 			$def_opts = $this->p->util->add_ptns_to_opts( $def_opts, array(
 				'am_ap_add_to' => 0,
 				'am_ws_add_to' => 1,
 			) );
+
 			return $def_opts;
 		}
 
@@ -96,6 +97,67 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 				'am_ws_itunes_app_aff' => '',	// Affiliate Data
 				'am_ws_itunes_app_arg' => '', 	// Argument String
 			) );
+		}
+
+		// adds the website app meta tag to the $mt_name array
+		public function filter_meta_name( $mt_name, $use_post, $mod ) {
+			if ( $this->p->debug->enabled )
+				$this->p->debug->mark();
+
+			$md_opts = array();
+
+			if ( ! $mod['is_post'] ) {	// aka "not singular"
+				if ( empty( $this->p->options['am_ws_on_index'] ) ) {
+					if ( $this->p->debug->enabled )
+						$this->p->debug->log( 'filter skipped: index page without am_ws_on_index enabled' );
+					return $mt_name;
+				}
+
+			} elseif ( is_front_page() ) {
+				if ( empty( $this->p->options['am_ws_on_front'] ) ) {
+					if ( $this->p->debug->enabled )
+						$this->p->debug->log( 'filter skipped: front page without am_ws_on_front enabled' );
+					return $mt_name;
+				}
+
+			} elseif ( ! $mod['post_type'] ) {
+				if ( $this->p->debug->enabled )
+					$this->p->debug->log( 'exiting early: module post_type is empty' );
+				return $mt_name;
+
+			} elseif ( empty( $this->p->options['am_ws_add_to_'.$mod['post_type']] ) ) {
+				if ( $this->p->debug->enabled )
+					$this->p->debug->log( 'exiting early: am_ws_add_to_'.$mod['post_type'].' is empty' );
+				return $mt_name;
+			}
+
+			if ( $mod['id'] ) {
+				if ( $this->p->debug->enabled )
+					$this->p->debug->log( 'loading options from module ID '.$mod['id'] );
+				$md_opts = $mod['obj']->get_options( $mod['id'] );
+			}
+
+			if ( ! empty( $md_opts['am_ws_itunes_app_aff'] ) )
+				$mt_name['apple-itunes-app'] = 'app-id='.$md_opts['am_ws_itunes_app_id'];
+			elseif ( ! empty( $this->p->options['am_ws_itunes_app_aff'] ) )	// fallback to global options
+				$mt_name['apple-itunes-app'] = 'app-id='.$this->p->options['am_ws_itunes_app_id'];
+			else {
+				if ( $this->p->debug->enabled )
+					$this->p->debug->log( 'exiting early: am_ws_itunes_app_id is empty' );
+				return $mt_name;
+			}	
+
+			if ( ! empty( $md_opts['am_ws_itunes_app_aff'] ) )
+				$mt_name['apple-itunes-app'] .= ', affiliate-data='.$md_opts['am_ws_itunes_app_aff'];
+			elseif ( ! empty( $this->p->options['am_ws_itunes_app_aff'] ) )	// fallback to global options
+				$mt_name['apple-itunes-app'] .= ', affiliate-data='.$this->p->options['am_ws_itunes_app_aff'];
+				
+			if ( ! empty( $md_opts['am_ws_itunes_app_arg'] ) )
+				$mt_name['apple-itunes-app'] .= ', app-argument='.$md_opts['am_ws_itunes_app_arg'];
+			elseif ( ! empty( $this->p->options['am_ws_itunes_app_arg'] ) )	// fallback to global options
+				$mt_name['apple-itunes-app'] .= ', app-argument='.$this->p->options['am_ws_itunes_app_arg'];
+
+			return $mt_name;
 		}
 
 		public function filter_option_type( $type, $key ) {
@@ -220,88 +282,16 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 		public function filter_messages_info( $text, $idx ) {
 			switch ( $idx ) {
 				case 'info-banner-general':
-					$text = '<blockquote class="top-info"><p>'.__( 'These options provide a way to present a banner advertisement in Apple\'s mobile Safari for your Apple Store App(s).', 'wpsso-am' ).' '.__( 'The banner advertisement allows users of your website to download your mobile App and/or switch to your mobile App when using Apple\'s mobile Safari.', 'wpsso-am' ).' '.sprintf( __( 'The Apple Store App information can be customized for each Post, Page, and custom post type under the <em>%1$s</em> tab (enabled above) in the %2$s metabox.', 'wpsso-am' ), _x( 'Mobile Apps', 'metabox tab', 'wpsso-am' ), _x( 'Social Settings', 'metabox title', 'wpsso' ) ).
-					'</p></blockquote>';
+					$text = '<blockquote class="top-info"><p>'.__( 'These options provide a way to present a banner advertisement in Apple\'s mobile Safari for your Apple Store App(s).', 'wpsso-am' ).' '.__( 'The banner advertisement allows users of your website to download your mobile App and/or switch to your mobile App when using Apple\'s mobile Safari.', 'wpsso-am' ).' '.sprintf( __( 'The Apple Store App information can be customized for each Post, Page, and custom post type under the <em>%1$s</em> tab (enabled above) in the %2$s metabox.', 'wpsso-am' ), _x( 'Mobile Apps', 'metabox tab', 'wpsso-am' ), _x( 'Social Settings', 'metabox title', 'wpsso' ) ).'</p></blockquote>';
 					break;
 				case 'info-banner-itunes':
-					$text = '<blockquote class="top-info"><p>'.
-					__( 'If you have an Apple Store App to access your website (as an alternative to using mobile web browsers, for example) and/or want to promote a single Apple Store App on your website, enter its details here.', 'wpsso-am' ).
-					'</p></blockquote>';
+					$text = '<blockquote class="top-info"><p>'.__( 'If you have an Apple Store App to access your website (as an alternative to using mobile web browsers, for example) and/or want to promote a single Apple Store App on your website, enter its details here.', 'wpsso-am' ).'</p></blockquote>';
 					break;
 				case 'info-appmeta-general':
 					$text = '<blockquote class="top-info"><p>'.sprintf( __( 'An <em>%1$s</em> tab can be added to the %2$s metabox on Posts, Pages, and custom post types, allowing you to enter specific information about one or more Apple Store and Google Play mobile Apps.', 'wpsso-am' ), _x( 'Mobile Apps', 'metabox tab', 'wpsso-am' ), _x( 'Social Settings', 'metabox title', 'wpsso' ) ).' '.sprintf( __( 'The <em>%s</em> information is used to create meta tags for Twitter\'s App Card and customize a mobile App banner for Apple\'s mobile Safari.', 'wpsso-am' ), _x( 'Mobile Apps', 'metabox tab', 'wpsso-am' ) ).'</p></blockquote>';
 					break;
 			}
 			return $text;
-		}
-
-		// adds the website app meta tag to the $mt_name array
-		public function filter_meta_name( $mt_name, $use_post, $obj ) {
-			if ( $this->p->debug->enabled )
-				$this->p->debug->mark();
-			$post_type = false;
-
-			if ( ! is_singular() ) {
-				if ( empty( $this->p->options['am_ws_on_index'] ) ) {
-					if ( $this->p->debug->enabled )
-						$this->p->debug->log( 'filter skipped: index page without am_ws_on_index enabled' );
-					return $mt_name;
-				}
-				$opts =& $this->p->options;
-			} elseif ( is_front_page() ) {
-				if ( empty( $this->p->options['am_ws_on_front'] ) ) {
-					if ( $this->p->debug->enabled )
-						$this->p->debug->log( 'filter skipped: front page without am_ws_on_front enabled' );
-					return $mt_name;
-				}
-				$opts =& $this->p->options;
-			} else {
-				if ( ! is_object( $obj ) && 
-					( $obj = $this->p->util->get_post_object( $use_post ) ) === false ) {
-					if ( $this->p->debug->enabled )
-						$this->p->debug->log( 'exiting early: invalid post object' );
-					return $mt_name;
-				}
-				if ( ! isset( $obj->post_type ) ) {
-					if ( $this->p->debug->enabled )
-						$this->p->debug->log( 'exiting early: object post_type is empty' );
-					return $mt_name;
-				}
-				$post_type = get_post_type_object( $obj->post_type );
-				if ( empty( $this->p->options[ 'am_ws_add_to_'.$post_type->name ] ) ) {
-					if ( $this->p->debug->enabled )
-						$this->p->debug->log( 'exiting early: am_ws_add_to_'.$post_type->name.' is empty' );
-					return $mt_name;
-				}
-				if ( $this->p->debug->enabled )
-					$this->p->debug->log( 'loading options from object ID '.$obj->ID );
-				$opts = $this->p->m['util']['post']->get_options( $obj->ID );
-			}
-
-			if ( ! empty( $opts['am_ws_itunes_app_aff'] ) )
-				$mt_name['apple-itunes-app'] = 'app-id='.$opts['am_ws_itunes_app_id'];
-			elseif ( $post_type !== false && 
-				! empty( $this->p->options['am_ws_itunes_app_aff'] ) )	// fallback to global options
-					$mt_name['apple-itunes-app'] = 'app-id='.$this->p->options['am_ws_itunes_app_id'];
-			else {
-				if ( $this->p->debug->enabled )
-					$this->p->debug->log( 'exiting early: am_ws_itunes_app_id is empty' );
-				return $mt_name;
-			}	
-
-			if ( ! empty( $opts['am_ws_itunes_app_aff'] ) )
-				$mt_name['apple-itunes-app'] .= ', affiliate-data='.$opts['am_ws_itunes_app_aff'];
-			elseif ( $post_type !== false && 
-				! empty( $this->p->options['am_ws_itunes_app_aff'] ) )	// fallback to global options
-					$mt_name['apple-itunes-app'] .= ', affiliate-data='.$this->p->options['am_ws_itunes_app_aff'];
-				
-			if ( ! empty( $opts['am_ws_itunes_app_arg'] ) )
-				$mt_name['apple-itunes-app'] .= ', app-argument='.$opts['am_ws_itunes_app_arg'];
-			elseif ( $post_type !== false && 
-				! empty( $this->p->options['am_ws_itunes_app_arg'] ) )	// fallback to global options
-					$mt_name['apple-itunes-app'] .= ', app-argument='.$this->p->options['am_ws_itunes_app_arg'];
-
-			return $mt_name;
 		}
 
 		public function filter_status_gpl_features( $features, $lca, $info ) {

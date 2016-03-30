@@ -35,11 +35,11 @@ if ( ! class_exists( 'WpssoAmGplAdminGeneral' ) ) {
 						'' : '('.$post_type->description.')' ).'</p>';
 
 			$table_rows[] = $form->get_th_html( _x( 'Show Tab on Post Types',
-				'option label', 'wpsso-am' ), null, 'am_ap_add_to' ).
+				'option label', 'wpsso-am' ), '', 'am_ap_add_to' ).
 			'<td class="blank">'.$add_to_checkboxes.'</td>';
 
 			$table_rows[] = $form->get_th_html( _x( 'Default App Store Territory',
-				'option label', 'wpsso-am' ), null, 'am_ap_ast' ).
+				'option label', 'wpsso-am' ), '', 'am_ap_ast' ).
 			'<td class="blank">'.$form->get_no_select( 'am_ap_ast', WpssoAmConfig::$app_stores ).'</td>';
 
 			return $table_rows;

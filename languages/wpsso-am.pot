@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WPSSO App Meta (WPSSO AM) package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WPSSO App Meta (WPSSO AM) 1.6.2\n"
+"Project-Id-Version: WPSSO App Meta (WPSSO AM) 1.7.0-1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-am\n"
 "POT-Creation-Date: 2016-MO-DA HO:MI+ZONE\n"
 "MIME-Version: 1.0\n"
@@ -24,109 +24,109 @@ msgid ""
 "tags for Apple's mobile Safari and Twitter's App Card."
 msgstr ""
 
-#: lib/filters.php:139
+#: lib/filters.php:201
 msgid ""
 "Creates a banner advertisement in Apple's mobile Safari for your website's "
 "mobile App (as an alternative to using a mobile browser)."
 msgstr ""
 
-#: lib/filters.php:142 lib/filters.php:232
+#: lib/filters.php:204 lib/filters.php:291
 msgid ""
 "An <em>%1$s</em> tab can be added to the %2$s metabox on Posts, Pages, and "
 "custom post types, allowing you to enter specific information about one or "
 "more Apple Store and Google Play mobile Apps."
 msgstr ""
 
-#: lib/filters.php:142 lib/filters.php:145 lib/filters.php:214
-#: lib/filters.php:223 lib/filters.php:232 lib/gpl/admin/post.php:30
+#: lib/filters.php:204 lib/filters.php:207 lib/filters.php:276
+#: lib/filters.php:285 lib/filters.php:291 lib/gpl/admin/post.php:30
 #: lib/pro/admin/post.php:41
 msgctxt "metabox tab"
 msgid "Mobile Apps"
 msgstr ""
 
-#: lib/filters.php:142 lib/filters.php:214 lib/filters.php:223
-#: lib/filters.php:232
+#: lib/filters.php:204 lib/filters.php:276 lib/filters.php:285
+#: lib/filters.php:291
 msgctxt "metabox title"
 msgid "Social Settings"
 msgstr ""
 
-#: lib/filters.php:145 lib/filters.php:232
+#: lib/filters.php:207 lib/filters.php:291
 msgid ""
 "The <em>%s</em> information is used to create meta tags for Twitter's App "
 "Card and customize a mobile App banner for Apple's mobile Safari."
 msgstr ""
 
-#: lib/filters.php:157
+#: lib/filters.php:219
 msgid ""
 "The numeric representation of your iPhone application ID in the App Store "
 "(example: \"307234931\")."
 msgstr ""
 
-#: lib/filters.php:160
+#: lib/filters.php:222
 msgid "The name of your iPhone application."
 msgstr ""
 
-#: lib/filters.php:163
+#: lib/filters.php:225
 msgid ""
 "Your iPhone App's <em>custom</em> URL scheme (you must include \"://\" after "
 "the scheme name)."
 msgstr ""
 
-#: lib/filters.php:166
+#: lib/filters.php:228
 msgid ""
 "The numeric representation of your iPad application ID in the App Store "
 "(example: \"307234931\")."
 msgstr ""
 
-#: lib/filters.php:169
+#: lib/filters.php:231
 msgid "The name of your iPad application."
 msgstr ""
 
-#: lib/filters.php:172
+#: lib/filters.php:234
 msgid ""
 "Your iPad App's <em>custom</em> URL scheme (you must include \"://\" after "
 "the scheme name)."
 msgstr ""
 
-#: lib/filters.php:175
+#: lib/filters.php:237
 msgid ""
 "The fully qualified package name of your Google Play application (example: "
 "\"com.google.android.apps.maps\")."
 msgstr ""
 
-#: lib/filters.php:178
+#: lib/filters.php:240
 msgid "The name of your Google Play application."
 msgstr ""
 
-#: lib/filters.php:181
+#: lib/filters.php:243
 msgid ""
 "Your Google Play App's <em>custom</em> URL scheme (you must include \"://\" "
 "after the scheme name)."
 msgstr ""
 
-#: lib/filters.php:193
+#: lib/filters.php:255
 msgid "Add meta tags for the website's mobile App to index and archive pages."
 msgstr ""
 
-#: lib/filters.php:196
+#: lib/filters.php:258
 msgid "Add meta tags for the website's mobile App to a static front page."
 msgstr ""
 
-#: lib/filters.php:199
+#: lib/filters.php:261
 msgid ""
 "Add meta tags for the website's mobile App to Posts, Pages, and custom post "
 "types."
 msgstr ""
 
-#: lib/filters.php:202
+#: lib/filters.php:264
 msgid "A mobile App ID in the Apple Store (example: \"307234931\")."
 msgstr ""
 
-#: lib/filters.php:205
+#: lib/filters.php:267
 msgid "If you have an iTunes affiliate string, enter it here."
 msgstr ""
 
-#: lib/filters.php:208
+#: lib/filters.php:270
 msgid ""
 "A query string - which may include one or more inline variables - to provide "
 "context to your website's mobile App. If the user has your mobile App "
@@ -134,34 +134,34 @@ msgid ""
 "content in the mobile App."
 msgstr ""
 
-#: lib/filters.php:211
+#: lib/filters.php:273
 msgid "The App Store country providing your application."
 msgstr ""
 
-#: lib/filters.php:214
+#: lib/filters.php:276
 msgid "Include the <em>%1$s</em> tab in the %2$s metabox on Posts, Pages, etc."
 msgstr ""
 
-#: lib/filters.php:223
+#: lib/filters.php:285
 msgid ""
 "These options provide a way to present a banner advertisement in Apple's "
 "mobile Safari for your Apple Store App(s)."
 msgstr ""
 
-#: lib/filters.php:223
+#: lib/filters.php:285
 msgid ""
 "The banner advertisement allows users of your website to download your "
 "mobile App and/or switch to your mobile App when using Apple's mobile Safari."
 msgstr ""
 
-#: lib/filters.php:223
+#: lib/filters.php:285
 msgid ""
 "The Apple Store App information can be customized for each Post, Page, and "
 "custom post type under the <em>%1$s</em> tab (enabled above) in the %2$s "
 "metabox."
 msgstr ""
 
-#: lib/filters.php:228
+#: lib/filters.php:288
 msgid ""
 "If you have an Apple Store App to access your website (as an alternative to "
 "using mobile web browsers, for example) and/or want to promote a single "
@@ -313,19 +313,19 @@ msgctxt "option label"
 msgid "Default Argument String"
 msgstr ""
 
-#: wpsso-am.php:74
+#: wpsso-am.php:81
 msgid ""
 "The %1$s extension requires the %2$s plugin &mdash; please install and "
 "activate the %3$s plugin before trying to re-activate the %4$s extension."
 msgstr ""
 
-#: wpsso-am.php:76
+#: wpsso-am.php:83
 msgid ""
 "The %1$s extension requires the %2$s plugin &mdash; please install and "
 "activate the %3$s plugin."
 msgstr ""
 
-#: wpsso-am.php:125
+#: wpsso-am.php:132
 msgid ""
 "The %1$s extension version %2$s requires the use of %3$s version %4$s or "
 "newer (version %5$s is currently installed)."

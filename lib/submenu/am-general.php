@@ -94,15 +94,15 @@ if ( ! class_exists( 'WpssoAmSubmenuAmgeneral' ) && class_exists( 'WpssoAdmin' )
 						$this->p->msgs->get( 'info-banner-itunes' ).'</td>';
 
 					$table_rows[] = $this->form->get_th_html( _x( 'Default App ID Number',
-						'option label', 'wpsso-am' ), null, 'am_ws_itunes_app_id' ).
+						'option label', 'wpsso-am' ), '', 'am_ws_itunes_app_id' ).
 					'<td>'.$this->form->get_input( 'am_ws_itunes_app_id' ).'</td>';
 
 					$table_rows[] = $this->form->get_th_html( _x( 'Default Affiliate Data',
-						'option label', 'wpsso-am' ), null, 'am_ws_itunes_app_aff' ).
+						'option label', 'wpsso-am' ), '', 'am_ws_itunes_app_aff' ).
 					'<td>'.$this->form->get_input( 'am_ws_itunes_app_aff' ).'</td>';
 
 					$table_rows[] = $this->form->get_th_html( _x( 'Default Argument String',
-						'option label', 'wpsso-am' ), null, 'am_ws_itunes_app_arg' ).
+						'option label', 'wpsso-am' ), '', 'am_ws_itunes_app_arg' ).
 					'<td>'.$this->form->get_input( 'am_ws_itunes_app_arg', 'wide' ).'</td>';
 
 					break;

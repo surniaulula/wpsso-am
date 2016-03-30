@@ -15,7 +15,7 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 		public static $cf = array(
 			'plugin' => array(
 				'wpssoam' => array(
-					'version' => '1.6.2',		// plugin version
+					'version' => '1.7.0-1',		// plugin version
 					'opt_version' => '7',		// increment when changing default options
 					'short' => 'WPSSO AM',		// short plugin name
 					'name' => 'WPSSO Mobile App Meta (WPSSO AM)',
@@ -48,7 +48,6 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 					'lib' => array(
 						// submenu items must have unique keys
 						'submenu' => array (
-							//'wpssoam-separator-0' => 'AM Extension',
 							'am-general' => 'Mobile App Meta',	// general settings
 						),
 						'gpl' => array(
@@ -252,7 +251,7 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 				if ( file_exists( $filepath ) ) {
 					require_once( $filepath );
 					if ( empty( $classname ) )
-						return 'wpssoam'.str_replace( array( '/', '-' ), '', $filespec );
+						return SucomUtil::sanitize_classname( 'wpssoam'.$filespec );
 					else return $classname;
 				}
 			}
