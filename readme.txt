@@ -114,7 +114,7 @@ Official announcement: N/A
 	* Added the WPSSO AM meta tags on the back-end as well so they are included in the Head Tags list.
 * *Developer Notes*
 	* Adopted a standard version numbering system:
-		* {major}.{minor}.{bugfix}-{stage}{level}
+		* `{major}.{minor}.{bugfix}-{stage}{level}`
 
 == Upgrade Notice ==
 
