@@ -102,23 +102,24 @@ Purchase the [WPSSO Mobile App Meta (WPSSO AM) Pro](http://wpsso.com/extend/plug
 
 = Changelog / Release Notes =
 
-**Version 1.6.3-1 (2016/03/30)**
+**Version 1.7.0-1 (2016/03/30)**
 
 Official announcement: N/A
 
 * *New Features*
 	* None
 * *Improvements*
-	* None
-* *Bugfixes*
 	* Added the WPSSO AM meta tags on the back-end as well so they are included in the Head Tags list.
+	* Updated the 'wpsso_meta_name' filter arguments to use the new `$mod` array.
+* *Bugfixes*
+	* None
 * *Developer Notes*
 	* Adopted a standard version numbering system:
 		* `{major}.{minor}.{bugfix}-{stage}{level}`
 
 == Upgrade Notice ==
 
-= 1.6.3-1 =
+= 1.7.0-1 =
 
 2016/03/30 - Added the WPSSO AM meta tags on the back-end as well so they are included in the Head Tags list.
 
