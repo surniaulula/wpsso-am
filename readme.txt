@@ -121,5 +121,5 @@ Official announcement: N/A
 
 = 1.7.0-1 =
 
-2016/03/30 - Added the WPSSO AM meta tags on the back-end as well so they are included in the Head Tags list. Adopted a standard version numbering system.
+(2016/03/30) Added the WPSSO AM meta tags on the back-end as well so they are included in the Head Tags list. Adopted a standard version numbering system.
 
