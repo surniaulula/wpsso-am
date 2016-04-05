@@ -1,6 +1,6 @@
 <?php
 /*
- * Plugin Name: WPSSO App Meta (WPSSO AM)
+ * Plugin Name: WPSSO Mobile App Meta (WPSSO AM)
  * Plugin Slug: wpsso-am
  * Text Domain: wpsso-am
  * Domain Path: /languages
