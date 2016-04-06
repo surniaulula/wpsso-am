@@ -134,7 +134,7 @@ Official announcement: N/A
 
 = 1.7.1-alpha3 =
 
-(2016/03/30) Changed is_front_page() calls for WPSSO v3.29.0.
+(2016/04/06) Changed is_front_page() calls for WPSSO v3.29.0.
 
 = 1.7.0-1 =
 
