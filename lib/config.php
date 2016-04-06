@@ -15,7 +15,7 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 		public static $cf = array(
 			'plugin' => array(
 				'wpssoam' => array(
-					'version' => '1.7.0-1',		// plugin version
+					'version' => '1.7.1-alpha3',		// plugin version
 					'opt_version' => '7',		// increment when changing default options
 					'short' => 'WPSSO AM',		// short plugin name
 					'name' => 'WPSSO Mobile App Meta (WPSSO AM)',
@@ -69,6 +69,10 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 				),
 			),
 		);
+
+		public static function get_version() { 
+			return self::$cf['plugin']['wpssoam']['version'];
+		}
 
 		// from https://developer.apple.com/library/ios/documentation/LanguagesUtilities/Conceptual/iTunesConnect_Guide/Appendices/AppStoreTerritories.html
 		public static $app_stores = array(

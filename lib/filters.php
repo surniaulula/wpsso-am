@@ -113,7 +113,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 					return $mt_name;
 				}
 
-			} elseif ( is_front_page() ) {
+			} elseif ( $mod['is_front'] ) {
 				if ( empty( $this->p->options['am_ws_on_front'] ) ) {
 					if ( $this->p->debug->enabled )
 						$this->p->debug->log( 'exiting early: front page without am_ws_on_front enabled' );

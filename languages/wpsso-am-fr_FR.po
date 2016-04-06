@@ -2,10 +2,10 @@
 # This file is distributed under the same license as the WPSSO App Meta (WPSSO AM) package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WPSSO App Meta (WPSSO AM) 1.7.0-1\n"
+"Project-Id-Version: WPSSO Mobile App Meta (WPSSO AM) 1.7.0-1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-am\n"
-"POT-Creation-Date: 2016-03-31 03:32-0400\n"
-"PO-Revision-Date: 2016-03-31 03:32-0400\n"
+"POT-Creation-Date: 2016-04-05 17:04-0400\n"
+"PO-Revision-Date: 2016-04-05 17:04-0400\n"
 "Last-Translator: JS Morisset <jsm@surniaulula.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -388,8 +388,8 @@ msgstr ""
 "plus récente (la version %5$s est actuellement installée)."
 
 #. Plugin Name of the plugin/theme
-msgid "WPSSO App Meta (WPSSO AM)"
-msgstr "WPSSO App Meta (WPSSO AM)"
+msgid "WPSSO Mobile App Meta (WPSSO AM)"
+msgstr "WPSSO Mobile App Meta (WPSSO AM)"
 
 #. Plugin URI of the plugin/theme
 msgid "http://surniaulula.com/extend/plugins/wpsso-am/"
