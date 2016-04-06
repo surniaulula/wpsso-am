@@ -102,6 +102,19 @@ Purchase the [WPSSO Mobile App Meta (WPSSO AM) Pro](http://wpsso.com/extend/plug
 
 = Changelog / Release Notes =
 
+**Version 1.7.1-alpha3 (2016/04/06)**
+
+Official announcement: N/A
+
+* *New Features*
+	* None
+* *Improvements*
+	* None
+* *Bugfixes*
+	* None
+* *Developer Notes*
+	* Changed `is_front_page()` to `$mod['is_front']` checks where possible, and `SucomUtil::is_front_page()` elsewhere.
+
 **Version 1.7.0-1 (2016/03/30)**
 
 Official announcement: N/A
@@ -118,6 +131,10 @@ Official announcement: N/A
 		* `{major}.{minor}.{bugfix}-{stage}{level}`
 
 == Upgrade Notice ==
+
+= 1.7.1-alpha3 =
+
+(2016/03/30) Changed is_front_page() calls for WPSSO v3.29.0.
 
 = 1.7.0-1 =
 
