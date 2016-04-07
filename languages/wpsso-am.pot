@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WPSSO Mobile App Meta (WPSSO AM) package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WPSSO Mobile App Meta (WPSSO AM) 1.7.1-beta1\n"
+"Project-Id-Version: WPSSO Mobile App Meta (WPSSO AM) 1.7.1-rc1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-am\n"
 "POT-Creation-Date: 2016-MO-DA HO:MI+ZONE\n"
 "MIME-Version: 1.0\n"
