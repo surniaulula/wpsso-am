@@ -102,7 +102,7 @@ Purchase the [WPSSO Mobile App Meta (WPSSO AM) Pro](http://wpsso.com/extend/plug
 
 = Changelog / Release Notes =
 
-**Version 1.7.1-rc1 (2016/04/08)**
+**Version 1.7.1-1 (2016/04/08)**
 
 Official announcement: N/A
 
@@ -132,7 +132,7 @@ Official announcement: N/A
 
 == Upgrade Notice ==
 
-= 1.7.1-rc1 =
+= 1.7.1-1 =
 
 (2016/04/08) Changed is_front_page() calls for WPSSO v3.29.0.
 
