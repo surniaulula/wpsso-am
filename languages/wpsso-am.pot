@@ -30,9 +30,9 @@ msgid ""
 "mobile App (as an alternative to using a mobile browser)."
 msgstr ""
 
-#: lib/filters.php:204 lib/filters.php:291
+#: lib/filters.php:204
 msgid ""
-"An <em>%1$s</em> tab can be added to the %2$s metabox on Posts, Pages, and "
+"A <em>%1$s</em> tab can be added to the %2$s metabox on Posts, Pages, and "
 "custom post types, allowing you to enter specific information about one or "
 "more Apple Store and Google Play mobile Apps."
 msgstr ""
@@ -168,6 +168,13 @@ msgid ""
 "Apple Store App on your website, enter its details here."
 msgstr ""
 
+#: lib/filters.php:291
+msgid ""
+"An <em>%1$s</em> tab can be added to the %2$s metabox on Posts, Pages, and "
+"custom post types, allowing you to enter specific information about one or "
+"more Apple Store and Google Play mobile Apps."
+msgstr ""
+
 #: lib/gpl/admin/general.php:37 lib/pro/admin/general.php:44
 msgctxt "option label"
 msgid "Show Tab on Post Types"
@@ -253,7 +260,7 @@ msgid "Google Play App URL Scheme"
 msgstr ""
 
 #: lib/gpl/admin/post.php:145 lib/pro/admin/post.php:153
-#: lib/submenu/am-general.php:32
+#: lib/submenu/am-general.php:28
 msgctxt "metabox title"
 msgid "Mobile App Banner"
 msgstr ""
@@ -273,12 +280,12 @@ msgctxt "option label"
 msgid "Argument String"
 msgstr ""
 
-#: lib/submenu/am-general.php:29
+#: lib/submenu/am-general.php:32
 msgctxt "metabox title"
 msgid "Mobile App Products"
 msgstr ""
 
-#: lib/submenu/am-general.php:54
+#: lib/submenu/am-general.php:45
 msgctxt "metabox tab"
 msgid "Apple Store App"
 msgstr ""

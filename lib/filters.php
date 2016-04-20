@@ -201,7 +201,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 					$text = __( 'Creates a banner advertisement in Apple\'s mobile Safari for your website\'s mobile App (as an alternative to using a mobile browser).', 'wpsso-am' );
 					break;
 				case 'tooltip-side-mobile-app-products':
-					$text = sprintf( __( 'An <em>%1$s</em> tab can be added to the %2$s metabox on Posts, Pages, and custom post types, allowing you to enter specific information about one or more Apple Store and Google Play mobile Apps.', 'wpsso-am' ), _x( 'Mobile Apps', 'metabox tab', 'wpsso-am' ), _x( 'Social Settings', 'metabox title', 'wpsso' ) );
+					$text = sprintf( __( 'A <em>%1$s</em> tab can be added to the %2$s metabox on Posts, Pages, and custom post types, allowing you to enter specific information about one or more Apple Store and Google Play mobile Apps.', 'wpsso-am' ), _x( 'Mobile Apps', 'metabox tab', 'wpsso-am' ), _x( 'Social Settings', 'metabox title', 'wpsso' ) );
 					break;
 				case 'tooltip-side-twitter-app-card':
 					$text = sprintf( __( 'The <em>%s</em> information is used to create meta tags for Twitter\'s App Card and customize a mobile App banner for Apple\'s mobile Safari.', 'wpsso-am' ), _x( 'Mobile Apps', 'metabox tab', 'wpsso-am' ) );

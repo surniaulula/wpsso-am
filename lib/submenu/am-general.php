@@ -24,22 +24,13 @@ if ( ! class_exists( 'WpssoAmSubmenuAmgeneral' ) && class_exists( 'WpssoAdmin' )
 		}
 
 		protected function add_meta_boxes() {
-			// add_meta_box( $id, $title, $callback, $post_type, $context, $priority, $callback_args );
-			add_meta_box( $this->pagehook.'_appmeta', 
-				_x( 'Mobile App Products', 'metabox title', 'wpsso-am' ),
-				array( &$this, 'show_metabox_appmeta' ), $this->pagehook, 'normal' );
 			add_meta_box( $this->pagehook.'_banner',
 				_x( 'Mobile App Banner', 'metabox title', 'wpsso-am' ), 
 				array( &$this, 'show_metabox_banner' ), $this->pagehook, 'normal' );
-		}
 
-		public function show_metabox_appmeta() {
-			$metabox = 'appmeta';
-			echo '<table class="sucom-setting">';
-			foreach ( apply_filters( $this->p->cf['lca'].'_'.$metabox.'_general_rows', 
-				$this->get_table_rows( $metabox, 'general' ), $this->form ) as $row )
-					echo '<tr>'.$row.'</tr>';
-			echo '</table>';
+			add_meta_box( $this->pagehook.'_appmeta', 
+				_x( 'Mobile App Products', 'metabox title', 'wpsso-am' ),
+				array( &$this, 'show_metabox_appmeta' ), $this->pagehook, 'normal' );
 		}
 
 		public function show_metabox_banner() {
@@ -59,6 +50,15 @@ if ( ! class_exists( 'WpssoAmSubmenuAmgeneral' ) && class_exists( 'WpssoAdmin' )
 				$table_rows[$key] = array_merge( $this->get_table_rows( $metabox, $key ), 
 					apply_filters( $this->p->cf['lca'].'_'.$metabox.'_'.$key.'_rows', array(), $this->form ) );
 			$this->p->util->do_metabox_tabs( $metabox, $tabs, $table_rows );
+		}
+
+		public function show_metabox_appmeta() {
+			$metabox = 'appmeta';
+			echo '<table class="sucom-setting">';
+			foreach ( apply_filters( $this->p->cf['lca'].'_'.$metabox.'_general_rows', 
+				$this->get_table_rows( $metabox, 'general' ), $this->form ) as $row )
+					echo '<tr>'.$row.'</tr>';
+			echo '</table>';
 		}
 
 		protected function get_table_rows( $metabox, $key ) {
