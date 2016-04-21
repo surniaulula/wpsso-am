@@ -102,7 +102,7 @@ Purchase the [WPSSO Mobile App Meta (WPSSO AM) Pro](http://wpsso.com/extend/plug
 
 = Changelog / Release Notes =
 
-**Version 1.7.1-1 (2016/04/08)**
+**Version 1.7.2-1 (2016/04/21)**
 
 Official announcement: N/A
 
@@ -113,29 +113,11 @@ Official announcement: N/A
 * *Bugfixes*
 	* None
 * *Developer Notes*
-	* Changed `is_front_page()` to `$mod['is_front']` checks where possible, and `SucomUtil::is_front_page()` elsewhere.
-
-**Version 1.7.0-1 (2016/03/30)**
-
-Official announcement: N/A
-
-* *New Features*
-	* None
-* *Improvements*
-	* Added the WPSSO AM meta tags on the back-end as well so they are included in the Head Tags list.
-	* Updated the 'wpsso_meta_name' filter arguments to use the new `$mod` array.
-* *Bugfixes*
-	* None
-* *Developer Notes*
-	* Adopted a new version numbering system: `{major}.{minor}.{bugfix}-{stage}{level}`
+	* Renamed $mod 'is_front' index key to 'is_home_page' for WPSSO v3.29.6-1.
 
 == Upgrade Notice ==
 
-= 1.7.1-1 =
+= 1.7.2-1 =
 
-(2016/04/08) Changed is_front_page() calls for WPSSO v3.29.0.
-
-= 1.7.0-1 =
-
-(2016/03/30) Added the WPSSO AM meta tags on the back-end as well so they are included in the Head Tags list. Adopted a standard version numbering system.
+(2016/04/21) Minor code changes for WPSSO v3.29.6-1.
 
