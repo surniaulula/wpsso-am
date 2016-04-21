@@ -106,17 +106,17 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 
 			$md_opts = array();
 
-			if ( ! $mod['is_post'] ) {	// aka "not singular"
+			if ( ! $mod['is_post'] ) {		// aka "not singular"
 				if ( empty( $this->p->options['am_ws_on_index'] ) ) {
 					if ( $this->p->debug->enabled )
-						$this->p->debug->log( 'exiting early: index page without am_ws_on_index enabled' );
+						$this->p->debug->log( 'exiting early: am_ws_on_index not enabled' );
 					return $mt_name;
 				}
 
-			} elseif ( $mod['is_front'] ) {
+			} elseif ( $mod['is_home_page'] ) {
 				if ( empty( $this->p->options['am_ws_on_front'] ) ) {
 					if ( $this->p->debug->enabled )
-						$this->p->debug->log( 'exiting early: front page without am_ws_on_front enabled' );
+						$this->p->debug->log( 'exiting early: am_ws_on_front not enabled' );
 					return $mt_name;
 				}
 
