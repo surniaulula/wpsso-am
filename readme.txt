@@ -102,22 +102,22 @@ Purchase the [WPSSO Mobile App Meta (WPSSO AM) Pro](http://wpsso.com/extend/plug
 
 = Changelog / Release Notes =
 
-**Version 1.7.2-1 (2016/04/21)**
+**Version 1.7.3-1 (2016/04/30)**
 
 Official announcement: N/A
 
 * *New Features*
 	* None
 * *Improvements*
-	* None
+	* Fixed the sort order in country selects (sorting by value instead of index key).
 * *Bugfixes*
 	* None
 * *Developer Notes*
-	* Renamed $mod 'is_front' index key to 'is_home_page' for WPSSO v3.29.6-1.
+	* None
 
 == Upgrade Notice ==
 
-= 1.7.2-1 =
+= 1.7.3-1 =
 
-(2016/04/21) Minor code changes for WPSSO v3.29.6-1.
+(2016/04/30) Fixed the sort order in country selects (sorting by value instead of index key).
 
