@@ -57,7 +57,6 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 			if ( is_admin() ) {
 				$this->p->util->add_plugin_filters( $this, array( 
 					'option_type' => 2,		// define the value type for each option
-					'messages_tooltip_side' => 2,	// tooltip messages for side boxes
 					'messages_tooltip_post' => 2,	// tooltip messages for post social settings
 					'messages_tooltip' => 2,	// tooltip messages filter
 					'messages_info' => 2,		// info messages filter
@@ -137,9 +136,9 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 				$md_opts = $mod['obj']->get_options( $mod['id'] );
 			}
 
-			if ( ! empty( $md_opts['am_ws_itunes_app_aff'] ) )
+			if ( ! empty( $md_opts['am_ws_itunes_app_id'] ) )
 				$mt_name['apple-itunes-app'] = 'app-id='.$md_opts['am_ws_itunes_app_id'];
-			elseif ( ! empty( $this->p->options['am_ws_itunes_app_aff'] ) )	// fallback to global options
+			elseif ( ! empty( $this->p->options['am_ws_itunes_app_id'] ) )	// fallback to global options
 				$mt_name['apple-itunes-app'] = 'app-id='.$this->p->options['am_ws_itunes_app_id'];
 			else {
 				if ( $this->p->debug->enabled )
@@ -193,21 +192,6 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 					break;
 			}
 			return $type;
-		}
-
-		public function filter_messages_tooltip_side( $text, $idx ) {
-			switch ( $idx ) {
-				case 'tooltip-side-website-app-meta':
-					$text = __( 'Creates a banner advertisement in Apple\'s mobile Safari for your website\'s mobile App (as an alternative to using a mobile browser).', 'wpsso-am' );
-					break;
-				case 'tooltip-side-mobile-app-products':
-					$text = sprintf( __( 'A <em>%1$s</em> tab can be added to the %2$s metabox on Posts, Pages, and custom post types, allowing you to enter specific information about one or more Apple Store and Google Play mobile Apps.', 'wpsso-am' ), _x( 'Mobile Apps', 'metabox tab', 'wpsso-am' ), _x( 'Social Settings', 'metabox title', 'wpsso' ) );
-					break;
-				case 'tooltip-side-twitter-app-card':
-					$text = sprintf( __( 'The <em>%s</em> information is used to create meta tags for Twitter\'s App Card and customize a mobile App banner for Apple\'s mobile Safari.', 'wpsso-am' ), _x( 'Mobile Apps', 'metabox tab', 'wpsso-am' ) );
-					break;
-			}
-			return $text;
 		}
 
 		public function filter_messages_tooltip_post( $text, $idx ) {
@@ -295,7 +279,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 		}
 
 		public function filter_status_gpl_features( $features, $lca, $info ) {
-			$features['Website App Meta'] = array( 
+			$features['(code) Mobile App Banner'] = array( 
 				'status' => $this->p->options['am_ws_itunes_app_id'] ? 'on' : 'off'
 			);
 			return $features;
@@ -303,11 +287,11 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 
 		public function filter_status_pro_features( $features, $lca, $info ) {
 			$aop = $this->p->check->aop( $lca );
-			$features['Mobile App Products'] = array( 
+			$features['(code) Custom Mobile Apps Meta'] = array( 
 				'status' => $aop ? 'on' : 'off',
 				'td_class' => $aop ? '' : 'blank',
 			);
-			$features['Twitter App Card'] = array( 
+			$features['(code) Twitter App Card Meta Tags'] = array( 
 				'status' => $aop ? 'on' : 'off',
 				'td_class' => $aop ? '' : 'blank',
 			);
