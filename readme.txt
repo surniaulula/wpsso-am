@@ -102,6 +102,19 @@ Purchase the [WPSSO Mobile App Meta (WPSSO AM) Pro](http://wpsso.com/extend/plug
 
 = Changelog / Release Notes =
 
+**Version 1.7.4-dev1 (2016/05/10)**
+
+Official announcement: N/A
+
+* *New Features*
+	* None
+* *Improvements*
+	* Categorized the display of Free / Pro features in the sidebar metabox.
+* *Bugfixes*
+	* None
+* *Developer Notes*
+	* None
+
 **Version 1.7.3-1 (2016/04/30)**
 
 Official announcement: N/A
@@ -116,6 +129,10 @@ Official announcement: N/A
 	* None
 
 == Upgrade Notice ==
+
+= 1.7.4-dev1 =
+
+(2016/05/10) Categorized the display of Free / Pro features in the sidebar metabox.
 
 = 1.7.3-1 =
 
