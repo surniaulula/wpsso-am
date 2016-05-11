@@ -286,14 +286,14 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 		}
 
 		public function filter_status_pro_features( $features, $lca, $info ) {
-			$aop = $this->p->check->aop( $lca );
+			$aop = $this->p->check->aop( $ext, true, $this->p->is_avail['aop'] );
 			$features['(code) Custom Mobile Apps Meta'] = array( 
-				'status' => $aop ? 'on' : 'off',
 				'td_class' => $aop ? '' : 'blank',
+				'status' => $aop ? 'on' : 'off',
 			);
 			$features['(code) Twitter App Card Meta Tags'] = array( 
-				'status' => $aop ? 'on' : 'off',
 				'td_class' => $aop ? '' : 'blank',
+				'status' => $aop ? 'on' : 'off',
 			);
 			return $features;
 		}
