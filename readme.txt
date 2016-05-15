@@ -115,26 +115,9 @@ Official announcement: N/A
 * *Developer Notes*
 	* None
 
-**Version 1.7.3-1 (2016/04/30)**
-
-Official announcement: N/A
-
-* *New Features*
-	* None
-* *Improvements*
-	* Fixed the sort order in country selects (sorting by value instead of index key).
-* *Bugfixes*
-	* None
-* *Developer Notes*
-	* None
-
 == Upgrade Notice ==
 
 = 1.7.4-1 =
 
 (2016/05/14) Categorized the display of Free / Pro features in the sidebar metabox.
-
-= 1.7.3-1 =
-
-(2016/04/30) Fixed the sort order in country selects (sorting by value instead of index key).
 
