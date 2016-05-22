@@ -13,6 +13,11 @@ msgstr ""
 "Language-Team: LANGUAGE <LL@li.org>\n"
 
 #: lib/config-gettext-extract.php:3
+msgctxt "lib file description"
+msgid "Mobile App Meta"
+msgstr ""
+
+#: lib/config-gettext-extract.php:4
 msgctxt "plugin description"
 msgid ""
 "WPSSO extension to provide Apple Store / iTunes and Google Play App meta "
