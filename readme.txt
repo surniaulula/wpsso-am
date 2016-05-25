@@ -32,7 +32,7 @@ WPSSO Mobile App Meta (WPSSO AM) works in conjunction with the [WordPress Social
 
 **WPSSO AM Pro / Power-User Features**
 
-* Extends the features of WPSSO Pro (all WPSSO Pro extensions require a licensed and active WPSSO Pro plugin).
+* Extends the features of WPSSO Pro (requires a licensed and active WPSSO Pro plugin).
 * Add an *App Product* tab to WPSSO's Social Settings metabox with additional options:
 	* The App Store Territory.
 	* Apple Store iPhone App ID, Name, and Custom URL Scheme.
