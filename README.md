@@ -20,19 +20,12 @@
 
 <p>WPSSO Mobile App Meta (WPSSO AM) works in conjunction with the <a href="https://wordpress.org/plugins/wpsso/">WordPress Social Sharing Optimization (WPSSO)</a> plugin, extending its features with additional settings pages, tabs, and options to include iPhone, iPad, and Google Play App meta tags in your webpages (for Apple's mobile Safari and <a href="https://dev.twitter.com/cards/types/app">Twitter's App Card</a>).</p>
 
-<h4>Available in Multiple Languages</h4>
-
-<ul>
-<li>English (US)</li>
-<li>French (France)</li>
-<li>More to come...</li>
-</ul>
-
 <h4>Quick List of Features</h4>
 
 <p><strong>WPSSO AM Free / Basic Features</strong></p>
 
 <ul>
+<li>Extends the features of either the Free or Pro versions of WPSSO.</li>
 <li>Adds an optional banner advertisement in Apple's mobile Safari for your website's Apple Store mobile App.</li>
 <li>Include the banner advertisement on index / archive webpages, a your static home page, Posts, Pages, and custom post types (e-commerce Product pages, for example).</li>
 </ul>
@@ -40,6 +33,7 @@
 <p><strong>WPSSO AM Pro / Power-User Features</strong></p>
 
 <ul>
+<li>Extends the features of WPSSO Pro (all WPSSO Pro extensions require a licensed and active WPSSO Pro plugin).</li>
 <li>Add an <em>App Product</em> tab to WPSSO's Social Settings metabox with additional options:
 
 <ul>
@@ -76,7 +70,15 @@
 </ul></li>
 </ul>
 
-<h4>Extends the WPSSO Social Plugin</h4>
+<h4>Available in Multiple Languages</h4>
+
+<ul>
+<li>English (US)</li>
+<li>French (France)</li>
+<li>More to come...</li>
+</ul>
+
+<h4>Extends the WPSSO Plugin</h4>
 
 <p>The WordPress Social Sharing Optimization (WPSSO) plugin is required to use the WPSSO AM extension.</p>
 

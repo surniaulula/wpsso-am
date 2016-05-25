@@ -22,21 +22,17 @@ WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags fo
 
 WPSSO Mobile App Meta (WPSSO AM) works in conjunction with the [WordPress Social Sharing Optimization (WPSSO)](https://wordpress.org/plugins/wpsso/) plugin, extending its features with additional settings pages, tabs, and options to include iPhone, iPad, and Google Play App meta tags in your webpages (for Apple's mobile Safari and [Twitter's App Card](https://dev.twitter.com/cards/types/app)).
 
-= Available in Multiple Languages =
-
-* English (US)
-* French (France)
-* More to come...
-
 = Quick List of Features =
 
 **WPSSO AM Free / Basic Features**
 
+* Extends the features of either the Free or Pro versions of WPSSO.
 * Adds an optional banner advertisement in Apple's mobile Safari for your website's Apple Store mobile App.
 * Include the banner advertisement on index / archive webpages, a your static home page, Posts, Pages, and custom post types (e-commerce Product pages, for example).
 
 **WPSSO AM Pro / Power-User Features**
 
+* Extends the features of WPSSO Pro (all WPSSO Pro extensions require a licensed and active WPSSO Pro plugin).
 * Add an *App Product* tab to WPSSO's Social Settings metabox with additional options:
 	* The App Store Territory.
 	* Apple Store iPhone App ID, Name, and Custom URL Scheme.
@@ -61,7 +57,13 @@ WPSSO Mobile App Meta (WPSSO AM) works in conjunction with the [WordPress Social
 	* twitter:app:url:ipad
 	* twitter:app:url:googleplay
 
-= Extends the WPSSO Social Plugin =
+= Available in Multiple Languages =
+
+* English (US)
+* French (France)
+* More to come...
+
+= Extends the WPSSO Plugin =
 
 The WordPress Social Sharing Optimization (WPSSO) plugin is required to use the WPSSO AM extension. 
 
