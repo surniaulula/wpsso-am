@@ -286,7 +286,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 		}
 
 		public function filter_status_pro_features( $features, $lca, $info ) {
-			$aop = $this->p->check->aop( $ext, true, $this->p->is_avail['aop'] );
+			$aop = $this->p->check->aop( $lca, true, $this->p->is_avail['aop'] );
 			$features['(code) Custom Mobile Apps Meta'] = array( 
 				'td_class' => $aop ? '' : 'blank',
 				'status' => $aop ? 'on' : 'off',
