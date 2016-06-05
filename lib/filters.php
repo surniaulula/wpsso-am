@@ -160,12 +160,11 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 		}
 
 		public function filter_option_type( $type, $key ) {
+
 			if ( ! empty( $type ) )
 				return $type;
-
-			// remove localization for more generic match
-			if ( strpos( $key, '#' ) !== false )
-				$key = preg_replace( '/#.*$/', '', $key );
+			elseif ( strpos( $key, 'am_' ) !== 0 )
+				return $type;
 
 			switch ( $key ) {
 				case 'am_ws_itunes_app_id':

@@ -24,77 +24,77 @@ msgid ""
 "tags for Apple's mobile Safari and Twitter's App Card."
 msgstr ""
 
-#: lib/filters.php:203
+#: lib/filters.php:202
 msgid ""
 "The numeric representation of your iPhone application ID in the App Store "
 "(example: \"307234931\")."
 msgstr ""
 
-#: lib/filters.php:206
+#: lib/filters.php:205
 msgid "The name of your iPhone application."
 msgstr ""
 
-#: lib/filters.php:209
+#: lib/filters.php:208
 msgid ""
 "Your iPhone App's <em>custom</em> URL scheme (you must include \"://\" after "
 "the scheme name)."
 msgstr ""
 
-#: lib/filters.php:212
+#: lib/filters.php:211
 msgid ""
 "The numeric representation of your iPad application ID in the App Store "
 "(example: \"307234931\")."
 msgstr ""
 
-#: lib/filters.php:215
+#: lib/filters.php:214
 msgid "The name of your iPad application."
 msgstr ""
 
-#: lib/filters.php:218
+#: lib/filters.php:217
 msgid ""
 "Your iPad App's <em>custom</em> URL scheme (you must include \"://\" after "
 "the scheme name)."
 msgstr ""
 
-#: lib/filters.php:221
+#: lib/filters.php:220
 msgid ""
 "The fully qualified package name of your Google Play application (example: "
 "\"com.google.android.apps.maps\")."
 msgstr ""
 
-#: lib/filters.php:224
+#: lib/filters.php:223
 msgid "The name of your Google Play application."
 msgstr ""
 
-#: lib/filters.php:227
+#: lib/filters.php:226
 msgid ""
 "Your Google Play App's <em>custom</em> URL scheme (you must include \"://\" "
 "after the scheme name)."
 msgstr ""
 
-#: lib/filters.php:239
+#: lib/filters.php:238
 msgid "Add meta tags for the website's mobile App to index and archive pages."
 msgstr ""
 
-#: lib/filters.php:242
+#: lib/filters.php:241
 msgid "Add meta tags for the website's mobile App to a static front page."
 msgstr ""
 
-#: lib/filters.php:245
+#: lib/filters.php:244
 msgid ""
 "Add meta tags for the website's mobile App to Posts, Pages, and custom post "
 "types."
 msgstr ""
 
-#: lib/filters.php:248
+#: lib/filters.php:247
 msgid "A mobile App ID in the Apple Store (example: \"307234931\")."
 msgstr ""
 
-#: lib/filters.php:251
+#: lib/filters.php:250
 msgid "If you have an iTunes affiliate string, enter it here."
 msgstr ""
 
-#: lib/filters.php:254
+#: lib/filters.php:253
 msgid ""
 "A query string - which may include one or more inline variables - to provide "
 "context to your website's mobile App. If the user has your mobile App "
@@ -102,59 +102,59 @@ msgid ""
 "content in the mobile App."
 msgstr ""
 
-#: lib/filters.php:257
+#: lib/filters.php:256
 msgid "The App Store country providing your application."
 msgstr ""
 
-#: lib/filters.php:260
+#: lib/filters.php:259
 msgid "Include the <em>%1$s</em> tab in the %2$s metabox on Posts, Pages, etc."
 msgstr ""
 
-#: lib/filters.php:260 lib/filters.php:269 lib/filters.php:275
+#: lib/filters.php:259 lib/filters.php:268 lib/filters.php:274
 #: lib/gpl/admin/post.php:30 lib/pro/admin/post.php:41
 msgctxt "metabox tab"
 msgid "Mobile Apps"
 msgstr ""
 
-#: lib/filters.php:260 lib/filters.php:269 lib/filters.php:275
+#: lib/filters.php:259 lib/filters.php:268 lib/filters.php:274
 msgctxt "metabox title"
 msgid "Social Settings"
 msgstr ""
 
-#: lib/filters.php:269
+#: lib/filters.php:268
 msgid ""
 "These options provide a way to present a banner advertisement in Apple's "
 "mobile Safari for your Apple Store App(s)."
 msgstr ""
 
-#: lib/filters.php:269
+#: lib/filters.php:268
 msgid ""
 "The banner advertisement allows users of your website to download your "
 "mobile App and/or switch to your mobile App when using Apple's mobile Safari."
 msgstr ""
 
-#: lib/filters.php:269
+#: lib/filters.php:268
 msgid ""
 "The Apple Store App information can be customized for each Post, Page, and "
 "custom post type under the <em>%1$s</em> tab (enabled above) in the %2$s "
 "metabox."
 msgstr ""
 
-#: lib/filters.php:272
+#: lib/filters.php:271
 msgid ""
 "If you have an Apple Store App to access your website (as an alternative to "
 "using mobile web browsers, for example) and/or want to promote a single "
 "Apple Store App on your website, enter its details here."
 msgstr ""
 
-#: lib/filters.php:275
+#: lib/filters.php:274
 msgid ""
 "An <em>%1$s</em> tab can be added to the %2$s metabox on Posts, Pages, and "
 "custom post types, allowing you to enter specific information about one or "
 "more Apple Store and Google Play mobile Apps."
 msgstr ""
 
-#: lib/filters.php:275
+#: lib/filters.php:274
 msgid ""
 "The <em>%s</em> information is used to create meta tags for Twitter's App "
 "Card and customize a mobile App banner for Apple's mobile Safari."
