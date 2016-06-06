@@ -104,6 +104,19 @@ Purchase the [WPSSO Mobile App Meta (WPSSO AM) Pro](http://wpsso.com/extend/plug
 
 = Changelog / Release Notes =
 
+**Version 1.7.5-dev1 (2016/06/05)**
+
+Official announcement: N/A
+
+* *New Features*
+	* None
+* *Improvements*
+	* None
+* *Bugfixes*
+	* None
+* *Developer Notes*
+	* Optimized the 'filter_option_type()' filter for a small performance gain when saving options.
+
 **Version 1.7.4-1 (2016/05/14)**
 
 Official announcement: N/A
@@ -118,6 +131,10 @@ Official announcement: N/A
 	* None
 
 == Upgrade Notice ==
+
+= 1.7.5-dev1 =
+
+(2016/06/05) Optimized the 'filter_option_type()' filter for a small performance gain when saving options.
 
 = 1.7.4-1 =
 
