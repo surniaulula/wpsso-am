@@ -15,7 +15,7 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 		public static $cf = array(
 			'plugin' => array(
 				'wpssoam' => array(
-					'version' => '1.7.5-dev1',		// plugin version
+					'version' => '1.7.5-dev2',		// plugin version
 					'opt_version' => '7',		// increment when changing default options
 					'short' => 'WPSSO AM',		// short plugin name
 					'name' => 'WPSSO Mobile App Meta (WPSSO AM)',
@@ -52,13 +52,13 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 						),
 						'gpl' => array(
 							'admin' => array(
-								'general' => 'General Settings',
+								'am-general' => 'AM General Settings',
 								'post' => 'Post Settings',
 							),
 						),
 						'pro' => array(
 							'admin' => array(
-								'general' => 'General Settings',
+								'am-general' => 'AM General Settings',
 								'post' => 'Post Settings',
 							),
 							'head' => array(
