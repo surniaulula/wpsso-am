@@ -67,7 +67,7 @@ WPSSO Mobile App Meta (WPSSO AM) works in conjunction with the [WordPress Social
 
 The WordPress Social Sharing Optimization (WPSSO) plugin is required to use the WPSSO AM extension. 
 
-You can use the Free version of WPSSO AM with *both* the Free and Pro versions of WPSSO, but the [WPSSO AM Pro](http://wpsso.com/extend/plugins/wpsso-am/) version requires the use of the [WPSSO Pro](http://wpsso.com/extend/plugins/wpsso/) version as well.
+Use the Free version of WPSSO AM with *both* the Free and Pro versions of WPSSO. The [WPSSO AM Pro](http://wpsso.com/extend/plugins/wpsso-organization/) extension (along with all WPSSO Pro extensions) requires the [WPSSO Pro](http://wpsso.com/extend/plugins/wpsso/) plugin as well.
 
 Purchase the [WPSSO Mobile App Meta (WPSSO AM) Pro](http://wpsso.com/extend/plugins/wpsso-am/) extension (includes a *No Risk 30 Day Refund Policy*).
 
