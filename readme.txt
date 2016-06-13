@@ -28,16 +28,36 @@ WPSSO Mobile App Meta (WPSSO AM) works in conjunction with the [WordPress Social
 
 * Extends the features of either the Free or Pro versions of WPSSO.
 * Adds an optional banner advertisement in Apple's mobile Safari for your website's Apple Store mobile App.
-* Include the banner advertisement on index / archive webpages, a your static home page, Posts, Pages, and custom post types (e-commerce Product pages, for example).
+	* Add Banner to Index Webpages
+	* Add Banner to Static Homepage
+	* Add Banner to Post Types (Posts, Pages, Media, Products, etc.).
+	* Apple Store App
+		* Default App ID Number
+		* Default Affiliate Data
+		* Default Argument String
 
 **WPSSO AM Pro / Power-User Features**
 
 * Extends the features of WPSSO Pro (requires a licensed and active WPSSO Pro plugin).
 * Add an *App Product* tab to WPSSO's Social Settings metabox with additional options:
-	* The App Store Territory.
-	* Apple Store iPhone App ID, Name, and Custom URL Scheme.
-	* Apple Store iPad App ID, Name, and Custom URL Scheme.
-	* Google Play App ID, Name, and Custom URL Scheme.
+	* Twitter App Card
+		* App Store Territory
+		* iPhone App Details
+			* iPhone App ID
+			* iPhone App Name
+			* iPhone App URL Scheme
+		* iPad App Details
+			* iPad App ID
+			* iPad App Name
+			* iPad App URL Scheme
+		* Google Play App Details
+			* Google Play App ID
+			* Google Play App Name
+			* Google Play App URL Scheme
+	* Mobile App Banner
+		* App ID Number
+		* Affiliate Data
+		* Argument String
 * Include the *App Product* tab on Posts, Pages, and custom post types (e-commerce Product pages, for example).
 * Adds [Twitter App Card](https://dev.twitter.com/cards/types/app) meta tags for *App Product* webpages.
 
