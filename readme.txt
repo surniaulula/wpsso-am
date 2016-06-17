@@ -137,26 +137,9 @@ Official announcement: N/A
 * *Developer Notes*
 	* Optimized the 'filter_option_type()' filter for a small performance gain when saving options.
 
-**Version 1.7.4-1 (2016/05/14)**
-
-Official announcement: N/A
-
-* *New Features*
-	* None
-* *Improvements*
-	* Categorized the display of Free / Pro features in the sidebar metabox.
-* *Bugfixes*
-	* None
-* *Developer Notes*
-	* None
-
 == Upgrade Notice ==
 
 = 1.7.5-1 =
 
 (2016/06/14) Optimized the 'filter_option_type()' filter for a small performance gain when saving options.
-
-= 1.7.4-1 =
-
-(2016/05/14) Categorized the display of Free / Pro features in the sidebar metabox.
 
