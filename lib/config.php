@@ -255,7 +255,7 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 				if ( file_exists( $filepath ) ) {
 					require_once( $filepath );
 					if ( empty( $classname ) )
-						return SucomUtil::sanitize_classname( 'wpssoam'.$filespec );
+						return SucomUtil::sanitize_classname( 'wpssoam'.$filespec, false );	// $underscore = false
 					else return $classname;
 				}
 			}
