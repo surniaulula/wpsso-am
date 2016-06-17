@@ -112,8 +112,8 @@ Purchase the [WPSSO Mobile App Meta (WPSSO AM) Pro](http://wpsso.com/extend/plug
 
 == Screenshots ==
 
-01. The WPSSO AM Settings Page
-02. The App Product Tab
+01. Mobile App Meta settings page &mdash; Settings for the Mobile App Banner, Apple Store App defaults, and the Mobile Apps tab.
+02. Mobile Apps Tab in the Social Settings metabox &mdash; Custom settings for the Twitter App Card and Mobile App Banner.
 
 == Changelog ==
 
