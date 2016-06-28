@@ -38,7 +38,7 @@ WPSSO Mobile App Meta (WPSSO AM) works in conjunction with the [WordPress Social
 
 **WPSSO AM Pro / Power-User Features**
 
-* Extends the features of WPSSO Pro (requires a licensed and active WPSSO Pro plugin).
+* Extends the features of WPSSO Pro (requires a licensed WPSSO Pro plugin).
 * Add an *App Product* tab to WPSSO's Social Settings metabox with additional options:
 	* Twitter App Card
 		* App Store Territory
@@ -124,6 +124,19 @@ Purchase the [WPSSO Mobile App Meta (WPSSO AM) Pro](http://wpsso.com/extend/plug
 
 = Changelog / Release Notes =
 
+**Version 1.7.6-dev1 (2016/06/28)**
+
+Official announcement: N/A
+
+* *New Features*
+	* None
+* *Improvements*
+	* None
+* *Bugfixes*
+	* None
+* *Developer Notes*
+	* Adjusted notices for the new notice methods in WPSSO v3.33.2-1.
+
 **Version 1.7.5-1 (2016/06/14)**
 
 Official announcement: N/A
@@ -138,6 +151,10 @@ Official announcement: N/A
 	* Optimized the 'filter_option_type()' filter for a small performance gain when saving options.
 
 == Upgrade Notice ==
+
+= 1.7.6-dev1 =
+
+(2016/06/28) Adjusted notices for the new notice methods in WPSSO v3.33.2-1.
 
 = 1.7.5-1 =
 
