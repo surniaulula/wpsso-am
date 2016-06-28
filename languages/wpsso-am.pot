@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WPSSO Mobile App Meta (WPSSO AM) package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WPSSO Mobile App Meta (WPSSO AM) 1.7.5-1\n"
+"Project-Id-Version: WPSSO Mobile App Meta (WPSSO AM) 1.7.6-dev1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-am\n"
 "POT-Creation-Date: 2016-MO-DA HO:MI+ZONE\n"
 "MIME-Version: 1.0\n"
@@ -275,32 +275,32 @@ msgctxt "metabox tab"
 msgid "Apple Store App"
 msgstr ""
 
-#: lib/submenu/am-general.php:72
+#: lib/submenu/am-general.php:70
 msgctxt "option label"
 msgid "Add Banner to Index Webpages"
 msgstr ""
 
-#: lib/submenu/am-general.php:76
+#: lib/submenu/am-general.php:74
 msgctxt "option label"
 msgid "Add Banner to Static Homepage"
 msgstr ""
 
-#: lib/submenu/am-general.php:86
+#: lib/submenu/am-general.php:84
 msgctxt "option label"
 msgid "Add Banner to Post Types"
 msgstr ""
 
-#: lib/submenu/am-general.php:96
+#: lib/submenu/am-general.php:94
 msgctxt "option label"
 msgid "Default App ID Number"
 msgstr ""
 
-#: lib/submenu/am-general.php:100
+#: lib/submenu/am-general.php:98
 msgctxt "option label"
 msgid "Default Affiliate Data"
 msgstr ""
 
-#: lib/submenu/am-general.php:104
+#: lib/submenu/am-general.php:102
 msgctxt "option label"
 msgid "Default Argument String"
 msgstr ""
