@@ -124,7 +124,7 @@ Purchase the [WPSSO Mobile App Meta (WPSSO AM) Pro](http://wpsso.com/extend/plug
 
 = Changelog / Release Notes =
 
-**Version 1.7.6-dev1 (2016/06/28)**
+**Version 1.7.6-b1 (2016/06/29)**
 
 Official announcement: N/A
 
@@ -152,9 +152,9 @@ Official announcement: N/A
 
 == Upgrade Notice ==
 
-= 1.7.6-dev1 =
+= 1.7.6-b1 =
 
-(2016/06/28) Adjusted notices for the new notice methods in WPSSO v3.33.2-1.
+(2016/06/29) Adjusted notices for the new notice methods in WPSSO v3.33.2-1.
 
 = 1.7.5-1 =
 
