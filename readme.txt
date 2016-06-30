@@ -137,26 +137,9 @@ Official announcement: N/A
 * *Developer Notes*
 	* Adjusted notices for the new notice methods in WPSSO v3.33.2-1.
 
-**Version 1.7.5-1 (2016/06/14)**
-
-Official announcement: N/A
-
-* *New Features*
-	* None
-* *Improvements*
-	* None
-* *Bugfixes*
-	* None
-* *Developer Notes*
-	* Optimized the 'filter_option_type()' filter for a small performance gain when saving options.
-
 == Upgrade Notice ==
 
 = 1.7.6-1 =
 
 (2016/06/30) Adjusted notices for the new notice methods in WPSSO v3.33.2-1.
-
-= 1.7.5-1 =
-
-(2016/06/14) Optimized the 'filter_option_type()' filter for a small performance gain when saving options.
 
