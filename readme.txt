@@ -87,9 +87,9 @@ WPSSO Mobile App Meta (WPSSO AM) works in conjunction with the [WordPress Social
 
 The WordPress Social Sharing Optimization (WPSSO) plugin is required to use the WPSSO AM extension. 
 
-Use the Free version of WPSSO AM with *both* the Free and Pro versions of WPSSO. The [WPSSO AM Pro](http://wpsso.com/extend/plugins/wpsso-organization/) extension (along with all WPSSO Pro extensions) requires the [WPSSO Pro](http://wpsso.com/extend/plugins/wpsso/) plugin as well.
+Use the Free version of WPSSO AM with *both* the Free and Pro versions of WPSSO. The [WPSSO AM Pro](http://wpsso.com/extend/plugins/wpsso-am/?utm_source=wpssoam-readme-extends) extension (along with all WPSSO Pro extensions) requires the [WPSSO Pro](http://wpsso.com/extend/plugins/wpsso/?utm_source=wpssoam-readme-extends) plugin as well.
 
-Purchase the [WPSSO Mobile App Meta (WPSSO AM) Pro](http://wpsso.com/extend/plugins/wpsso-am/) extension (includes a *No Risk 30 Day Refund Policy*).
+[Purchase the WPSSO Mobile App Meta (WPSSO AM) Pro extension](http://wpsso.com/extend/plugins/wpsso-am/?utm_source=wpssoam-readme-purchase) (includes a *No Risk 30 Day Refund Policy*).
 
 == Installation ==
 
@@ -124,7 +124,7 @@ Purchase the [WPSSO Mobile App Meta (WPSSO AM) Pro](http://wpsso.com/extend/plug
 
 = Changelog / Release Notes =
 
-**Version 1.7.6-1 (2016/06/29)**
+**Version 1.7.6-1 (2016/06/30)**
 
 Official announcement: N/A
 
@@ -154,7 +154,7 @@ Official announcement: N/A
 
 = 1.7.6-1 =
 
-(2016/06/29) Adjusted notices for the new notice methods in WPSSO v3.33.2-1.
+(2016/06/30) Adjusted notices for the new notice methods in WPSSO v3.33.2-1.
 
 = 1.7.5-1 =
 
