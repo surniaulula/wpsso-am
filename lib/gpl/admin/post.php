@@ -15,22 +15,8 @@ if ( ! class_exists( 'WpssoAmGplAdminPost' ) ) {
 		public function __construct( &$plugin ) {
 			$this->p =& $plugin;
 			$this->p->util->add_plugin_filters( $this, array( 
-				'post_social_settings_tabs' => 2,	// $tabs, $mod
 				'post_appmeta_rows' => 4,		// $table_rows, $form, $head, $mod
-			), 100 );
-		}
-
-		public function filter_post_social_settings_tabs( $tabs, $mod ) {
-			if ( empty( $this->p->options['am_ap_add_to_'.$mod['post_type']] ) )
-				return $tabs;
-			$new_tabs = array();
-			foreach ( $tabs as $key => $val ) {
-				$new_tabs[$key] = $val;
-				if ( $key === 'media' )
-					$new_tabs['appmeta'] = _x( 'Mobile Apps',
-						'metabox tab', 'wpsso-am' );
-			}
-			return $new_tabs;
+			) );
 		}
 
 		public function filter_post_appmeta_rows( $table_rows, $form, $head, $mod ) {

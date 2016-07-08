@@ -56,10 +56,11 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 
 			if ( is_admin() ) {
 				$this->p->util->add_plugin_filters( $this, array( 
-					'option_type' => 2,		// define the value type for each option
-					'messages_tooltip_post' => 2,	// tooltip messages for post social settings
-					'messages_tooltip' => 2,	// tooltip messages filter
-					'messages_info' => 2,		// info messages filter
+					'option_type' => 2,			// define the value type for each option
+					'post_social_settings_tabs' => 2,	// $tabs, $mod
+					'messages_tooltip_post' => 2,		// tooltip messages for post social settings
+					'messages_tooltip' => 2,		// tooltip messages filter
+					'messages_info' => 2,			// info messages filter
 				) );
 				$this->p->util->add_plugin_filters( $this, array( 
 					'status_gpl_features' => 3,
@@ -191,6 +192,13 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 					break;
 			}
 			return $type;
+		}
+
+		public function filter_post_social_settings_tabs( $tabs, $mod ) {
+			if ( empty( $this->p->options['am_ap_add_to_'.$mod['post_type']] ) )
+				return $tabs;
+			else return SucomUtil::after_key( $tabs, 'header', 'appmeta',
+				_x( 'Mobile Apps', 'metabox tab', 'wpsso-am' ) );
 		}
 
 		public function filter_messages_tooltip_post( $text, $idx ) {
