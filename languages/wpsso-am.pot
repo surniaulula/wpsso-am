@@ -317,7 +317,7 @@ msgid ""
 "activate the %3$s plugin."
 msgstr ""
 
-#: wpsso-am.php:134
+#: wpsso-am.php:136
 msgid ""
 "The %1$s extension version %2$s requires the use of %3$s version %4$s or "
 "newer (version %5$s is currently installed)."
