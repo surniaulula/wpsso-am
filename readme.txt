@@ -124,6 +124,19 @@ Use the Free version of WPSSO AM with *both* the Free and Pro versions of WPSSO.
 
 = Changelog / Release Notes =
 
+**Version 1.7.7-rc1 (2016/07/17)**
+
+Official announcement: N/A
+
+* *New Features*
+	* None
+* *Improvements*
+	* None
+* *Bugfixes*
+	* None
+* *Developer Notes*
+	* Updated the 'wpsso_get_config' filter to use the new version argument in WPSSO v3.33.5-1.
+
 **Version 1.7.6-1 (2016/06/30)**
 
 Official announcement: N/A
@@ -138,6 +151,10 @@ Official announcement: N/A
 	* Adjusted notices for the new notice methods in WPSSO v3.33.2-1.
 
 == Upgrade Notice ==
+
+= 1.7.7-rc1 =
+
+(2016/07/17) Updated the 'wpsso_get_config' filter to use the new version argument in WPSSO v3.33.5-1.
 
 = 1.7.6-1 =
 
