@@ -119,7 +119,7 @@ Use the Free version of WPSSO AM with *both* the Free and Pro versions of WPSSO.
 
 = Free / Basic Version Repository =
 
-* [GitHub](https://github.com/SurniaUlula/wpsso-am)
+* [GitHub](https://surniaulula.github.io/wpsso-am/)
 * [WordPress.org](https://wordpress.org/plugins/wpsso-am/developers/)
 
 = Changelog / Release Notes =
