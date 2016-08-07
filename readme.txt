@@ -3,11 +3,12 @@ Plugin Name: WPSSO Mobile App Meta (WPSSO AM)
 Plugin Slug: wpsso-am
 Text Domain: wpsso-am
 Domain Path: /languages
-Contributors: jsmoriss
-Donate Link: https://wpsso.com/?utm_source=wpssoam-readme-donate
-Tags: wpsso, app, iphone, ipad, googleplay, meta, tags, itunes
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.txt
+Donate Link: https://wpsso.com/?utm_source=wpssoam-readme-donate
+Assets URI: https://surniaulula.github.io/wpsso-am/assets/
+Tags: wpsso, app, iphone, ipad, googleplay, meta, tags, itunes
+Contributors: jsmoriss
 Requires At Least: 3.1
 Tested Up To: 4.6
 Stable Tag: 1.7.7-1
