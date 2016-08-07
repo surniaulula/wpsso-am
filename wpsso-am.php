@@ -5,6 +5,7 @@
  * Text Domain: wpsso-am
  * Domain Path: /languages
  * Plugin URI: http://surniaulula.com/extend/plugins/wpsso-am/
+ * Assets URI: https://surniaulula.github.io/wpsso-am/assets/
  * Author: JS Morisset
  * Author URI: http://surniaulula.com/
  * License: GPLv3
