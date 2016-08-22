@@ -67,7 +67,7 @@ if ( ! class_exists( 'WpssoAmSubmenuAmGeneral' ) && class_exists( 'WpssoAdmin' )
 					$table_rows[] = '<td colspan="2">'.
 						$this->p->msgs->get( 'info-banner-general' ).'</td>';
 
-					$table_rows[] = $this->form->get_th_html( _x( 'Add Banner to Index Webpages',
+					$table_rows[] = $this->form->get_th_html( _x( 'Add Banner to Archive Webpages',
 						'option label', 'wpsso-am' ), null, 'am_ws_on_index' ).
 					'<td>'.$this->form->get_checkbox( 'am_ws_on_index' ).'</td>';
 

@@ -277,7 +277,7 @@ msgstr ""
 
 #: lib/submenu/am-general.php:70
 msgctxt "option label"
-msgid "Add Banner to Index Webpages"
+msgid "Add Banner to Archive Webpages"
 msgstr ""
 
 #: lib/submenu/am-general.php:74
