@@ -52,10 +52,10 @@ if ( ! class_exists( 'WpssoAm' ) ) {
 
 			require_once ( dirname( __FILE__ ).'/lib/config.php' );
 			WpssoAmConfig::set_constants( __FILE__ );
-			WpssoAmConfig::require_libs( __FILE__ );
-			$this->reg = new WpssoAmRegister();		// activate, deactivate, uninstall hooks
+			WpssoAmConfig::require_libs( __FILE__ );	// includes the register.php class library
 
 			if ( is_admin() ) {
+				$this->reg = new WpssoAmRegister();	// activate, deactivate, uninstall hooks
 				load_plugin_textdomain( 'wpsso-am', false, 'wpsso-am/languages/' );
 				add_action( 'admin_init', array( &$this, 'check_for_wpsso' ) );
 			}
