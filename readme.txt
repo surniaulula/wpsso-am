@@ -7,7 +7,7 @@ License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.txt
 Donate Link: https://wpsso.com/?utm_source=wpssoam-readme-donate
 Assets URI: https://surniaulula.github.io/wpsso-am/assets/
-Tags: wpsso, app, iphone, ipad, googleplay, meta, tags, itunes
+Tags: wpsso, app, iphone, ipad, googleplay, google play, meta, tags, itunes, banner, safari, app store, mobile app, app card, twitter app card, twitter card
 Contributors: jsmoriss
 Requires At Least: 3.1
 Tested Up To: 4.6
@@ -17,11 +17,13 @@ WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags fo
 
 == Description ==
 
-<p><img src="https://surniaulula.github.io/wpsso-am/assets/icon-256x256.png" width="256" height="256" style="width:33%;min-width:128px;max-width:256px;float:left;margin:0 40px 20px 0;" /><strong>Do you have a mobile App for your website</strong> that you'd like to promote as a banner in Apple's mobile Safari?</p>
+<p><img src="https://surniaulula.github.io/wpsso-am/assets/icon-256x256.png" width="256" height="256" style="width:33%;min-width:128px;max-width:256px;float:left;margin:0 40px 20px 0;" /><strong>Promote your website mobile App as a banner in Apple's mobile Safari.</strong></p>
 
-**Do you sell Apple Store mobile Apps**, and you'd like to support the [Twitter App Card](https://dev.twitter.com/cards/types/app) on your product pages?
+<p><strong>Add <a href="https://dev.twitter.com/cards/types/app">Twitter App Card</a> meta tags to your Apple Store or Google Play mobile Apps product pages.</p>
 
-WPSSO Mobile App Meta (WPSSO AM) works in conjunction with the [WordPress Social Sharing Optimization (WPSSO)](https://wordpress.org/plugins/wpsso/) plugin, extending its features with additional settings pages, tabs, and options to include iPhone, iPad, and Google Play App meta tags in your webpages (for Apple's mobile Safari and [Twitter's App Card](https://dev.twitter.com/cards/types/app)).
+<blockquote>
+<p>WPSSO Mobile App Meta (WPSSO AM) is an extension for the <a href="https://wordpress.org/plugins/wpsso/">WordPress Social Sharing Optimization (WPSSO)</a> plugin &mdash; the WPSSO plugin is required for the WPSSO AM extension.</p>
+</blockquote>
 
 = Quick List of Features =
 
