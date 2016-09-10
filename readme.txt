@@ -140,26 +140,9 @@ Official announcement: N/A
 * *Developer Notes*
 	* Updated the SucomNotice method calls for WPSSO v3.35.0-1.
 
-**Version 1.7.7-1 (2016/07/18)**
-
-Official announcement: N/A
-
-* *New Features*
-	* None
-* *Improvements*
-	* None
-* *Bugfixes*
-	* None
-* *Developer Notes*
-	* Updated the 'wpsso_get_config' filter to use the new version argument in WPSSO v3.33.5-1.
-
 == Upgrade Notice ==
 
 = 1.7.8-1 =
 
 (2016/09/10) Updated the SucomNotice method calls for WPSSO v3.35.0-1.
-
-= 1.7.7-1 =
-
-(2016/07/18) Updated the 'wpsso_get_config' filter to use the new version argument in WPSSO v3.33.5-1.
 
