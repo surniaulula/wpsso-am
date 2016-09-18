@@ -10,7 +10,7 @@ Assets URI: https://surniaulula.github.io/wpsso-am/assets/
 Tags: wpsso, app, iphone, ipad, googleplay, google play, meta, tags, itunes, banner, safari, app store, mobile app, app card, twitter app card, twitter card
 Contributors: jsmoriss
 Requires At Least: 3.1
-Tested Up To: 4.6
+Tested Up To: 4.6.1
 Stable Tag: 1.7.8-1
 
 WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari and Twitter's App Card.
