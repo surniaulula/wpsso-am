@@ -127,6 +127,19 @@ Use the Free version of WPSSO AM with *both* the Free and Pro versions of WPSSO.
 
 = Changelog / Release Notes =
 
+**Version 1.7.9-dev1 (2016/09/25)**
+
+Official announcement: N/A
+
+* *New Features*
+	* None
+* *Improvements*
+	* Added a SucomUtil::titleize() method call to format post type names for display.
+* *Bugfixes*
+	* None
+* *Developer Notes*
+	* None
+
 **Version 1.7.8-1 (2016/09/10)**
 
 Official announcement: N/A
@@ -141,6 +154,10 @@ Official announcement: N/A
 	* Updated the SucomNotice method calls for WPSSO v3.35.0-1.
 
 == Upgrade Notice ==
+
+= 1.7.9-dev1 =
+
+(2016/09/25) Added a SucomUtil::titleize() method call to format post type names for display.
 
 = 1.7.8-1 =
 
