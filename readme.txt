@@ -11,7 +11,7 @@ Tags: wpsso, app, iphone, ipad, googleplay, google play, meta, tags, itunes, ban
 Contributors: jsmoriss
 Requires At Least: 3.1
 Tested Up To: 4.6.1
-Stable Tag: 1.7.8-1
+Stable Tag: 1.7.9-1
 
 WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari and Twitter's App Card.
 
@@ -140,26 +140,9 @@ Official announcement: N/A
 * *Developer Notes*
 	* None
 
-**Version 1.7.8-1 (2016/09/10)**
-
-Official announcement: N/A
-
-* *New Features*
-	* None
-* *Improvements*
-	* None
-* *Bugfixes*
-	* None
-* *Developer Notes*
-	* Updated the SucomNotice method calls for WPSSO v3.35.0-1.
-
 == Upgrade Notice ==
 
 = 1.7.9-1 =
 
 (2016/10/01) Added a SucomUtil::titleize() method call to format post type names for display.
-
-= 1.7.8-1 =
-
-(2016/09/10) Updated the SucomNotice method calls for WPSSO v3.35.0-1.
 
