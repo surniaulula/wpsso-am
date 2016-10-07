@@ -7,7 +7,7 @@ License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.txt
 Donate Link: https://wpsso.com/?utm_source=wpssoam-readme-donate
 Assets URI: https://surniaulula.github.io/wpsso-am/assets/
-Tags: wpsso, app, iphone, ipad, googleplay, google play, meta, tags, itunes, banner, safari, app store, mobile app, app card, twitter app card, twitter card
+Tags: wpsso, app, app store, mobile app, app card, itunes, iphone, ipad, googleplay, google play, meta, tags, banner, safari, twitter app card, twitter card
 Contributors: jsmoriss
 Requires At Least: 3.1
 Tested Up To: 4.6.1
