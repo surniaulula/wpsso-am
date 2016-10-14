@@ -13,7 +13,6 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 	class WpssoAmFilters {
 
 		protected $p;
-		protected $plugin_filepath;
 
 		public static $cf = array(
 			'opt' => array(				// options
