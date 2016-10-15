@@ -4,7 +4,7 @@ Plugin Slug: wpsso-am
 Text Domain: wpsso-am
 Domain Path: /languages
 License: GPLv3
-License URI: http://www.gnu.org/licenses/gpl.txt
+License URI: https://www.gnu.org/licenses/gpl.txt
 Donate Link: https://wpsso.com/?utm_source=wpssoam-readme-donate
 Assets URI: https://surniaulula.github.io/wpsso-am/assets/
 Tags: wpsso, app, app store, mobile app, app card, itunes, iphone, ipad, googleplay, google play, meta, tags, banner, safari, twitter app card, twitter card
