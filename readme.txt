@@ -90,7 +90,7 @@ WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags fo
 
 The WordPress Social Sharing Optimization (WPSSO) plugin is required to use the WPSSO AM extension. 
 
-Use the Free version of WPSSO AM with *both* the Free and Pro versions of WPSSO. The [WPSSO AM Pro](http://wpsso.com/extend/plugins/wpsso-am/?utm_source=wpssoam-readme-extends) extension (along with all WPSSO Pro extensions) requires the [WPSSO Pro](http://wpsso.com/extend/plugins/wpsso/?utm_source=wpssoam-readme-extends) plugin as well.
+Use the Free version of WPSSO AM with *both* the Free and Pro versions of WPSSO. The [WPSSO AM Pro extension](http://wpsso.com/extend/plugins/wpsso-am/?utm_source=wpssoam-readme-extends) (along with all WPSSO Pro extensions) requires the [WPSSO Pro plugin](http://wpsso.com/extend/plugins/wpsso/?utm_source=wpssoam-readme-extends) as well.
 
 [Purchase the WPSSO Mobile App Meta (WPSSO AM) Pro extension](http://wpsso.com/extend/plugins/wpsso-am/?utm_source=wpssoam-readme-purchase) (includes a *No Risk 30 Day Refund Policy*).
 
