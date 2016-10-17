@@ -125,9 +125,9 @@
 
 <p>The WordPress Social Sharing Optimization (WPSSO) plugin is required to use the WPSSO AM extension.</p>
 
-<p>Use the Free version of WPSSO AM with <em>both</em> the Free and Pro versions of WPSSO. The <a href="http://wpsso.com/extend/plugins/wpsso-am/?utm_source=wpssoam-readme-extends">WPSSO AM Pro extension</a> (along with all WPSSO Pro extensions) requires the <a href="http://wpsso.com/extend/plugins/wpsso/?utm_source=wpssoam-readme-extends">WPSSO Pro plugin</a> as well.</p>
+<p>Use the Free version of WPSSO AM with <em>both</em> the Free and Pro versions of WPSSO. The <a href="https://wpsso.com/extend/plugins/wpsso-am/?utm_source=wpssoam-readme-extends">WPSSO AM Pro extension</a> (along with all WPSSO Pro extensions) requires the <a href="https://wpsso.com/extend/plugins/wpsso/?utm_source=wpssoam-readme-extends">WPSSO Pro plugin</a> as well.</p>
 
-<p><a href="http://wpsso.com/extend/plugins/wpsso-am/?utm_source=wpssoam-readme-purchase">Purchase the WPSSO Mobile App Meta (WPSSO AM) Pro extension</a> (includes a <em>No Risk 30 Day Refund Policy</em>).</p>
+<p><a href="https://wpsso.com/extend/plugins/wpsso-am/?utm_source=wpssoam-readme-purchase">Purchase the WPSSO Mobile App Meta (WPSSO AM) Pro extension</a> (includes a <em>No Risk 30 Day Refund Policy</em>).</p>
 
 
 <h2>Installation</h2>
@@ -135,8 +135,8 @@
 <h4>Install and Uninstall</h4>
 
 <ul>
-<li><a href="http://wpsso.com/codex/plugins/wpsso-am/installation/install-the-plugin/">Install the Plugin</a></li>
-<li><a href="http://wpsso.com/codex/plugins/wpsso-am/installation/uninstall-the-plugin/">Uninstall the Plugin</a></li>
+<li><a href="https://wpsso.com/codex/plugins/wpsso-am/installation/install-the-plugin/">Install the Plugin</a></li>
+<li><a href="https://wpsso.com/codex/plugins/wpsso-am/installation/uninstall-the-plugin/">Uninstall the Plugin</a></li>
 </ul>
 
 

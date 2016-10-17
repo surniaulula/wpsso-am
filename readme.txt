@@ -90,16 +90,16 @@ WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags fo
 
 The WordPress Social Sharing Optimization (WPSSO) plugin is required to use the WPSSO AM extension. 
 
-Use the Free version of WPSSO AM with *both* the Free and Pro versions of WPSSO. The [WPSSO AM Pro extension](http://wpsso.com/extend/plugins/wpsso-am/?utm_source=wpssoam-readme-extends) (along with all WPSSO Pro extensions) requires the [WPSSO Pro plugin](http://wpsso.com/extend/plugins/wpsso/?utm_source=wpssoam-readme-extends) as well.
+Use the Free version of WPSSO AM with *both* the Free and Pro versions of WPSSO. The [WPSSO AM Pro extension](https://wpsso.com/extend/plugins/wpsso-am/?utm_source=wpssoam-readme-extends) (along with all WPSSO Pro extensions) requires the [WPSSO Pro plugin](https://wpsso.com/extend/plugins/wpsso/?utm_source=wpssoam-readme-extends) as well.
 
-[Purchase the WPSSO Mobile App Meta (WPSSO AM) Pro extension](http://wpsso.com/extend/plugins/wpsso-am/?utm_source=wpssoam-readme-purchase) (includes a *No Risk 30 Day Refund Policy*).
+[Purchase the WPSSO Mobile App Meta (WPSSO AM) Pro extension](https://wpsso.com/extend/plugins/wpsso-am/?utm_source=wpssoam-readme-purchase) (includes a *No Risk 30 Day Refund Policy*).
 
 == Installation ==
 
 = Install and Uninstall =
 
-* [Install the Plugin](http://wpsso.com/codex/plugins/wpsso-am/installation/install-the-plugin/)
-* [Uninstall the Plugin](http://wpsso.com/codex/plugins/wpsso-am/installation/uninstall-the-plugin/)
+* [Install the Plugin](https://wpsso.com/codex/plugins/wpsso-am/installation/install-the-plugin/)
+* [Uninstall the Plugin](https://wpsso.com/codex/plugins/wpsso-am/installation/uninstall-the-plugin/)
 
 == Frequently Asked Questions ==
 
