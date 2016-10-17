@@ -328,7 +328,7 @@ msgid "WPSSO Mobile App Meta (WPSSO AM)"
 msgstr ""
 
 #. Plugin URI of the plugin/theme
-msgid "http://surniaulula.com/extend/plugins/wpsso-am/"
+msgid "https://surniaulula.com/extend/plugins/wpsso-am/"
 msgstr ""
 
 #. Description of the plugin/theme
@@ -342,5 +342,5 @@ msgid "JS Morisset"
 msgstr ""
 
 #. Author URI of the plugin/theme
-msgid "http://surniaulula.com/"
+msgid "https://surniaulula.com/"
 msgstr ""

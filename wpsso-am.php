@@ -4,10 +4,10 @@
  * Plugin Slug: wpsso-am
  * Text Domain: wpsso-am
  * Domain Path: /languages
- * Plugin URI: http://surniaulula.com/extend/plugins/wpsso-am/
+ * Plugin URI: https://surniaulula.com/extend/plugins/wpsso-am/
  * Assets URI: https://surniaulula.github.io/wpsso-am/assets/
  * Author: JS Morisset
- * Author URI: http://surniaulula.com/
+ * Author URI: https://surniaulula.com/
  * License: GPLv3
  * License URI: https://www.gnu.org/licenses/gpl.txt
  * Description: WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari and Twitter's App Card.
@@ -22,7 +22,7 @@
  *	{bugfix}	Bugfixes and/or very minor improvements.
  *	{stage}{level}	dev# (development), rc# (release candidate), # (production release)
  * 
- * Copyright 2014-2016 Jean-Sebastien Morisset (http://surniaulula.com/)
+ * Copyright 2014-2016 Jean-Sebastien Morisset (https://surniaulula.com/)
  */
 
 if ( ! defined( 'ABSPATH' ) ) 
