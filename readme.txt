@@ -127,7 +127,7 @@ Use the Free version of WPSSO AM with *both* the Free and Pro versions of WPSSO.
 
 = Changelog / Release Notes =
 
-**Version 1.7.10-dev1 (TBD)**
+**Version 1.7.10-dev1 (2016/10/20)**
 
 Official announcement: N/A
 
@@ -138,7 +138,7 @@ Official announcement: N/A
 * *Bugfixes*
 	* None
 * *Developer Notes*
-	* Changes for WPSSO v3.36-3-1:
+	* Minor code changes required for WPSSO v3.36-3-1:
 		* Renamed the Social Settings 'header' index name to 'text'.
 
 **Version 1.7.9-1 (2016/10/01)**
@@ -155,6 +155,10 @@ Official announcement: N/A
 	* None
 
 == Upgrade Notice ==
+
+= 1.7.10-dev1 =
+
+(2016/10/20) Minor code changes required for WPSSO v3.36-3-1.
 
 = 1.7.9-1 =
 
