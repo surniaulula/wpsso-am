@@ -196,7 +196,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 		public function filter_post_social_settings_tabs( $tabs, $mod ) {
 			if ( empty( $this->p->options['am_ap_add_to_'.$mod['post_type']] ) )
 				return $tabs;
-			else return SucomUtil::after_key( $tabs, 'header', 'appmeta',
+			else return SucomUtil::after_key( $tabs, 'text', 'appmeta',
 				_x( 'Mobile Apps', 'metabox tab', 'wpsso-am' ) );
 		}
 
