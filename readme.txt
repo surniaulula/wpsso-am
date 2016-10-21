@@ -127,7 +127,7 @@ Use the Free version of WPSSO AM with *both* the Free and Pro versions of WPSSO.
 
 = Changelog / Release Notes =
 
-**Version 1.7.10-dev1 (2016/10/20)**
+**Version 1.7.10-rc1 (2016/10/20)**
 
 Official announcement: N/A
 
@@ -156,7 +156,7 @@ Official announcement: N/A
 
 == Upgrade Notice ==
 
-= 1.7.10-dev1 =
+= 1.7.10-rc1 =
 
 (2016/10/20) Minor code changes required for WPSSO v3.36-3-1.
 
