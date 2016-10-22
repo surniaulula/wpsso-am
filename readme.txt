@@ -142,26 +142,9 @@ Official announcement: N/A
 	* Minor code changes required for WPSSO v3.36-3-1:
 		* Renamed the Social Settings 'header' index name to 'text'.
 
-**Version 1.7.9-1 (2016/10/01)**
-
-Official announcement: N/A
-
-* *New Features*
-	* None
-* *Improvements*
-	* Added a SucomUtil::titleize() method call to format post type names for display.
-* *Bugfixes*
-	* None
-* *Developer Notes*
-	* None
-
 == Upgrade Notice ==
 
 = 1.7.10-1 =
 
 (2016/10/22) Minor code changes required for WPSSO v3.36-3-1.
-
-= 1.7.9-1 =
-
-(2016/10/01) Added a SucomUtil::titleize() method call to format post type names for display.
 
