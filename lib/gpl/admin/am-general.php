@@ -14,12 +14,17 @@ if ( ! class_exists( 'WpssoAmGplAdminAmGeneral' ) ) {
 
 		public function __construct( &$plugin ) {
 			$this->p =& $plugin;
+			if ( $this->p->debug->enabled )
+				$this->p->debug->mark();
+
 			$this->p->util->add_plugin_filters( $this, array( 
 				'appmeta_general_rows' => 2,	// $table_rows, $form
 			), 100 );
 		}
 
 		public function filter_appmeta_general_rows( $table_rows, $form ) {
+			if ( $this->p->debug->enabled )
+				$this->p->debug->mark();
 
 			$table_rows[] = '<td colspan="2">'.
 				$this->p->msgs->get( 'info-appmeta-general' ).'</td>';
