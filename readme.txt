@@ -139,12 +139,12 @@ Official announcement: N/A
 	* None
 * *Developer Notes*
 	* Minimum requirements updated to WP v3.5 and PHP v5.4.
-	* Minor code changes required for WPSSO v3.36-3-1:
+	* Minor code changes required for WPSSO v3.36.3-1:
 		* Renamed the Social Settings 'header' index name to 'text'.
 
 == Upgrade Notice ==
 
 = 1.7.10-1 =
 
-(2016/10/22) Minor code changes required for WPSSO v3.36-3-1.
+(2016/10/22) Minor code changes required for WPSSO v3.36.3-1.
 
