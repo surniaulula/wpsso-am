@@ -127,6 +127,20 @@ Use the Free version of WPSSO AM with *both* the Free and Pro versions of WPSSO.
 
 = Changelog / Release Notes =
 
+**Version 1.7.11-dev1 (TBD)**
+
+Official announcement: N/A
+
+* *New Features*
+	* None
+* *Improvements*
+	* None
+* *Bugfixes*
+	* None
+* *Developer Notes*
+	* Minor code changes required for WPSSO v3.37.0-1:
+		* Renamed the SucomUtil::after_key() method to SucomUtil::get_after_key().
+
 **Version 1.7.10-1 (2016/10/22)**
 
 Official announcement: N/A
