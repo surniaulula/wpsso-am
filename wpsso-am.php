@@ -13,7 +13,7 @@
  * Description: WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari and Twitter's App Card.
  * Requires At Least: 3.5
  * Tested Up To: 4.6.1
- * Version: 1.7.11-dev2
+ * Version: 1.7.11-dev3
  * 
  * Version Numbers: {major}.{minor}.{bugfix}-{stage}{level}
  *
@@ -39,7 +39,7 @@ if ( ! class_exists( 'WpssoAm' ) ) {
 		private static $instance = null;
 		private static $req_short = 'WPSSO';
 		private static $req_name = 'WordPress Social Sharing Optimization (WPSSO)';
-		private static $req_min_version = '3.37.0-dev2';
+		private static $req_min_version = '3.37.0-dev3';
 		private static $req_has_min_ver = true;
 
 		public static function &get_instance() {
