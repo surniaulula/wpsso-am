@@ -32,18 +32,18 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 					'url' => array(
 						// wordpress
 						'download' => 'https://wordpress.org/plugins/wpsso-am/',
+						'forum' => 'https://wordpress.org/support/plugin/wpsso-am',
 						'review' => 'https://wordpress.org/support/view/plugin-reviews/wpsso-am?filter=5&rate=5#postform',
-						'readme' => 'https://plugins.svn.wordpress.org/wpsso-am/trunk/readme.txt',
-						'wp_support' => 'https://wordpress.org/support/plugin/wpsso-am',
-						// surniaulula
+						// github
+						'readme_txt' => 'https://raw.githubusercontent.com/SurniaUlula/wpsso-am/master/readme.txt',
+						// wpsso
 						'update' => 'https://wpsso.com/extend/plugins/wpsso-am/update/',
 						'purchase' => 'https://wpsso.com/extend/plugins/wpsso-am/',
 						'changelog' => 'https://wpsso.com/extend/plugins/wpsso-am/changelog/',
 						'codex' => 'https://wpsso.com/codex/plugins/wpsso-am/',
 						'faq' => 'https://wpsso.com/codex/plugins/wpsso-am/faq/',
 						'notes' => 'https://wpsso.com/codex/plugins/wpsso-am/notes/',
-						'feed' => 'https://wpsso.com/category/application/wordpress/wp-plugins/wpsso-am/feed/',
-						'pro_support' => 'http://wpsso-am.support.wpsso.com/',
+						'support' => 'http://wpsso-am.support.wpsso.com/',
 					),
 					'lib' => array(
 						// submenu items must have unique keys
