@@ -125,6 +125,15 @@ Use the Free version of WPSSO AM with *both* the Free and Pro versions of WPSSO.
 * [GitHub](https://surniaulula.github.io/wpsso-am/)
 * [WordPress.org](https://wordpress.org/plugins/wpsso-am/developers/)
 
+= Version Numbering Scheme =
+
+Version components: `{major}.{minor}.{bugfix}-{stage}{level}`
+
+* {major} = Major code changes / re-writes or significant feature changes.
+* {minor} = New features / options were added or improved.
+* {bugfix} = Bugfixes or minor improvements.
+* {stage}{level} = dev &lt; a (alpha) &lt; b (beta) &lt; rc (release candidate) &lt; # (production) &mdash; see [PHP's version_compare](http://php.net/manual/en/function.version-compare.php) documentation for additional information. Please note that the production stage level can be used for simple text revisions and/or translation updates.
+
 = Changelog / Release Notes =
 
 **Version 1.7.11-1 (2016/11/03)**
