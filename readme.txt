@@ -152,21 +152,6 @@ Official announcement: N/A
 	* Minor code changes required for WPSSO v3.37.0-1:
 		* Renamed the SucomUtil::after_key() method to SucomUtil::get_after_key().
 
-**Version 1.7.10-1 (2016/10/22)**
-
-Official announcement: N/A
-
-* *New Features*
-	* None
-* *Improvements*
-	* None
-* *Bugfixes*
-	* None
-* *Developer Notes*
-	* Minimum requirements updated to WP v3.5 and PHP v5.4.
-	* Minor code changes required for WPSSO v3.36.3-1:
-		* Renamed the Social Settings 'header' index name to 'text'.
-
 == Upgrade Notice ==
 
 = 1.7.11-1 =
