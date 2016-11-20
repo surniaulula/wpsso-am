@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WPSSO Mobile App Meta (WPSSO AM) package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WPSSO Mobile App Meta (WPSSO AM) 1.7.11-1\n"
+"Project-Id-Version: WPSSO Mobile App Meta (WPSSO AM) 1.7.12-dev1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-am\n"
 "POT-Creation-Date: 2016-MO-DA HO:MI+ZONE\n"
 "MIME-Version: 1.0\n"
@@ -305,22 +305,22 @@ msgctxt "option label"
 msgid "Default Argument String"
 msgstr ""
 
-#: wpsso-am.php:83
+#: wpsso-am.php:79
 msgid ""
-"The %1$s extension requires the %2$s plugin &mdash; please install and "
-"activate the %3$s plugin before trying to re-activate the %4$s extension."
+"%1$s is an extension for the %2$s plugin &mdash; please install and activate "
+"the %3$s plugin before activating the %4$s extension."
 msgstr ""
 
-#: wpsso-am.php:85
+#: wpsso-am.php:81
 msgid ""
 "The %1$s extension requires the %2$s plugin &mdash; please install and "
 "activate the %3$s plugin."
 msgstr ""
 
-#: wpsso-am.php:145
+#: wpsso-am.php:147
 msgid ""
-"The %1$s extension version %2$s requires the use of %3$s version %4$s or "
-"newer (version %5$s is currently installed)."
+"The %1$s extension v%2$s requires %3$s v%4$s or newer (v%5$s currently "
+"installed)."
 msgstr ""
 
 #. Plugin Name of the plugin/theme

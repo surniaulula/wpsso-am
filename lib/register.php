@@ -15,7 +15,7 @@ if ( ! class_exists( 'WpssoAmRegister' ) ) {
 		public function __construct() {
 
 			register_activation_hook( WPSSOAM_FILEPATH, array( &$this, 'network_activate' ) );
-			//register_deactivation_hook( WPSSOAM_FILEPATH, array( &$this, 'network_deactivate' ) );
+			//register_deactivation_hook( WPSSOAM_FILEPATH, array( &$this, 'network_deactivate' ) );	// nothing to do
 
 			if ( is_multisite() ) {
 				add_action( 'wpmu_new_blog', array( &$this, 'wpmu_new_blog' ), 10, 6 );
