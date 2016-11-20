@@ -138,6 +138,20 @@ Note that the production stage level can be incremented on occasion for simple t
 
 = Changelog / Release Notes =
 
+**Version 1.7.12-dev1 (2016/11/20)**
+
+Official announcement: N/A
+
+* *New Features*
+	* None
+* *Improvements*
+	* None
+* *Bugfixes*
+	* None
+* *Developer Notes*
+	* Refactored the min_version_notice() method and moved variables to config class.
+	* Refactored the show_metabox_banner() method for the Mobile App Meta settings page.
+
 **Version 1.7.11-1 (2016/11/03)**
 
 Official announcement: N/A
@@ -153,6 +167,10 @@ Official announcement: N/A
 		* Renamed the SucomUtil::after_key() method to SucomUtil::get_after_key().
 
 == Upgrade Notice ==
+
+= 1.7.12-dev1 =
+
+(2016/11/20) Refactored the min_version_notice() and show_metabox_banner() methods.
 
 = 1.7.11-1 =
 
