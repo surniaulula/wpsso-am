@@ -35,11 +35,8 @@ if ( ! class_exists( 'WpssoAmSubmenuAmGeneral' ) && class_exists( 'WpssoAdmin' )
 
 		public function show_metabox_banner() {
 			$metabox = 'banner';
-			echo '<table class="sucom-setting">';
-			foreach ( apply_filters( $this->p->cf['lca'].'_'.$metabox.'_general_rows', 
-				$this->get_table_rows( $metabox, 'general' ), $this->form ) as $row )
-					echo '<tr>'.$row.'</tr>';
-			echo '</table>';
+			$this->p->util->do_table_rows( apply_filters( $this->p->cf['lca'].'_'.$metabox.'_general_rows', 
+				$this->get_table_rows( $metabox, 'general' ), $this->form ), 'metabox-'.$metabox.'-general' );
 
 			$tabs = apply_filters( $this->p->cf['lca'].'_general_banner_tabs', array(
 				'itunes' => _x( 'Apple Store App', 'metabox tab', 'wpsso-am' ),
