@@ -2,10 +2,10 @@
 # This file is distributed under the same license as the WPSSO App Meta (WPSSO AM) package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WPSSO Mobile App Meta (WPSSO AM) 1.7.11-1\n"
+"Project-Id-Version: WPSSO Mobile App Meta (WPSSO AM) 1.7.12-1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-am\n"
-"POT-Creation-Date: 2016-10-31 17:14-0700\n"
-"PO-Revision-Date: 2016-10-31 17:14-0700\n"
+"POT-Creation-Date: 2016-11-20 15:08-0800\n"
+"PO-Revision-Date: 2016-11-20 15:08-0800\n"
 "Last-Translator: JS Morisset <jsm@surniaulula.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -238,52 +238,52 @@ msgctxt "metabox title"
 msgid "Mobile App Products"
 msgstr "Produits App Mobile"
 
-#: lib/submenu/am-general.php:45
+#: lib/submenu/am-general.php:42
 msgctxt "metabox tab"
 msgid "Apple Store App"
 msgstr "App du Apple Store"
 
-#: lib/submenu/am-general.php:70
+#: lib/submenu/am-general.php:67
 msgctxt "option label"
 msgid "Add Banner to Archive Webpages"
 msgstr "Ajouter aux pages Web d'archive"
 
-#: lib/submenu/am-general.php:74
+#: lib/submenu/am-general.php:71
 msgctxt "option label"
 msgid "Add Banner to Static Homepage"
 msgstr "Ajouter à la page d'accueil statique"
 
-#: lib/submenu/am-general.php:84
+#: lib/submenu/am-general.php:81
 msgctxt "option label"
 msgid "Add Banner to Post Types"
 msgstr "Ajouter aux articles de type"
 
-#: lib/submenu/am-general.php:94
+#: lib/submenu/am-general.php:91
 msgctxt "option label"
 msgid "Default App ID Number"
 msgstr "Numéro d'ID App par défaut"
 
-#: lib/submenu/am-general.php:98
+#: lib/submenu/am-general.php:95
 msgctxt "option label"
 msgid "Default Affiliate Data"
 msgstr "Donnée d'affilié par défaut"
 
-#: lib/submenu/am-general.php:102
+#: lib/submenu/am-general.php:99
 msgctxt "option label"
 msgid "Default Argument String"
 msgstr "Chaîne d'arguments par défaut"
 
-#: wpsso-am.php:81
-msgid "The %1$s extension requires the %2$s plugin &mdash; please install and activate the %3$s plugin before trying to re-activate the %4$s extension."
-msgstr "L'extension %1$s requiert %2$s &mdash; s'il vous plaît installer et activer l'extension %3$s avant d'essayer de re-activer %4$s."
+#: wpsso-am.php:79
+msgid "%1$s is an extension for the %2$s plugin &mdash; please install and activate the %3$s plugin before activating the %4$s extension."
+msgstr "%1$s est une extension pour %2$s &mdash; s'il vous plaît installer et activer %3$s avant d'essayer de re-activer l'extension %4$s."
 
-#: wpsso-am.php:83
+#: wpsso-am.php:81
 msgid "The %1$s extension requires the %2$s plugin &mdash; please install and activate the %3$s plugin."
 msgstr "L'extension %1$s requiert %2$s &mdash; s'il vous plaît installer et activer l'extension %3$s."
 
-#: wpsso-am.php:143
-msgid "The %1$s extension version %2$s requires the use of %3$s version %4$s or newer (version %5$s is currently installed)."
-msgstr "L'extension %1$s version %2$s requiert l'utilisation de %3$s version %4$s ou plus récente (la version %5$s est actuellement installée)."
+#: wpsso-am.php:147
+msgid "The %1$s extension v%2$s requires %3$s v%4$s or newer (v%5$s currently installed)."
+msgstr "L'extension %1$s v%2$s requiert l'utilisation de %3$s v%4$s ou plus récente (v%5$s est actuellement installée)."
 
 #. Plugin Name of the plugin/theme
 msgid "WPSSO Mobile App Meta (WPSSO AM)"
