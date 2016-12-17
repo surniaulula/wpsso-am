@@ -140,8 +140,6 @@ Note that the production stage level can be incremented on occasion for simple t
 
 **Version 1.7.12-1 (2016/11/25)**
 
-Official announcement: N/A
-
 * *New Features*
 	* None
 * *Improvements*
@@ -153,8 +151,6 @@ Official announcement: N/A
 	* Refactored the show_metabox_banner() method for the Mobile App Meta settings page.
 
 **Version 1.7.11-1 (2016/11/03)**
-
-Official announcement: N/A
 
 * *New Features*
 	* None
