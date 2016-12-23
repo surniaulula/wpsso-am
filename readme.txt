@@ -80,12 +80,6 @@ WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags fo
 	* twitter:app:url:ipad
 	* twitter:app:url:googleplay
 
-= Available in Multiple Languages =
-
-* English (US)
-* French (France)
-* More to come...
-
 = Extends the WPSSO Plugin =
 
 The WordPress Social Sharing Optimization (WPSSO) plugin is required to use the WPSSO AM extension. 
