@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: WPSSO Mobile App Meta (WPSSO AM) 1.7.12-1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-am\n"
 "POT-Creation-Date: 2016-12-24 08:41+1100\n"
-"PO-Revision-Date: 2016-12-24 08:42+1100\n"
+"PO-Revision-Date: 2016-12-24 14:39+1100\n"
 "Last-Translator: JS Morisset <jsm@surniaulula.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -138,6 +138,7 @@ msgctxt "option label"
 msgid "Default App Store Territory"
 msgstr "Territoire du App Store par défaut"
 
+# Ignore the post type to avoid gender issues in the French translation.
 #: lib/gpl/admin/post.php:31 lib/pro/admin/post.php:42
 msgid "Save a draft version or publish the %s to display these options."
 msgstr "Enregistrer un brouillon ou publier pour activer ces options."
