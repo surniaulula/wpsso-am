@@ -154,7 +154,7 @@ Note that the production stage level can be incremented on occasion for simple t
 	* None
 * *Developer Notes*
 	* Minor code changes required for WPSSO v3.37.0-1:
-		* Renamed the SucomUtil::after_key() method to SucomUtil::get_after_key().
+		* Renamed the SucomUtil after_key() method to get_after_key().
 
 == Upgrade Notice ==
 
