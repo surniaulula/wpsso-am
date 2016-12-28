@@ -62,8 +62,8 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 					'messages_info' => 2,			// info messages filter
 				) );
 				$this->p->util->add_plugin_filters( $this, array( 
-					'status_gpl_features' => 3,
-					'status_pro_features' => 3,
+					'status_gpl_features' => 4,
+					'status_pro_features' => 4,
 				), 10, 'wpssoam' );
 
 			}
@@ -284,22 +284,23 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 			return $text;
 		}
 
-		public function filter_status_gpl_features( $features, $lca, $info ) {
+		public function filter_status_gpl_features( $features, $lca, $info, $pkg ) {
 			$features['(code) Mobile App Banner'] = array( 
 				'status' => $this->p->options['am_ws_itunes_app_id'] ? 'on' : 'off'
 			);
 			return $features;
 		}
 
-		public function filter_status_pro_features( $features, $lca, $info ) {
-			$aop = $this->p->check->aop( $lca, true, $this->p->is_avail['aop'] );
+		public function filter_status_pro_features( $features, $lca, $info, $pkg ) {
 			$features['(code) Custom Mobile Apps Meta'] = array( 
-				'td_class' => $aop ? '' : 'blank',
-				'status' => $aop ? 'on' : 'off',
+				'td_class' => $pkg['aop'] ? '' : 'blank',
+				'purchase' => $pkg['purchase'],
+				'status' => $pkg['aop'] ? 'on' : 'off',
 			);
 			$features['(code) Twitter App Card Meta Tags'] = array( 
-				'td_class' => $aop ? '' : 'blank',
-				'status' => $aop ? 'on' : 'off',
+				'td_class' => $pkg['aop'] ? '' : 'blank',
+				'purchase' => $pkg['purchase'],
+				'status' => $pkg['aop'] ? 'on' : 'off',
 			);
 			return $features;
 		}
