@@ -41,12 +41,6 @@ if ( ! class_exists( 'WpssoAm' ) ) {
 		private static $instance;
 		private static $have_min = true;
 
-		public static function &get_instance() {
-			if ( ! isset( self::$instance ) )
-				self::$instance = new self;
-			return self::$instance;
-		}
-
 		public function __construct() {
 
 			require_once ( dirname( __FILE__ ).'/lib/config.php' );
@@ -56,7 +50,7 @@ if ( ! class_exists( 'WpssoAm' ) ) {
 
 			if ( is_admin() ) {
 				load_plugin_textdomain( 'wpsso-am', false, 'wpsso-am/languages/' );
-				add_action( 'admin_init', array( &$this, 'required_check' ) );
+				add_action( 'admin_init', array( __CLASS__, 'required_check' ) );
 			}
 
 			add_filter( 'wpsso_get_config', array( &$this, 'wpsso_get_config' ), 10, 2 );
@@ -65,7 +59,13 @@ if ( ! class_exists( 'WpssoAm' ) ) {
 			add_action( 'wpsso_init_plugin', array( &$this, 'wpsso_init_plugin' ), 10 );
 		}
 
-		public function required_check() {
+		public static function &get_instance() {
+			if ( ! isset( self::$instance ) )
+				self::$instance = new self;
+			return self::$instance;
+		}
+
+		public static function required_check() {
 			if ( ! class_exists( 'Wpsso' ) )
 				add_action( 'all_admin_notices', array( __CLASS__, 'required_notice' ) );
 		}
