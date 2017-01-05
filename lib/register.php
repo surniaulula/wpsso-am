@@ -13,7 +13,6 @@ if ( ! class_exists( 'WpssoAmRegister' ) ) {
 	class WpssoAmRegister {
 
 		public function __construct() {
-
 			register_activation_hook( WPSSOAM_FILEPATH, array( &$this, 'network_activate' ) );
 			//register_deactivation_hook( WPSSOAM_FILEPATH, array( &$this, 'network_deactivate' ) );	// nothing to do
 
