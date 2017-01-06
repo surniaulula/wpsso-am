@@ -160,7 +160,6 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 		}
 
 		public function filter_option_type( $type, $key ) {
-
 			if ( ! empty( $type ) )
 				return $type;
 			elseif ( strpos( $key, 'am_' ) !== 0 )
