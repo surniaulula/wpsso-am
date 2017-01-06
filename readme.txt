@@ -132,6 +132,17 @@ Note that the production stage level can be incremented on occasion for simple t
 
 = Changelog / Release Notes =
 
+**Version 1.7.13-dev1 (2017/01/06)**
+
+* *New Features*
+	* None
+* *Improvements*
+	* None
+* *Bugfixes*
+	* None
+* *Developer Notes*
+	* Added a 'plugins_loaded' action hook to load the plugin text domain.
+
 **Version 1.7.12-1 (2016/11/25)**
 
 * *New Features*
@@ -157,6 +168,10 @@ Note that the production stage level can be incremented on occasion for simple t
 		* Renamed the SucomUtil after_key() method to get_after_key().
 
 == Upgrade Notice ==
+
+= 1.7.13-dev1 =
+
+(2017/01/06) Added a 'plugins_loaded' action hook to load the plugin text domain.
 
 = 1.7.12-1 =
 
