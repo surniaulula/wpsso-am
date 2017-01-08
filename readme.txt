@@ -5,7 +5,7 @@ Text Domain: wpsso-am
 Domain Path: /languages
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl.txt
-Donate Link: https://wpsso.com/?utm_source=wpssoam-readme-donate
+Donate Link: https://wpsso.com/extend/plugins/wpsso-am/?utm_source=wpssoam-readme-donate
 Assets URI: https://surniaulula.github.io/wpsso-am/assets/
 Tags: app, app store, mobile app, app card, itunes, iphone, ipad, googleplay, google play, meta, tags, banner, safari, twitter app card, twitter card
 Contributors: jsmoriss
