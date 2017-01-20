@@ -2,10 +2,10 @@
 # This file is distributed under the same license as the WPSSO App Meta (WPSSO AM) package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WPSSO Mobile App Meta (WPSSO AM) 1.7.12-1\n"
+"Project-Id-Version: WPSSO Mobile App Meta (WPSSO AM) 1.7.13-1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-am\n"
 "POT-Creation-Date: 2016-12-24 08:41+1100\n"
-"PO-Revision-Date: 2016-12-24 14:39+1100\n"
+"PO-Revision-Date: 2017-01-21 07:28+0800\n"
 "Last-Translator: JS Morisset <jsm@surniaulula.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
