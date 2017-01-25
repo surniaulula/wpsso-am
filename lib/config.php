@@ -38,7 +38,7 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 						// wordpress
 						'download' => 'https://wordpress.org/plugins/wpsso-am/',
 						'forum' => 'https://wordpress.org/support/plugin/wpsso-am',
-						'review' => 'https://wordpress.org/support/view/plugin-reviews/wpsso-am?filter=5&rate=5#postform',
+						'review' => 'https://wordpress.org/support/plugin/wpsso-am/reviews/?rate=5#new-post',
 						// github
 						'readme_txt' => 'https://raw.githubusercontent.com/SurniaUlula/wpsso-am/master/readme.txt',
 						// wpsso
