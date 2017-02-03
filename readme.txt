@@ -9,7 +9,7 @@ Donate Link: https://wpsso.com/extend/plugins/wpsso-am/?utm_source=wpssoam-readm
 Assets URI: https://surniaulula.github.io/wpsso-am/assets/
 Tags: app, app store, mobile app, app card, itunes, iphone, ipad, googleplay, google play, meta, tags, banner, safari, twitter app card, twitter card
 Contributors: jsmoriss
-Requires At Least: 3.7
+Requires At Least: 3.8
 Tested Up To: 4.7.2
 Stable Tag: 1.7.13-1
 
