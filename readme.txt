@@ -32,7 +32,7 @@ WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags fo
 * Extends the features of either the Free or Pro versions of WPSSO.
 * Adds an optional banner advertisement in Apple's mobile Safari for your website's Apple Store mobile App.
 	* Add Banner to Archive Webpages
-	* Add Banner to Static Homepage
+	* Add Banner to Static Front Page
 	* Add Banner to Post Types (Posts, Pages, Media, Products, etc.).
 	* Apple Store App
 		* Default App ID Number
