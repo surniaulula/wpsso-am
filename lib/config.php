@@ -48,7 +48,7 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 						'codex' => 'https://wpsso.com/codex/plugins/wpsso-am/',
 						'faq' => '',
 						'notes' => '',
-						'support' => 'http://wpsso-am.support.wpsso.com/',
+						'support' => 'http://wpsso-am.support.wpsso.com/support/tickets/new',
 					),
 					'lib' => array(
 						// submenu items must have unique keys
