@@ -50,7 +50,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 			$this->p->util->add_plugin_filters( $this, array( 
 				'get_defaults' => 1,			// option defaults
 				'get_md_defaults' => 1,			// meta data defaults
-				'meta_name' => 3,
+				'meta_name' => 2,
 			) );
 
 			if ( is_admin() ) {
@@ -99,7 +99,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 		}
 
 		// adds the website app meta tag to the $mt_name array
-		public function filter_meta_name( $mt_name, $use_post, $mod ) {
+		public function filter_meta_name( $mt_name, $mod ) {
 			if ( $this->p->debug->enabled )
 				$this->p->debug->mark();
 
