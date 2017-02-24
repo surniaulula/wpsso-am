@@ -305,13 +305,13 @@ msgctxt "option label"
 msgid "Default Argument String"
 msgstr ""
 
-#: wpsso-am.php:81
+#: wpsso-am.php:77
 msgid ""
 "%1$s is an extension for the %2$s plugin &mdash; please install and activate "
 "the %3$s plugin before activating %4$s."
 msgstr ""
 
-#: wpsso-am.php:82
+#: wpsso-am.php:78
 msgid ""
 "The %1$s extension requires the %2$s plugin &mdash; please install and "
 "activate the %3$s plugin."
