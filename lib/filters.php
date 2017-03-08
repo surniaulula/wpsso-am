@@ -81,8 +81,8 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 			return $def_opts;
 		}
 
-		public function filter_get_md_defaults( $def_opts ) {
-			return array_merge( $def_opts, array(
+		public function filter_get_md_defaults( $md_defs ) {
+			return array_merge( $md_defs, array(
 				'am_ap_ast' => -1,		// App Store Territory
 				'am_iphone_app_id' => '',	// iPhone App ID
 				'am_iphone_app_name' => '',	// iPhone App Name
