@@ -22,14 +22,17 @@ WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags fo
 <p><strong>Add <a href="https://dev.twitter.com/cards/types/app">Twitter App Card</a> meta tags</strong> to Apple Store and/or Google Play mobile Apps product pages.</p>
 
 <blockquote>
-<p><strong>Prerequisite</strong> &mdash; WPSSO Mobile App Meta (WPSSO AM) is an extension for the <a href="https://wordpress.org/plugins/wpsso/">WordPress Social Sharing Optimization (WPSSO)</a> plugin, which <em>automatically</em> creates complete and accurate meta tags and Schema markup for Social Sharing Optimization (SSO) and SEO.</p>
+<p><strong>Prerequisite</strong> &mdash; WPSSO Mobile App Meta (WPSSO AM) is an extension for the <a href="https://wordpress.org/plugins/wpsso/">WordPress Social Sharing Optimization (WPSSO)</a> plugin, which <em>automatically</em> generates complete and accurate meta tags + Schema markup from your content for Social Sharing Optimization (SSO) and Search Engine Optimization (SEO).</p>
+
+<p>The <a href="https://wordpress.org/plugins/wpsso-am/">WPSSO AM Free extension</a> requires the WPSSO Free or Pro plugin.<br/>
+The <a href="https://wpsso.com/extend/plugins/wpsso-am/?utm_source=wpssoam-readme-requires">WPSSO AM Pro extension</a> requires the <a href="https://wpsso.com/extend/plugins/wpsso/?utm_source=wpssoam-readme-requires">WPSSO Pro plugin</a> as well.</p>
 </blockquote>
 
 = Quick List of Features =
 
 **WPSSO AM Free / Basic Features**
 
-* Extends the features of either the Free or Pro versions of WPSSO.
+* Extends the features of WPSSO Free or Pro.
 * Adds an optional banner advertisement in Apple's mobile Safari for your website's Apple Store mobile App.
 	* Add Banner to Archive Webpages
 	* Add Banner to Static Front Page
@@ -84,9 +87,11 @@ WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags fo
 
 The WordPress Social Sharing Optimization (WPSSO) plugin is required to use the WPSSO AM extension. 
 
-Use the Free version of WPSSO AM with *both* the Free and Pro versions of WPSSO. The [WPSSO AM Pro extension](https://wpsso.com/extend/plugins/wpsso-am/?utm_source=wpssoam-readme-extends) (along with all WPSSO Pro extensions) requires the [WPSSO Pro plugin](https://wpsso.com/extend/plugins/wpsso/?utm_source=wpssoam-readme-extends) as well.
+<blockquote>
+<p>The WPSSO AM Free extension requires either the WPSSO Free or Pro plugin. The <a href="https://wpsso.com/extend/plugins/wpsso-am/?utm_source=wpssoam-readme-extends">WPSSO AM Pro extension</a> (along with all WPSSO Pro extensions) requires the <a href="https://wpsso.com/extend/plugins/wpsso/?utm_source=wpssoam-readme-extends">WPSSO Pro plugin</a> as well.</p>
+</blockquote>
 
-[Purchase the WPSSO Mobile App Meta (WPSSO AM) Pro extension](https://wpsso.com/extend/plugins/wpsso-am/?utm_source=wpssoam-readme-purchase) (includes a *No Risk 30 Day Refund Policy*).
+[Purchase the WPSSO Mobile App Meta (WPSSO AM) Pro extension here](https://wpsso.com/extend/plugins/wpsso-am/?utm_source=wpssoam-readme-purchase) (all purchases include a *No Risk 30 Day Refund Policy*).
 
 == Installation ==
 
