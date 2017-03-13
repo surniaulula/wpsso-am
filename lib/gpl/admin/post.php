@@ -55,7 +55,7 @@ if ( ! class_exists( 'WpssoAmGplAdminPost' ) ) {
 				'am_ap_ast' => array(
 					'label' => _x( 'App Store Territory', 'option label', 'wpsso-am' ),
 					'th_class' => 'medium', 'tooltip' => 'am_ap_ast', 'td_class' => 'blank',
-					'content' => $form->get_no_select( 'am_ap_ast', array( -1 ), '', '', false ),
+					'content' => $form->get_no_select( 'am_ap_ast', WpssoAmConfig::$app_stores ),
 				),
 				/*
 				 * iPhone App

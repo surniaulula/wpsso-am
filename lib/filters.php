@@ -82,8 +82,9 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 		}
 
 		public function filter_get_md_defaults( $md_defs ) {
+			$opts =& $this->p->options;		// shortcut
 			return array_merge( $md_defs, array(
-				'am_ap_ast' => -1,		// App Store Territory
+				'am_ap_ast' => isset( $opts['am_ap_ast'] ) ? $opts['am_ap_ast'] : 'US',
 				'am_iphone_app_id' => '',	// iPhone App ID
 				'am_iphone_app_name' => '',	// iPhone App Name
 				'am_iphone_app_url' => '',	// iPhone App URL Scheme
