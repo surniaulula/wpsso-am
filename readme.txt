@@ -137,12 +137,12 @@ Note that the production stage level can be incremented on occasion for simple t
 
 = Changelog / Release Notes =
 
-**Version 1.7.15-dev2 (TBD)**
+**Version 1.7.15-dev3 (2017/03/13)**
 
 * *New Features*
 	* None
 * *Improvements*
-	* None
+	* Replaced the "(settings value)" text shown for options in the Social Settings metabox with the actual default value.
 * *Bugfixes*
 	* None
 * *Developer Notes*
@@ -196,6 +196,10 @@ Note that the production stage level can be incremented on occasion for simple t
 		* Renamed the SucomUtil after_key() method to get_after_key().
 
 == Upgrade Notice ==
+
+= 1.7.15-dev3 =
+
+(2017/03/13) Replaced the "(settings value)" text shown for options in the Social Settings metabox with the actual default value.
 
 = 1.7.14-1 =
 
