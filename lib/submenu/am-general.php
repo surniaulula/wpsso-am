@@ -20,18 +20,19 @@ if ( ! class_exists( 'WpssoAmSubmenuAmGeneral' ) && class_exists( 'WpssoAdmin' )
 			$this->menu_lib = $lib;
 			$this->menu_ext = $ext;
 
-			if ( $this->p->debug->enabled )
+			if ( $this->p->debug->enabled ) {
 				$this->p->debug->mark();
+			}
 		}
 
 		protected function add_meta_boxes() {
 			add_meta_box( $this->pagehook.'_banner',
 				_x( 'Mobile App Banner', 'metabox title', 'wpsso-am' ), 
-				array( &$this, 'show_metabox_banner' ), $this->pagehook, 'normal' );
+					array( &$this, 'show_metabox_banner' ), $this->pagehook, 'normal' );
 
 			add_meta_box( $this->pagehook.'_appmeta', 
 				_x( 'Mobile App Products', 'metabox title', 'wpsso-am' ),
-				array( &$this, 'show_metabox_appmeta' ), $this->pagehook, 'normal' );
+					array( &$this, 'show_metabox_appmeta' ), $this->pagehook, 'normal' );
 		}
 
 		public function show_metabox_banner() {
@@ -39,14 +40,15 @@ if ( ! class_exists( 'WpssoAmSubmenuAmGeneral' ) && class_exists( 'WpssoAdmin' )
 			$this->p->util->do_table_rows( apply_filters( $this->p->cf['lca'].'_'.$metabox.'_general_rows', 
 				$this->get_table_rows( $metabox, 'general' ), $this->form ), 'metabox-'.$metabox.'-general' );
 
-			$tabs = apply_filters( $this->p->cf['lca'].'_general_banner_tabs', array(
+			$tabs = apply_filters( $this->p->cf['lca'].'_am_'.$metabox.'_tabs', array(
 				'itunes' => _x( 'Apple Store App', 'metabox tab', 'wpsso-am' ),
 			) );
 
 			$table_rows = array();
-			foreach ( $tabs as $key => $title )
+			foreach ( $tabs as $key => $title ) {
 				$table_rows[$key] = array_merge( $this->get_table_rows( $metabox, $key ), 
 					apply_filters( $this->p->cf['lca'].'_'.$metabox.'_'.$key.'_rows', array(), $this->form ) );
+			}
 			$this->p->util->do_metabox_tabs( $metabox, $tabs, $table_rows );
 		}
 
