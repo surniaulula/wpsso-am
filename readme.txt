@@ -136,7 +136,7 @@ Note that the production stage level can be incremented on occasion for simple t
 
 = Changelog / Release Notes =
 
-**Version 1.7.15-rc1 (2017/03/13)**
+**Version 1.7.15-1 (2017/03/15)**
 
 * *New Features*
 	* None
@@ -196,9 +196,9 @@ Note that the production stage level can be incremented on occasion for simple t
 
 == Upgrade Notice ==
 
-= 1.7.15-rc1 =
+= 1.7.15-1 =
 
-(2017/03/13) Replaced the "(settings value)" text shown for options in the Social Settings metabox with the actual default value.
+(2017/03/15) Replaced the "(settings value)" text shown for options in the Social Settings metabox with the actual default value.
 
 = 1.7.14-1 =
 
