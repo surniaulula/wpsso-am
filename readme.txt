@@ -113,8 +113,8 @@ The WordPress Social Sharing Optimization (WPSSO) plugin is required to use the 
 
 == Screenshots ==
 
-01. Mobile App Meta settings page &mdash; Settings for the Mobile App Banner, Apple Store App defaults, and the Mobile Apps tab.
-02. Mobile Apps Tab in the Social Settings metabox &mdash; Custom settings for the Twitter App Card and Mobile App Banner.
+01. Mobile App Meta settings page &mdash; settings for the Mobile App Banner, Apple Store App defaults, and the Mobile Apps tab.
+02. Mobile Apps Tab in the Social Settings metabox &mdash; custom settings for the Twitter App Card and Mobile App Banner.
 
 == Changelog ==
 
