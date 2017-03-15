@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: WPSSO Mobile App Meta (WPSSO AM) 1.7.15-1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-am\n"
 "POT-Creation-Date: 2017-03-14 07:58+0700\n"
-"PO-Revision-Date: 2017-03-14 07:58+0700\n"
+"PO-Revision-Date: 2017-03-15 16:12+0700\n"
 "Last-Translator: JS Morisset <jsm@surniaulula.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -18,7 +18,7 @@ msgstr ""
 #: lib/config-gettext-extract.php:3
 msgctxt "lib file description"
 msgid "Mobile App Meta"
-msgstr "Méta d'App Mobile"
+msgstr "Méta App Mobile"
 
 #: lib/config-gettext-extract.php:4
 msgctxt "plugin description"
