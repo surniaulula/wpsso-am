@@ -17,7 +17,9 @@ WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags fo
 
 == Description ==
 
-<p><img src="https://surniaulula.github.io/wpsso-am/assets/icon-256x256.png" width="256" height="256" style="width:33%;min-width:128px;max-width:256px;float:left;margin:0 40px 20px 0;" /><strong>Promote your website mobile App</strong> as a banner in Apple's mobile Safari.</p>
+<img src="https://surniaulula.github.io/wpsso-am/assets/icon-256x256.png" style="width:33%;min-width:128px;max-width:256px;height:auto;float:left;margin:10px 40px 40px 0;" />
+
+<p><strong>Promote your website mobile App</strong> as a banner in Apple's mobile Safari.</p>
 
 <p><strong>Add <a href="https://dev.twitter.com/cards/types/app">Twitter App Card</a> meta tags</strong> to Apple Store and/or Google Play mobile Apps product pages.</p>
 

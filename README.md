@@ -14,7 +14,9 @@
 
 <h2>Description</h2>
 
-<p align="center"><img src="https://surniaulula.github.io/wpsso-am/assets/icon-256x256.png" width="256" height="256" /></p><p><strong>Promote your website mobile App</strong> as a banner in Apple's mobile Safari.</p>
+<p align="center"><img src="https://surniaulula.github.io/wpsso-am/assets/icon-256x256.png" /></p><p></p>
+
+<p><strong>Promote your website mobile App</strong> as a banner in Apple's mobile Safari.</p>
 
 <p><strong>Add <a href="https://dev.twitter.com/cards/types/app">Twitter App Card</a> meta tags</strong> to Apple Store and/or Google Play mobile Apps product pages.</p>
 
