@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WPSSO Mobile App Meta (WPSSO AM) 1.7.15-1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-am\n"
-"POT-Creation-Date: 2017-03-14 07:58+0700\n"
-"PO-Revision-Date: 2017-03-15 16:12+0700\n"
+"POT-Creation-Date: 2017-03-25 10:16+0200\n"
+"PO-Revision-Date: 2017-03-25 10:16+0200\n"
 "Last-Translator: JS Morisset <jsm@surniaulula.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -214,7 +214,7 @@ msgid "Google Play App URL Scheme"
 msgstr "Schéma URL App Google Play"
 
 #: lib/gpl/admin/post.php:135 lib/pro/admin/post.php:142
-#: lib/submenu/am-general.php:29
+#: lib/submenu/am-general.php:30
 msgctxt "metabox title"
 msgid "Mobile App Banner"
 msgstr "Bannière App Mobile"
@@ -234,55 +234,55 @@ msgctxt "option label"
 msgid "Argument String"
 msgstr "Chaîne d'arguments"
 
-#: lib/submenu/am-general.php:33
+#: lib/submenu/am-general.php:34
 msgctxt "metabox title"
 msgid "Mobile App Products"
 msgstr "Produits App Mobile"
 
-#: lib/submenu/am-general.php:43
+#: lib/submenu/am-general.php:44
 msgctxt "metabox tab"
 msgid "Apple Store App"
 msgstr "App du Apple Store"
 
-#: lib/submenu/am-general.php:68
+#: lib/submenu/am-general.php:70
 msgctxt "option label"
 msgid "Add Banner to Archive Webpages"
 msgstr "Ajouter aux pages Web d'archive"
 
-#: lib/submenu/am-general.php:72
+#: lib/submenu/am-general.php:74
 msgctxt "option label"
 msgid "Add Banner to Static Front Page"
 msgstr "Ajouter à la page statique d'avant"
 
-#: lib/submenu/am-general.php:82
+#: lib/submenu/am-general.php:84
 msgctxt "option label"
 msgid "Add Banner to Post Types"
 msgstr "Ajouter aux articles de type"
 
-#: lib/submenu/am-general.php:92
+#: lib/submenu/am-general.php:94
 msgctxt "option label"
 msgid "Default App ID Number"
 msgstr "Numéro d'ID App par défaut"
 
-#: lib/submenu/am-general.php:96
+#: lib/submenu/am-general.php:98
 msgctxt "option label"
 msgid "Default Affiliate Data"
 msgstr "Donnée d'affilié par défaut"
 
-#: lib/submenu/am-general.php:100
+#: lib/submenu/am-general.php:102
 msgctxt "option label"
 msgid "Default Argument String"
 msgstr "Chaîne d'arguments par défaut"
 
-#: wpsso-am.php:78
+#: wpsso-am.php:79
 msgid "%1$s is an extension for the %2$s plugin &mdash; please install and activate the %3$s plugin before activating %4$s."
 msgstr "%1$s est une extension pour %2$s &mdash; s'il vous plaît installer et activer %3$s avant d'activer l'extension %4$s."
 
-#: wpsso-am.php:79
+#: wpsso-am.php:81
 msgid "The %1$s extension requires the %2$s plugin &mdash; please install and activate the %3$s plugin."
 msgstr "L'extension %1$s requiert %2$s &mdash; s'il vous plaît installer et activer l'extension %3$s."
 
-#: wpsso-am.php:155
+#: wpsso-am.php:161
 msgid "The %1$s extension v%2$s requires %3$s v%4$s or newer (v%5$s currently installed)."
 msgstr "L'extension %1$s v%2$s requiert l'utilisation de %3$s v%4$s ou plus récente (v%5$s est actuellement installée)."
 
