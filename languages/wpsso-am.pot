@@ -160,12 +160,12 @@ msgid ""
 "Card and customize a mobile App banner for Apple's mobile Safari."
 msgstr ""
 
-#: lib/gpl/admin/am-general.php:43 lib/pro/admin/am-general.php:50
+#: lib/gpl/admin/am-general.php:44 lib/pro/admin/am-general.php:51
 msgctxt "option label"
 msgid "Show Tab on Post Types"
 msgstr ""
 
-#: lib/gpl/admin/am-general.php:47 lib/pro/admin/am-general.php:54
+#: lib/gpl/admin/am-general.php:48 lib/pro/admin/am-general.php:55
 msgctxt "option label"
 msgid "Default App Store Territory"
 msgstr ""
@@ -285,22 +285,22 @@ msgctxt "option label"
 msgid "Add Banner to Static Front Page"
 msgstr ""
 
-#: lib/submenu/am-general.php:84
+#: lib/submenu/am-general.php:85
 msgctxt "option label"
 msgid "Add Banner to Post Types"
 msgstr ""
 
-#: lib/submenu/am-general.php:94
+#: lib/submenu/am-general.php:95
 msgctxt "option label"
 msgid "Default App ID Number"
 msgstr ""
 
-#: lib/submenu/am-general.php:98
+#: lib/submenu/am-general.php:99
 msgctxt "option label"
 msgid "Default Affiliate Data"
 msgstr ""
 
-#: lib/submenu/am-general.php:102
+#: lib/submenu/am-general.php:103
 msgctxt "option label"
 msgid "Default Argument String"
 msgstr ""

@@ -75,14 +75,15 @@ if ( ! class_exists( 'WpssoAmSubmenuAmGeneral' ) && class_exists( 'WpssoAdmin' )
 						'option label', 'wpsso-am' ), null, 'am_ws_on_front' ).
 					'<td>'.$this->form->get_checkbox( 'am_ws_on_front' ).'</td>';
 
-					$checkboxes = '';
-					foreach ( $this->p->util->get_post_types() as $post_type )
-						$checkboxes .= '<p>'.$this->form->get_checkbox( 'am_ws_add_to_'.$post_type->name ).' '.
-							$post_type->label.' '.( empty( $post_type->description ) ?
-								'' : '('.$post_type->description.')' ).'</p>';
+					$add_to_checkboxes = '';
+					foreach ( $this->p->util->get_post_types() as $post_type ) {
+						$add_to_checkboxes .= '<p>'.$this->form->get_checkbox( 'am_ws_add_to_'.$post_type->name ).
+							' '.$post_type->label.( empty( $post_type->description ) ?
+								'' : ' ('.$post_type->description.')' ).'</p>';
+					}
 
 					$table_rows[] = $this->form->get_th_html( _x( 'Add Banner to Post Types',
-						'option label', 'wpsso-am' ), null, 'am_ws_add_to' ).'<td>'.$checkboxes.'</td>';
+						'option label', 'wpsso-am' ), null, 'am_ws_add_to' ).'<td>'.$add_to_checkboxes.'</td>';
 
 					break;
 
