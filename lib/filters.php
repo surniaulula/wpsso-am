@@ -66,7 +66,6 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 					'status_gpl_features' => 4,
 					'status_pro_features' => 4,
 				), 10, 'wpssoam' );
-
 			}
 		}
 
