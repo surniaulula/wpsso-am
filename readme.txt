@@ -112,7 +112,7 @@ The WordPress Social Sharing Optimization (WPSSO) plugin is required to use the 
 
 == Screenshots ==
 
-01. WPSSO AM settings page include options for the Mobile App Banner, Apple Store App defaults, and the Mobile Apps tab.
+01. WPSSO AM settings page includes options for the Mobile App Banner, Apple Store App defaults, and the Mobile Apps tab.
 02. WPSSO AM tab in the Social Settings metabox provides custom settings for the Twitter App Card and Mobile App Banner (Pro version).
 
 == Changelog ==
