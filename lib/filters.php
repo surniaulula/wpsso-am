@@ -161,11 +161,11 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 		}
 
 		public function filter_option_type( $type, $key ) {
-			if ( ! empty( $type ) )
+			if ( ! empty( $type ) ) {
 				return $type;
-			elseif ( strpos( $key, 'am_' ) !== 0 )
+			} elseif ( strpos( $key, 'am_' ) !== 0 ) {
 				return $type;
-
+			}
 			switch ( $key ) {
 				case 'am_ws_itunes_app_id':
 				case 'am_iphone_app_id':
