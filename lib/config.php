@@ -16,7 +16,7 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 		public static $cf = array(
 			'plugin' => array(
 				'wpssoam' => array(
-					'version' => '1.7.15-1',	// plugin version
+					'version' => '1.7.16-dev1',	// plugin version
 					'opt_version' => '7',		// increment when changing default options
 					'short' => 'WPSSO AM',		// short plugin name
 					'name' => 'WPSSO Mobile App Meta (WPSSO AM)',
@@ -46,7 +46,7 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 						'update' => 'https://wpsso.com/extend/plugins/wpsso-am/update/',
 						'purchase' => 'https://wpsso.com/extend/plugins/wpsso-am/',
 						'changelog' => 'https://wpsso.com/extend/plugins/wpsso-am/changelog/',
-						'codex' => 'https://wpsso.com/codex/plugins/wpsso-am/',
+						'docs' => 'https://wpsso.com/docs/plugins/wpsso-am/',
 						'faqs' => '',
 						'notes' => '',
 						'support' => 'http://wpsso-am.support.wpsso.com/support/tickets/new',
