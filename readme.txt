@@ -135,7 +135,7 @@ Note that the production stage level can be incremented on occasion for simple t
 
 = Changelog / Release Notes =
 
-**Version 1.7.16-b1 (2017/04/05)**
+**Version 1.7.16-rc1 (2017/04/05)**
 
 * *New Features*
 	* None
@@ -206,7 +206,7 @@ Note that the production stage level can be incremented on occasion for simple t
 
 == Upgrade Notice ==
 
-= 1.7.16-b1 =
+= 1.7.16-rc1 =
 
 (2017/04/05) Updated the plugin icon images and the documentation URLs.
 
