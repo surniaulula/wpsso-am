@@ -13,7 +13,7 @@
  * Description: WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari and Twitter's App Card.
  * Requires At Least: 3.7
  * Tested Up To: 4.7.3
- * Version: 1.7.16-dev2
+ * Version: 1.7.16-b1
  * 
  * Version Numbering Scheme: {major}.{minor}.{bugfix}-{stage}{level}
  *
