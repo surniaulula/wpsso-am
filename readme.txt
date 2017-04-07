@@ -122,7 +122,7 @@ The WordPress Social Sharing Optimization (WPSSO) plugin is required to use the 
 * [GitHub](https://surniaulula.github.io/wpsso-am/)
 * [WordPress.org](https://wordpress.org/plugins/wpsso-am/developers/)
 
-= Version Numbering Scheme =
+= Version Numbering =
 
 Version components: `{major}.{minor}.{bugfix}-{stage}{level}`
 
