@@ -133,6 +133,18 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 = Changelog / Release Notes =
 
+**Version 1.7.17 (2017/04/08)**
+
+* *New Features*
+	* None
+* *Improvements*
+	* None
+* *Bugfixes*
+	* None
+* *Developer Notes*
+	* Minor revision to move URLs in the extension config to the main WPSSO plugin config.
+	* Dropped the package number from the production version string.
+
 **Version 1.7.16-1 (2017/04/05)**
 
 * *New Features*
@@ -155,54 +167,11 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * *Developer Notes*
 	* None
 
-**Version 1.7.14-1 (2017/02/26)**
-
-* *New Features*
-	* None
-* *Improvements*
-	* None
-* *Bugfixes*
-	* None
-* *Developer Notes*
-	* Minor update for WPSSO v3.40.0-1 compatibility:
-		* Removed the $use_post argument from the 'wpsso_meta_name' and 'wpsso_tc_seed' filters.
-
-**Version 1.7.13-1 (2017/01/08)**
-
-* *New Features*
-	* None
-* *Improvements*
-	* None
-* *Bugfixes*
-	* None
-* *Developer Notes*
-	* Added a 'plugins_loaded' action hook to load the plugin text domain.
-
-**Version 1.7.12-1 (2016/11/25)**
-
-* *New Features*
-	* None
-* *Improvements*
-	* None
-* *Bugfixes*
-	* None
-* *Developer Notes*
-	* Refactored the min_version_notice() method and moved variables to config class.
-	* Refactored the show_metabox_banner() method for the Mobile App Meta settings page.
-
-**Version 1.7.11-1 (2016/11/03)**
-
-* *New Features*
-	* None
-* *Improvements*
-	* None
-* *Bugfixes*
-	* None
-* *Developer Notes*
-	* Minor code changes required for WPSSO v3.37.0-1:
-		* Renamed the SucomUtil after_key() method to get_after_key().
-
 == Upgrade Notice ==
+
+= 1.7.17 =
+
+(2017/04/08) Minor revision to move URLs in the extension config to the main WPSSO plugin config.
 
 = 1.7.16-1 =
 
@@ -211,16 +180,4 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 = 1.7.15-1 =
 
 (2017/03/15) Replaced the "(settings value)" text shown for options in the Social Settings metabox with the actual default value.
-
-= 1.7.14-1 =
-
-(2017/02/26) Minor update for WPSSO v3.40.0-1 compatibility.
-
-= 1.7.13-1 =
-
-(2017/01/08) Added a 'plugins_loaded' action hook to load the plugin text domain.
-
-= 1.7.12-1 =
-
-(2016/11/25) Refactored the min_version_notice() and show_metabox_banner() methods.
 
