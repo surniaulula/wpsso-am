@@ -4,7 +4,7 @@
  * Plugin Slug: wpsso-am
  * Text Domain: wpsso-am
  * Domain Path: /languages
- * Plugin URI: https://surniaulula.com/extend/plugins/wpsso-am/
+ * Plugin URI: https://wpsso.com/extend/plugins/wpsso-am/
  * Assets URI: https://surniaulula.github.io/wpsso-am/assets/
  * Author: JS Morisset
  * Author URI: https://surniaulula.com/
@@ -38,7 +38,7 @@ if ( ! class_exists( 'WpssoAm' ) ) {
 		public $filters;		// WpssoAmFilters
 
 		private static $instance;
-		private static $have_req_min = true;	// have minimum wpsso version
+		private static $have_min = true;	// have minimum wpsso version
 
 		public function __construct() {
 
@@ -98,7 +98,7 @@ if ( ! class_exists( 'WpssoAm' ) ) {
 			$info = WpssoAmConfig::$cf['plugin']['wpssoam'];
 
 			if ( version_compare( $plugin_version, $info['req']['min_version'], '<' ) ) {
-				self::$have_req_min = false;
+				self::$have_min = false;
 				return $cf;
 			}
 
@@ -120,7 +120,7 @@ if ( ! class_exists( 'WpssoAm' ) ) {
 				$this->p->debug->mark();
 			}
 
-			if ( self::$have_req_min ) {
+			if ( self::$have_min ) {
 				$this->p->is_avail['p_ext']['am'] = true;
 				$this->p->is_avail['head']['twittercard'] = true;	// load lib/*/head/twittercard.php
 				if ( is_admin() ) {
@@ -137,7 +137,7 @@ if ( ! class_exists( 'WpssoAm' ) ) {
 				$this->p->debug->mark();
 			}
 
-			if ( self::$have_req_min ) {
+			if ( self::$have_min ) {
 				$this->filters = new WpssoAmFilters( $this->p );
 			}
 		}
@@ -147,7 +147,7 @@ if ( ! class_exists( 'WpssoAm' ) ) {
 				$this->p->debug->mark();
 			}
 
-			if ( ! self::$have_req_min ) {
+			if ( ! self::$have_min ) {
 				return $this->min_version_notice();	// stop here
 			}
 		}
