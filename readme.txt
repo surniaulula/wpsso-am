@@ -10,7 +10,7 @@ Tags: app store, mobile app, app card, mobile, itunes, googleplay, google play, 
 Contributors: jsmoriss
 Requires At Least: 3.7
 Tested Up To: 4.7.3
-Stable Tag: 1.7.17
+Stable Tag: 1.7.18
 
 WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari and Twitter's App Card.
 
@@ -133,7 +133,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 = Changelog / Release Notes =
 
-**Version 1.7.18 (2017/04/15)**
+**Version 1.7.18 (2017/04/16)**
 
 * *New Features*
 	* None
@@ -182,7 +182,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 = 1.7.18 =
 
-(2017/04/15) Refactored the plugin init filters and moved/renamed the registration boolean.
+(2017/04/16) Refactored the plugin init filters and moved/renamed the registration boolean.
 
 = 1.7.17 =
 
