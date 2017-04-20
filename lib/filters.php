@@ -132,18 +132,20 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 			}
 
 			if ( $mod['id'] ) {
-				if ( $this->p->debug->enabled )
+				if ( $this->p->debug->enabled ) {
 					$this->p->debug->log( 'loading options from module ID '.$mod['id'] );
-				$md_opts = $mod['obj']->get_options( $mod['id'] );
+				}
+				$md_opts = $mod['obj']->get_options( $mod['id'] );	// returns an empty string if no meta found
 			}
 
-			if ( ! empty( $md_opts['am_ws_itunes_app_id'] ) )
+			if ( ! empty( $md_opts['am_ws_itunes_app_id'] ) ) {
 				$mt_name['apple-itunes-app'] = 'app-id='.$md_opts['am_ws_itunes_app_id'];
-			elseif ( ! empty( $this->p->options['am_ws_itunes_app_id'] ) )	// fallback to global options
+			} elseif ( ! empty( $this->p->options['am_ws_itunes_app_id'] ) ) {	// fallback to global options
 				$mt_name['apple-itunes-app'] = 'app-id='.$this->p->options['am_ws_itunes_app_id'];
-			else {
-				if ( $this->p->debug->enabled )
+			} else {
+				if ( $this->p->debug->enabled ) {
 					$this->p->debug->log( 'exiting early: am_ws_itunes_app_id is empty' );
+				}
 				return $mt_name;
 			}	
 
