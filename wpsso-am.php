@@ -13,7 +13,7 @@
  * Description: WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari and Twitter's App Card.
  * Requires At Least: 3.7
  * Tested Up To: 4.7.4
- * Version: 1.7.18
+ * Version: 1.7.19-dev.1
  * 
  * Version Numbering: {major}.{minor}.{bugfix}[-{stage}.{level}]
  *
@@ -121,14 +121,14 @@ if ( ! class_exists( 'WpssoAm' ) ) {
 			}
 
 			if ( self::$have_min ) {
-				$this->p->is_avail['p_ext']['am'] = true;
-				$this->p->is_avail['head']['twittercard'] = true;	// load lib/*/head/twittercard.php
+				$this->p->avail['p_ext']['am'] = true;
+				$this->p->avail['head']['twittercard'] = true;	// load lib/*/head/twittercard.php
 				if ( is_admin() ) {
-					$this->p->is_avail['admin']['am-general'] = true;
-					$this->p->is_avail['admin']['post'] = true;
+					$this->p->avail['admin']['am-general'] = true;
+					$this->p->avail['admin']['post'] = true;
 				}
 			} else {
-				$this->p->is_avail['p_ext']['am'] = false;	// just in case
+				$this->p->avail['p_ext']['am'] = false;	// just in case
 			}
 		}
 
