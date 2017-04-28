@@ -133,7 +133,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 = Changelog / Release Notes =
 
-**Version 1.7.19-dev.4 (2017/04/27)**
+**Version 1.7.19-dev.4 (2017/04/28)**
 
 * *New Features*
 	* None
@@ -193,7 +193,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 = 1.7.19-dev.4 =
 
-(2017/04/27) Code refactoring to rename the $is_avail array to $avail for WPSSO v3.42.0.
+(2017/04/28) Code refactoring to rename the $is_avail array to $avail for WPSSO v3.42.0.
 
 = 1.7.18 =
 
