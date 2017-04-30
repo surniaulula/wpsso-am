@@ -16,7 +16,7 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 		public static $cf = array(
 			'plugin' => array(
 				'wpssoam' => array(
-					'version' => '1.7.19-b.1',		// plugin version
+					'version' => '1.7.19-rc.1',		// plugin version
 					'opt_version' => '7',		// increment when changing default options
 					'short' => 'WPSSO AM',		// short plugin name
 					'name' => 'WPSSO Mobile App Meta (WPSSO AM)',
@@ -29,7 +29,7 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 					'req' => array(
 						'short' => 'WPSSO',
 						'name' => 'WordPress Social Sharing Optimization (WPSSO)',
-						'min_version' => '3.42.0-b.1',
+						'min_version' => '3.42.0-rc.1',
 					),
 					'img' => array(
 						'icons' => array(
