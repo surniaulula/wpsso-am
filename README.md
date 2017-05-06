@@ -130,7 +130,7 @@
 <h4>Install and Uninstall</h4>
 
 <ul>
-<li><a href="https://wpsso.com/docs/plugins/wpsso-am/installation/install-the-plugin/">Install the Plugin</a></li>
+<li><a href="https://wpsso.com/docs/plugins/wpsso-am/installation/install-the-plugin/">Install the Plugin (Free and Pro version)</a></li>
 <li><a href="https://wpsso.com/docs/plugins/wpsso-am/installation/uninstall-the-plugin/">Uninstall the Plugin</a></li>
 </ul>
 
