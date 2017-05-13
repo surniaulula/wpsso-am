@@ -25,7 +25,7 @@
 
 <h4>Quick List of Features</h4>
 
-<p><strong>WPSSO AM Free / Basic Features</strong></p>
+<p><strong>WPSSO AM Free / Core Features</strong></p>
 
 <ul>
 <li>Extends the features of WPSSO Free or Pro.</li>

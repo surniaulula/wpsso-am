@@ -28,7 +28,7 @@ WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags fo
 
 = Quick List of Features =
 
-**WPSSO AM Free / Basic Features**
+**WPSSO AM Free / Core Features**
 
 * Extends the features of WPSSO Free or Pro.
 * Adds an optional banner advertisement in Apple's mobile Safari for your website's Apple Store mobile App.
