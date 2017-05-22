@@ -25,7 +25,7 @@
 
 <h4>Quick List of Features</h4>
 
-<p><strong>WPSSO AM Free / Basic Features</strong></p>
+<p><strong>WPSSO AM Free / Standard Features</strong></p>
 
 <ul>
 <li>Extends the features of WPSSO Free or Pro.</li>
@@ -45,7 +45,7 @@
 </ul></li>
 </ul>
 
-<p><strong>WPSSO AM Pro / Power-User Features</strong></p>
+<p><strong>WPSSO AM Pro / Additional Features</strong></p>
 
 <ul>
 <li>Extends the features of WPSSO Pro (requires a licensed WPSSO Pro plugin).</li>
