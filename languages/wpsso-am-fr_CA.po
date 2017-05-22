@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WPSSO Mobile App Meta (WPSSO AM) 1.7.19\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-am\n"
-"POT-Creation-Date: 2017-03-31 17:59+0200\n"
-"PO-Revision-Date: 2017-04-24 15:06+0200\n"
+"POT-Creation-Date: 2017-05-22 09:08-0400\n"
+"PO-Revision-Date: 2017-05-22 09:08-0400\n"
 "Last-Translator: JS Morisset <jsm@surniaulula.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -25,106 +25,106 @@ msgctxt "plugin description"
 msgid "WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari and Twitter's App Card."
 msgstr "Extension WPSSO qui fournie des balises méta Apple Store / iTunes et Google Play App pour mobile Safari de Apple et la carte App de Twitter."
 
-#: lib/filters.php:200 lib/filters.php:266 lib/filters.php:275
-#: lib/filters.php:281
+#: lib/filters.php:202 lib/filters.php:268 lib/filters.php:277
+#: lib/filters.php:283
 msgctxt "metabox tab"
 msgid "Mobile Apps"
 msgstr "Apps Mobile"
 
-#: lib/filters.php:209
+#: lib/filters.php:211
 msgid "The numeric representation of your iPhone application ID in the App Store (example: \"307234931\")."
 msgstr "La représentation numérique de votre ID d'application iPhone dans l'App Store (exemple: \"307234931\")."
 
-#: lib/filters.php:212
+#: lib/filters.php:214
 msgid "The name of your iPhone application."
 msgstr "Le nom de votre application iPhone."
 
-#: lib/filters.php:215
+#: lib/filters.php:217
 msgid "Your iPhone App's <em>custom</em> URL scheme (you must include \"://\" after the scheme name)."
 msgstr "Le schéma d'URL <em>personnalisé</em> de votre App iPhone (vous devez inclure \"://\" suivant le nom du schéma)."
 
-#: lib/filters.php:218
+#: lib/filters.php:220
 msgid "The numeric representation of your iPad application ID in the App Store (example: \"307234931\")."
 msgstr "La représentation numérique de votre ID d'application iPad dans l'App Store (exemple: \"307234931\")."
 
-#: lib/filters.php:221
+#: lib/filters.php:223
 msgid "The name of your iPad application."
 msgstr "Le nom de votre application iPad."
 
-#: lib/filters.php:224
+#: lib/filters.php:226
 msgid "Your iPad App's <em>custom</em> URL scheme (you must include \"://\" after the scheme name)."
 msgstr "Le schéma d'URL <em>personnalisé</em> de votre App iPad (vous devez inclure \"://\" suivant le nom du schéma)."
 
-#: lib/filters.php:227
+#: lib/filters.php:229
 msgid "The fully qualified package name of your Google Play application (example: \"com.google.android.apps.maps\")."
 msgstr "Le nom complet du paquet de votre application Google Play (example: \"com.google.android.apps.maps\")."
 
-#: lib/filters.php:230
+#: lib/filters.php:232
 msgid "The name of your Google Play application."
 msgstr "Le nom de votre application Google Play."
 
-#: lib/filters.php:233
+#: lib/filters.php:235
 msgid "Your Google Play App's <em>custom</em> URL scheme (you must include \"://\" after the scheme name)."
 msgstr "Le schéma d'URL <em>personnalisé</em> de votre application Google Play (vous devez inclure \"://\" suivant le nom du schéma)."
 
-#: lib/filters.php:245
+#: lib/filters.php:247
 msgid "Add meta tags for the website's mobile App to index and archive pages."
 msgstr "Ajouter les balises méta pour l'App mobile du site Web aux pages d'index et archives."
 
-#: lib/filters.php:248
+#: lib/filters.php:250
 msgid "Add meta tags for the website's mobile App to a static front page."
 msgstr "Ajouter les balises méta pour l'App mobile du site Web à la page d'accueil statique."
 
-#: lib/filters.php:251
+#: lib/filters.php:253
 msgid "Add meta tags for the website's mobile App to Posts, Pages, and custom post types."
 msgstr "Ajouter les balises méta pour l'App mobile du site Web aux Articles, Pages, et articles de type personnalisé."
 
-#: lib/filters.php:254
+#: lib/filters.php:256
 msgid "A mobile App ID in the Apple Store (example: \"307234931\")."
 msgstr "L'ID d'une App mobile dans l'Apple Store (exemple: \"307234931\")."
 
-#: lib/filters.php:257
+#: lib/filters.php:259
 msgid "If you have an iTunes affiliate string, enter it here."
 msgstr "Si vous avez une chaîne d'affiliation iTunes, entrez-la ici."
 
-#: lib/filters.php:260
+#: lib/filters.php:262
 msgid "A query string - which may include one or more inline variables - to provide context to your website's mobile App. If the user has your mobile App installed, this string can allow them to jump from your website to the same content in the mobile App."
 msgstr "Une chaîne de requête - qui peut comprendre une ou plusieurs variables - pour fournir un contexte a votre App mobile de site Web. Si l'utilisateur a votre App mobile installée, cette chaîne permet de sauter du site Web au même contenu sur l'App mobile."
 
-#: lib/filters.php:263
+#: lib/filters.php:265
 msgid "The App Store country providing your application."
 msgstr "Le pays du App Store fournissant votre application."
 
-#: lib/filters.php:266
+#: lib/filters.php:268
 msgid "Include the <em>%1$s</em> tab in the %2$s metabox on Posts, Pages, etc."
 msgstr "Inclure l'onglet <em>%1$s</em> dans la metabox %2$s, sur les Pages, Articles, etc.."
 
-#: lib/filters.php:266 lib/filters.php:275 lib/filters.php:281
+#: lib/filters.php:268 lib/filters.php:277 lib/filters.php:283
 msgctxt "metabox title"
 msgid "Social Settings"
 msgstr "Réglages Sociaux"
 
-#: lib/filters.php:275
+#: lib/filters.php:277
 msgid "These options provide a way to present a banner advertisement in Apple's mobile Safari for your Apple Store App(s)."
 msgstr "Ces options offrent un moyen de présenter une bannière publicitaire pour vos Apps du Apple Store dans le navigateur mobile Safari d'Apple."
 
-#: lib/filters.php:275
+#: lib/filters.php:277
 msgid "The banner advertisement allows users of your website to download your mobile App and/or switch to your mobile App when using Apple's mobile Safari."
 msgstr "La bande publicitaire permet aux utilisateurs de télécharger votre App mobile et/ou de basculer vers l'application du Apple Store au lieu d'utiliser le navigateur Safari mobile d'Apple."
 
-#: lib/filters.php:275
+#: lib/filters.php:277
 msgid "The Apple Store App information can be customized for each Post, Page, and custom post type under the <em>%1$s</em> tab (enabled above) in the %2$s metabox."
 msgstr "Les informations de l'App Store de Apple peuvent être personnalisées pour chaque Article, Page et les article de type personnalisé, dans l'onglet <em>%1$s</em> (activé ci-dessus) dans le metabox %2$s."
 
-#: lib/filters.php:278
+#: lib/filters.php:280
 msgid "If you have an Apple Store App to access your website (as an alternative to using mobile web browsers, for example) and/or want to promote a single Apple Store App on your website, enter its details here."
 msgstr "Si vous avez une App mobile du Apple Store pour accéder à votre site Web (comme alternative au navigateurs web mobile) et/ou vous voulez promouvoir une seule App du Apple Store sur votre site Web, entrer ces détailles ici."
 
-#: lib/filters.php:281
+#: lib/filters.php:283
 msgid "An <em>%1$s</em> tab can be added to the %2$s metabox on Posts, Pages, and custom post types, allowing you to enter specific information about one or more Apple Store and Google Play mobile Apps."
 msgstr "Un onglet <em>%1$s</em> peut être ajouté dans la metabox %2$s sur les Articles, Pages et les articles de type personnalisé, vous permettant d'entrer des informations d'une ou plusieurs applications mobile Apple Store et Google Play."
 
-#: lib/filters.php:281
+#: lib/filters.php:283
 msgid "The <em>%s</em> information is used to create meta tags for Twitter's App Card and customize a mobile App banner for Apple's mobile Safari."
 msgstr "Les informations <em>%s</em> sont utilisées pour créer des balises méta pour la carte App de Twitter et personnaliser la bannière d'App pour le navigateur mobile Safari d'Apple."
 
@@ -214,7 +214,7 @@ msgid "Google Play App URL Scheme"
 msgstr "Schéma URL App Google Play"
 
 #: lib/gpl/admin/post.php:135 lib/pro/admin/post.php:142
-#: lib/submenu/am-general.php:30
+#: lib/submenu/am-general.php:31
 msgctxt "metabox title"
 msgid "Mobile App Banner"
 msgstr "Bannière App Mobile"
@@ -234,55 +234,55 @@ msgctxt "option label"
 msgid "Argument String"
 msgstr "Chaîne d'arguments"
 
-#: lib/submenu/am-general.php:34
+#: lib/submenu/am-general.php:35
 msgctxt "metabox title"
 msgid "Mobile App Products"
 msgstr "Produits App Mobile"
 
-#: lib/submenu/am-general.php:44
+#: lib/submenu/am-general.php:45
 msgctxt "metabox tab"
 msgid "Apple Store App"
 msgstr "App du Apple Store"
 
-#: lib/submenu/am-general.php:70
+#: lib/submenu/am-general.php:71
 msgctxt "option label"
 msgid "Add Banner to Archive Webpages"
 msgstr "Ajouter aux pages Web d'archive"
 
-#: lib/submenu/am-general.php:74
+#: lib/submenu/am-general.php:75
 msgctxt "option label"
 msgid "Add Banner to Static Front Page"
 msgstr "Ajouter à la page statique d'avant"
 
-#: lib/submenu/am-general.php:85
+#: lib/submenu/am-general.php:86
 msgctxt "option label"
 msgid "Add Banner to Post Types"
 msgstr "Ajouter aux articles de type"
 
-#: lib/submenu/am-general.php:95
+#: lib/submenu/am-general.php:96
 msgctxt "option label"
 msgid "Default App ID Number"
 msgstr "Numéro d'ID App par défaut"
 
-#: lib/submenu/am-general.php:99
+#: lib/submenu/am-general.php:100
 msgctxt "option label"
 msgid "Default Affiliate Data"
 msgstr "Donnée d'affilié par défaut"
 
-#: lib/submenu/am-general.php:103
+#: lib/submenu/am-general.php:104
 msgctxt "option label"
 msgid "Default Argument String"
 msgstr "Chaîne d'arguments par défaut"
 
-#: wpsso-am.php:79
+#: wpsso-am.php:77
 msgid "%1$s is an extension for the %2$s plugin &mdash; please install and activate the %3$s plugin before activating %4$s."
 msgstr "%1$s est une extension pour %2$s &mdash; s'il vous plaît installer et activer %3$s avant d'activer l'extension %4$s."
 
-#: wpsso-am.php:81
+#: wpsso-am.php:79
 msgid "The %1$s extension requires the %2$s plugin &mdash; please install and activate the %3$s plugin."
 msgstr "L'extension %1$s requiert %2$s &mdash; s'il vous plaît installer et activer l'extension %3$s."
 
-#: wpsso-am.php:161
+#: wpsso-am.php:165
 msgid "The %1$s extension v%2$s requires %3$s v%4$s or newer (v%5$s currently installed)."
 msgstr "L'extension %1$s v%2$s requiert l'utilisation de %3$s v%4$s ou plus récente (v%5$s est actuellement installée)."
 
@@ -291,8 +291,8 @@ msgid "WPSSO Mobile App Meta (WPSSO AM)"
 msgstr "WPSSO Mobile App Meta (WPSSO AM)"
 
 #. Plugin URI of the plugin/theme
-msgid "https://surniaulula.com/extend/plugins/wpsso-am/"
-msgstr "https://surniaulula.com/extend/plugins/wpsso-am/"
+msgid "https://wpsso.com/extend/plugins/wpsso-am/"
+msgstr "https://wpsso.com/extend/plugins/wpsso-am/"
 
 #. Description of the plugin/theme
 msgid "WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari and Twitter's App Card."
