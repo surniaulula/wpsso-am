@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WPSSO Mobile App Meta (WPSSO AM) 1.7.19\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-am\n"
-"POT-Creation-Date: 2017-05-22 09:08-0400\n"
-"PO-Revision-Date: 2017-05-22 09:08-0400\n"
+"POT-Creation-Date: 2017-05-23 07:37-0400\n"
+"PO-Revision-Date: 2017-05-23 07:37-0400\n"
 "Last-Translator: JS Morisset <jsm@surniaulula.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -287,8 +287,8 @@ msgid "The %1$s extension v%2$s requires %3$s v%4$s or newer (v%5$s currently in
 msgstr "L'extension %1$s v%2$s requiert l'utilisation de %3$s v%4$s ou plus récente (v%5$s est actuellement installée)."
 
 #. Plugin Name of the plugin/theme
-msgid "WPSSO Mobile App Meta (WPSSO AM)"
-msgstr "WPSSO Mobile App Meta (WPSSO AM)"
+msgid "WPSSO Mobile App Meta"
+msgstr "WPSSO Mobile App Meta"
 
 #. Plugin URI of the plugin/theme
 msgid "https://wpsso.com/extend/plugins/wpsso-am/"
