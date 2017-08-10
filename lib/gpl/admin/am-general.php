@@ -35,10 +35,9 @@ if ( ! class_exists( 'WpssoAmGplAdminAmGeneral' ) ) {
 					array( 'lca' => 'wpssoam' ) ).'</td>';
 
 			$add_to_checkboxes = '';
-			foreach ( $this->p->util->get_post_types() as $post_type ) {
-				$add_to_checkboxes .= '<p>'.$form->get_no_checkbox( 'am_ap_add_to_'.$post_type->name ).
-					' '.$post_type->label.( empty( $post_type->description ) ? 
-						'' : ' ('.$post_type->description.')' ).'</p>';
+			foreach ( $this->p->util->get_post_types( 'object' ) as $pt ) {
+				$add_to_checkboxes .= '<p>'.$form->get_no_checkbox( 'am_ap_add_to_'.$pt->name ).
+					' '.$pt->label.( empty( $pt->description ) ? '' : ' ('.$pt->description.')' ).'</p>';
 			}
 
 			$table_rows[] = $form->get_th_html( _x( 'Show Tab on Post Types',
