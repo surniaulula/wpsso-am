@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WPSSO Mobile App Meta 1.7.19\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-am\n"
-"POT-Creation-Date: 2017-05-23 07:37-0400\n"
-"PO-Revision-Date: 2017-05-24 22:45-0400\n"
+"POT-Creation-Date: 2017-09-02 10:18-0400\n"
+"PO-Revision-Date: 2017-09-02 10:18-0400\n"
 "Last-Translator: JS Morisset <jsm@surniaulula.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -128,12 +128,12 @@ msgstr "Un onglet <em>%1$s</em> peut être ajouté dans la metabox %2$s sur les 
 msgid "The <em>%s</em> information is used to create meta tags for Twitter's App Card and customize a mobile App banner for Apple's mobile Safari."
 msgstr "Les informations <em>%s</em> sont utilisées pour créer des balises méta pour la carte App de Twitter et personnaliser la bannière d'App pour le navigateur mobile Safari d'Apple."
 
-#: lib/gpl/admin/am-general.php:44 lib/pro/admin/am-general.php:51
+#: lib/gpl/admin/am-general.php:43 lib/pro/admin/am-general.php:50
 msgctxt "option label"
 msgid "Show Tab on Post Types"
 msgstr "Afficher l'onglet sur articles de type"
 
-#: lib/gpl/admin/am-general.php:48 lib/pro/admin/am-general.php:55
+#: lib/gpl/admin/am-general.php:47 lib/pro/admin/am-general.php:54
 msgctxt "option label"
 msgid "Default App Store Territory"
 msgstr "Territoire du App Store par défaut"
@@ -254,35 +254,35 @@ msgctxt "option label"
 msgid "Add Banner to Static Front Page"
 msgstr "Ajouter à la page statique d'avant"
 
-#: lib/submenu/am-general.php:86
+#: lib/submenu/am-general.php:85
 msgctxt "option label"
 msgid "Add Banner to Post Types"
 msgstr "Ajouter aux articles de type"
 
-#: lib/submenu/am-general.php:96
+#: lib/submenu/am-general.php:95
 msgctxt "option label"
 msgid "Default App ID Number"
 msgstr "Numéro d'ID App par défaut"
 
-#: lib/submenu/am-general.php:100
+#: lib/submenu/am-general.php:99
 msgctxt "option label"
 msgid "Default Affiliate Data"
 msgstr "Donnée d'affilié par défaut"
 
-#: lib/submenu/am-general.php:104
+#: lib/submenu/am-general.php:103
 msgctxt "option label"
 msgid "Default Argument String"
 msgstr "Chaîne d'arguments par défaut"
 
-#: wpsso-am.php:77
+#: wpsso-am.php:78
 msgid "%1$s is an extension for the %2$s plugin &mdash; please install and activate the %3$s plugin before activating %4$s."
 msgstr "%1$s est une extension pour %2$s &mdash; s'il vous plaît installer et activer %3$s avant d'activer l'extension %4$s."
 
-#: wpsso-am.php:79
+#: wpsso-am.php:80
 msgid "The %1$s extension requires the %2$s plugin &mdash; please install and activate the %3$s plugin."
 msgstr "L'extension %1$s requiert %2$s &mdash; s'il vous plaît installer et activer l'extension %3$s."
 
-#: wpsso-am.php:165
+#: wpsso-am.php:166
 msgid "The %1$s extension v%2$s requires %3$s v%4$s or newer (v%5$s currently installed)."
 msgstr "L'extension %1$s v%2$s requiert l'utilisation de %3$s v%4$s ou plus récente (v%5$s est actuellement installée)."
 
