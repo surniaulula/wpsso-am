@@ -20,7 +20,7 @@
 <p><strong>Add <a href="https://dev.twitter.com/cards/types/app">Twitter App Card</a> meta tags</strong> to Apple Store and/or Google Play mobile Apps product pages.</p>
 
 <blockquote>
-<p><strong>Prerequisite</strong> &mdash; WPSSO Mobile App Meta is an extension for the <a href="https://wordpress.org/plugins/wpsso/">WPSSO core plugin</a>, which <em>automatically</em> generates complete and accurate meta tags + Schema markup from your content for social media optimization (SMO) and SEO.</p>
+<p><strong>Prerequisite</strong> &mdash; WPSSO Mobile App Meta is an extension for the <a href="https://wordpress.org/plugins/wpsso/">WPSSO core plugin</a>, which <em>automatically</em> generates complete and accurate meta tags and Schema markup from your content for social media optimization (SMO) and SEO.</p>
 
 <ul>
 <li>The WPSSO AM Free extension works with either the WPSSO Free or Pro core plugin.</li>
