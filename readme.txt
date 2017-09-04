@@ -100,8 +100,8 @@ WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags fo
 
 = Install and Uninstall =
 
-* [Install the Plugin (Free and Pro version)](https://wpsso.com/docs/plugins/wpsso-am/installation/install-the-plugin/)
-* [Uninstall the Plugin](https://wpsso.com/docs/plugins/wpsso-am/installation/uninstall-the-plugin/)
+* [Install the WPSSO AM Plugin (Free and Pro version)](https://wpsso.com/docs/plugins/wpsso-am/installation/install-the-plugin/)
+* [Uninstall the WPSSO AM Plugin](https://wpsso.com/docs/plugins/wpsso-am/installation/uninstall-the-plugin/)
 
 == Frequently Asked Questions ==
 
