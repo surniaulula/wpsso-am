@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WPSSO Mobile App Meta 1.7.20\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-am\n"
-"POT-Creation-Date: 2017-09-05 14:29-0400\n"
-"PO-Revision-Date: 2017-09-05 14:29-0400\n"
+"POT-Creation-Date: 2017-09-05 15:46-0400\n"
+"PO-Revision-Date: 2017-09-05 15:51-0400\n"
 "Last-Translator: JS Morisset <jsm@surniaulula.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -18,7 +18,7 @@ msgstr ""
 #: lib/config-gettext-extract.php:3
 msgctxt "lib file description"
 msgid "Mobile App Meta"
-msgstr "Méta App Mobile"
+msgstr "Méta App mobile"
 
 #: lib/config-gettext-extract.php:4
 msgctxt "plugin description"
@@ -29,7 +29,7 @@ msgstr "Extension WPSSO qui fournie des balises méta Apple Store / iTunes et Go
 #: lib/filters.php:290
 msgctxt "metabox tab"
 msgid "Mobile Apps"
-msgstr "Apps Mobile"
+msgstr "Apps mobile"
 
 #: lib/filters.php:214
 msgid "The numeric representation of your iPhone application ID in the App Store (example: \"307234931\")."
@@ -217,7 +217,7 @@ msgstr "Bannière App Mobile"
 #: lib/gpl/admin/post.php:138 lib/pro/admin/post.php:145
 msgctxt "option label"
 msgid "App ID Number"
-msgstr "Numéro d'ID App"
+msgstr "Numéro d'ID app"
 
 #: lib/gpl/admin/post.php:143 lib/pro/admin/post.php:151
 msgctxt "option label"
@@ -232,7 +232,7 @@ msgstr "Chaîne d'arguments"
 #: lib/submenu/am-general.php:37
 msgctxt "metabox title"
 msgid "Mobile App Products"
-msgstr "Produits App Mobile"
+msgstr "Produits App mobile"
 
 #: lib/submenu/am-general.php:47
 msgctxt "metabox tab"
