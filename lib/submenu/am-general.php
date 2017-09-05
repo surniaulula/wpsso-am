@@ -26,7 +26,9 @@ if ( ! class_exists( 'WpssoAmSubmenuAmGeneral' ) && class_exists( 'WpssoAdmin' )
 			$this->menu_ext = $ext;	// lowercase acronyn for plugin or extension
 		}
 
+		// called by the extended WpssoAdmin class
 		protected function add_meta_boxes() {
+
 			add_meta_box( $this->pagehook.'_banner',
 				_x( 'Mobile App Banner', 'metabox title', 'wpsso-am' ), 
 					array( &$this, 'show_metabox_banner' ), $this->pagehook, 'normal' );
@@ -37,32 +39,32 @@ if ( ! class_exists( 'WpssoAmSubmenuAmGeneral' ) && class_exists( 'WpssoAdmin' )
 		}
 
 		public function show_metabox_banner() {
-			$metabox = 'banner';
-			$this->p->util->do_table_rows( apply_filters( $this->p->cf['lca'].'_'.$metabox.'_general_rows', 
-				$this->get_table_rows( $metabox, 'general' ), $this->form ), 'metabox-'.$metabox.'-general' );
+			$metabox_id = 'banner';
+			$this->p->util->do_table_rows( apply_filters( $this->p->cf['lca'].'_'.$metabox_id.'_general_rows', 
+				$this->get_table_rows( $metabox_id, 'general' ), $this->form ), 'metabox-'.$metabox_id.'-general' );
 
-			$tabs = apply_filters( $this->p->cf['lca'].'_am_'.$metabox.'_tabs', array(
+			$tabs = apply_filters( $this->p->cf['lca'].'_am_'.$metabox_id.'_tabs', array(
 				'itunes' => _x( 'Apple Store App', 'metabox tab', 'wpsso-am' ),
 			) );
 
 			$table_rows = array();
 			foreach ( $tabs as $key => $title ) {
-				$table_rows[$key] = array_merge( $this->get_table_rows( $metabox, $key ), 
-					apply_filters( $this->p->cf['lca'].'_'.$metabox.'_'.$key.'_rows', array(), $this->form ) );
+				$table_rows[$key] = array_merge( $this->get_table_rows( $metabox_id, $key ), 
+					apply_filters( $this->p->cf['lca'].'_'.$metabox_id.'_'.$key.'_rows', array(), $this->form ) );
 			}
-			$this->p->util->do_metabox_tabs( $metabox, $tabs, $table_rows );
+			$this->p->util->do_metabox_tabs( $metabox_id, $tabs, $table_rows );
 		}
 
 		public function show_metabox_appmeta() {
-			$metabox = 'appmeta';
+			$metabox_id = 'appmeta';
 			$key = 'general';
-			$this->p->util->do_table_rows( apply_filters( $this->p->cf['lca'].'_'.$metabox.'_'.$key.'_rows', 
-				$this->get_table_rows( $metabox, $key ), $this->form, false ), 'metabox-'.$metabox.'-'.$key );
+			$this->p->util->do_table_rows( apply_filters( $this->p->cf['lca'].'_'.$metabox_id.'_'.$key.'_rows', 
+				$this->get_table_rows( $metabox_id, $key ), $this->form, false ), 'metabox-'.$metabox_id.'-'.$key );
 		}
 
-		protected function get_table_rows( $metabox, $key ) {
+		protected function get_table_rows( $metabox_id, $key ) {
 			$table_rows = array();
-			switch ( $metabox.'-'.$key ) {
+			switch ( $metabox_id.'-'.$key ) {
 				case 'banner-general':
 
 					$table_rows[] = '<td colspan="2">'.
