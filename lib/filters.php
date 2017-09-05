@@ -268,7 +268,9 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 					$text = __( 'The App Store country providing your application.', 'wpsso-am' );
 					break;
 				case 'tooltip-am_ap_add_to':
-					$text = sprintf( __( 'Include the <em>%1$s</em> tab in the %2$s metabox on Posts, Pages, etc.', 'wpsso-am' ), _x( 'Mobile Apps', 'metabox tab', 'wpsso-am' ), _x( 'Social Settings', 'metabox title', 'wpsso' ) );
+					// use WPSSO's translation for the metabox title
+					$text = sprintf( __( 'Include the <em>%1$s</em> tab in the %2$s metabox on Posts, Pages, etc.', 'wpsso-am' ),
+						_x( 'Mobile Apps', 'metabox tab', 'wpsso-am' ), _x( $this->p->cf['meta']['title'], 'metabox title', 'wpsso' ) );
 					break;
 			}
 			return $text;
@@ -277,13 +279,15 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 		public function filter_messages_info( $text, $idx ) {
 			switch ( $idx ) {
 				case 'info-banner-general':
-					$text = '<blockquote class="top-info"><p>'.__( 'These options provide a way to present a banner advertisement in Apple\'s mobile Safari for your Apple Store App(s).', 'wpsso-am' ).' '.__( 'The banner advertisement allows users of your website to download your mobile App and/or switch to your mobile App when using Apple\'s mobile Safari.', 'wpsso-am' ).' '.sprintf( __( 'The Apple Store App information can be customized for each Post, Page, and custom post type under the <em>%1$s</em> tab (enabled above) in the %2$s metabox.', 'wpsso-am' ), _x( 'Mobile Apps', 'metabox tab', 'wpsso-am' ), _x( 'Social Settings', 'metabox title', 'wpsso' ) ).'</p></blockquote>';
+					// use WPSSO's translation for the metabox title
+					$text = '<blockquote class="top-info"><p>'.__( 'These options provide a way to present a banner advertisement in Apple\'s mobile Safari for your Apple Store App(s).', 'wpsso-am' ).' '.__( 'The banner advertisement allows users of your website to download your mobile App and/or switch to your mobile App when using Apple\'s mobile Safari.', 'wpsso-am' ).' '.sprintf( __( 'The Apple Store App information can be customized for each Post, Page, and custom post type under the <em>%1$s</em> tab (enabled above) in the %2$s metabox.', 'wpsso-am' ), _x( 'Mobile Apps', 'metabox tab', 'wpsso-am' ), _x( $this->p->cf['meta']['title'], 'metabox title', 'wpsso' ) ).'</p></blockquote>';
 					break;
 				case 'info-banner-itunes':
 					$text = '<blockquote class="top-info"><p>'.__( 'If you have an Apple Store App to access your website (as an alternative to using mobile web browsers, for example) and/or want to promote a single Apple Store App on your website, enter its details here.', 'wpsso-am' ).'</p></blockquote>';
 					break;
 				case 'info-appmeta-general':
-					$text = '<blockquote class="top-info"><p>'.sprintf( __( 'An <em>%1$s</em> tab can be added to the %2$s metabox on Posts, Pages, and custom post types, allowing you to enter specific information about one or more Apple Store and Google Play mobile Apps.', 'wpsso-am' ), _x( 'Mobile Apps', 'metabox tab', 'wpsso-am' ), _x( 'Social Settings', 'metabox title', 'wpsso' ) ).' '.sprintf( __( 'The <em>%s</em> information is used to create meta tags for Twitter\'s App Card and customize a mobile App banner for Apple\'s mobile Safari.', 'wpsso-am' ), _x( 'Mobile Apps', 'metabox tab', 'wpsso-am' ) ).'</p></blockquote>';
+					// use WPSSO's translation for the metabox title
+					$text = '<blockquote class="top-info"><p>'.sprintf( __( 'An <em>%1$s</em> tab can be added to the %2$s metabox on Posts, Pages, and custom post types, allowing you to enter specific information about one or more Apple Store and Google Play mobile Apps.', 'wpsso-am' ), _x( 'Mobile Apps', 'metabox tab', 'wpsso-am' ), _x( $this->p->cf['meta']['title'], 'metabox title', 'wpsso' ) ).' '.sprintf( __( 'The <em>%s</em> information is used to create meta tags for Twitter\'s App Card and customize a mobile App banner for Apple\'s mobile Safari.', 'wpsso-am' ), _x( 'Mobile Apps', 'metabox tab', 'wpsso-am' ) ).'</p></blockquote>';
 					break;
 			}
 			return $text;
