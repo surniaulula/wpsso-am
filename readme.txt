@@ -40,7 +40,7 @@ WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags fo
 * Adds an optional banner advertisement in Apple's mobile Safari for your website's Apple Store mobile App.
 	* Add Banner to Archive Webpages
 	* Add Banner to Static Front Page
-	* Add Banner to Post Types (Posts, Pages, Media, Products, etc.).
+	* Add Banner to Post Types (posts, pages, media, products, etc.).
 	* Apple Store App
 		* Default App ID Number
 		* Default Affiliate Data
@@ -49,7 +49,8 @@ WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags fo
 **WPSSO AM Pro / Additional Features**
 
 * Extends the features of WPSSO Pro (requires a licensed WPSSO Pro plugin).
-* Add an *App Product* tab to WPSSO's Social Settings metabox with additional options:
+* Adds [Twitter App Card](https://dev.twitter.com/cards/types/app) meta tags to webpages.
+* Include a *Mobile Apps* tab in WPSSO's Social / Search Optimization metabox with additional options:
 	* Twitter App Card
 		* App Store Territory
 		* iPhone App Details
@@ -68,8 +69,7 @@ WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags fo
 		* App ID Number
 		* Affiliate Data
 		* Argument String
-* Include the *App Product* tab on Posts, Pages, and custom post types (e-commerce Product pages, for example).
-* Adds [Twitter App Card](https://dev.twitter.com/cards/types/app) meta tags for *App Product* webpages.
+* Include or exclude the *Mobile Apps* tab on posts, pages, and custom post types.
 
 = Mobile App Meta Tags =
 
@@ -118,7 +118,7 @@ WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags fo
 == Screenshots ==
 
 01. WPSSO AM settings page includes options for the Mobile App Banner, Apple Store App defaults, and the Mobile Apps tab.
-02. WPSSO AM tab in the Social Settings metabox provides custom settings for the Twitter App Card and Mobile App Banner (Pro version).
+02. WPSSO AM tab in the Social / Search Optimization metabox provides custom settings for the Twitter App Card and Mobile App Banner (Pro version).
 
 == Changelog ==
 
