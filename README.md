@@ -55,7 +55,7 @@
 <ul>
 <li>Extends the features of WPSSO Pro (requires a licensed WPSSO Pro plugin).</li>
 <li>Adds <a href="https://dev.twitter.com/cards/types/app">Twitter App Card</a> meta tags to webpages.</li>
-<li>Include a <em>Mobile Apps</em> tab in WPSSO's Social / Search Optimization metabox with additional options:
+<li>Include a <em>Mobile Apps</em> tab in WPSSO's Social and Search Optimization metabox with additional options:
 
 <ul>
 <li>Twitter App Card
