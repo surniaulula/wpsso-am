@@ -16,7 +16,7 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 		public static $cf = array(
 			'plugin' => array(
 				'wpssoam' => array(
-					'version' => '1.7.20-dev.3',		// plugin version
+					'version' => '1.7.20-b.1',		// plugin version
 					'opt_version' => '7',		// increment when changing default options
 					'short' => 'WPSSO AM',		// short plugin name
 					'name' => 'WPSSO Mobile App Meta',
@@ -29,7 +29,7 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 					'req' => array(
 						'short' => 'WPSSO',
 						'name' => 'WPSSO',
-						'min_version' => '3.45.10-dev.3',
+						'min_version' => '3.45.10-b.1',
 					),
 					'img' => array(
 						'icons' => array(
@@ -226,6 +226,10 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 		);
 
 		public static function set_constants( $plugin_filepath ) { 
+			if ( defined( 'WPSSOAM_VERSION' ) ) {			// execute and define constants only once
+				return;
+			}
+			define( 'WPSSOAM_VERSION', self::$cf['plugin']['wpssoam']['version'] );						
 			define( 'WPSSOAM_FILEPATH', $plugin_filepath );						
 			define( 'WPSSOAM_PLUGINDIR', trailingslashit( realpath( dirname( $plugin_filepath ) ) ) );
 			define( 'WPSSOAM_PLUGINSLUG', self::$cf['plugin']['wpssoam']['slug'] );		// wpsso-am
