@@ -26,10 +26,9 @@ WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags fo
 <blockquote>
 <p><strong>Prerequisite</strong> &mdash; WPSSO Mobile App Meta is an extension for the WPSSO (Core Plugin), which <em>automatically</em> generates complete and accurate meta tags and Schema markup from your content for Social Media Optimization (SMO) and Search Engine Optimization (SEO).</p>
 
-<ul>
-<li>The WPSSO AM Free extension works with either the Free or Pro version of WPSSO (Core Plugin).</li>
-<li>The <a href="https://wpsso.com/extend/plugins/wpsso-am/?utm_source=wpssoam-readme-prereq">WPSSO AM Pro extension</a> uses many WPSSO Pro core plugin features and requires the <a href="https://wpsso.com/extend/plugins/wpsso/?utm_source=wpssoam-readme-prereq">WPSSO Pro core plugin</a>.</li>
-</ul>
+<p>The WPSSO AM Free extension works with either the Free or Pro version of WPSSO (Core Plugin).</p>
+
+<p>The <a href="https://wpsso.com/extend/plugins/wpsso-am/?utm_source=wpssoam-readme-prereq">WPSSO AM Pro extension</a> uses many WPSSO Pro core plugin features and requires the <a href="https://wpsso.com/extend/plugins/wpsso/?utm_source=wpssoam-readme-prereq">WPSSO Pro core plugin</a>.</p>
 </blockquote>
 
 = Quick List of Features =
