@@ -136,7 +136,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 = Changelog / Release Notes =
 
-**Version 1.7.20-rc.1 (2017/09/09)**
+**Version 1.7.20 (2017/09/10)**
 
 * *New Features*
 	* None
@@ -182,33 +182,11 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 	* Minor revision to move URLs in the extension config to the main WPSSO core plugin config.
 	* Dropped the package number from the production version string.
 
-**Version 1.7.16-1 (2017/04/05)**
-
-* *New Features*
-	* None
-* *Improvements*
-	* Updated the plugin icon images and the documentation URLs.
-* *Bugfixes*
-	* None
-* *Developer Notes*
-	* None
-
-**Version 1.7.15-1 (2017/03/15)**
-
-* *New Features*
-	* None
-* *Improvements*
-	* Replaced the "(settings value)" text shown for options in the Social Settings metabox with the actual default value.
-* *Bugfixes*
-	* None
-* *Developer Notes*
-	* None
-
 == Upgrade Notice ==
 
-= 1.7.20-rc.1 =
+= 1.7.20 =
 
-(2017/09/09) Code refactoring to renamed filters for WPSSO v3.46.0.
+(2017/09/10) Code refactoring to renamed filters for WPSSO v3.46.0.
 
 = 1.7.19 =
 
@@ -222,11 +200,4 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 (2017/04/08) Minor revision to move URLs in the extension config to the main WPSSO core plugin config.
 
-= 1.7.16-1 =
-
-(2017/04/05) Updated the plugin icon images and the documentation URLs.
-
-= 1.7.15-1 =
-
-(2017/03/15) Replaced the "(settings value)" text shown for options in the Social Settings metabox with the actual default value.
 
