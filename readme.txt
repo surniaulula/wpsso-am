@@ -53,7 +53,7 @@ WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags fo
 
 <span style="color:#33cc33">&#x0229b;</span> &nbsp; Adds [Twitter App Card](https://dev.twitter.com/cards/types/app) meta tags to webpages.
 
-<span style="color:#33cc33">&#x0229b;</span> &nbsp; Includes a *Mobile Apps* tab in the Social and Search Optimization metabox with additional options:
+<span style="color:#33cc33">&#x0229b;</span> &nbsp; Includes a Mobile Apps tab in the Social and Search Optimization metabox with additional options:
 
 * Twitter App Card
 	* App Store Territory
@@ -74,7 +74,7 @@ WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags fo
 	* Affiliate Data
 	* Argument String
 
-<span style="color:#33cc33">&#x0229b;</span> &nbsp; Include or exclude the *Mobile Apps* tab on posts, pages, and custom post types.
+<span style="color:#33cc33">&#x0229b;</span> &nbsp; Include or exclude the Mobile Apps tab on posts, pages, and custom post types.
 
 = Mobile App Meta Tags =
 

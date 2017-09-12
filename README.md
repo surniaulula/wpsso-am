@@ -54,7 +54,7 @@
 
 <p><span style="color:#33cc33">&#x0229b;</span> &nbsp; Adds <a href="https://dev.twitter.com/cards/types/app">Twitter App Card</a> meta tags to webpages.</p>
 
-<p><span style="color:#33cc33">&#x0229b;</span> &nbsp; Includes a <em>Mobile Apps</em> tab in the Social and Search Optimization metabox with additional options:</p>
+<p><span style="color:#33cc33">&#x0229b;</span> &nbsp; Includes a Mobile Apps tab in the Social and Search Optimization metabox with additional options:</p>
 
 <ul>
 <li>Twitter App Card
@@ -92,7 +92,7 @@
 </ul></li>
 </ul>
 
-<p><span style="color:#33cc33">&#x0229b;</span> &nbsp; Include or exclude the <em>Mobile Apps</em> tab on posts, pages, and custom post types.</p>
+<p><span style="color:#33cc33">&#x0229b;</span> &nbsp; Include or exclude the Mobile Apps tab on posts, pages, and custom post types.</p>
 
 <h4>Mobile App Meta Tags</h4>
 
