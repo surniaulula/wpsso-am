@@ -47,6 +47,14 @@ WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags fo
 	* Default Affiliate Data
 	* Default Argument String
 
+<span style="color:#33cc33">&#x0229b;</span> &nbsp; *Fast and coded for performance*, WPSSO and its extensions make full use of all available caching techniques (persistent / non-persistent object and disk caching).
+
+<span style="color:#33cc33">&#x0229b;</span> &nbsp; WPSSO and its extensions load only the PHP library files and object classes needed, keeping the code small, fast, light, and able to support a wide range of 3rd party integration features.
+
+<span style="color:#33cc33">&#x0229b;</span> &nbsp; Fully tested and compatible with PHP v7.x (requires PHP v5.3 or better).
+
+= Quick List of Features (Continued) =
+
 **WPSSO AM Pro / Additional Features**
 
 <span style="color:#33cc33">&#x0229b;</span> &nbsp; Extends the features of WPSSO Pro (requires a licensed WPSSO Pro plugin).
