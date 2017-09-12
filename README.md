@@ -19,6 +19,12 @@
 
 <p><strong>Add <a href="https://dev.twitter.com/cards/types/app">Twitter App Card</a> meta tags to mobile App product pages.</strong></p>
 
+<p><strong>Fast and coded for performance:</strong></p>
+
+<p>WPSSO and its extensions make full use of all available caching techniques (persistent / non-persistent object and disk caching). They load only the PHP library files and object classes needed, keeping the code small, fast, light, and able to support a wide range of 3rd party integration features.</p>
+
+<p>Fully tested and compatible with PHP v7.x (requires PHP v5.3 or better).</p>
+
 <blockquote>
 <p><strong>Prerequisite</strong> &mdash; WPSSO Mobile App Meta is an extension for the WPSSO (Core Plugin), which <em>automatically</em> generates complete and accurate meta tags and Schema markup from your content for Social Media Optimization (SMO) and Search Engine Optimization (SEO).</p>
 
@@ -47,12 +53,6 @@
 <li>Default Argument String</li>
 </ul></li>
 </ul>
-
-<p><span style="color:#33cc33">&#x0229b;</span> &nbsp; <em>Fast and coded for performance</em>, WPSSO and its extensions make full use of all available caching techniques (persistent / non-persistent object and disk caching).</p>
-
-<p><span style="color:#33cc33">&#x0229b;</span> &nbsp; WPSSO and its extensions load only the PHP library files and object classes needed, keeping the code small, fast, light, and able to support a wide range of 3rd party integration features.</p>
-
-<p><span style="color:#33cc33">&#x0229b;</span> &nbsp; Fully tested and compatible with PHP v7.x (requires PHP v5.3 or better).</p>
 
 <h4>Quick List of Features (Continued)</h4>
 
