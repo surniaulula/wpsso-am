@@ -19,72 +19,81 @@ WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags fo
 
 <img class="readme-icon" src="https://surniaulula.github.io/wpsso-am/assets/icon-256x256.png">
 
-<p><strong>Promote your website mobile App</strong> as a banner in Apple's mobile Safari.</p>
+**Promote your website mobile App with a banner in Apple's mobile Safari.**
 
-<p><strong>Add <a href="https://dev.twitter.com/cards/types/app">Twitter App Card</a> meta tags</strong> to Apple Store and/or Google Play mobile Apps product pages.</p>
+**Add [Twitter App Card](https://dev.twitter.com/cards/types/app) meta tags to mobile App product pages.**
 
 <blockquote>
 <p><strong>Prerequisite</strong> &mdash; WPSSO Mobile App Meta is an extension for the WPSSO (Core Plugin), which <em>automatically</em> generates complete and accurate meta tags and Schema markup from your content for Social Media Optimization (SMO) and Search Engine Optimization (SEO).</p>
 
 <p>The WPSSO AM Free extension works with either the Free or Pro version of WPSSO (Core Plugin).</p>
 
-<p>The <a href="https://wpsso.com/extend/plugins/wpsso-am/?utm_source=wpssoam-readme-prereq">WPSSO AM Pro extension</a> uses many WPSSO Pro core plugin features and requires the <a href="https://wpsso.com/extend/plugins/wpsso/?utm_source=wpssoam-readme-prereq">WPSSO Pro core plugin</a>.</p>
+<p>The <a href="https://wpsso.com/extend/plugins/wpsso-am/?utm_source=wpssoam-readme-prereq">WPSSO AM Pro extension</a> uses many WPSSO Pro (Core Plugin) features and requires the <a href="https://wpsso.com/extend/plugins/wpsso/?utm_source=wpssoam-readme-prereq">WPSSO Pro (Core Plugin)</a>.</p>
 </blockquote>
 
 = Quick List of Features =
 
 **WPSSO AM Free / Standard Features**
 
-* Extends the features of WPSSO Free or Pro.
-* Adds an optional banner advertisement in Apple's mobile Safari for your website's Apple Store mobile App.
-	* Add Banner to Archive Webpages
-	* Add Banner to Static Front Page
-	* Add Banner to Post Types (posts, pages, media, products, etc.).
-	* Apple Store App
-		* Default App ID Number
-		* Default Affiliate Data
-		* Default Argument String
+<span style="color:#33cc33">&#x0229b;</span> &nbsp; Extends the features of WPSSO Free or Pro.
+
+<span style="color:#33cc33">&#x0229b;</span> &nbsp; Adds an optional banner advertisement in Apple's mobile Safari for your website's Apple Store mobile App.
+
+* Add Banner to Archive Webpages
+* Add Banner to Static Front Page
+* Add Banner to Post Types (posts, pages, media, products, etc.).
+* Apple Store App
+	* Default App ID Number
+	* Default Affiliate Data
+	* Default Argument String
 
 **WPSSO AM Pro / Additional Features**
 
-* Extends the features of WPSSO Pro (requires a licensed WPSSO Pro plugin).
-* Adds [Twitter App Card](https://dev.twitter.com/cards/types/app) meta tags to webpages.
-* Include a *Mobile Apps* tab in WPSSO's Social and Search Optimization metabox with additional options:
-	* Twitter App Card
-		* App Store Territory
-		* iPhone App Details
-			* iPhone App ID
-			* iPhone App Name
-			* iPhone App URL Scheme
-		* iPad App Details
-			* iPad App ID
-			* iPad App Name
-			* iPad App URL Scheme
-		* Google Play App Details
-			* Google Play App ID
-			* Google Play App Name
-			* Google Play App URL Scheme
-	* Mobile App Banner
-		* App ID Number
-		* Affiliate Data
-		* Argument String
-* Include or exclude the *Mobile Apps* tab on posts, pages, and custom post types.
+<span style="color:#33cc33">&#x0229b;</span> &nbsp; Extends the features of WPSSO Pro (requires a licensed WPSSO Pro plugin).
+
+<span style="color:#33cc33">&#x0229b;</span> &nbsp; Adds [Twitter App Card](https://dev.twitter.com/cards/types/app) meta tags to webpages.
+
+<span style="color:#33cc33">&#x0229b;</span> &nbsp; Includes a *Mobile Apps* tab in the Social and Search Optimization metabox with additional options:
+
+* Twitter App Card
+	* App Store Territory
+	* iPhone App Details
+		* iPhone App ID
+		* iPhone App Name
+		* iPhone App URL Scheme
+	* iPad App Details
+		* iPad App ID
+		* iPad App Name
+		* iPad App URL Scheme
+	* Google Play App Details
+		* Google Play App ID
+		* Google Play App Name
+		* Google Play App URL Scheme
+* Mobile App Banner
+	* App ID Number
+	* Affiliate Data
+	* Argument String
+
+<span style="color:#33cc33">&#x0229b;</span> &nbsp; Include or exclude the *Mobile Apps* tab on posts, pages, and custom post types.
 
 = Mobile App Meta Tags =
 
-* **Apple mobile Safari Meta Tags**
-	* apple-itunes-app
-* **Twitter App Card Meta Tags** (Pro version)
-	* twitter:app:country
-	* twitter:app:id:iphone
-	* twitter:app:id:ipad
-	* twitter:app:id:googleplay
-	* twitter:app:name:iphone
-	* twitter:app:name:ipad
-	* twitter:app:name:googleplay
-	* twitter:app:url:iphone
-	* twitter:app:url:ipad
-	* twitter:app:url:googleplay
+<span style="color:#33cc33">&#x0229b;</span> &nbsp; **Apple mobile Safari Meta Tags**
+
+* apple-itunes-app
+
+<span style="color:#33cc33">&#x0229b;</span> &nbsp; **Twitter App Card Meta Tags** (Pro version)
+
+* twitter:app:country
+* twitter:app:id:iphone
+* twitter:app:id:ipad
+* twitter:app:id:googleplay
+* twitter:app:name:iphone
+* twitter:app:name:ipad
+* twitter:app:name:googleplay
+* twitter:app:url:iphone
+* twitter:app:url:ipad
+* twitter:app:url:googleplay
 
 = Extends the WPSSO Plugin =
 
