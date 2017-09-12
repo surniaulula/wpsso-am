@@ -53,6 +53,8 @@ The [WPSSO AM Pro extension](https://wpsso.com/extend/plugins/wpsso-am/?utm_sour
 	* Default Affiliate Data
 	* Default Argument String
 
+<span style="color:#33cc33">&#x0229b;</span> &nbsp; Download the Free version from [GitHub](https://surniaulula.github.io/wpsso-am/) or [WordPress.org](https://wordpress.org/plugins/wpsso-am/).
+
 = Quick List of Features (Continued) =
 
 **WPSSO AM Pro / Additional Features**
