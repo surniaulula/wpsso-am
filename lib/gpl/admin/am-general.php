@@ -35,7 +35,7 @@ if ( ! class_exists( 'WpssoAmGplAdminAmGeneral' ) ) {
 					array( 'lca' => 'wpssoam' ) ).'</td>';
 
 			$add_to_checkboxes = '';
-			foreach ( $this->p->util->get_post_types( 'object' ) as $pt ) {
+			foreach ( $this->p->util->get_post_types( 'objects' ) as $pt ) {
 				$add_to_checkboxes .= '<p>'.$form->get_no_checkbox( 'am_ap_add_to_'.$pt->name ).
 					' '.$pt->label.( empty( $pt->description ) ? '' : ' ('.$pt->description.')' ).'</p>';
 			}
