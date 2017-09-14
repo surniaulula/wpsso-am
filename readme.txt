@@ -29,7 +29,7 @@ WPSSO and its extensions make full use of all available caching techniques (pers
 
 WPSSO and its extensions are fully tested and compatible with PHP v7.x (PHP v5.3 or better required).
 
-= WPSSO (Core Plugin) Prerequisite =
+<h3>WPSSO (Core Plugin) Prerequisite</h3>
 
 WPSSO Mobile App Meta is an extension for the WPSSO (Core Plugin), which automatically generates complete and accurate meta tags and Schema markup from your content for Social Media Optimization (SMO) and Search Engine Optimization (SEO).
 
@@ -37,9 +37,9 @@ The WPSSO AM Free extension works with either the Free or Pro version of WPSSO (
 
 The [WPSSO AM Pro extension](https://wpsso.com/extend/plugins/wpsso-am/?utm_source=wpssoam-readme-prereq) uses many WPSSO Pro (Core Plugin) features and requires the [WPSSO Pro (Core Plugin)](https://wpsso.com/extend/plugins/wpsso/?utm_source=wpssoam-readme-prereq).
 
-= Quick List of Features =
+<h3>Quick List of Features</h3>
 
-**WPSSO AM Free / Standard Features**
+<h4>WPSSO AM Free / Standard Features</h4>
 
 <span style="color:#33cc33">&#x0229b;</span> &nbsp; Extends the features of WPSSO Free or Pro.
 
@@ -55,9 +55,9 @@ The [WPSSO AM Pro extension](https://wpsso.com/extend/plugins/wpsso-am/?utm_sour
 
 <span style="color:#33cc33">&#x0229b;</span> &nbsp; Download the Free version from [GitHub](https://surniaulula.github.io/wpsso-am/) or [WordPress.org](https://wordpress.org/plugins/wpsso-am/).
 
-= Quick List of Features (Continued) =
+<h3>Quick List of Features (Continued)</h3>
 
-**WPSSO AM Pro / Additional Features**
+<h4>WPSSO AM Pro / Additional Features</h4>
 
 <span style="color:#33cc33">&#x0229b;</span> &nbsp; Extends the features of WPSSO Pro (requires a licensed WPSSO Pro plugin).
 
@@ -86,7 +86,7 @@ The [WPSSO AM Pro extension](https://wpsso.com/extend/plugins/wpsso-am/?utm_sour
 
 <span style="color:#33cc33">&#x0229b;</span> &nbsp; Include or exclude the Mobile Apps tab on posts, pages, and custom post types.
 
-= Mobile App Meta Tags =
+<h3>Mobile App Meta Tags</h3>
 
 <span style="color:#33cc33">&#x0229b;</span> &nbsp; **Apple mobile Safari Meta Tags**
 
@@ -105,7 +105,7 @@ The [WPSSO AM Pro extension](https://wpsso.com/extend/plugins/wpsso-am/?utm_sour
 * twitter:app:url:ipad
 * twitter:app:url:googleplay
 
-= Extends the WPSSO Plugin =
+<h3>Extends the WPSSO Plugin</h3>
 
 <span style="color:#33cc33">&#x0229b;</span> &nbsp; The WPSSO AM Free extension works with either the Free or Pro version of WPSSO (Core Plugin).
 
@@ -115,20 +115,20 @@ The [WPSSO AM Pro extension](https://wpsso.com/extend/plugins/wpsso-am/?utm_sour
 
 == Installation ==
 
-= Install and Uninstall =
+<h3>Install and Uninstall</h3>
 
 * [Install the WPSSO AM Plugin (Free and Pro version)](https://wpsso.com/docs/plugins/wpsso-am/installation/install-the-plugin/)
 * [Uninstall the WPSSO AM Plugin](https://wpsso.com/docs/plugins/wpsso-am/installation/uninstall-the-plugin/)
 
 == Frequently Asked Questions ==
 
-= Frequently Asked Questions =
+<h3>Frequently Asked Questions</h3>
 
 * None
 
 == Other Notes ==
 
-= Additional Documentation =
+<h3>Additional Documentation</h3>
 
 * None
 
@@ -139,12 +139,12 @@ The [WPSSO AM Pro extension](https://wpsso.com/extend/plugins/wpsso-am/?utm_sour
 
 == Changelog ==
 
-= Free / Basic Version Repository =
+<h3>Free / Basic Version Repository</h3>
 
 * [GitHub](https://surniaulula.github.io/wpsso-am/)
 * [WordPress.org](https://wordpress.org/plugins/wpsso-am/developers/)
 
-= Version Numbering =
+<h3>Version Numbering</h3>
 
 Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
@@ -153,7 +153,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * {bugfix} = Backwards-compatible bug fixes or small improvements.
 * {stage}.{level} = Pre-production release: dev < a (alpha) < b (beta) < rc (release candidate).
 
-= Changelog / Release Notes =
+<h3>Changelog / Release Notes</h3>
 
 **Version 1.7.20 (2017/09/10)**
 
@@ -218,5 +218,4 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 = 1.7.17 =
 
 (2017/04/08) Minor revision to move URLs in the extension config to the main WPSSO core plugin config.
-
 
