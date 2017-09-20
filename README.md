@@ -27,7 +27,7 @@
 
 <h3>WPSSO (Core Plugin) Prerequisite</h3>
 
-<p>WPSSO Mobile App Meta is an extension for the WPSSO (Core Plugin) &mdash; which provides complete and accurate meta tags and Schema markup from your content for social sharing, social media, search / SEO / rich cards, and more.</p>
+<p>WPSSO Mobile App Meta is an extension for the WPSSO (Core Plugin) &mdash; which creates complete &amp; accurate meta tags and Schema markup from your content for social sharing, social media / SMO, search / SEO / rich cards, and more.</p>
 
 <p>The WPSSO AM Free extension works with either the Free or Pro version of WPSSO (Core Plugin).</p>
 
