@@ -23,7 +23,7 @@ WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags fo
 
 **Add [Twitter App Card](https://dev.twitter.com/cards/types/app) meta tags to mobile App product pages.**
 
-**WPSSO AM is *fast* and coded for performance:**
+**WPSSO AM is *super fast* and coded for performance:**
 
 WPSSO and its extensions make full use of all available caching techniques (persistent / non-persistent object and disk caching), and load only the PHP library files and object classes they need, keeping their code small, fast, and light.
 
