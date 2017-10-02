@@ -48,6 +48,10 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 		public function __construct( &$plugin ) {
 			$this->p =& $plugin;
 
+			if ( $this->p->debug->enabled ) {
+				$this->p->debug->mark();
+			}
+
 			$this->p->util->add_plugin_filters( $this, array( 
 				'get_defaults' => 1,			// option defaults
 				'get_md_defaults' => 1,			// meta data defaults
