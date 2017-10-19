@@ -20,8 +20,8 @@ msgstr ""
 #: lib/config-gettext-extract.php:4
 msgctxt "plugin description"
 msgid ""
-"WPSSO extension to provide Apple Store / iTunes and Google Play App meta "
-"tags for Apple's mobile Safari and Twitter's App Card."
+"WPSSO Core extension to provide Apple Store / iTunes and Google Play App "
+"meta tags for Apple's mobile Safari and Twitter's App Card."
 msgstr ""
 
 #: lib/filters.php:207 lib/filters.php:278 lib/filters.php:288
@@ -328,8 +328,8 @@ msgstr ""
 
 #. Description of the plugin/theme
 msgid ""
-"WPSSO extension to provide Apple Store / iTunes and Google Play App meta "
-"tags for Apple's mobile Safari and Twitter's App Card."
+"WPSSO Core extension to provide Apple Store / iTunes and Google Play App "
+"meta tags for Apple's mobile Safari and Twitter's App Card."
 msgstr ""
 
 #. Author of the plugin/theme
