@@ -2,7 +2,7 @@
 
 <table>
 <tr><th align="right" valign="top" nowrap>Plugin Name</th><td>WPSSO Mobile App Meta</td></tr>
-<tr><th align="right" valign="top" nowrap>Summary</th><td>WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags for Apple&#039;s mobile Safari and Twitter&#039;s App Card.</td></tr>
+<tr><th align="right" valign="top" nowrap>Summary</th><td>WPSSO Core extension to provide Apple Store / iTunes and Google Play App meta tags for Apple&#039;s mobile Safari and Twitter&#039;s App Card.</td></tr>
 <tr><th align="right" valign="top" nowrap>Stable Version</th><td>1.7.20</td></tr>
 <tr><th align="right" valign="top" nowrap>Requires At Least</th><td>WordPress 3.7</td></tr>
 <tr><th align="right" valign="top" nowrap>Tested Up To</th><td>WordPress 4.8.2</td></tr>
@@ -19,11 +19,11 @@
 
 <p><strong>Add <a href="https://dev.twitter.com/cards/types/app">Twitter App Card</a> meta tags to mobile App product pages.</strong></p>
 
-<p><strong>WPSSO AM is <em>super fast</em> and coded for performance:</strong></p>
+<p><strong>WPSSO AM is <em>incredibly fast</em> and coded for performance:</strong></p>
 
-<p>WPSSO and its extensions make full use of all available caching techniques (persistent / non-persistent object and disk caching), and load only the PHP library files and object classes they need, keeping their code small, fast, and light.</p>
+<p>WPSSO Core and its extensions make full use of all available caching techniques (persistent / non-persistent object and disk caching), and load only the PHP library files and object classes they need, keeping their code small, fast, and light.</p>
 
-<p>WPSSO and its extensions are fully tested and compatible with PHP v7.x (PHP v5.3 or better required).</p>
+<p>WPSSO Core and its extensions are fully tested and compatible with PHP v7.x (PHP v5.3 or better required).</p>
 
 <h3>WPSSO Core Plugin Prerequisite</h3>
 

@@ -13,7 +13,7 @@ Tested Up To: 4.8.2
 Requires PHP: 5.3
 Stable Tag: 1.7.20
 
-WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari and Twitter's App Card.
+WPSSO Core extension to provide Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari and Twitter's App Card.
 
 == Description ==
 
@@ -23,11 +23,11 @@ WPSSO extension to provide Apple Store / iTunes and Google Play App meta tags fo
 
 **Add [Twitter App Card](https://dev.twitter.com/cards/types/app) meta tags to mobile App product pages.**
 
-**WPSSO AM is *super fast* and coded for performance:**
+**WPSSO AM is *incredibly fast* and coded for performance:**
 
-WPSSO and its extensions make full use of all available caching techniques (persistent / non-persistent object and disk caching), and load only the PHP library files and object classes they need, keeping their code small, fast, and light.
+WPSSO Core and its extensions make full use of all available caching techniques (persistent / non-persistent object and disk caching), and load only the PHP library files and object classes they need, keeping their code small, fast, and light.
 
-WPSSO and its extensions are fully tested and compatible with PHP v7.x (PHP v5.3 or better required).
+WPSSO Core and its extensions are fully tested and compatible with PHP v7.x (PHP v5.3 or better required).
 
 <h3>WPSSO Core Plugin Prerequisite</h3>
 
