@@ -35,7 +35,7 @@ WPSSO Mobile App Meta is an extension for the WPSSO Core plugin &mdash; which cr
 
 The WPSSO AM Free extension works with either the Free or Pro version of WPSSO Core.
 
-The [WPSSO AM Pro extension](https://wpsso.com/extend/plugins/wpsso-am/?utm_source=wpssoam-readme-prereq) uses many WPSSO Core Pro plugin features and requires the [WPSSO Core Pro](https://wpsso.com/extend/plugins/wpsso/?utm_source=wpssoam-readme-prereq) plugin.
+The [WPSSO AM Pro extension](https://wpsso.com/extend/plugins/wpsso-am/?utm_source=wpssoam-readme-prereq) uses many WPSSO Core Pro plugin features and requires the [WPSSO Core Pro plugin](https://wpsso.com/extend/plugins/wpsso/?utm_source=wpssoam-readme-prereq).
 
 <h3>Quick List of Features</h3>
 
