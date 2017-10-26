@@ -111,7 +111,7 @@ The [WPSSO AM Pro extension](https://wpsso.com/extend/plugins/wpsso-am/?utm_sour
 
 <span style="color:#33cc33">&#x0229b;</span> &nbsp; The <a href="https://wpsso.com/extend/plugins/wpsso-am/?utm_source=wpssoam-readme-extends">WPSSO AM Pro extension</a> uses many WPSSO Core Pro features, which requires an active and licensed <a href="https://wpsso.com/?utm_source=wpssoam-readme-extends">WPSSO Core Pro plugin</a>.
 
-<span style="color:#33cc33">&#x0229b;</span> &nbsp; <a href="https://wpsso.com/extend/plugins/wpsso-am/?utm_source=wpssoam-readme-purchase">Purchase the WPSSO Mobile App Meta Pro extension here</a> (all purchases include a <em>No Risk 30 Day Refund Policy</em>).
+<span style="color:#33cc33">&#x0229b;</span> &nbsp; <a href="https://wpsso.com/extend/plugins/wpsso-am/?utm_source=wpssoam-readme-purchase">Purchase the WPSSO Mobile App Meta Pro extension here</a> (all plugin purchases include a <em>No Risk 30 Day Refund Policy</em>).
 
 == Installation ==
 
