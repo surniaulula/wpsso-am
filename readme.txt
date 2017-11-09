@@ -10,7 +10,7 @@ Tags: app store, mobile app, app card, mobile, itunes, googleplay, google play, 
 Contributors: jsmoriss
 Requires PHP: 5.3
 Requires At Least: 3.7
-Tested Up To: 4.8.3
+Tested Up To: 4.9
 Stable Tag: 1.7.20
 
 WPSSO Core extension to provide Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari and Twitter's App Card.
