@@ -9,7 +9,7 @@ Assets URI: https://surniaulula.github.io/wpsso-am/assets/
 Tags: app store, mobile app, app card, mobile, itunes, googleplay, google play, meta tags, app banner, safari, twitter app card, twitter card
 Contributors: jsmoriss
 Requires PHP: 5.3
-Requires At Least: 3.7
+Requires At Least: 3.8
 Tested Up To: 4.9
 Stable Tag: 1.7.20
 
