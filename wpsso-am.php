@@ -11,7 +11,7 @@
  * License: GPLv3
  * License URI: https://www.gnu.org/licenses/gpl.txt
  * Description: WPSSO Core extension to provide Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari and Twitter's App Card.
- * Requires PHP: 5.3
+ * Requires PHP: 5.4
  * Requires At Least: 3.8
  * Tested Up To: 4.9
  * Version: 1.7.20
