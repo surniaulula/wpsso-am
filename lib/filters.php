@@ -321,4 +321,3 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 	}
 }
 
-?>

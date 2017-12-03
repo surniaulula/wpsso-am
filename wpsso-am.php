@@ -177,4 +177,3 @@ if ( ! class_exists( 'WpssoAm' ) ) {
 	$wpssoam =& WpssoAm::get_instance();
 }
 
-?>
