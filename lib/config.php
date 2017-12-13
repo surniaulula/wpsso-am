@@ -62,8 +62,10 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 			),
 		);
 
-		public static function get_version() { 
-			return self::$cf['plugin']['wpssoam']['version'];
+		public static function get_version( $add_slug = false ) {
+			$ext = 'wpssoam';
+			$info =& self::$cf['plugin'][$ext];
+			return $add_slug ? $info['slug'].'-'.$info['version'] : $info['version'];
 		}
 
 		// from https://developer.apple.com/library/ios/documentation/LanguagesUtilities/Conceptual/iTunesConnect_Guide/Appendices/AppStoreTerritories.html
