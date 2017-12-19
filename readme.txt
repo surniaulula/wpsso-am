@@ -139,7 +139,7 @@ The [WPSSO AM Pro extension](https://wpsso.com/extend/plugins/wpsso-am/?utm_sour
 
 == Changelog ==
 
-<h3>Free / Basic Version Repository</h3>
+<h3>Free / Basic Version Repositories</h3>
 
 * [GitHub](https://surniaulula.github.io/wpsso-am/)
 * [WordPress.org](https://wordpress.org/plugins/wpsso-am/developers/)
