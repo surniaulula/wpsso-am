@@ -1,5 +1,5 @@
 <?php
-/*
+/**
  * Plugin Name: WPSSO Mobile App Meta
  * Plugin Slug: wpsso-am
  * Text Domain: wpsso-am
