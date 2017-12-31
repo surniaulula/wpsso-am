@@ -1,5 +1,4 @@
 <?php
-
 /**
  * License: GPLv3
  * License URI: https://www.gnu.org/licenses/gpl.txt
@@ -44,7 +43,7 @@ if ( ! class_exists( 'WpssoAmGplAdminPost' ) ) {
 					array( 'lca' => 'wpssoam' ) ).'</td>';
 
 			$form_rows = array(
-				/*
+				/**
 				 * Twitter App Card
 				 */
 				'subsection_app_card' => array(
@@ -52,7 +51,7 @@ if ( ! class_exists( 'WpssoAmGplAdminPost' ) ) {
 					'header' => 'h4',
 					'label' => _x( 'Twitter App Card', 'metabox title', 'wpsso-am' )
 				),
-				/*
+				/**
 				 * App Store Territory
 				 */
 				'am_ap_ast' => array(
@@ -60,7 +59,7 @@ if ( ! class_exists( 'WpssoAmGplAdminPost' ) ) {
 					'th_class' => 'medium', 'tooltip' => 'am_ap_ast', 'td_class' => 'blank',
 					'content' => $form->get_no_select( 'am_ap_ast', WpssoAmConfig::$app_stores ),
 				),
-				/*
+				/**
 				 * iPhone App
 				 */
 				'subsection_iphone_app' => array(
@@ -83,7 +82,7 @@ if ( ! class_exists( 'WpssoAmGplAdminPost' ) ) {
 					'th_class' => 'medium', 'tooltip' => 'post-am_iphone_app_url', 'td_class' => 'blank',
 					'content' => $form->get_no_input_value( '', 'wide' ),
 				),
-				/*
+				/**
 				 * iPad App
 				 */
 				'subsection_ipad_app' => array(
@@ -106,7 +105,7 @@ if ( ! class_exists( 'WpssoAmGplAdminPost' ) ) {
 					'th_class' => 'medium', 'tooltip' => 'post-am_ipad_app_url', 'td_class' => 'blank',
 					'content' => $form->get_no_input_value( '', 'wide' ),
 				),
-				/*
+				/**
 				 * Google Play App
 				 */
 				'subsection_gplay_app' => array(
@@ -129,7 +128,7 @@ if ( ! class_exists( 'WpssoAmGplAdminPost' ) ) {
 					'th_class' => 'medium', 'tooltip' => 'post-am_gplay_app_url', 'td_class' => 'blank',
 					'content' => $form->get_no_input_value( '', 'wide' ),
 				),
-				/*
+				/**
 				 * Mobile App Banner
 				 */
 				'subsection_app_banner' => array(
