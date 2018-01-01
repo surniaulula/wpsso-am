@@ -142,7 +142,7 @@ The [WPSSO AM Pro extension](https://wpsso.com/extend/plugins/wpsso-am/?utm_sour
 <h3>Free / Basic Version Repositories</h3>
 
 * [GitHub](https://surniaulula.github.io/wpsso-am/)
-* [WordPress.org](https://wordpress.org/plugins/wpsso-am/developers/)
+* [WordPress.org](https://plugins.trac.wordpress.org/browser/wpsso-am/)
 
 <h3>Version Numbering</h3>
 
