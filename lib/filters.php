@@ -53,18 +53,18 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 			}
 
 			$this->p->util->add_plugin_filters( $this, array( 
-				'get_defaults' => 1,			// option defaults
-				'get_md_defaults' => 1,			// meta data defaults
+				'get_defaults' => 1,
+				'get_md_defaults' => 1,
 				'meta_name' => 2,
 			) );
 
 			if ( is_admin() ) {
 				$this->p->util->add_plugin_filters( $this, array( 
-					'option_type' => 2,			// define the value type for each option
-					'post_custom_meta_tabs' => 3,		// $tabs, $mod, $metabox_id
-					'messages_tooltip_post' => 2,		// tooltip messages for post social settings
-					'messages_tooltip' => 2,		// tooltip messages filter
-					'messages_info' => 2,			// info messages filter
+					'option_type' => 2,
+					'post_custom_meta_tabs' => 3,
+					'messages_tooltip_post' => 2,
+					'messages_tooltip' => 2,
+					'messages_info' => 2,
 				) );
 				$this->p->util->add_plugin_filters( $this, array( 
 					'status_gpl_features' => 4,

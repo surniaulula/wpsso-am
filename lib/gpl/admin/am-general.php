@@ -21,7 +21,7 @@ if ( ! class_exists( 'WpssoAmGplAdminAmGeneral' ) ) {
 			}
 
 			$this->p->util->add_plugin_filters( $this, array( 
-				'appmeta_general_rows' => 2,	// $table_rows, $form
+				'appmeta_general_rows' => 2,
 			), 100 );
 		}
 

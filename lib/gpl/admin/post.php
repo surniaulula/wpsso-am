@@ -21,13 +21,15 @@ if ( ! class_exists( 'WpssoAmGplAdminPost' ) ) {
 			}
 
 			$this->p->util->add_plugin_filters( $this, array( 
-				'post_appmeta_rows' => 4,		// $table_rows, $form, $head, $mod
+				'post_appmeta_rows' => 4,
 			) );
 		}
 
 		public function filter_post_appmeta_rows( $table_rows, $form, $head, $mod ) {
-			if ( $this->p->debug->enabled )
+
+			if ( $this->p->debug->enabled ) {
 				$this->p->debug->mark();
+			}
 
 			if ( empty( $mod['post_status'] ) || $mod['post_status'] === 'auto-draft' ) {
 				$table_rows[] = '<td><blockquote class="status-info"><p class="centered">'.
