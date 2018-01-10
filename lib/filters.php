@@ -298,14 +298,14 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 			return $text;
 		}
 
-		public function filter_status_gpl_features( $features, $lca, $info, $pkg ) {
+		public function filter_status_gpl_features( $features, $ext, $info, $pkg ) {
 			$features['(code) Mobile App Banner'] = array( 
 				'status' => $this->p->options['am_ws_itunes_app_id'] ? 'on' : 'off'
 			);
 			return $features;
 		}
 
-		public function filter_status_pro_features( $features, $lca, $info, $pkg ) {
+		public function filter_status_pro_features( $features, $ext, $info, $pkg ) {
 			$features['(code) Custom Mobile Apps Meta'] = array( 
 				'td_class' => $pkg['aop'] ? '' : 'blank',
 				'purchase' => $pkg['purchase'],
