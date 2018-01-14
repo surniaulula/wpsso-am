@@ -15,10 +15,10 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 
 		public static $cf = array(
 			'plugin' => array(
-				'wpssoam' => array(
-					'version' => '1.7.20',		// plugin version
-					'opt_version' => '7',		// increment when changing default options
-					'short' => 'WPSSO AM',		// short plugin name
+				'wpssoam' => array(			// Plugin acronym.
+					'version' => '1.7.20',		// Plugin version.
+					'opt_version' => '7',		// Increment when changing default option values.
+					'short' => 'WPSSO AM',		// Short plugin name.
 					'name' => 'WPSSO Mobile App Meta',
 					'desc' => 'WPSSO Core extension to provide Apple Store / iTunes and Google Play App meta tags for Apple\'s mobile Safari and Twitter\'s App Card.',
 					'slug' => 'wpsso-am',
@@ -38,9 +38,8 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 						),
 					),
 					'lib' => array(
-						// submenu items must have unique keys
-						'submenu' => array (
-							'am-general' => 'Mobile App Meta',	// general settings
+						'submenu' => array(	// Note that submenu elements must have unique keys.
+							'am-general' => 'Mobile App Meta',
 						),
 						'gpl' => array(
 							'admin' => array(
