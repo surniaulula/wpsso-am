@@ -31,7 +31,7 @@ WPSSO Core and its extensions are fully tested and compatible with PHP v7.x (PHP
 
 <h3>WPSSO Core Plugin Prerequisite</h3>
 
-WPSSO Mobile App Meta is an extension for the WPSSO Core plugin &mdash; which creates complete &amp; accurate meta tags and Schema markup from your content for social sharing, social media / SMO, search / SEO / rich cards, and more.
+WPSSO Mobile App Meta is an extension for the WPSSO Core plugin &mdash; which creates complete &amp; accurate meta tags and Schema markup from your existing content for social sharing, Social Media Optimization (SMO), Search Engine Optimization (SEO), Google Rich Cards, Pinterest Rich Pins, etc.
 
 The WPSSO AM Free extension works with either the Free or Pro version of WPSSO Core (Main Plugin).
 
@@ -117,8 +117,8 @@ The [WPSSO AM Pro extension](https://wpsso.com/extend/plugins/wpsso-am/?utm_sour
 
 <h3>Install and Uninstall</h3>
 
-* [Install the WPSSO AM Plugin (Free and Pro version)](https://wpsso.com/docs/plugins/wpsso-am/installation/install-the-plugin/)
-* [Uninstall the WPSSO AM Plugin](https://wpsso.com/docs/plugins/wpsso-am/installation/uninstall-the-plugin/)
+* [Install the WPSSO AM Extension (Free and Pro version)](https://wpsso.com/docs/plugins/wpsso-am/installation/install-the-plugin/)
+* [Uninstall the WPSSO AM Extension](https://wpsso.com/docs/plugins/wpsso-am/installation/uninstall-the-plugin/)
 
 == Frequently Asked Questions ==
 
@@ -155,7 +155,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 1.7.20 (2017/09/10)**
+**Version 1.7.21 (2018/02/04)**
 
 * *New Features*
 	* None
@@ -164,58 +164,11 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * *Bugfixes*
 	* None
 * *Developer Notes*
-	* Renamed the following filters for WPSSO v3.46.0 and added a 3rd argument for the metabox id:
-		* 'wpsso_post_social_settings_tabs' to 'wpsso_post_custom_meta_tabs'.
-
-**Version 1.7.19 (2017/04/30)**
-
-* *New Features*
-	* None
-* *Improvements*
-	* None
-* *Bugfixes*
-	* None
-* *Developer Notes*
-	* Code refactoring to rename the $is_avail array to $avail for WPSSO v3.42.0.
-
-**Version 1.7.18 (2017/04/16)**
-
-* *New Features*
-	* None
-* *Improvements*
-	* None
-* *Bugfixes*
-	* None
-* *Developer Notes*
-	* Refactored the plugin init filters and moved/renamed the registration boolean from `is_avail[$name]` to `is_avail['p_ext'][$name]`.
-
-**Version 1.7.17 (2017/04/08)**
-
-* *New Features*
-	* None
-* *Improvements*
-	* None
-* *Bugfixes*
-	* None
-* *Developer Notes*
-	* Minor revision to move URLs in the extension config to the main WPSSO Core plugin config.
-	* Dropped the package number from the production version string.
+	* Maintenance release.
 
 == Upgrade Notice ==
 
-= 1.7.20 =
+= 1.7.21 =
 
-(2017/09/10) Code refactoring to renamed filters for WPSSO v3.46.0.
-
-= 1.7.19 =
-
-(2017/04/30) Code refactoring to rename the $is_avail array to $avail for WPSSO v3.42.0.
-
-= 1.7.18 =
-
-(2017/04/16) Refactored the plugin init filters and moved/renamed the registration boolean.
-
-= 1.7.17 =
-
-(2017/04/08) Minor revision to move URLs in the extension config to the main WPSSO Core plugin config.
+(2018/02/04) Maintenance release.
 
