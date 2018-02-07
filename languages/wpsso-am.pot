@@ -155,12 +155,12 @@ msgid ""
 "Card and customize a mobile App banner for Apple's mobile Safari."
 msgstr ""
 
-#: lib/gpl/admin/am-general.php:45 lib/pro/admin/am-general.php:53
+#: lib/gpl/admin/am-general.php:47 lib/pro/admin/am-general.php:53
 msgctxt "option label"
 msgid "Show Tab on Post Types"
 msgstr ""
 
-#: lib/gpl/admin/am-general.php:49 lib/pro/admin/am-general.php:57
+#: lib/gpl/admin/am-general.php:51 lib/pro/admin/am-general.php:57
 msgctxt "option label"
 msgid "Default App Store Territory"
 msgstr ""

@@ -26,8 +26,10 @@ if ( ! class_exists( 'WpssoAmGplAdminAmGeneral' ) ) {
 		}
 
 		public function filter_appmeta_general_rows( $table_rows, $form ) {
-			if ( $this->p->debug->enabled )
+
+			if ( $this->p->debug->enabled ) {
 				$this->p->debug->mark();
+			}
 
 			$table_rows[] = '<td colspan="2">'.
 				$this->p->msgs->get( 'info-appmeta-general' ).'</td>';
