@@ -152,7 +152,7 @@ if ( ! class_exists( 'WpssoAm' ) ) {
 					$this->p->avail['admin']['post'] = true;
 				}
 			} else {
-				$this->p->avail['p_ext']['am'] = false;	// just in case
+				$this->p->avail['p_ext']['am'] = false;	// Just in case.
 			}
 		}
 
