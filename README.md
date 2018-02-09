@@ -19,15 +19,15 @@
 
 <p><strong>Add <a href="https://dev.twitter.com/cards/types/app">Twitter App Card</a> meta tags to mobile App product pages.</strong></p>
 
-<p><strong>WPSSO AM is <em>incredibly fast</em> and coded for performance:</strong></p>
+<p><strong>WPSSO Mobile App Meta is <em>incredibly fast</em> and coded for performance:</strong></p>
 
 <p>WPSSO Core and its extensions make full use of all available caching techniques (persistent / non-persistent object and disk caching), and load only the PHP library files and object classes they need, keeping their code small, fast, and light.</p>
 
-<p>WPSSO Core and its extensions are fully tested and compatible with PHP v7.x (PHP v5.3 or better required).</p>
+<p>WPSSO Core and its extensions are fully tested and compatible with PHP v7.x (PHP v5.4 or better required).</p>
 
 <h3>WPSSO Core Plugin Prerequisite</h3>
 
-<p>WPSSO Mobile App Meta is an extension for the WPSSO Core plugin &mdash; which creates complete &amp; accurate meta tags and Schema markup from your existing content for social sharing, Social Media Optimization (SMO), Search Engine Optimization (SEO), Google Rich Cards, Pinterest Rich Pins, etc.</p>
+<p>WPSSO Mobile App Meta (aka WPSSO AM) is an extension for the WPSSO Core plugin &mdash; which creates complete &amp; accurate meta tags and Schema markup from your existing content for social sharing, Social Media Optimization (SMO), Search Engine Optimization (SEO), Google Rich Cards, Pinterest Rich Pins, etc.</p>
 
 <p>The WPSSO AM Free extension works with either the Free or Pro version of WPSSO Core (Main Plugin).</p>
 
@@ -129,7 +129,7 @@
 
 <h3>Extends the WPSSO Core Plugin</h3>
 
-<p><span style="color:#33cc33">&#x0229b;</span> &nbsp; The WPSSO AM Free extension works with either the Free or Pro version of WPSSO Core (Main Plugin).</p>
+<p><span style="color:#33cc33">&#x0229b;</span> &nbsp; The WPSSO Mobile App Meta (aka WPSSO AM) Free extension works with either the Free or Pro version of WPSSO Core (Main Plugin).</p>
 
 <p><span style="color:#33cc33">&#x0229b;</span> &nbsp; The <a href="https://wpsso.com/extend/plugins/wpsso-am/?utm_source=wpssoam-readme-extends">WPSSO AM Pro extension</a> uses many WPSSO Core Pro features, which requires an active and licensed <a href="https://wpsso.com/?utm_source=wpssoam-readme-extends">WPSSO Core Pro plugin</a>.</p>
 
