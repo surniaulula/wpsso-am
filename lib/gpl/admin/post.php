@@ -40,9 +40,7 @@ if ( ! class_exists( 'WpssoAmGplAdminPost' ) ) {
 
 			$def_app_name = $this->p->page->get_title( 0, '', $mod );
 
-			$table_rows[] = '<td colspan="2">'.
-				$this->p->msgs->get( 'pro-feature-msg', 
-					array( 'lca' => 'wpssoam' ) ).'</td>';
+			$table_rows[] = '<td colspan="2">'.$this->p->msgs->get( 'pro-feature-msg', array( 'lca' => 'wpssoam' ) ).'</td>';
 
 			$form_rows = array(
 				/**
