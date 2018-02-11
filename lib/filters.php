@@ -203,8 +203,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 		public function filter_post_custom_meta_tabs( $tabs, $mod, $metabox_id ) {
 			if ( $metabox_id === $this->p->cf['meta']['id'] ) {
 				if ( ! empty( $this->p->options['am_ap_add_to_'.$mod['post_type']] ) ) {
-					SucomUtil::add_after_key( $tabs, 'text', 'appmeta',
-						_x( 'Mobile Apps', 'metabox tab', 'wpsso-am' ) );
+					SucomUtil::add_after_key( $tabs, 'edit', 'appmeta', _x( 'Mobile Apps', 'metabox tab', 'wpsso-am' ) );
 				}
 			}
 			return $tabs;
