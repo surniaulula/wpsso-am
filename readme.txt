@@ -155,12 +155,12 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 1.7.22-dev.3 (2018/02/12)**
+**Version 1.7.22-dev.4 (2018/02/13)**
 
 * *New Features*
 	* None
 * *Improvements*
-	* Options normally hidden in the "Basic Options" view that have a different value than their default will no longer be hidden.
+	* Options hidden in the "Basic Options" view that have a different value than their default will no longer be hidden.
 * *Bugfixes*
 	* None
 * *Developer Notes*
@@ -179,9 +179,9 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 == Upgrade Notice ==
 
-= 1.7.22-dev.3 =
+= 1.7.22-dev.4 =
 
-(2018/02/12) Options normally hidden in the "Basic Options" view that have a different value than their default will no longer be hidden.
+(2018/02/13) Options hidden in the "Basic Options" view that have a different value than their default will no longer be hidden.
 
 = 1.7.21 =
 
