@@ -185,7 +185,7 @@ if ( ! class_exists( 'WpssoAm' ) ) {
 			$error_msg = sprintf( __( 'The %1$s version %2$s extension requires %3$s version %4$s or newer (version %5$s is currently installed).',
 				'wpsso-am' ), $info['name'], $info['version'], $info['req']['short'], $info['req']['min_version'], $have_version );
 
-			trigger_error( sprintf( __( '%s warning: %s', 'wpsso-am' ), $info['short'], $error_msg ), E_USER_WARNING );
+			trigger_error( sprintf( __( '%s warning:', 'wpsso-am' ), $info['short'] ).' '.$error_msg, E_USER_WARNING );
 
 			if ( is_admin() ) {
 				$this->p->notice->err( $error_msg );
@@ -199,4 +199,3 @@ if ( ! class_exists( 'WpssoAm' ) ) {
         global $wpssoam;
 	$wpssoam =& WpssoAm::get_instance();
 }
-

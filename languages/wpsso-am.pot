@@ -319,7 +319,7 @@ msgid ""
 msgstr ""
 
 #: wpsso-am.php:188
-msgid "%s warning: %s"
+msgid "%s warning:"
 msgstr ""
 
 #. Plugin Name of the plugin/theme
