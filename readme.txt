@@ -164,7 +164,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * *Bugfixes*
 	* None
 * *Developer Notes*
-	* Refactored the WpssoAm `min_version_notice()` method to use PHP's `trigger_error()` and include a notice to optionally refresh the plugin update information.
+	* Refactored the WpssoAm `min_version_notice()` method to use PHP's `trigger_error()` and include a notice to refresh plugin update information.
 
 **Version 1.7.22 (2018/02/17)**
 
@@ -181,7 +181,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 = 1.8.0-dev.2 =
 
-(2018/02/19) Refactored the WpssoAm min_version_notice() method to use PHP's trigger_error() and include a notice to optionally refresh the plugin update information.
+(2018/02/19) Refactored the WpssoAm min_version_notice() method to use PHP's trigger_error() and include a notice to refresh plugin update information.
 
 = 1.7.22 =
 
