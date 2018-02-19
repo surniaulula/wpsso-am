@@ -312,13 +312,13 @@ msgid ""
 "%3$s plugin or <a href=\"%4$s\">deactivate the %5$s extension</a>."
 msgstr ""
 
-#: wpsso-am.php:185
+#: wpsso-am.php:190
 msgid ""
 "The %1$s version %2$s extension requires %3$s version %4$s or newer (version "
 "%5$s is currently installed)."
 msgstr ""
 
-#: wpsso-am.php:188
+#: wpsso-am.php:193
 msgid "%s warning:"
 msgstr ""
 

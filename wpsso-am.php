@@ -120,6 +120,7 @@ if ( ! class_exists( 'WpssoAm' ) ) {
 		}
 
 		public function wpsso_get_config( $cf, $plugin_version = 0 ) {
+
 			$info = WpssoAmConfig::$cf['plugin']['wpssoam'];
 
 			if ( version_compare( $plugin_version, $info['req']['min_version'], '<' ) ) {
@@ -135,45 +136,49 @@ if ( ! class_exists( 'WpssoAm' ) ) {
 		}
 
 		public function wpsso_init_options() {
-			if ( method_exists( 'Wpsso', 'get_instance' ) ) {
-				$this->p =& Wpsso::get_instance();
-			} else {
-				$this->p =& $GLOBALS['wpsso'];
-			}
 
-			if ( $this->p->debug->enabled ) {
-				$this->p->debug->mark();
-			}
+			$this->p =& Wpsso::get_instance();
 
-			if ( $this->have_req_min ) {
-				$this->p->avail['p_ext']['am'] = true;
-				$this->p->avail['head']['twittercard'] = true;	// load lib/*/head/twittercard.php
-				if ( is_admin() ) {
-					$this->p->avail['admin']['am-general'] = true;
-					$this->p->avail['admin']['post'] = true;
-				}
-			} else {
-				$this->p->avail['p_ext']['am'] = false;	// Just in case.
-			}
-		}
-
-		public function wpsso_init_objects() {
-			if ( $this->p->debug->enabled ) {
-				$this->p->debug->mark();
-			}
-
-			if ( $this->have_req_min ) {
-				$this->filters = new WpssoAmFilters( $this->p );
-			}
-		}
-
-		public function wpsso_init_plugin() {
 			if ( $this->p->debug->enabled ) {
 				$this->p->debug->mark();
 			}
 
 			if ( ! $this->have_req_min ) {
-				return $this->min_version_notice();	// stop here
+				$this->p->avail['p_ext']['am'] = false;	// Just in case.
+				return;	// stop here
+			}
+
+			$this->p->avail['p_ext']['am'] = true;
+			$this->p->avail['head']['twittercard'] = true;	// load lib/*/head/twittercard.php
+
+			if ( is_admin() ) {
+				$this->p->avail['admin']['am-general'] = true;
+				$this->p->avail['admin']['post'] = true;
+			}
+		}
+
+		public function wpsso_init_objects() {
+
+			if ( $this->p->debug->enabled ) {
+				$this->p->debug->mark();
+			}
+
+			if ( ! $this->have_req_min ) {
+				return;	// stop here
+			}
+
+			$this->filters = new WpssoAmFilters( $this->p );
+		}
+
+		public function wpsso_init_plugin() {
+
+			if ( $this->p->debug->enabled ) {
+				$this->p->debug->mark();
+			}
+
+			if ( ! $this->have_req_min ) {
+				$this->min_version_notice();
+				return;	// stop here
 			}
 		}
 
