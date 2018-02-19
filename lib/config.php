@@ -16,7 +16,7 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 		public static $cf = array(
 			'plugin' => array(
 				'wpssoam' => array(			// Plugin acronym.
-					'version' => '1.7.22',		// Plugin version.
+					'version' => '1.8.0-dev.2',		// Plugin version.
 					'opt_version' => '7',		// Increment when changing default option values.
 					'short' => 'WPSSO AM',		// Short plugin name.
 					'name' => 'WPSSO Mobile App Meta',
@@ -27,9 +27,9 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 					'text_domain' => 'wpsso-am',
 					'domain_path' => '/languages',
 					'req' => array(
-						'short' => 'WPSSO',
+						'short' => 'WPSSO Core',
 						'name' => 'WPSSO Core',
-						'min_version' => '3.53.0',
+						'min_version' => '3.53.1-dev.2',
 					),
 					'img' => array(
 						'icons' => array(

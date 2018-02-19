@@ -14,7 +14,7 @@
  * Requires PHP: 5.4
  * Requires At Least: 3.8
  * Tested Up To: 4.9.4
- * Version: 1.7.22
+ * Version: 1.8.0-dev.2
  * 
  * Version Numbering: {major}.{minor}.{bugfix}[-{stage}.{level}]
  *
@@ -88,6 +88,7 @@ if ( ! class_exists( 'WpssoAm' ) ) {
 			$die_msg = __( '%1$s is an extension for the %2$s plugin &mdash; please install and activate the %3$s plugin before activating %4$s.', 'wpsso-am' );
 
 			$error_msg = __( 'The %1$s extension requires the %2$s plugin &mdash; install and activate the %3$s plugin or <a href="%4$s">deactivate the %5$s extension</a>.', 'wpsso-am' );
+
 			if ( true === $deactivate ) {
 
 				if ( ! function_exists( 'deactivate_plugins' ) ) {
@@ -177,18 +178,20 @@ if ( ! class_exists( 'WpssoAm' ) ) {
 		}
 
 		private function min_version_notice() {
-			$info = WpssoAmConfig::$cf['plugin']['wpssoam'];
-			$wpsso_version = $this->p->cf['plugin']['wpsso']['version'];
 
-			if ( $this->p->debug->enabled ) {
-				$this->p->debug->log( $info['name'] . ' requires ' . $info['req']['short'] . ' v' . 
-					$info['req']['min_version'] . ' or newer (' . $wpsso_version . ' installed)' );
-			}
+			$info = WpssoAmConfig::$cf['plugin']['wpssoam'];
+			$have_version = $this->p->cf['plugin']['wpsso']['version'];
+
+			$error_msg = sprintf( __( 'The %1$s version %2$s extension requires %3$s version %4$s or newer (version %5$s is currently installed).',
+				'wpsso-am' ), $info['name'], $info['version'], $info['req']['short'], $info['req']['min_version'], $have_version );
+
+			trigger_error( sprintf( __( '%s warning: %s', 'wpsso-am' ), $info['short'], $error_msg ), E_USER_WARNING );
 
 			if ( is_admin() ) {
-				$this->p->notice->err( sprintf( __( 'The %1$s extension v%2$s requires %3$s v%4$s or newer (v%5$s currently installed).',
-					'wpsso-am' ), $info['name'], $info['version'], $info['req']['short'],
-						$info['req']['min_version'], $wpsso_version ) );
+				$this->p->notice->err( $error_msg );
+				if ( method_exists( $this->p->admin, 'get_check_for_updates_link' ) ) {
+					$this->p->notice->inf( $this->p->admin->get_check_for_updates_link() );
+				}
 			}
 		}
 	}
