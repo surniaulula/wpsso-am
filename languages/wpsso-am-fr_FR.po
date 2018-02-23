@@ -2,10 +2,10 @@
 # This file is distributed under the same license as the WPSSO App Meta (WPSSO AM) package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WPSSO Mobile App Meta 1.7.22\n"
+"Project-Id-Version: WPSSO Mobile App Meta 1.8.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-am\n"
-"POT-Creation-Date: 2018-02-19 10:22-0600\n"
-"PO-Revision-Date: 2018-02-19 10:26-0600\n"
+"POT-Creation-Date: 2018-02-23 11:58-0600\n"
+"PO-Revision-Date: 2018-02-23 11:58-0600\n"
 "Last-Translator: JS Morisset <jsm@surniaulula.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -277,11 +277,11 @@ msgstr "%1$s est une extension pour %2$s &mdash; s'il vous plaît installer et a
 msgid "The %1$s extension requires the %2$s plugin &mdash; install and activate the %3$s plugin or <a href=\"%4$s\">deactivate the %5$s extension</a>."
 msgstr "L'extension %1$s requiert %2$s &mdash; installer et activer %3$s ou <a href=\"%4$s\">désactiver l'extension %5$s</a>."
 
-#: wpsso-am.php:185
+#: wpsso-am.php:190
 msgid "The %1$s version %2$s extension requires %3$s version %4$s or newer (version %5$s is currently installed)."
 msgstr "L'extension %1$s version %2$s requiert %3$s version %4$s ou plus récente (version %5$s est actuellement installée)."
 
-#: wpsso-am.php:188
+#: wpsso-am.php:193
 msgid "%s warning:"
 msgstr "Alerte %s:"
 
