@@ -318,7 +318,7 @@ msgid ""
 "%5$s is currently installed)."
 msgstr ""
 
-#: wpsso-am.php:193
+#: wpsso-am.php:200
 msgid "%s warning:"
 msgstr ""
 
