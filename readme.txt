@@ -11,7 +11,7 @@ Contributors: jsmoriss
 Requires PHP: 5.4
 Requires At Least: 3.8
 Tested Up To: 4.9.4
-Stable Tag: 1.7.22
+Stable Tag: 1.8.0
 
 WPSSO Core extension to provide Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari and Twitter's App Card.
 
@@ -182,8 +182,4 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 = 1.8.0 =
 
 (2018/02/24) Refactored the WpssoAm min_version_notice() method to use PHP's trigger_error() and include a notice to refresh plugin update information.
-
-= 1.7.22 =
-
-(2018/02/17) Options hidden in the "Basic Options" view that have a different value than their default will no longer be hidden.
 
