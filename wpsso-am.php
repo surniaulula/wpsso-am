@@ -199,7 +199,7 @@ if ( ! class_exists( 'WpssoAm' ) ) {
 				}
 			}
 
-			trigger_error( sprintf( __( '%s warning:', 'wpsso-am' ), $info['short'] ).' '.$error_msg, E_USER_WARNING );
+			trigger_error( sprintf( __( '%s warning:', 'wpsso-am' ), $info['short'] ).' '.rtrim( $error_msg, '.' ), E_USER_WARNING );
 		}
 	}
 
