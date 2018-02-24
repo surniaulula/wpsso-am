@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WPSSO Mobile App Meta 1.8.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-am\n"
-"POT-Creation-Date: 2018-02-23 11:58-0600\n"
-"PO-Revision-Date: 2018-02-23 11:58-0600\n"
+"POT-Creation-Date: 2018-02-24 13:49-0600\n"
+"PO-Revision-Date: 2018-02-24 13:49-0600\n"
 "Last-Translator: JS Morisset <jsm@surniaulula.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -281,7 +281,7 @@ msgstr "L'extension %1$s requiert %2$s &mdash; installer et activer %3$s ou <a h
 msgid "The %1$s version %2$s extension requires %3$s version %4$s or newer (version %5$s is currently installed)."
 msgstr "L'extension %1$s version %2$s requiert %3$s version %4$s ou plus récente (version %5$s est actuellement installée)."
 
-#: wpsso-am.php:193
+#: wpsso-am.php:202
 msgid "%s warning:"
 msgstr "Alerte %s:"
 
