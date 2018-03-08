@@ -1,8 +1,8 @@
-<h1>WPSSO Mobile App Meta</h1><h3>Meta Tags for Apple&#039;s mobile Safari banner and Twitter&#039;s App Card</h3>
+<h1>WPSSO Mobile App Meta</h1>
 
 <table>
 <tr><th align="right" valign="top" nowrap>Plugin Name</th><td>WPSSO Mobile App Meta</td></tr>
-<tr><th align="right" valign="top" nowrap>Summary</th><td>WPSSO Core extension to provide Apple Store / iTunes and Google Play App meta tags for Apple&#039;s mobile Safari and Twitter&#039;s App Card.</td></tr>
+<tr><th align="right" valign="top" nowrap>Summary</th><td>WPSSO Core extension to provide Apple Store / iTunes and Google Play App meta tags for Apple&#039;s mobile Safari banner and Twitter&#039;s App Card.</td></tr>
 <tr><th align="right" valign="top" nowrap>Stable Version</th><td>1.8.0</td></tr>
 <tr><th align="right" valign="top" nowrap>Requires At Least</th><td>WordPress 3.8</td></tr>
 <tr><th align="right" valign="top" nowrap>Tested Up To</th><td>WordPress 4.9.4</td></tr>
@@ -15,23 +15,17 @@
 
 <p><img class="readme-icon" src="https://surniaulula.github.io/wpsso-am/assets/icon-256x256.png"></p>
 
-<p><strong>Promote your website mobile App with a banner in Apple's mobile Safari.</strong></p>
+<p><strong>WPSSO Core extension to provide Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari banner and Twitter's App Card.</strong></p>
 
-<p><strong>Add <a href="https://dev.twitter.com/cards/types/app">Twitter App Card</a> meta tags to mobile App product pages.</strong></p>
+<p>Promote your website mobile App with a banner in Apple's mobile Safari.</p>
 
-<p><strong>WPSSO Mobile App Meta is <em>incredibly fast</em> and coded for performance:</strong></p>
+<p>Add <a href="https://dev.twitter.com/cards/types/app">Twitter App Card</a> meta tags to mobile App product pages.</p>
 
-<p>WPSSO Core and its extensions make full use of all available caching techniques (persistent / non-persistent object and disk caching), and load only the PHP library files and object classes they need, keeping their code small, fast, and light.</p>
-
-<p>WPSSO Core and its extensions are fully tested and compatible with PHP v7.x (PHP v5.4 or better required).</p>
+<p>WPSSO Mobile App Meta is <em>incredibly fast</em> and coded for performance &mdash; WPSSO Core and its extensions make full use of all available caching techniques (persistent / non-persistent object and disk caching), and load only the PHP library files and object classes they need, keeping their code small, fast, and light. WPSSO Core and its extensions are also fully tested and compatible with PHP v7.x (PHP v5.4 or better required).</p>
 
 <h3>WPSSO Core Plugin Prerequisite</h3>
 
-<p>WPSSO Mobile App Meta (aka WPSSO AM) is an extension for the WPSSO Core plugin &mdash; which creates complete &amp; accurate meta tags and Schema markup from your existing content for social sharing, Social Media Optimization (SMO), Search Engine Optimization (SEO), Google Rich Cards, Pinterest Rich Pins, etc.</p>
-
-<p>The WPSSO AM Free extension works with either the Free or Pro version of WPSSO Core (Main Plugin).</p>
-
-<p>The <a href="https://wpsso.com/extend/plugins/wpsso-am/?utm_source=wpssoam-readme-prereq">WPSSO AM Pro extension</a> uses many WPSSO Core Pro features, which requires an active and licensed <a href="https://wpsso.com/?utm_source=wpssoam-readme-prereq">WPSSO Core Pro plugin</a>.</p>
+<p>WPSSO Mobile App Meta (aka WPSSO AM) is an extension for the WPSSO Core plugin &mdash; which creates complete &amp; accurate meta tags and Schema markup from your existing content for social sharing, Social Media Optimization (SMO), Search Engine Optimization (SEO), Google Rich Cards, Pinterest Rich Pins, etc. The Free extension works with either the Free or Pro version of WPSSO Core (Main Plugin). The <a href="https://wpsso.com/extend/plugins/wpsso-am/?utm_source=wpssoam-readme-prereq">WPSSO AM Pro extension</a> uses many WPSSO Core Pro features, which requires an active and licensed <a href="https://wpsso.com/?utm_source=wpssoam-readme-prereq">WPSSO Core Pro plugin</a>.</p>
 
 <h3>Quick List of Features</h3>
 

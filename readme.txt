@@ -1,4 +1,4 @@
-=== WPSSO Mobile App Meta - Meta Tags for Apple's mobile Safari banner and Twitter's App Card ===
+=== WPSSO Mobile App Meta ===
 Plugin Name: WPSSO Mobile App Meta
 Plugin Slug: wpsso-am
 Text Domain: wpsso-am
@@ -13,29 +13,23 @@ Requires At Least: 3.8
 Tested Up To: 4.9.4
 Stable Tag: 1.8.0
 
-WPSSO Core extension to provide Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari and Twitter's App Card.
+WPSSO Core extension to provide Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari banner and Twitter's App Card.
 
 == Description ==
 
 <img class="readme-icon" src="https://surniaulula.github.io/wpsso-am/assets/icon-256x256.png">
 
-**Promote your website mobile App with a banner in Apple's mobile Safari.**
+**WPSSO Core extension to provide Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari banner and Twitter's App Card.**
 
-**Add [Twitter App Card](https://dev.twitter.com/cards/types/app) meta tags to mobile App product pages.**
+Promote your website mobile App with a banner in Apple's mobile Safari.
 
-**WPSSO Mobile App Meta is *incredibly fast* and coded for performance:**
+Add [Twitter App Card](https://dev.twitter.com/cards/types/app) meta tags to mobile App product pages.
 
-WPSSO Core and its extensions make full use of all available caching techniques (persistent / non-persistent object and disk caching), and load only the PHP library files and object classes they need, keeping their code small, fast, and light.
-
-WPSSO Core and its extensions are fully tested and compatible with PHP v7.x (PHP v5.4 or better required).
+WPSSO Mobile App Meta is *incredibly fast* and coded for performance &mdash; WPSSO Core and its extensions make full use of all available caching techniques (persistent / non-persistent object and disk caching), and load only the PHP library files and object classes they need, keeping their code small, fast, and light. WPSSO Core and its extensions are also fully tested and compatible with PHP v7.x (PHP v5.4 or better required).
 
 <h3>WPSSO Core Plugin Prerequisite</h3>
 
-WPSSO Mobile App Meta (aka WPSSO AM) is an extension for the WPSSO Core plugin &mdash; which creates complete &amp; accurate meta tags and Schema markup from your existing content for social sharing, Social Media Optimization (SMO), Search Engine Optimization (SEO), Google Rich Cards, Pinterest Rich Pins, etc.
-
-The WPSSO AM Free extension works with either the Free or Pro version of WPSSO Core (Main Plugin).
-
-The [WPSSO AM Pro extension](https://wpsso.com/extend/plugins/wpsso-am/?utm_source=wpssoam-readme-prereq) uses many WPSSO Core Pro features, which requires an active and licensed [WPSSO Core Pro plugin](https://wpsso.com/?utm_source=wpssoam-readme-prereq).
+WPSSO Mobile App Meta (aka WPSSO AM) is an extension for the WPSSO Core plugin &mdash; which creates complete &amp; accurate meta tags and Schema markup from your existing content for social sharing, Social Media Optimization (SMO), Search Engine Optimization (SEO), Google Rich Cards, Pinterest Rich Pins, etc. The Free extension works with either the Free or Pro version of WPSSO Core (Main Plugin). The [WPSSO AM Pro extension](https://wpsso.com/extend/plugins/wpsso-am/?utm_source=wpssoam-readme-prereq) uses many WPSSO Core Pro features, which requires an active and licensed [WPSSO Core Pro plugin](https://wpsso.com/?utm_source=wpssoam-readme-prereq).
 
 <h3>Quick List of Features</h3>
 
