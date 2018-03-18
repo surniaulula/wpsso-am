@@ -113,7 +113,7 @@ The Free extension works with either the Free or Pro version of WPSSO Core. The 
 
 <h3>Install and Uninstall</h3>
 
-* [Install the WPSSO AM Extension (Free and Pro version)](https://wpsso.com/docs/plugins/wpsso-am/installation/install-the-plugin/)
+* [Install the WPSSO AM Extension](https://wpsso.com/docs/plugins/wpsso-am/installation/install-the-plugin/)
 * [Uninstall the WPSSO AM Extension](https://wpsso.com/docs/plugins/wpsso-am/installation/uninstall-the-plugin/)
 
 == Frequently Asked Questions ==

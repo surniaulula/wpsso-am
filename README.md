@@ -137,7 +137,7 @@
 <h3>Install and Uninstall</h3>
 
 <ul>
-<li><a href="https://wpsso.com/docs/plugins/wpsso-am/installation/install-the-plugin/">Install the WPSSO AM Extension (Free and Pro version)</a></li>
+<li><a href="https://wpsso.com/docs/plugins/wpsso-am/installation/install-the-plugin/">Install the WPSSO AM Extension</a></li>
 <li><a href="https://wpsso.com/docs/plugins/wpsso-am/installation/uninstall-the-plugin/">Uninstall the WPSSO AM Extension</a></li>
 </ul>
 
