@@ -2,7 +2,7 @@
 
 <table>
 <tr><th align="right" valign="top" nowrap>Plugin Name</th><td>WPSSO Mobile App Meta</td></tr>
-<tr><th align="right" valign="top" nowrap>Summary</th><td>WPSSO Core extension to provide Apple Store / iTunes and Google Play App meta tags for Apple&#039;s mobile Safari banner and Twitter&#039;s App Card.</td></tr>
+<tr><th align="right" valign="top" nowrap>Summary</th><td>WPSSO Core add-on to provide Apple Store / iTunes and Google Play App meta tags for Apple&#039;s mobile Safari banner and Twitter&#039;s App Card.</td></tr>
 <tr><th align="right" valign="top" nowrap>Stable Version</th><td>1.8.0</td></tr>
 <tr><th align="right" valign="top" nowrap>Requires At Least</th><td>WordPress 3.8</td></tr>
 <tr><th align="right" valign="top" nowrap>Tested Up To</th><td>WordPress 4.9.4</td></tr>
@@ -15,19 +15,19 @@
 
 <p><img class="readme-icon" src="https://surniaulula.github.io/wpsso-am/assets/icon-256x256.png"></p>
 
-<p><strong>WPSSO Core extension to provide Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari banner and Twitter's App Card.</strong></p>
+<p><strong>WPSSO Core add-on to provide Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari banner and Twitter's App Card.</strong></p>
 
 <p>Promote your website mobile App with a banner in Apple's mobile Safari.</p>
 
 <p>Add <a href="https://dev.twitter.com/cards/types/app">Twitter App Card</a> meta tags to mobile App product pages.</p>
 
-<p>WPSSO Mobile App Meta is <em>incredibly fast</em> and coded for performance &mdash; WPSSO Core and its extensions make full use of all available caching techniques (persistent / non-persistent object and disk caching), and load only the PHP library files and object classes they need, keeping their code small, fast, and light. WPSSO Core and its extensions are also fully tested and compatible with PHP v7.x (PHP v5.4 or better required).</p>
+<p>WPSSO Mobile App Meta is <em>incredibly fast</em> and coded for performance &mdash; WPSSO Core and its add-ons make full use of all available caching techniques (persistent / non-persistent object and disk caching), and load only the PHP library files and object classes they need, keeping their code small, fast, and light. WPSSO Core and its add-ons are also fully tested and compatible with PHP v7.x (PHP v5.4 or better required).</p>
 
 <h3>WPSSO Core Plugin Prerequisite</h3>
 
-<p>WPSSO Mobile App Meta (aka WPSSO AM) is an extension for the WPSSO Core plugin &mdash; which creates complete &amp; accurate meta tags and Schema markup from your existing content for social sharing, Social Media Optimization (SMO), Search Engine Optimization (SEO), Google Rich Cards, Pinterest Rich Pins, etc.</p>
+<p>WPSSO Mobile App Meta (aka WPSSO AM) is an add-on for the WPSSO Core plugin &mdash; which creates complete &amp; accurate meta tags and Schema markup from your existing content for social sharing, Social Media Optimization (SMO), Search Engine Optimization (SEO), Google Rich Cards, Pinterest Rich Pins, etc.</p>
 
-<p>The Free extension works with either the Free or Pro version of WPSSO Core. The <a href="https://wpsso.com/extend/plugins/wpsso-am/?utm_source=wpssoam-readme-prereq">WPSSO AM Pro extension</a> uses many WPSSO Core Pro features and requires an active and licensed <a href="https://wpsso.com/?utm_source=wpssoam-readme-prereq">WPSSO Core Pro plugin</a>.</p>
+<p>The Free add-on plugin works with either the Free or Pro version of WPSSO Core. The <a href="https://wpsso.com/extend/plugins/wpsso-am/?utm_source=wpssoam-readme-prereq">WPSSO AM Pro add-on</a> uses many WPSSO Core Pro features and requires an active and licensed <a href="https://wpsso.com/?utm_source=wpssoam-readme-prereq">WPSSO Core Pro plugin</a>.</p>
 
 <h3>Quick List of Features</h3>
 
@@ -125,11 +125,11 @@
 
 <h3>Extends the WPSSO Core Plugin</h3>
 
-<p><span style="color:#33cc33">&#x0229b;</span> &nbsp; The WPSSO Mobile App Meta (aka WPSSO AM) Free extension works with either the Free or Pro version of WPSSO Core.</p>
+<p><span style="color:#33cc33">&#x0229b;</span> &nbsp; The WPSSO Mobile App Meta (aka WPSSO AM) Free add-on plugin works with either the Free or Pro version of WPSSO Core.</p>
 
-<p><span style="color:#33cc33">&#x0229b;</span> &nbsp; The <a href="https://wpsso.com/extend/plugins/wpsso-am/?utm_source=wpssoam-readme-extends">WPSSO AM Pro extension</a> uses many WPSSO Core Pro features, which requires an active and licensed <a href="https://wpsso.com/?utm_source=wpssoam-readme-extends">WPSSO Core Pro plugin</a>.</p>
+<p><span style="color:#33cc33">&#x0229b;</span> &nbsp; The <a href="https://wpsso.com/extend/plugins/wpsso-am/?utm_source=wpssoam-readme-extends">WPSSO AM Pro add-on</a> uses many WPSSO Core Pro features, which requires an active and licensed <a href="https://wpsso.com/?utm_source=wpssoam-readme-extends">WPSSO Core Pro plugin</a>.</p>
 
-<p><span style="color:#33cc33">&#x0229b;</span> &nbsp; <a href="https://wpsso.com/extend/plugins/wpsso-am/?utm_source=wpssoam-readme-purchase">Purchase the WPSSO Mobile App Meta Pro extension here</a> (all plugin purchases include a <em>No Risk 30 Day Refund Policy</em>).</p>
+<p><span style="color:#33cc33">&#x0229b;</span> &nbsp; <a href="https://wpsso.com/extend/plugins/wpsso-am/?utm_source=wpssoam-readme-purchase">Purchase the WPSSO Mobile App Meta Pro add-on here</a> (all plugin purchases include a <em>No Risk 30 Day Refund Policy</em>).</p>
 
 
 <h2>Installation</h2>
@@ -137,8 +137,8 @@
 <h3>Install and Uninstall</h3>
 
 <ul>
-<li><a href="https://wpsso.com/docs/plugins/wpsso-am/installation/install-the-plugin/">Install the WPSSO AM Extension</a></li>
-<li><a href="https://wpsso.com/docs/plugins/wpsso-am/installation/uninstall-the-plugin/">Uninstall the WPSSO AM Extension</a></li>
+<li><a href="https://wpsso.com/docs/plugins/wpsso-am/installation/install-the-plugin/">Install the WPSSO AM Add-on</a></li>
+<li><a href="https://wpsso.com/docs/plugins/wpsso-am/installation/uninstall-the-plugin/">Uninstall the WPSSO AM Add-on</a></li>
 </ul>
 
 

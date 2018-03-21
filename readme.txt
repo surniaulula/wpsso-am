@@ -13,25 +13,25 @@ Requires At Least: 3.8
 Tested Up To: 4.9.4
 Stable Tag: 1.8.0
 
-WPSSO Core extension to provide Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari banner and Twitter's App Card.
+WPSSO Core add-on to provide Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari banner and Twitter's App Card.
 
 == Description ==
 
 <img class="readme-icon" src="https://surniaulula.github.io/wpsso-am/assets/icon-256x256.png">
 
-**WPSSO Core extension to provide Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari banner and Twitter's App Card.**
+**WPSSO Core add-on to provide Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari banner and Twitter's App Card.**
 
 Promote your website mobile App with a banner in Apple's mobile Safari.
 
 Add [Twitter App Card](https://dev.twitter.com/cards/types/app) meta tags to mobile App product pages.
 
-WPSSO Mobile App Meta is *incredibly fast* and coded for performance &mdash; WPSSO Core and its extensions make full use of all available caching techniques (persistent / non-persistent object and disk caching), and load only the PHP library files and object classes they need, keeping their code small, fast, and light. WPSSO Core and its extensions are also fully tested and compatible with PHP v7.x (PHP v5.4 or better required).
+WPSSO Mobile App Meta is *incredibly fast* and coded for performance &mdash; WPSSO Core and its add-ons make full use of all available caching techniques (persistent / non-persistent object and disk caching), and load only the PHP library files and object classes they need, keeping their code small, fast, and light. WPSSO Core and its add-ons are also fully tested and compatible with PHP v7.x (PHP v5.4 or better required).
 
 <h3>WPSSO Core Plugin Prerequisite</h3>
 
-WPSSO Mobile App Meta (aka WPSSO AM) is an extension for the WPSSO Core plugin &mdash; which creates complete &amp; accurate meta tags and Schema markup from your existing content for social sharing, Social Media Optimization (SMO), Search Engine Optimization (SEO), Google Rich Cards, Pinterest Rich Pins, etc.
+WPSSO Mobile App Meta (aka WPSSO AM) is an add-on for the WPSSO Core plugin &mdash; which creates complete &amp; accurate meta tags and Schema markup from your existing content for social sharing, Social Media Optimization (SMO), Search Engine Optimization (SEO), Google Rich Cards, Pinterest Rich Pins, etc.
 
-The Free extension works with either the Free or Pro version of WPSSO Core. The [WPSSO AM Pro extension](https://wpsso.com/extend/plugins/wpsso-am/?utm_source=wpssoam-readme-prereq) uses many WPSSO Core Pro features and requires an active and licensed [WPSSO Core Pro plugin](https://wpsso.com/?utm_source=wpssoam-readme-prereq).
+The Free add-on plugin works with either the Free or Pro version of WPSSO Core. The [WPSSO AM Pro add-on](https://wpsso.com/extend/plugins/wpsso-am/?utm_source=wpssoam-readme-prereq) uses many WPSSO Core Pro features and requires an active and licensed [WPSSO Core Pro plugin](https://wpsso.com/?utm_source=wpssoam-readme-prereq).
 
 <h3>Quick List of Features</h3>
 
@@ -103,18 +103,18 @@ The Free extension works with either the Free or Pro version of WPSSO Core. The 
 
 <h3>Extends the WPSSO Core Plugin</h3>
 
-<span style="color:#33cc33">&#x0229b;</span> &nbsp; The WPSSO Mobile App Meta (aka WPSSO AM) Free extension works with either the Free or Pro version of WPSSO Core.
+<span style="color:#33cc33">&#x0229b;</span> &nbsp; The WPSSO Mobile App Meta (aka WPSSO AM) Free add-on plugin works with either the Free or Pro version of WPSSO Core.
 
-<span style="color:#33cc33">&#x0229b;</span> &nbsp; The <a href="https://wpsso.com/extend/plugins/wpsso-am/?utm_source=wpssoam-readme-extends">WPSSO AM Pro extension</a> uses many WPSSO Core Pro features, which requires an active and licensed <a href="https://wpsso.com/?utm_source=wpssoam-readme-extends">WPSSO Core Pro plugin</a>.
+<span style="color:#33cc33">&#x0229b;</span> &nbsp; The <a href="https://wpsso.com/extend/plugins/wpsso-am/?utm_source=wpssoam-readme-extends">WPSSO AM Pro add-on</a> uses many WPSSO Core Pro features, which requires an active and licensed <a href="https://wpsso.com/?utm_source=wpssoam-readme-extends">WPSSO Core Pro plugin</a>.
 
-<span style="color:#33cc33">&#x0229b;</span> &nbsp; <a href="https://wpsso.com/extend/plugins/wpsso-am/?utm_source=wpssoam-readme-purchase">Purchase the WPSSO Mobile App Meta Pro extension here</a> (all plugin purchases include a <em>No Risk 30 Day Refund Policy</em>).
+<span style="color:#33cc33">&#x0229b;</span> &nbsp; <a href="https://wpsso.com/extend/plugins/wpsso-am/?utm_source=wpssoam-readme-purchase">Purchase the WPSSO Mobile App Meta Pro add-on here</a> (all plugin purchases include a <em>No Risk 30 Day Refund Policy</em>).
 
 == Installation ==
 
 <h3>Install and Uninstall</h3>
 
-* [Install the WPSSO AM Extension](https://wpsso.com/docs/plugins/wpsso-am/installation/install-the-plugin/)
-* [Uninstall the WPSSO AM Extension](https://wpsso.com/docs/plugins/wpsso-am/installation/uninstall-the-plugin/)
+* [Install the WPSSO AM Add-on](https://wpsso.com/docs/plugins/wpsso-am/installation/install-the-plugin/)
+* [Uninstall the WPSSO AM Add-on](https://wpsso.com/docs/plugins/wpsso-am/installation/uninstall-the-plugin/)
 
 == Frequently Asked Questions ==
 
@@ -151,6 +151,17 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
+**Version 1.8.1-dev.2 (2018/03/21)**
+
+* *New Features*
+	* None
+* *Improvements*
+	* Renamed plugin "Extensions" to "Add-ons" to avoid confusion and improve / simplify translations.
+* *Bugfixes*
+	* None
+* *Developer Notes*
+	* None
+
 **Version 1.8.0 (2018/02/24)**
 
 * *New Features*
@@ -162,18 +173,11 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * *Developer Notes*
 	* Refactored the WpssoAm `min_version_notice()` method to use PHP's `trigger_error()` and include a notice to refresh plugin update information.
 
-**Version 1.7.22 (2018/02/17)**
-
-* *New Features*
-	* None
-* *Improvements*
-	* Options hidden in the "Basic Options" view that have a different value than their default will no longer be hidden.
-* *Bugfixes*
-	* None
-* *Developer Notes*
-	* None
-
 == Upgrade Notice ==
+
+= 1.8.1-dev.2 =
+
+(2018/03/21) Renamed plugin "Extensions" to "Add-ons" to avoid confusion and improve / simplify translations.
 
 = 1.8.0 =
 
