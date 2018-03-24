@@ -3,7 +3,7 @@
 <table>
 <tr><th align="right" valign="top" nowrap>Plugin Name</th><td>WPSSO Mobile App Meta</td></tr>
 <tr><th align="right" valign="top" nowrap>Summary</th><td>WPSSO Core add-on to provide Apple Store / iTunes and Google Play App meta tags for Apple&#039;s mobile Safari banner and Twitter&#039;s App Card.</td></tr>
-<tr><th align="right" valign="top" nowrap>Stable Version</th><td>1.8.0</td></tr>
+<tr><th align="right" valign="top" nowrap>Stable Version</th><td>1.8.1</td></tr>
 <tr><th align="right" valign="top" nowrap>Requires At Least</th><td>WordPress 3.8</td></tr>
 <tr><th align="right" valign="top" nowrap>Tested Up To</th><td>WordPress 4.9.4</td></tr>
 <tr><th align="right" valign="top" nowrap>Contributors</th><td>jsmoriss</td></tr>
