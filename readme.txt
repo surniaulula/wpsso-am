@@ -19,7 +19,7 @@ WPSSO Core add-on to provide Apple Store / iTunes and Google Play App meta tags 
 
 <img class="readme-icon" src="https://surniaulula.github.io/wpsso-am/assets/icon-256x256.png">
 
-**WPSSO Core add-on to provide Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari banner and Twitter's App Card.**
+**A WPSSO Core add-on to provide Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari banner and Twitter's App Card.**
 
 Promote your website mobile App with a banner in Apple's mobile Safari.
 
