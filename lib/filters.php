@@ -74,14 +74,18 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 		}
 
 		public function filter_get_defaults( $def_opts ) {
+
 			$def_opts = array_merge( $def_opts, self::$cf['opt']['defaults'] );
+
 			/**
 			 * Add options using a key prefix array and post type names.
 			 */
+
 			$def_opts = $this->p->util->add_ptns_to_opts( $def_opts, array(
 				'am_ap_add_to' => 0,
 				'am_ws_add_to' => 1,
 			) );
+
 			return $def_opts;
 		}
 
@@ -167,13 +171,15 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 			return $mt_name;
 		}
 
-		public function filter_option_type( $type, $key ) {
+		public function filter_option_type( $type, $base_key ) {
+
 			if ( ! empty( $type ) ) {
 				return $type;
-			} elseif ( strpos( $key, 'am_' ) !== 0 ) {
+			} elseif ( strpos( $base_key, 'am_' ) !== 0 ) {
 				return $type;
 			}
-			switch ( $key ) {
+
+			switch ( $base_key ) {
 				case 'am_ws_itunes_app_id':
 				case 'am_iphone_app_id':
 				case 'am_ipad_app_id':
