@@ -90,7 +90,9 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 		}
 
 		public function filter_get_md_defaults( $md_defs ) {
+
 			$opts =& $this->p->options;		// shortcut
+
 			return array_merge( $md_defs, array(
 				'am_ap_ast' => isset( $opts['am_ap_ast'] ) ? $opts['am_ap_ast'] : 'US',
 				'am_iphone_app_id' => '',	// iPhone App ID
@@ -110,33 +112,43 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 
 		// adds the website app meta tag to the $mt_name array
 		public function filter_meta_name( $mt_name, $mod ) {
-			if ( $this->p->debug->enabled )
+
+			if ( $this->p->debug->enabled ) {
 				$this->p->debug->mark();
+			}
 
 			$md_opts = array();
 
 			if ( ! $mod['is_post'] ) {		// aka "not singular"
+
 				if ( empty( $this->p->options['am_ws_on_index'] ) ) {
-					if ( $this->p->debug->enabled )
+					if ( $this->p->debug->enabled ) {
 						$this->p->debug->log( 'exiting early: am_ws_on_index not enabled' );
+					}
 					return $mt_name;
 				}
 
 			} elseif ( $mod['is_home_page'] ) {
+
 				if ( empty( $this->p->options['am_ws_on_front'] ) ) {
-					if ( $this->p->debug->enabled )
+					if ( $this->p->debug->enabled ) {
 						$this->p->debug->log( 'exiting early: am_ws_on_front not enabled' );
+					}
 					return $mt_name;
 				}
 
 			} elseif ( ! $mod['post_type'] ) {
-				if ( $this->p->debug->enabled )
+
+				if ( $this->p->debug->enabled ) {
 					$this->p->debug->log( 'exiting early: module post_type is empty' );
+				}
 				return $mt_name;
 
 			} elseif ( empty( $this->p->options['am_ws_add_to_'.$mod['post_type']] ) ) {
-				if ( $this->p->debug->enabled )
+
+				if ( $this->p->debug->enabled ) {
 					$this->p->debug->log( 'exiting early: am_ws_add_to_'.$mod['post_type'].' is empty' );
+				}
 				return $mt_name;
 			}
 
@@ -158,15 +170,17 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 				return $mt_name;
 			}	
 
-			if ( ! empty( $md_opts['am_ws_itunes_app_aff'] ) )
+			if ( ! empty( $md_opts['am_ws_itunes_app_aff'] ) ) {
 				$mt_name['apple-itunes-app'] .= ', affiliate-data='.$md_opts['am_ws_itunes_app_aff'];
-			elseif ( ! empty( $this->p->options['am_ws_itunes_app_aff'] ) )	// fallback to global options
+			} elseif ( ! empty( $this->p->options['am_ws_itunes_app_aff'] ) ) {	// fallback to global options
 				$mt_name['apple-itunes-app'] .= ', affiliate-data='.$this->p->options['am_ws_itunes_app_aff'];
+			}
 				
-			if ( ! empty( $md_opts['am_ws_itunes_app_arg'] ) )
+			if ( ! empty( $md_opts['am_ws_itunes_app_arg'] ) ) {
 				$mt_name['apple-itunes-app'] .= ', app-argument='.$md_opts['am_ws_itunes_app_arg'];
-			elseif ( ! empty( $this->p->options['am_ws_itunes_app_arg'] ) )	// fallback to global options
+			} elseif ( ! empty( $this->p->options['am_ws_itunes_app_arg'] ) ) {	// fallback to global options
 				$mt_name['apple-itunes-app'] .= ', app-argument='.$this->p->options['am_ws_itunes_app_arg'];
+			}
 
 			return $mt_name;
 		}
@@ -203,6 +217,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 					return 'url';
 					break;
 			}
+
 			return $type;
 		}
 
@@ -216,113 +231,185 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 		}
 
 		public function filter_messages_tooltip_post( $text, $idx ) {
-			if ( strpos( $idx, 'tooltip-post-am_' ) !== 0 )
+
+			if ( strpos( $idx, 'tooltip-post-am_' ) !== 0 ) {
 				return $text;
+			}
 
 			switch ( $idx ) {
+
 				case 'tooltip-post-am_iphone_app_id':
+
 					$text = __( 'The numeric representation of your iPhone application ID in the App Store (example: "307234931").', 'wpsso-am' );
+
 					break;
+
 				case 'tooltip-post-am_iphone_app_name':
+
 					$text = __( 'The name of your iPhone application.', 'wpsso-am' );
+
 					break;
+
 				case 'tooltip-post-am_iphone_app_url':
+
 					$text = __( 'Your iPhone App\'s <em>custom</em> URL scheme (you must include "://" after the scheme name).', 'wpsso-am' );
+
 					break;
+
 				case 'tooltip-post-am_ipad_app_id':
+
 					$text = __( 'The numeric representation of your iPad application ID in the App Store (example: "307234931").', 'wpsso-am' );
+
 					break;
+
 				case 'tooltip-post-am_ipad_app_name':
+
 					$text = __( 'The name of your iPad application.', 'wpsso-am' );
+
 					break;
+
 				case 'tooltip-post-am_ipad_app_url':
+
 					$text = __( 'Your iPad App\'s <em>custom</em> URL scheme (you must include "://" after the scheme name).', 'wpsso-am' );
+
 					break;
+
 				case 'tooltip-post-am_gplay_app_id':
+
 					$text = __( 'The fully qualified package name of your Google Play application (example: "com.google.android.apps.maps").', 'wpsso-am' );
+
 					break;
+
 				case 'tooltip-post-am_gplay_app_name':
+
 					$text = __( 'The name of your Google Play application.', 'wpsso-am' );
+
 					break;
+
 				case 'tooltip-post-am_gplay_app_url':
+
 					$text = __( 'Your Google Play App\'s <em>custom</em> URL scheme (you must include "://" after the scheme name).', 'wpsso-am' );
+
 					break;
 			}
+
 			return $text;
 		}
 
 		public function filter_messages_tooltip( $text, $idx ) {
-			if ( strpos( $idx, 'tooltip-am_' ) !== 0 )
+
+			if ( strpos( $idx, 'tooltip-am_' ) !== 0 ) {
 				return $text;
+			}
 
 			switch ( $idx ) {
+
 				case 'tooltip-am_ws_on_index':
+
 					$text = __( 'Add meta tags for the website\'s mobile App to index and archive pages.', 'wpsso-am' );
+
 					break;
+
 				case 'tooltip-am_ws_on_front':
+
 					$text = __( 'Add meta tags for the website\'s mobile App to a static front page.', 'wpsso-am' );
+
 					break;
+
 				case 'tooltip-am_ws_add_to':
+
 					$text = __( 'Add meta tags for the website\'s mobile App to Posts, Pages, and custom post types.', 'wpsso-am' );
+
 					break;
+
 				case 'tooltip-am_ws_itunes_app_id':
+
 					$text = __( 'A mobile App ID in the Apple Store (example: "307234931").', 'wpsso-am' );
+
 					break;
+
 				case 'tooltip-am_ws_itunes_app_aff':
+
 					$text = __( 'If you have an iTunes affiliate string, enter it here.', 'wpsso-am' );
+
 					break;
+
 				case 'tooltip-am_ws_itunes_app_arg':
+
 					$text = __( 'A query string - which may include one or more inline variables - to provide context to your website\'s mobile App. If the user has your mobile App installed, this string can allow them to jump from your website to the same content in the mobile App.', 'wpsso-am' );
+
 					break;
+
 				case 'tooltip-am_ap_ast':
+
 					$text = __( 'The App Store country providing your application.', 'wpsso-am' );
+
 					break;
+
 				case 'tooltip-am_ap_add_to':
+
 					// use WPSSO's translation for the metabox title
 					$text = sprintf( __( 'Include the <em>%1$s</em> tab in the %2$s metabox on Posts, Pages, etc.', 'wpsso-am' ),
 						_x( 'Mobile Apps', 'metabox tab', 'wpsso-am' ), _x( $this->p->cf['meta']['title'], 'metabox title', 'wpsso' ) );
+
 					break;
 			}
+
 			return $text;
 		}
 
 		public function filter_messages_info( $text, $idx ) {
+
 			switch ( $idx ) {
+
 				case 'info-banner-general':
+
 					// use WPSSO's translation for the metabox title
 					$text = '<blockquote class="top-info"><p>'.__( 'These options provide a way to present a banner advertisement in Apple\'s mobile Safari for your Apple Store App(s).', 'wpsso-am' ).' '.__( 'The banner advertisement allows users of your website to download your mobile App and/or switch to your mobile App when using Apple\'s mobile Safari.', 'wpsso-am' ).' '.sprintf( __( 'The Apple Store App information can be customized for each Post, Page, and custom post type under the <em>%1$s</em> tab (enabled above) in the %2$s metabox.', 'wpsso-am' ), _x( 'Mobile Apps', 'metabox tab', 'wpsso-am' ), _x( $this->p->cf['meta']['title'], 'metabox title', 'wpsso' ) ).'</p></blockquote>';
+
 					break;
+
 				case 'info-banner-itunes':
+
 					$text = '<blockquote class="top-info"><p>'.__( 'If you have an Apple Store App to access your website (as an alternative to using mobile web browsers, for example) and/or want to promote a single Apple Store App on your website, enter its details here.', 'wpsso-am' ).'</p></blockquote>';
+
 					break;
+
 				case 'info-appmeta-general':
+
 					// use WPSSO's translation for the metabox title
 					$text = '<blockquote class="top-info"><p>'.sprintf( __( 'An <em>%1$s</em> tab can be added to the %2$s metabox on Posts, Pages, and custom post types, allowing you to enter specific information about one or more Apple Store and Google Play mobile Apps.', 'wpsso-am' ), _x( 'Mobile Apps', 'metabox tab', 'wpsso-am' ), _x( $this->p->cf['meta']['title'], 'metabox title', 'wpsso' ) ).' '.sprintf( __( 'The <em>%s</em> information is used to create meta tags for Twitter\'s App Card and customize a mobile App banner for Apple\'s mobile Safari.', 'wpsso-am' ), _x( 'Mobile Apps', 'metabox tab', 'wpsso-am' ) ).'</p></blockquote>';
+
 					break;
 			}
+
 			return $text;
 		}
 
 		public function filter_status_gpl_features( $features, $ext, $info, $pkg ) {
+
 			$features['(code) Mobile App Banner'] = array( 
 				'status' => $this->p->options['am_ws_itunes_app_id'] ? 'on' : 'off'
 			);
+
 			return $features;
 		}
 
 		public function filter_status_pro_features( $features, $ext, $info, $pkg ) {
+
 			$features['(code) Custom Mobile Apps Meta'] = array( 
 				'td_class' => $pkg['aop'] ? '' : 'blank',
 				'purchase' => $pkg['purchase'],
 				'status' => $pkg['aop'] ? 'on' : 'off',
 			);
+
 			$features['(code) Twitter App Card Meta Tags'] = array( 
 				'td_class' => $pkg['aop'] ? '' : 'blank',
 				'purchase' => $pkg['purchase'],
 				'status' => $pkg['aop'] ? 'on' : 'off',
 			);
+
 			return $features;
 		}
 	}
 }
-

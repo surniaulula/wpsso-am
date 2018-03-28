@@ -21,22 +21,18 @@ if ( ! class_exists( 'WpssoAmGplAdminAmGeneral' ) ) {
 			}
 
 			$this->p->util->add_plugin_filters( $this, array( 
-				'appmeta_general_rows' => 2,
+				'am_appmeta_general_rows' => 2,
 			), 100 );
 		}
 
-		public function filter_appmeta_general_rows( $table_rows, $form ) {
+		public function filter_am_appmeta_general_rows( $table_rows, $form ) {
 
 			if ( $this->p->debug->enabled ) {
 				$this->p->debug->mark();
 			}
 
-			$table_rows[] = '<td colspan="2">'.
-				$this->p->msgs->get( 'info-appmeta-general' ).'</td>';
-
-			$table_rows[] = '<td colspan="2">'.
-				$this->p->msgs->get( 'pro-feature-msg', 
-					array( 'lca' => 'wpssoam' ) ).'</td>';
+			$table_rows[] = '<td colspan="2">'.$this->p->msgs->get( 'info-appmeta-general' ).'</td>';
+			$table_rows[] = '<td colspan="2">'.$this->p->msgs->get( 'pro-feature-msg', array( 'lca' => 'wpssoam' ) ).'</td>';
 
 			$add_to_checkboxes = '';
 			foreach ( $this->p->util->get_post_types( 'objects' ) as $pt ) {
@@ -44,12 +40,10 @@ if ( ! class_exists( 'WpssoAmGplAdminAmGeneral' ) ) {
 					' '.$pt->label.( empty( $pt->description ) ? '' : ' ('.$pt->description.')' ).'</p>';
 			}
 
-			$table_rows[] = $form->get_th_html( _x( 'Show Tab on Post Types',
-				'option label', 'wpsso-am' ), '', 'am_ap_add_to' ).
+			$table_rows[] = $form->get_th_html( _x( 'Show Tab on Post Types', 'option label', 'wpsso-am' ), '', 'am_ap_add_to' ).
 			'<td class="blank">'.$add_to_checkboxes.'</td>';
 
-			$table_rows[] = $form->get_th_html( _x( 'Default App Store Territory',
-				'option label', 'wpsso-am' ), '', 'am_ap_ast' ).
+			$table_rows[] = $form->get_th_html( _x( 'Default App Store Territory', 'option label', 'wpsso-am' ), '', 'am_ap_ast' ).
 			'<td class="blank">'.$form->get_no_select( 'am_ap_ast', WpssoAmConfig::$app_stores ).'</td>';
 
 			return $table_rows;

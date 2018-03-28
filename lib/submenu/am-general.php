@@ -39,36 +39,45 @@ if ( ! class_exists( 'WpssoAmSubmenuAmGeneral' ) && class_exists( 'WpssoAdmin' )
 		}
 
 		public function show_metabox_banner() {
-			$metabox_id = 'banner';
-			$this->p->util->do_table_rows( apply_filters( $this->p->cf['lca'].'_'.$metabox_id.'_general_rows', 
-				$this->get_table_rows( $metabox_id, 'general' ), $this->form ), 'metabox-'.$metabox_id.'-general' );
 
-			$tabs = apply_filters( $this->p->cf['lca'].'_am_'.$metabox_id.'_tabs', array(
+			$metabox_id = 'am-banner';
+			$tab_key = 'general';
+
+			$this->p->util->do_table_rows( apply_filters( SucomUtil::sanitize_hookname( $this->p->lca.'_'.$metabox_id.'_'.$tab_key.'_rows' ),
+				$this->get_table_rows( $metabox_id, $tab_key ), $this->form ), 'metabox-'.$metabox_id.'-'.$tab_key );
+
+			$tabs = apply_filters( SucomUtil::sanitize_hookname( $this->p->lca.'_'.$metabox_id.'_tabs' ), array(
 				'itunes' => _x( 'Apple Store App', 'metabox tab', 'wpsso-am' ),
 			) );
 
 			$table_rows = array();
-			foreach ( $tabs as $key => $title ) {
-				$table_rows[$key] = array_merge( $this->get_table_rows( $metabox_id, $key ), 
-					apply_filters( $this->p->cf['lca'].'_'.$metabox_id.'_'.$key.'_rows', array(), $this->form ) );
+
+			foreach ( $tabs as $tab_key => $title ) {
+				$table_rows[$tab_key] = array_merge( $this->get_table_rows( $metabox_id, $tab_key ), 
+					apply_filters( SucomUtil::sanitize_hookname( $this->p->lca.'_'.$metabox_id.'_'.$tab_key.'_rows' ), array(), $this->form ) );
 			}
+
 			$this->p->util->do_metabox_tabs( $metabox_id, $tabs, $table_rows );
 		}
 
 		public function show_metabox_appmeta() {
-			$metabox_id = 'appmeta';
-			$key = 'general';
-			$this->p->util->do_table_rows( apply_filters( $this->p->cf['lca'].'_'.$metabox_id.'_'.$key.'_rows', 
-				$this->get_table_rows( $metabox_id, $key ), $this->form, false ), 'metabox-'.$metabox_id.'-'.$key );
+
+			$metabox_id = 'am-appmeta';
+			$tab_key = 'general';
+
+			$this->p->util->do_table_rows( apply_filters( SucomUtil::sanitize_hookname( $this->p->lca.'_'.$metabox_id.'_'.$tab_key.'_rows' ),
+				$this->get_table_rows( $metabox_id, $tab_key ), $this->form, false ), 'metabox-'.$metabox_id.'-'.$tab_key );
 		}
 
-		protected function get_table_rows( $metabox_id, $key ) {
-			$table_rows = array();
-			switch ( $metabox_id.'-'.$key ) {
-				case 'banner-general':
+		protected function get_table_rows( $metabox_id, $tab_key ) {
 
-					$table_rows[] = '<td colspan="2">'.
-						$this->p->msgs->get( 'info-banner-general' ).'</td>';
+			$table_rows = array();
+
+			switch ( $metabox_id.'-'.$tab_key ) {
+
+				case 'am-banner-general':
+
+					$table_rows[] = '<td colspan="2">'.$this->p->msgs->get( 'info-banner-general' ).'</td>';
 
 					$table_rows[] = $this->form->get_th_html( _x( 'Add Banner to Archive Webpages',
 						'option label', 'wpsso-am' ), null, 'am_ws_on_index' ).
@@ -89,10 +98,9 @@ if ( ! class_exists( 'WpssoAmSubmenuAmGeneral' ) && class_exists( 'WpssoAdmin' )
 
 					break;
 
-				case 'banner-itunes':
+				case 'am-banner-itunes':
 
-					$table_rows[] = '<td colspan="2">'.
-						$this->p->msgs->get( 'info-banner-itunes' ).'</td>';
+					$table_rows[] = '<td colspan="2">'.$this->p->msgs->get( 'info-banner-itunes' ).'</td>';
 
 					$table_rows[] = $this->form->get_th_html( _x( 'Default App ID Number',
 						'option label', 'wpsso-am' ), '', 'am_ws_itunes_app_id' ).
@@ -108,8 +116,8 @@ if ( ! class_exists( 'WpssoAmSubmenuAmGeneral' ) && class_exists( 'WpssoAdmin' )
 
 					break;
 			}
+
 			return $table_rows;
 		}
 	}
 }
-
