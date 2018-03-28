@@ -262,4 +262,3 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 		}
 	}
 }
-
