@@ -240,7 +240,7 @@ msgid "Google Play App URL Scheme"
 msgstr ""
 
 #: lib/gpl/admin/post.php:139 lib/pro/admin/post.php:148
-#: lib/submenu/am-general.php:33
+#: lib/submenu/am-general.php:35
 msgctxt "metabox title"
 msgid "Mobile App Banner"
 msgstr ""
@@ -260,42 +260,42 @@ msgctxt "option label"
 msgid "Argument String"
 msgstr ""
 
-#: lib/submenu/am-general.php:37
+#: lib/submenu/am-general.php:39
 msgctxt "metabox title"
 msgid "Mobile App Products"
 msgstr ""
 
-#: lib/submenu/am-general.php:50
+#: lib/submenu/am-general.php:52
 msgctxt "metabox tab"
 msgid "Apple Store App"
 msgstr ""
 
-#: lib/submenu/am-general.php:82
+#: lib/submenu/am-general.php:84
 msgctxt "option label"
 msgid "Add Banner to Archive Webpages"
 msgstr ""
 
-#: lib/submenu/am-general.php:86
+#: lib/submenu/am-general.php:88
 msgctxt "option label"
 msgid "Add Banner to Static Front Page"
 msgstr ""
 
-#: lib/submenu/am-general.php:96
+#: lib/submenu/am-general.php:98
 msgctxt "option label"
 msgid "Add Banner to Post Types"
 msgstr ""
 
-#: lib/submenu/am-general.php:105
+#: lib/submenu/am-general.php:107
 msgctxt "option label"
 msgid "Default App ID Number"
 msgstr ""
 
-#: lib/submenu/am-general.php:109
+#: lib/submenu/am-general.php:111
 msgctxt "option label"
 msgid "Default Affiliate Data"
 msgstr ""
 
-#: lib/submenu/am-general.php:113
+#: lib/submenu/am-general.php:115
 msgctxt "option label"
 msgid "Default Argument String"
 msgstr ""
