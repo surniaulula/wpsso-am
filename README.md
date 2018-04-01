@@ -33,7 +33,7 @@
 
 <h4>WPSSO AM Free / Standard Features</h4>
 
-<p><span style="color:#33cc33">&#x0229b;</span> &nbsp; Extends the features of WPSSO Core Free or Pro.</p>
+<p><span style="color:#33cc33">&#x0229b;</span> &nbsp; Extends the features of the WPSSO Core Free or Pro plugin.</p>
 
 <p><span style="color:#33cc33">&#x0229b;</span> &nbsp; Adds an optional banner advertisement in Apple's mobile Safari for your website's Apple Store mobile App.</p>
 
