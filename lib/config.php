@@ -227,9 +227,11 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 		);
 
 		public static function set_constants( $plugin_filepath ) { 
+
 			if ( defined( 'WPSSOAM_VERSION' ) ) {			// execute and define constants only once
 				return;
 			}
+
 			define( 'WPSSOAM_VERSION', self::$cf['plugin']['wpssoam']['version'] );						
 			define( 'WPSSOAM_FILEPATH', $plugin_filepath );						
 			define( 'WPSSOAM_PLUGINDIR', trailingslashit( realpath( dirname( $plugin_filepath ) ) ) );
