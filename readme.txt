@@ -160,7 +160,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * *Bugfixes*
 	* None
 * *Developer Notes*
-	* Renamed the WpssoUtil do_table_rows() method to do_metabox_table() for the Gutenberg changes in WPSSO v3.57.0.
+	* Renamed some WpssoUtil methods for Gutenberg changes in WPSSO v3.57.0.
 
 **Version 1.8.1 (2018/03/24)**
 
@@ -188,7 +188,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 = 1.8.2-dev.1 =
 
-(2018/04/01) Renamed the WpssoUtil do_table_rows() method to do_metabox_table() for the Gutenberg changes in WPSSO v3.57.0.
+(2018/04/01) Renamed some WpssoUtil methods for Gutenberg changes in WPSSO v3.57.0.
 
 = 1.8.1 =
 
