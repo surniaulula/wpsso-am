@@ -59,7 +59,7 @@ if ( ! class_exists( 'WpssoAmSubmenuAmGeneral' ) && class_exists( 'WpssoAdmin' )
 					apply_filters( SucomUtil::sanitize_hookname( $this->p->lca.'_'.$metabox_id.'_'.$tab_key.'_rows' ), array(), $this->form ) );
 			}
 
-			$this->p->util->do_metabox_tabs( $metabox_id, $tabs, $table_rows );
+			$this->p->util->do_metabox_tabbed( $metabox_id, $tabs, $table_rows );
 		}
 
 		public function show_metabox_appmeta() {
