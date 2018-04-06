@@ -318,11 +318,6 @@ msgid ""
 "%5$s is currently installed)."
 msgstr ""
 
-#. translators: %s is the short plugin name
-#: wpsso-am.php:213
-msgid "%s warning:"
-msgstr ""
-
 #. Plugin Name of the plugin/theme
 msgid "WPSSO Mobile App Meta"
 msgstr ""
