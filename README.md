@@ -29,13 +29,11 @@
 
 <p>The Free add-on works with either the Free or Pro version of WPSSO Core. The <a href="https://wpsso.com/extend/plugins/wpsso-am/?utm_source=wpssoam-readme">WPSSO AM Pro add-on</a> uses many WPSSO Core Pro features and requires an active and licensed <a href="https://wpsso.com/?utm_source=wpssoam-readme">WPSSO Core Pro plugin</a>.</p>
 
-<h3>Quick List of Features</h3>
+<h3>WPSSO AM Free / Standard Features</h3>
 
-<h4>WPSSO AM Free / Standard Features</h4>
+<p>&#x0229b; &nbsp; Extends the features of the WPSSO Core Free or Pro plugin.</p>
 
-<p><span style="color:#33cc33">&#x0229b;</span> &nbsp; Extends the features of the WPSSO Core Free or Pro plugin.</p>
-
-<p><span style="color:#33cc33">&#x0229b;</span> &nbsp; Adds an optional banner advertisement in Apple's mobile Safari for your website's Apple Store mobile App.</p>
+<p>&#x0229b; &nbsp; Adds an optional banner advertisement in Apple's mobile Safari for your website's Apple Store mobile App.</p>
 
 <ul>
 <li>Add Banner to Archive Webpages</li>
@@ -50,17 +48,15 @@
 </ul></li>
 </ul>
 
-<p><span style="color:#33cc33">&#x0229b;</span> &nbsp; Download the Free version from <a href="https://surniaulula.github.io/wpsso-am/">GitHub</a> or <a href="https://wordpress.org/plugins/wpsso-am/">WordPress.org</a>.</p>
+<p>&#x0229b; &nbsp; Download the Free version from <a href="https://surniaulula.github.io/wpsso-am/">GitHub</a> or <a href="https://wordpress.org/plugins/wpsso-am/">WordPress.org</a>.</p>
 
-<h3>Quick List of Features (Continued)</h3>
+<h3>WPSSO AM Pro / Additional Features</h3>
 
-<h4>WPSSO AM Pro / Additional Features</h4>
+<p>&#x0229b; &nbsp; Extends the features of WPSSO Core Pro (requires an active and licensed <a href="https://wpsso.com/">WPSSO Core Pro plugin</a>).</p>
 
-<p><span style="color:#33cc33">&#x0229b;</span> &nbsp; Extends the features of WPSSO Core Pro (requires an active and licensed <a href="https://wpsso.com/">WPSSO Core Pro plugin</a>).</p>
+<p>&#x0229b; &nbsp; Adds <a href="https://dev.twitter.com/cards/types/app">Twitter App Card</a> meta tags to webpages.</p>
 
-<p><span style="color:#33cc33">&#x0229b;</span> &nbsp; Adds <a href="https://dev.twitter.com/cards/types/app">Twitter App Card</a> meta tags to webpages.</p>
-
-<p><span style="color:#33cc33">&#x0229b;</span> &nbsp; Includes a Mobile Apps tab in the Social and Search Optimization metabox with additional options:</p>
+<p>&#x0229b; &nbsp; Includes a Mobile Apps tab in the Social and Search Optimization metabox with additional options:</p>
 
 <ul>
 <li>Twitter App Card
@@ -98,17 +94,17 @@
 </ul></li>
 </ul>
 
-<p><span style="color:#33cc33">&#x0229b;</span> &nbsp; Include or exclude the Mobile Apps tab on posts, pages, and custom post types.</p>
+<p>&#x0229b; &nbsp; Include or exclude the Mobile Apps tab on posts, pages, and custom post types.</p>
 
 <h3>Mobile App Meta Tags</h3>
 
-<p><span style="color:#33cc33">&#x0229b;</span> &nbsp; <strong>Apple mobile Safari Meta Tags</strong></p>
+<p>&#x0229b; &nbsp; <strong>Apple mobile Safari Meta Tags</strong></p>
 
 <ul>
 <li>apple-itunes-app</li>
 </ul>
 
-<p><span style="color:#33cc33">&#x0229b;</span> &nbsp; <strong>Twitter App Card Meta Tags</strong> (Pro version)</p>
+<p>&#x0229b; &nbsp; <strong>Twitter App Card Meta Tags</strong> (Pro version)</p>
 
 <ul>
 <li>twitter:app:country</li>
@@ -125,11 +121,15 @@
 
 <h3>Extends the WPSSO Core Plugin</h3>
 
-<p><span style="color:#33cc33">&#x0229b;</span> &nbsp; The WPSSO Mobile App Meta (aka WPSSO AM) Free add-on works with either the Free or Pro version of WPSSO Core.</p>
+<p>&#x0229b; &nbsp; The WPSSO Mobile App Meta (aka WPSSO AM) Free add-on works with either the Free or Pro version of WPSSO Core.</p>
 
-<p><span style="color:#33cc33">&#x0229b;</span> &nbsp; The <a href="https://wpsso.com/extend/plugins/wpsso-am/?utm_source=wpssoam-readme">WPSSO AM Pro add-on</a> uses many WPSSO Core Pro features, which requires an active and licensed <a href="https://wpsso.com/?utm_source=wpssoam-readme">WPSSO Core Pro plugin</a>.</p>
+<p>&#x0229b; &nbsp; The <a href="https://wpsso.com/extend/plugins/wpsso-am/?utm_source=wpssoam-readme">WPSSO AM Pro add-on</a> uses many WPSSO Core Pro features, which requires an active and licensed <a href="https://wpsso.com/?utm_source=wpssoam-readme">WPSSO Core Pro plugin</a>.</p>
 
-<p><span style="color:#33cc33">&#x0229b;</span> &nbsp; <a href="https://wpsso.com/extend/plugins/wpsso-am/?utm_source=wpssoam-readme">Purchase the WPSSO Mobile App Meta Pro add-on here</a> (all plugin purchases include a <em>No Risk 30 Day Refund Policy</em>).</p>
+<!--smp-ignore-->
+
+<p>&#x0229b; &nbsp; <a href="https://wpsso.com/extend/plugins/wpsso-am/?utm_source=wpssoam-readme">Purchase the WPSSO Mobile App Meta Pro add-on here</a> (all purchases include a <em>No Risk 30 Day Refund Policy</em>).</p>
+
+<!--/smp-ignore-->
 
 
 <h2>Installation</h2>
