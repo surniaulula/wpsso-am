@@ -49,23 +49,20 @@ if ( ! class_exists( 'WpssoAmGplAdminPost' ) ) {
 				 * Twitter App Card
 				 */
 				'subsection_app_card' => array(
-					'td_class' => 'subsection top',
-					'header' => 'h4',
+					'td_class' => 'subsection top', 'header' => 'h4',
 					'label' => _x( 'Twitter App Card', 'metabox title', 'wpsso-am' )
 				),
-				/**
-				 * App Store Territory
-				 */
 				'am_ap_ast' => array(
 					'label' => _x( 'App Store Territory', 'option label', 'wpsso-am' ),
 					'th_class' => 'medium', 'tooltip' => 'am_ap_ast', 'td_class' => 'blank',
 					'content' => $form->get_no_select( 'am_ap_ast', WpssoAmConfig::$app_stores ),
 				),
+
 				/**
-				 * iPhone App
+				 * iPhone App Details
 				 */
 				'subsection_iphone_app' => array(
-					'header' => 'h5',
+					'td_class' => 'subsection', 'header' => 'h5',
 					'label' => _x( 'iPhone App Details', 'metabox title', 'wpsso-am' )
 				),
 				'am_iphone_app_id' => array(
@@ -84,11 +81,12 @@ if ( ! class_exists( 'WpssoAmGplAdminPost' ) ) {
 					'th_class' => 'medium', 'tooltip' => 'post-am_iphone_app_url', 'td_class' => 'blank',
 					'content' => $form->get_no_input_value( '', 'wide' ),
 				),
+
 				/**
-				 * iPad App
+				 * iPad App Details
 				 */
 				'subsection_ipad_app' => array(
-					'header' => 'h5',
+					'td_class' => 'subsection', 'header' => 'h5',
 					'label' => _x( 'iPad App Details', 'metabox title', 'wpsso-am' )
 				),
 				'am_ipad_app_id' => array(
@@ -107,11 +105,12 @@ if ( ! class_exists( 'WpssoAmGplAdminPost' ) ) {
 					'th_class' => 'medium', 'tooltip' => 'post-am_ipad_app_url', 'td_class' => 'blank',
 					'content' => $form->get_no_input_value( '', 'wide' ),
 				),
+
 				/**
-				 * Google Play App
+				 * Google Play App Details
 				 */
 				'subsection_gplay_app' => array(
-					'header' => 'h5',
+					'td_class' => 'subsection', 'header' => 'h5',
 					'label' => _x( 'Google Play App Details', 'metabox title', 'wpsso-am' )
 				),
 				'am_gplay_app_id' => array(
@@ -130,12 +129,12 @@ if ( ! class_exists( 'WpssoAmGplAdminPost' ) ) {
 					'th_class' => 'medium', 'tooltip' => 'post-am_gplay_app_url', 'td_class' => 'blank',
 					'content' => $form->get_no_input_value( '', 'wide' ),
 				),
+
 				/**
 				 * Mobile App Banner
 				 */
 				'subsection_app_banner' => array(
-					'td_class' => 'subsection',
-					'header' => 'h4',
+					'td_class' => 'subsection', 'header' => 'h4',
 					'label' => _x( 'Mobile App Banner', 'metabox title', 'wpsso-am' )
 				),
 				'am_ws_itunes_app_id' => array(
@@ -159,4 +158,3 @@ if ( ! class_exists( 'WpssoAmGplAdminPost' ) ) {
 		}
 	}
 }
-
