@@ -43,14 +43,14 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 						),
 						'gpl' => array(
 							'admin' => array(
-								'am-general' => 'AM General Settings',
-								'post' => 'Post Settings',
+								'am-general' => 'Extend Mobile App Meta Settings',
+								'post' => 'Extend Post Settings',
 							),
 						),
 						'pro' => array(
 							'admin' => array(
-								'am-general' => 'AM General Settings',
-								'post' => 'Post Settings',
+								'am-general' => 'Extend Mobile App Meta Settings',
+								'post' => 'Extend Post Settings',
 							),
 							'head' => array(
 								'twittercard' => '(code) Twitter App Card Meta Tags',
