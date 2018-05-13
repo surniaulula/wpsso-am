@@ -19,11 +19,11 @@ WPSSO Core add-on to provide Apple Store / iTunes and Google Play App meta tags 
 
 <img class="readme-icon" src="https://surniaulula.github.io/wpsso-am/assets/icon-256x256.png">
 
-**A WPSSO Core add-on to provide Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari banner and Twitter's App Card.**
+**Promote your website mobile App with a banner in Apple's mobile Safari.**
 
-Promote your website mobile App with a banner in Apple's mobile Safari.
+**Add [Twitter App Card](https://dev.twitter.com/cards/types/app) meta tags to mobile App product pages.**
 
-Add [Twitter App Card](https://dev.twitter.com/cards/types/app) meta tags to mobile App product pages.
+<div style="clear:both"></div><!-- clear fyi container before the first h3 -->
 
 <h3>WPSSO AM Free / Standard Features</h3>
 
@@ -93,7 +93,7 @@ Add [Twitter App Card](https://dev.twitter.com/cards/types/app) meta tags to mob
 
 <h3>WPSSO Core Plugin Prerequisite</h3>
 
-WPSSO Mobile App Meta (aka WPSSO AM) is an add-on for the WPSSO Core plugin. The Free add-on works with either the Free or Pro versions of WPSSO Core. The [WPSSO AMM Pro add-on](https://wpsso.com/extend/plugins/wpsso-am/) uses many WPSSO Core Pro features and requires an active and licensed [WPSSO Core Pro plugin](https://wpsso.com/).
+WPSSO Mobile App Meta (aka WPSSO AM) is an add-on for the WPSSO Core plugin. The Free add-on works with either the Free or Pro versions of WPSSO Core. The [WPSSO AM Pro add-on](https://wpsso.com/extend/plugins/wpsso-am/) uses many WPSSO Core Pro features and requires an active and licensed [WPSSO Core Pro plugin](https://wpsso.com/).
 
 == Installation ==
 
