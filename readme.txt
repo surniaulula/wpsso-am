@@ -21,17 +21,28 @@ WPSSO Core add-on to provide Apple Store / iTunes and Google Play App meta tags 
 
 **Promote your website mobile App with a banner in Apple's mobile Safari.**
 
-**Add [Twitter App Card](https://dev.twitter.com/cards/types/app) meta tags to mobile App product pages.**
+**Add [Twitter App Card](https://dev.twitter.com/cards/types/app) meta tags to mobile App product pages:**
 
-<div style="clear:both"></div><!-- clear fyi container before the first h3 -->
+* twitter:app:country
+* twitter:app:id:iphone
+* twitter:app:id:ipad
+* twitter:app:id:googleplay
+* twitter:app:name:iphone
+* twitter:app:name:ipad
+* twitter:app:name:googleplay
+* twitter:app:url:iphone
+* twitter:app:url:ipad
+* twitter:app:url:googleplay
+
+<div style="clear:both"></div>
 
 <h3>WPSSO AM Free / Standard Features</h3>
 
 * Extends the features of the WPSSO Core Free or Pro plugin.
 
-* Adds an optional banner advertisement in Apple's mobile Safari for your website's Apple Store mobile App.
+* Adds an optional banner in Apple's mobile Safari for your website's Apple Store mobile App.
 
-* Adds a Mobile App Meta settings page with additional options:
+* Adds a Mobile App Meta settings page to the SSO menu with additional options:
 
 	* Mobile App Banner
 		* Add Banner to Archive Webpages
@@ -76,20 +87,6 @@ WPSSO Core add-on to provide Apple Store / iTunes and Google Play App meta tags 
 		* App ID Number
 		* Affiliate Data
 		* Argument String
-
-<h3>Mobile App Meta Tags</h3>
-
-* apple-itunes-app
-* twitter:app:country
-* twitter:app:id:iphone
-* twitter:app:id:ipad
-* twitter:app:id:googleplay
-* twitter:app:name:iphone
-* twitter:app:name:ipad
-* twitter:app:name:googleplay
-* twitter:app:url:iphone
-* twitter:app:url:ipad
-* twitter:app:url:googleplay
 
 <h3>WPSSO Core Plugin Prerequisite</h3>
 
