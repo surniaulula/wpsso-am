@@ -25,65 +25,61 @@ Promote your website mobile App with a banner in Apple's mobile Safari.
 
 Add [Twitter App Card](https://dev.twitter.com/cards/types/app) meta tags to mobile App product pages.
 
-<h3>WPSSO Core Plugin Prerequisite</h3>
-
-WPSSO Mobile App Meta (aka WPSSO AM) is an add-on for the WPSSO Core plugin &mdash; which creates complete &amp; accurate meta tags and Schema markup from your existing content for social sharing, Social Media Optimization (SMO), Search Engine Optimization (SEO), Google Rich Cards, Pinterest Rich Pins, etc.
-
-The Free add-on works with either the Free or Pro version of WPSSO Core. The [WPSSO AM Pro add-on](https://wpsso.com/extend/plugins/wpsso-am/?utm_source=wpssoam-readme) uses many WPSSO Core Pro features and requires an active and licensed [WPSSO Core Pro plugin](https://wpsso.com/?utm_source=wpssoam-readme).
-
 <h3>WPSSO AM Free / Standard Features</h3>
 
-&#x0229b; &nbsp; Extends the features of the WPSSO Core Free or Pro plugin.
+* Extends the features of the WPSSO Core Free or Pro plugin.
 
-&#x0229b; &nbsp; Adds an optional banner advertisement in Apple's mobile Safari for your website's Apple Store mobile App.
+* Adds an optional banner advertisement in Apple's mobile Safari for your website's Apple Store mobile App.
 
-* Add Banner to Archive Webpages
-* Add Banner to Static Front Page
-* Add Banner to Post Types (posts, pages, media, products, etc.).
-* Apple Store App
-	* Default App ID Number
-	* Default Affiliate Data
-	* Default Argument String
+* Adds a Mobile App Meta settings page with additional options:
 
-&#x0229b; &nbsp; Download the Free version from [GitHub](https://surniaulula.github.io/wpsso-am/) or [WordPress.org](https://wordpress.org/plugins/wpsso-am/).
+	* Mobile App Banner
+		* Add Banner to Archive Webpages
+		* Add Banner to Static Front Page
+		* Add Banner to Post Types (posts, pages, media, products, etc.).
+	* Apple Store App
+		* Default App ID Number
+		* Default Affiliate Data
+		* Default Argument String
+
+* Download the Free version from [GitHub](https://surniaulula.github.io/wpsso-am/) or [WordPress.org](https://wordpress.org/plugins/wpsso-am/).
 
 <h3>WPSSO AM Pro / Additional Features</h3>
 
-&#x0229b; &nbsp; Extends the features of WPSSO Core Pro (requires an active and licensed <a href="https://wpsso.com/">WPSSO Core Pro plugin</a>).
+* Extends the features of WPSSO Core Pro (requires an active and licensed <a href="https://wpsso.com/">WPSSO Core Pro plugin</a>).
 
-&#x0229b; &nbsp; Adds [Twitter App Card](https://dev.twitter.com/cards/types/app) meta tags to webpages.
+* Adds optional [Twitter App Card](https://dev.twitter.com/cards/types/app) meta tags to webpages.
 
-&#x0229b; &nbsp; Includes a Mobile Apps tab in the Social and Search Optimization metabox with additional options:
+* Extends the Mobile App Meta settings page with additional options:
 
-* Twitter App Card
-	* App Store Territory
-	* iPhone App Details
-		* iPhone App ID
-		* iPhone App Name
-		* iPhone App URL Scheme
-	* iPad App Details
-		* iPad App ID
-		* iPad App Name
-		* iPad App URL Scheme
-	* Google Play App Details
-		* Google Play App ID
-		* Google Play App Name
-		* Google Play App URL Scheme
-* Mobile App Banner
-	* App ID Number
-	* Affiliate Data
-	* Argument String
+	* Mobile App Products
+		* Show Tab on Post Types
+		* Default App Store Territory
 
-&#x0229b; &nbsp; Include or exclude the Mobile Apps tab on posts, pages, and custom post types.
+* Includes and optional Mobile Apps tab in the Social and Search Optimization metabox with additional options:
+
+	* Twitter App Card
+		* App Store Territory
+		* iPhone App Details
+			* iPhone App ID
+			* iPhone App Name
+			* iPhone App URL Scheme
+		* iPad App Details
+			* iPad App ID
+			* iPad App Name
+			* iPad App URL Scheme
+		* Google Play App Details
+			* Google Play App ID
+			* Google Play App Name
+			* Google Play App URL Scheme
+	* Mobile App Banner
+		* App ID Number
+		* Affiliate Data
+		* Argument String
 
 <h3>Mobile App Meta Tags</h3>
 
-&#x0229b; &nbsp; **Apple mobile Safari Meta Tags**
-
 * apple-itunes-app
-
-&#x0229b; &nbsp; **Twitter App Card Meta Tags** (Pro version)
-
 * twitter:app:country
 * twitter:app:id:iphone
 * twitter:app:id:ipad
@@ -95,17 +91,9 @@ The Free add-on works with either the Free or Pro version of WPSSO Core. The [WP
 * twitter:app:url:ipad
 * twitter:app:url:googleplay
 
-<h3>Extends the WPSSO Core Plugin</h3>
+<h3>WPSSO Core Plugin Prerequisite</h3>
 
-&#x0229b; &nbsp; The WPSSO Mobile App Meta (aka WPSSO AM) Free add-on works with either the Free or Pro version of WPSSO Core.
-
-&#x0229b; &nbsp; The <a href="https://wpsso.com/extend/plugins/wpsso-am/?utm_source=wpssoam-readme">WPSSO AM Pro add-on</a> uses many WPSSO Core Pro features, which requires an active and licensed <a href="https://wpsso.com/?utm_source=wpssoam-readme">WPSSO Core Pro plugin</a>.
-
-<!--smp-ignore-->
-
-&#x0229b; &nbsp; <a href="https://wpsso.com/extend/plugins/wpsso-am/?utm_source=wpssoam-readme">Purchase the WPSSO Mobile App Meta Pro add-on here</a> (all purchases include a <em>No Risk 30 Day Refund Policy</em>).
-
-<!--/smp-ignore-->
+WPSSO Mobile App Meta (aka WPSSO AM) is an add-on for the WPSSO Core plugin. The Free add-on works with either the Free or Pro versions of WPSSO Core. The [WPSSO AMM Pro add-on](https://wpsso.com/extend/plugins/wpsso-am/) uses many WPSSO Core Pro features and requires an active and licensed [WPSSO Core Pro plugin](https://wpsso.com/).
 
 == Installation ==
 
