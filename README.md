@@ -116,7 +116,7 @@
 
 <h3>WPSSO Core Plugin Prerequisite</h3>
 
-<p>WPSSO Mobile App Meta (aka WPSSO AM) is an add-on for the WPSSO Core plugin. The Free add-on works with either the Free or Pro versions of WPSSO Core. The <a href="https://wpsso.com/extend/plugins/wpsso-am/">WPSSO AM Pro add-on</a> uses many WPSSO Core Pro features and requires an active and licensed <a href="https://wpsso.com/">WPSSO Core Pro plugin</a>.</p>
+<p>WPSSO Mobile App Meta (aka WPSSO AM) is an add-on for the WPSSO Core plugin. The WPSSO AM Free add-on works with either the Free or Pro versions of WPSSO Core. The <a href="https://wpsso.com/extend/plugins/wpsso-am/">WPSSO AM Pro add-on</a> uses many WPSSO Core Pro features and requires an active and licensed <a href="https://wpsso.com/">WPSSO Core Pro plugin</a>.</p>
 
 
 <h2>Installation</h2>
