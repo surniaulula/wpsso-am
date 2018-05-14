@@ -34,8 +34,6 @@ WPSSO Core add-on to provide Apple Store / iTunes and Google Play App meta tags 
 * twitter:app:url:ipad
 * twitter:app:url:googleplay
 
-<div style="clear:both"></div>
-
 <h3>WPSSO AM Free / Standard Features</h3>
 
 * Extends the features of the WPSSO Core Free or Pro plugin.
@@ -90,7 +88,7 @@ WPSSO Core add-on to provide Apple Store / iTunes and Google Play App meta tags 
 
 <h3>WPSSO Core Plugin Prerequisite</h3>
 
-WPSSO Mobile App Meta (aka WPSSO AM) is an add-on for the WPSSO Core plugin. The WPSSO AM Free add-on works with either the Free or Pro versions of WPSSO Core. The [WPSSO AM Pro add-on](https://wpsso.com/extend/plugins/wpsso-am/) uses many WPSSO Core Pro features and requires an active and licensed [WPSSO Core Pro plugin](https://wpsso.com/).
+WPSSO Mobile App Meta (aka WPSSO AM) is an add-on for the WPSSO Core plugin. The WPSSO AM Free add-on works with either the Free or Pro versions of WPSSO Core. The [WPSSO AM Pro add-on](https://wpsso.com/extend/plugins/wpsso-am/) uses WPSSO Core Pro features and requires an active and licensed [WPSSO Core Pro plugin](https://wpsso.com/).
 
 == Installation ==
 
@@ -143,33 +141,11 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * *Bugfixes*
 	* None
 * *Developer Notes*
-	* Renamed some WpssoUtil methods for Gutenberg changes in WPSSO v3.57.0.
-
-**Version 1.8.1 (2018/03/24)**
-
-* *New Features*
-	* None
-* *Improvements*
-	* Renamed plugin "Extensions" to "Add-ons" to avoid confusion and improve / simplify translations.
-* *Bugfixes*
-	* None
-* *Developer Notes*
-	* None
-
-**Version 1.8.0 (2018/02/24)**
-
-* *New Features*
-	* None
-* *Improvements*
-	* None
-* *Bugfixes*
-	* None
-* *Developer Notes*
-	* Refactored the WpssoAm `min_version_notice()` method to use PHP's `trigger_error()` and include a notice to refresh plugin update information.
+	* Renamed some WpssoUtil methods for Gutenberg related changes in WPSSO v3.57.0.
 
 == Upgrade Notice ==
 
 = 1.8.2 =
 
-(2018/04/05) Renamed some WpssoUtil methods for Gutenberg changes in WPSSO v3.57.0.
+(2018/04/05) Renamed some WpssoUtil methods for Gutenberg related changes in WPSSO v3.57.0.
 
