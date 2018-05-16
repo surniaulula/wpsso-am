@@ -23,7 +23,7 @@ WPSSO Core add-on to provide Apple Store / iTunes and Google Play App meta tags 
 
 **Add [Twitter App Card](https://dev.twitter.com/cards/types/app) meta tags to mobile App product pages:**
 
-<ul style="display:inline;">
+<ul style="display:inline-block;">
 <li>twitter:app:country</li>
 <li>twitter:app:id:iphone</li>
 <li>twitter:app:id:ipad</li>
