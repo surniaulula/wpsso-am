@@ -19,7 +19,7 @@
 
 <p><strong>Add <a href="https://dev.twitter.com/cards/types/app">Twitter App Card</a> meta tags to mobile App product pages:</strong></p>
 
-<ul>
+<ul style="display:inline;">
 <li>twitter:app:country</li>
 <li>twitter:app:id:iphone</li>
 <li>twitter:app:id:ipad</li>
