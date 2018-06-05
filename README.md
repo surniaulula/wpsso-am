@@ -77,7 +77,7 @@
 <li>Default App Store Territory</li>
 </ul></li>
 </ul></li>
-<li><p>Includes and optional Mobile Apps tab in the Social and Search Optimization metabox with additional options:</p>
+<li><p>Includes and optional Mobile Apps tab in the Document SSO metabox with additional options:</p>
 
 <ul>
 <li>Twitter App Card
