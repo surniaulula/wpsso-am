@@ -71,7 +71,7 @@ WPSSO Core add-on to provide Apple Store / iTunes and Google Play App meta tags 
 		* Show Tab on Post Types
 		* Default App Store Territory
 
-* Includes and optional Mobile Apps tab in the Social and Search Optimization metabox with additional options:
+* Includes and optional Mobile Apps tab in the Document SSO metabox with additional options:
 
 	* Twitter App Card
 		* App Store Territory
@@ -118,7 +118,7 @@ WPSSO Mobile App Meta (aka WPSSO AM) is an add-on for the WPSSO Core plugin. The
 == Screenshots ==
 
 01. WPSSO AM settings page includes options for the Mobile App Banner, Apple Store App defaults, and the Mobile Apps tab.
-02. WPSSO AM tab in the Social and Search Optimization metabox provides custom settings for the Twitter App Card and Mobile App Banner (Pro version).
+02. WPSSO AM tab in the Document SSO metabox provides custom settings for the Twitter App Card and Mobile App Banner (Pro version).
 
 == Changelog ==
 
