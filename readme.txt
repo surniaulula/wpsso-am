@@ -71,7 +71,7 @@ WPSSO Core add-on to provide Apple Store / iTunes and Google Play App meta tags 
 		* Show Tab on Post Types
 		* Default App Store Territory
 
-* Includes and optional Mobile Apps tab in the Document SSO metabox with additional options:
+* Includes and optional Mobile Apps tab in the Document SSO (aka Social and Search Optimization) metabox with additional options:
 
 	* Twitter App Card
 		* App Store Territory
