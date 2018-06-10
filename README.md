@@ -1,4 +1,4 @@
-<h1>WPSSO Mobile App Meta</h1>
+<h1>WPSSO Mobile App Meta for mobile Safari and Twitter&#039;s App Card</h1>
 
 <table>
 <tr><th align="right" valign="top" nowrap>Plugin Name</th><td>WPSSO Mobile App Meta</td></tr>
