@@ -13,7 +13,7 @@
 
 <h2>Description</h2>
 
-<p><img class="readme-icon" src="https://surniaulula.github.io/wpsso-am/assets/icon-256x256.png"></p>
+<p style="margin:0;"><img class="readme-icon" src="https://surniaulula.github.io/wpsso-am/assets/icon-256x256.png"></p>
 
 <p><strong>Promote your website mobile App with a banner in Apple's mobile Safari.</strong></p>
 

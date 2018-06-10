@@ -17,7 +17,7 @@ WPSSO Core add-on to provide Apple Store / iTunes and Google Play App meta tags 
 
 == Description ==
 
-<img class="readme-icon" src="https://surniaulula.github.io/wpsso-am/assets/icon-256x256.png">
+<p style="margin:0;"><img class="readme-icon" src="https://surniaulula.github.io/wpsso-am/assets/icon-256x256.png"></p>
 
 **Promote your website mobile App with a banner in Apple's mobile Safari.**
 
