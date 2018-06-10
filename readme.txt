@@ -1,4 +1,4 @@
-=== WPSSO Mobile App Meta ===
+=== WPSSO Mobile App Meta for mobile Safari and Twitter's App Card ===
 Plugin Name: WPSSO Mobile App Meta
 Plugin Slug: wpsso-am
 Text Domain: wpsso-am
