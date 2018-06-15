@@ -33,11 +33,11 @@ if ( ! class_exists( 'WpssoAmSubmenuAmGeneral' ) && class_exists( 'WpssoAdmin' )
 
 			add_meta_box( $this->pagehook.'_banner',
 				_x( 'Mobile App Banner', 'metabox title', 'wpsso-am' ), 
-					array( &$this, 'show_metabox_banner' ), $this->pagehook, 'normal' );
+					array( $this, 'show_metabox_banner' ), $this->pagehook, 'normal' );
 
 			add_meta_box( $this->pagehook.'_appmeta', 
 				_x( 'Mobile App Products', 'metabox title', 'wpsso-am' ),
-					array( &$this, 'show_metabox_appmeta' ), $this->pagehook, 'normal' );
+					array( $this, 'show_metabox_appmeta' ), $this->pagehook, 'normal' );
 		}
 
 		public function show_metabox_banner() {
