@@ -228,7 +228,7 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 
 		public static function set_constants( $plugin_filepath ) { 
 
-			if ( defined( 'WPSSOAM_VERSION' ) ) {			// execute and define constants only once
+			if ( defined( 'WPSSOAM_VERSION' ) ) {	// Define constants only once.
 				return;
 			}
 
