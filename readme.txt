@@ -131,11 +131,11 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 **Version 1.8.2 (2018/04/05)**
 
 * *New Features*
-	* None
+	* None.
 * *Improvements*
-	* None
+	* None.
 * *Bugfixes*
-	* None
+	* None.
 * *Developer Notes*
 	* Renamed some WpssoUtil methods for Gutenberg related changes in WPSSO v3.57.0.
 
