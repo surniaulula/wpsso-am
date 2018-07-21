@@ -16,24 +16,24 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 		public static $cf = array(
 			'plugin' => array(
 				'wpssoam' => array(			// Plugin acronym.
-					'version' => '1.8.2',		// Plugin version.
+					'version'     => '1.9.0-rc.1',	// Plugin version.
 					'opt_version' => '7',		// Increment when changing default option values.
-					'short' => 'WPSSO AM',		// Short plugin name.
-					'name' => 'WPSSO Mobile App Meta',
-					'desc' => 'WPSSO Core add-on to provide Apple Store / iTunes and Google Play App meta tags for Apple\'s mobile Safari and Twitter\'s App Card.',
-					'slug' => 'wpsso-am',
-					'base' => 'wpsso-am/wpsso-am.php',
+					'short'       => 'WPSSO AM',	// Short plugin name.
+					'name'        => 'WPSSO Mobile App Meta',
+					'desc'        => 'WPSSO Core add-on to provide Apple Store / iTunes and Google Play App meta tags for Apple\'s mobile Safari and Twitter\'s App Card.',
+					'slug'        => 'wpsso-am',
+					'base'        => 'wpsso-am/wpsso-am.php',
 					'update_auth' => 'tid',
 					'text_domain' => 'wpsso-am',
 					'domain_path' => '/languages',
 					'req' => array(
-						'short' => 'WPSSO Core',
-						'name' => 'WPSSO Core',
-						'min_version' => '4.7.0',
+						'short'       => 'WPSSO Core',
+						'name'        => 'WPSSO Core',
+						'min_version' => '4.9.0-rc.1',
 					),
 					'img' => array(
 						'icons' => array(
-							'low' => 'images/icon-128x128.png',
+							'low'  => 'images/icon-128x128.png',
 							'high' => 'images/icon-256x256.png',
 						),
 					),
@@ -44,13 +44,13 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 						'gpl' => array(
 							'admin' => array(
 								'am-general' => 'Extend Mobile App Meta Settings',
-								'post' => 'Extend Post Settings',
+								'post'       => 'Extend Post Settings',
 							),
 						),
 						'pro' => array(
 							'admin' => array(
 								'am-general' => 'Extend Mobile App Meta Settings',
-								'post' => 'Extend Post Settings',
+								'post'       => 'Extend Post Settings',
 							),
 							'head' => array(
 								'twittercard' => '(code) Twitter App Card Meta Tags',
