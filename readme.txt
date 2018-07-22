@@ -11,7 +11,7 @@ Contributors: jsmoriss
 Requires PHP: 5.4
 Requires At Least: 3.8
 Tested Up To: 4.9.7
-Stable Tag: 1.8.2
+Stable Tag: 1.9.0
 
 WPSSO Core add-on to provide Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari banner and Twitter's App Card.
 
@@ -139,24 +139,9 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * *Developer Notes*
 	* None.
 
-**Version 1.8.2 (2018/04/05)**
-
-* *New Features*
-	* None.
-* *Improvements*
-	* None.
-* *Bugfixes*
-	* None.
-* *Developer Notes*
-	* Renamed some WpssoUtil methods for Gutenberg related changes in WPSSO v3.57.0.
-
 == Upgrade Notice ==
 
 = 1.9.0 =
 
 (2018/07/22) Maintenance release.
-
-= 1.8.2 =
-
-(2018/04/05) Renamed some WpssoUtil methods for Gutenberg related changes in WPSSO v3.57.0.
 
