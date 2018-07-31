@@ -13,7 +13,7 @@
  * Description: WPSSO Core add-on to provide Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari and Twitter's App Card.
  * Requires PHP: 5.4
  * Requires At Least: 3.8
- * Tested Up To: 4.9.7
+ * Tested Up To: 4.9.8
  * Version: 1.9.0
  * 
  * Version Numbering: {major}.{minor}.{bugfix}[-{stage}.{level}]
