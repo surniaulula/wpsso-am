@@ -128,7 +128,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 1.9.1-dev.2 (2018/08/27)**
+**Version 1.9.1-dev.3 (2018/08/30)**
 
 * *New Features*
 	* None.
@@ -152,9 +152,9 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 == Upgrade Notice ==
 
-= 1.9.1-dev.2 =
+= 1.9.1-dev.3 =
 
-(2018/08/27) Minor update for code style and changes in WPSSO v4.11.2.
+(2018/08/30) Minor update for code style and changes in WPSSO v4.11.2.
 
 = 1.9.0 =
 
