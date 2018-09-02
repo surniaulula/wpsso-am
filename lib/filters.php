@@ -46,6 +46,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 		);
 
 		public function __construct( &$plugin ) {
+
 			$this->p =& $plugin;
 
 			if ( $this->p->debug->enabled ) {
