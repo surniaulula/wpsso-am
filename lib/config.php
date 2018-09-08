@@ -16,7 +16,7 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 		public static $cf = array(
 			'plugin' => array(
 				'wpssoam' => array(			// Plugin acronym.
-					'version'     => '1.9.1-rc.1',	// Plugin version.
+					'version'     => '1.9.1-rc.2',	// Plugin version.
 					'opt_version' => '7',		// Increment when changing default option values.
 					'short'       => 'WPSSO AM',	// Short plugin name.
 					'name'        => 'WPSSO Mobile App Meta',
@@ -29,7 +29,7 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 					'req' => array(
 						'short'       => 'WPSSO Core',
 						'name'        => 'WPSSO Core',
-						'min_version' => '4.12.0-rc.1',
+						'min_version' => '4.12.0-rc.2',
 					),
 					'img' => array(
 						'icons' => array(
@@ -232,12 +232,12 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 				return;
 			}
 
-			define( 'WPSSOAM_VERSION', self::$cf['plugin']['wpssoam']['version'] );						
 			define( 'WPSSOAM_FILEPATH', $plugin_filepath );						
+			define( 'WPSSOAM_PLUGINBASE', self::$cf['plugin']['wpssoam']['base'] );		// wpsso-am/wpsso-am.php
 			define( 'WPSSOAM_PLUGINDIR', trailingslashit( realpath( dirname( $plugin_filepath ) ) ) );
 			define( 'WPSSOAM_PLUGINSLUG', self::$cf['plugin']['wpssoam']['slug'] );		// wpsso-am
-			define( 'WPSSOAM_PLUGINBASE', self::$cf['plugin']['wpssoam']['base'] );		// wpsso-am/wpsso-am.php
 			define( 'WPSSOAM_URLPATH', trailingslashit( plugins_url( '', $plugin_filepath ) ) );
+			define( 'WPSSOAM_VERSION', self::$cf['plugin']['wpssoam']['version'] );						
 		}
 
 		public static function require_libs( $plugin_filepath ) {
