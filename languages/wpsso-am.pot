@@ -169,93 +169,93 @@ msgstr ""
 msgid "Save a draft version or publish the %s to display these options."
 msgstr ""
 
-#: lib/gpl/admin/post.php:54 lib/pro/admin/post.php:63
+#: lib/gpl/admin/post.php:55 lib/pro/admin/post.php:64
 msgctxt "metabox title"
 msgid "Twitter App Card"
 msgstr ""
 
-#: lib/gpl/admin/post.php:57 lib/pro/admin/post.php:66
+#: lib/gpl/admin/post.php:60 lib/pro/admin/post.php:68
 msgctxt "option label"
 msgid "App Store Territory"
 msgstr ""
 
-#: lib/gpl/admin/post.php:67 lib/pro/admin/post.php:76
+#: lib/gpl/admin/post.php:71 lib/pro/admin/post.php:79
 msgctxt "metabox title"
 msgid "iPhone App Details"
 msgstr ""
 
-#: lib/gpl/admin/post.php:70 lib/pro/admin/post.php:79
+#: lib/gpl/admin/post.php:76 lib/pro/admin/post.php:83
 msgctxt "option label"
 msgid "iPhone App ID"
 msgstr ""
 
-#: lib/gpl/admin/post.php:75 lib/pro/admin/post.php:84
+#: lib/gpl/admin/post.php:83 lib/pro/admin/post.php:89
 msgctxt "option label"
 msgid "iPhone App Name"
 msgstr ""
 
-#: lib/gpl/admin/post.php:81 lib/pro/admin/post.php:90
+#: lib/gpl/admin/post.php:91 lib/pro/admin/post.php:96
 msgctxt "option label"
 msgid "iPhone App URL Scheme"
 msgstr ""
 
-#: lib/gpl/admin/post.php:91 lib/pro/admin/post.php:100
+#: lib/gpl/admin/post.php:101 lib/pro/admin/post.php:107
 msgctxt "metabox title"
 msgid "iPad App Details"
 msgstr ""
 
-#: lib/gpl/admin/post.php:94 lib/pro/admin/post.php:103
+#: lib/gpl/admin/post.php:106 lib/pro/admin/post.php:111
 msgctxt "option label"
 msgid "iPad App ID"
 msgstr ""
 
-#: lib/gpl/admin/post.php:99 lib/pro/admin/post.php:108
+#: lib/gpl/admin/post.php:113 lib/pro/admin/post.php:117
 msgctxt "option label"
 msgid "iPad App Name"
 msgstr ""
 
-#: lib/gpl/admin/post.php:105 lib/pro/admin/post.php:114
+#: lib/gpl/admin/post.php:121 lib/pro/admin/post.php:124
 msgctxt "option label"
 msgid "iPad App URL Scheme"
 msgstr ""
 
-#: lib/gpl/admin/post.php:115 lib/pro/admin/post.php:124
+#: lib/gpl/admin/post.php:132 lib/pro/admin/post.php:135
 msgctxt "metabox title"
 msgid "Google Play App Details"
 msgstr ""
 
-#: lib/gpl/admin/post.php:118 lib/pro/admin/post.php:127
+#: lib/gpl/admin/post.php:137 lib/pro/admin/post.php:139
 msgctxt "option label"
 msgid "Google Play App ID"
 msgstr ""
 
-#: lib/gpl/admin/post.php:123 lib/pro/admin/post.php:132
+#: lib/gpl/admin/post.php:144 lib/pro/admin/post.php:145
 msgctxt "option label"
 msgid "Google Play App Name"
 msgstr ""
 
-#: lib/gpl/admin/post.php:129 lib/pro/admin/post.php:138
+#: lib/gpl/admin/post.php:152 lib/pro/admin/post.php:152
 msgctxt "option label"
 msgid "Google Play App URL Scheme"
 msgstr ""
 
-#: lib/gpl/admin/post.php:139 lib/pro/admin/post.php:148
+#: lib/gpl/admin/post.php:163 lib/pro/admin/post.php:163
 #: lib/submenu/am-general.php:36
 msgctxt "metabox title"
 msgid "Mobile App Banner"
 msgstr ""
 
-#: lib/gpl/admin/post.php:142 lib/pro/admin/post.php:151
+#: lib/gpl/admin/post.php:168 lib/pro/admin/post.php:167
 msgctxt "option label"
 msgid "App ID Number"
 msgstr ""
 
-#: lib/gpl/admin/post.php:147 lib/pro/admin/post.php:157
+#: lib/gpl/admin/post.php:175 lib/pro/admin/post.php:174
 msgctxt "option label"
 msgid "Affiliate Data"
 msgstr ""
 
-#: lib/gpl/admin/post.php:152 lib/pro/admin/post.php:163
+#: lib/gpl/admin/post.php:182 lib/pro/admin/post.php:181
 msgctxt "option label"
 msgid "Argument String"
 msgstr ""

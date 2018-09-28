@@ -50,37 +50,47 @@ if ( ! class_exists( 'WpssoAmGplAdminPost' ) ) {
 				 * Twitter App Card
 				 */
 				'subsection_app_card' => array(
-					'td_class' => 'subsection top', 'header' => 'h4',
-					'label' => _x( 'Twitter App Card', 'metabox title', 'wpsso-am' )
+					'td_class' => 'subsection top',
+					'header'   => 'h4',
+					'label'    => _x( 'Twitter App Card', 'metabox title', 'wpsso-am' )
 				),
 				'am_ap_ast' => array(
-					'label' => _x( 'App Store Territory', 'option label', 'wpsso-am' ),
-					'th_class' => 'medium', 'tooltip' => 'am_ap_ast', 'td_class' => 'blank',
-					'content' => $form->get_no_select( 'am_ap_ast', WpssoAmConfig::$app_stores ),
+					'th_class' => 'medium',
+					'td_class' => 'blank',
+					'label'    => _x( 'App Store Territory', 'option label', 'wpsso-am' ),
+					'tooltip'  => 'am_ap_ast',
+					'content'  => $form->get_no_select( 'am_ap_ast', WpssoAmConfig::$app_stores ),
 				),
 
 				/**
 				 * iPhone App Details
 				 */
 				'subsection_iphone_app' => array(
-					'td_class' => 'subsection', 'header' => 'h5',
-					'label' => _x( 'iPhone App Details', 'metabox title', 'wpsso-am' )
+					'td_class' => 'subsection',
+					'header'   => 'h5',
+					'label'    => _x( 'iPhone App Details', 'metabox title', 'wpsso-am' )
 				),
 				'am_iphone_app_id' => array(
-					'label' => _x( 'iPhone App ID', 'option label', 'wpsso-am' ),
-					'th_class' => 'medium', 'tooltip' => 'post-am_iphone_app_id', 'td_class' => 'blank',
-					'content' => $form->get_no_input_value( '' ),
+					'th_class' => 'medium',
+					'td_class' => 'blank',
+					'label'    => _x( 'iPhone App ID', 'option label', 'wpsso-am' ),
+					'tooltip'  => 'post-am_iphone_app_id',
+					'content'  => $form->get_no_input_value( '' ),
 				),
 				'am_iphone_app_name' => array(
-					'label' => _x( 'iPhone App Name', 'option label', 'wpsso-am' ),
-					'th_class' => 'medium', 'tooltip' => 'post-am_iphone_app_name', 'td_class' => 'blank',
-					'content' => $form->get_no_input_value( $def_app_name, 'wide' ),
+					'th_class' => 'medium',
+					'td_class' => 'blank',
+					'label'    => _x( 'iPhone App Name', 'option label', 'wpsso-am' ),
+					'tooltip'  => 'post-am_iphone_app_name',
+					'content'  => $form->get_no_input_value( $def_app_name, 'wide' ),
 				),
 				'am_iphone_app_url' => array(
 					'tr_class' => $form->get_css_class_hide( 'basic', 'am_iphone_app_url' ),
-					'label' => _x( 'iPhone App URL Scheme', 'option label', 'wpsso-am' ),
-					'th_class' => 'medium', 'tooltip' => 'post-am_iphone_app_url', 'td_class' => 'blank',
-					'content' => $form->get_no_input_value( '', 'wide' ),
+					'th_class' => 'medium',
+					'td_class' => 'blank',
+					'label'    => _x( 'iPhone App URL Scheme', 'option label', 'wpsso-am' ),
+					'tooltip'  => 'post-am_iphone_app_url',
+					'content'  => $form->get_no_input_value( '', 'wide' ),
 				),
 
 				/**
@@ -88,70 +98,90 @@ if ( ! class_exists( 'WpssoAmGplAdminPost' ) ) {
 				 */
 				'subsection_ipad_app' => array(
 					'td_class' => 'subsection', 'header' => 'h5',
-					'label' => _x( 'iPad App Details', 'metabox title', 'wpsso-am' )
+					'label'    => _x( 'iPad App Details', 'metabox title', 'wpsso-am' )
 				),
 				'am_ipad_app_id' => array(
-					'label' => _x( 'iPad App ID', 'option label', 'wpsso-am' ),
-					'th_class' => 'medium', 'tooltip' => 'post-am_ipad_app_id', 'td_class' => 'blank',
-					'content' => $form->get_no_input_value( '' ),
+					'th_class' => 'medium',
+					'td_class' => 'blank',
+					'label'    => _x( 'iPad App ID', 'option label', 'wpsso-am' ),
+					'tooltip'  => 'post-am_ipad_app_id',
+					'content'  => $form->get_no_input_value( '' ),
 				),
 				'am_ipad_app_name' => array(
-					'label' => _x( 'iPad App Name', 'option label', 'wpsso-am' ),
-					'th_class' => 'medium', 'tooltip' => 'post-am_ipad_app_name', 'td_class' => 'blank',
-					'content' => $form->get_no_input_value( $def_app_name, 'wide' ),
+					'th_class' => 'medium',
+					'td_class' => 'blank',
+					'label'    => _x( 'iPad App Name', 'option label', 'wpsso-am' ),
+					'tooltip'  => 'post-am_ipad_app_name',
+					'content'  => $form->get_no_input_value( $def_app_name, 'wide' ),
 				),
 				'am_ipad_app_url' => array(
 					'tr_class' => $form->get_css_class_hide( 'basic', 'am_ipad_app_url' ),
-					'label' => _x( 'iPad App URL Scheme', 'option label', 'wpsso-am' ),
-					'th_class' => 'medium', 'tooltip' => 'post-am_ipad_app_url', 'td_class' => 'blank',
-					'content' => $form->get_no_input_value( '', 'wide' ),
+					'th_class' => 'medium',
+					'td_class' => 'blank',
+					'label'    => _x( 'iPad App URL Scheme', 'option label', 'wpsso-am' ),
+					'tooltip'  => 'post-am_ipad_app_url',
+					'content'  => $form->get_no_input_value( '', 'wide' ),
 				),
 
 				/**
 				 * Google Play App Details
 				 */
 				'subsection_gplay_app' => array(
-					'td_class' => 'subsection', 'header' => 'h5',
-					'label' => _x( 'Google Play App Details', 'metabox title', 'wpsso-am' )
+					'td_class' => 'subsection',
+					'header'   => 'h5',
+					'label'    => _x( 'Google Play App Details', 'metabox title', 'wpsso-am' )
 				),
 				'am_gplay_app_id' => array(
-					'label' => _x( 'Google Play App ID', 'option label', 'wpsso-am' ),
-					'th_class' => 'medium', 'tooltip' => 'post-am_gplay_app_id', 'td_class' => 'blank',
-					'content' => $form->get_no_input_value( '' ),
+					'th_class' => 'medium',
+					'td_class' => 'blank',
+					'label'    => _x( 'Google Play App ID', 'option label', 'wpsso-am' ),
+					'tooltip'  => 'post-am_gplay_app_id',
+					'content'  => $form->get_no_input_value( '' ),
 				),
 				'am_gplay_app_name' => array(
-					'label' => _x( 'Google Play App Name', 'option label', 'wpsso-am' ),
-					'th_class' => 'medium', 'tooltip' => 'post-am_gplay_app_name', 'td_class' => 'blank',
-					'content' => $form->get_no_input_value( $def_app_name, 'wide' ),
+					'th_class' => 'medium',
+					'td_class' => 'blank',
+					'label'    => _x( 'Google Play App Name', 'option label', 'wpsso-am' ),
+					'tooltip'  => 'post-am_gplay_app_name',
+					'content'  => $form->get_no_input_value( $def_app_name, 'wide' ),
 				),
 				'am_gplay_app_url' => array(
 					'tr_class' => $form->get_css_class_hide( 'basic', 'am_gplay_app_url' ),
-					'label' => _x( 'Google Play App URL Scheme', 'option label', 'wpsso-am' ),
-					'th_class' => 'medium', 'tooltip' => 'post-am_gplay_app_url', 'td_class' => 'blank',
-					'content' => $form->get_no_input_value( '', 'wide' ),
+					'th_class' => 'medium',
+					'td_class' => 'blank',
+					'label'    => _x( 'Google Play App URL Scheme', 'option label', 'wpsso-am' ),
+					'tooltip'  => 'post-am_gplay_app_url',
+					'content'  => $form->get_no_input_value( '', 'wide' ),
 				),
 
 				/**
 				 * Mobile App Banner
 				 */
 				'subsection_app_banner' => array(
-					'td_class' => 'subsection', 'header' => 'h4',
-					'label' => _x( 'Mobile App Banner', 'metabox title', 'wpsso-am' )
+					'td_class' => 'subsection',
+					'header'   => 'h4',
+					'label'    => _x( 'Mobile App Banner', 'metabox title', 'wpsso-am' )
 				),
 				'am_ws_itunes_app_id' => array(
-					'label' => _x( 'App ID Number', 'option label', 'wpsso-am' ),
-					'th_class' => 'medium', 'tooltip' => 'am_ws_itunes_app_id', 'td_class' => 'blank',
-					'content' => $form->get_no_input_options( 'am_ws_itunes_app_id', $this->p->options ),
+					'th_class' => 'medium',
+					'td_class' => 'blank',
+					'label'    => _x( 'App ID Number', 'option label', 'wpsso-am' ),
+					'tooltip'  => 'am_ws_itunes_app_id',
+					'content'  => $form->get_no_input_options( 'am_ws_itunes_app_id', $this->p->options ),
 				),
 				'am_ws_itunes_app_aff' => array(
-					'label' => _x( 'Affiliate Data', 'option label', 'wpsso-am' ),
-					'th_class' => 'medium', 'tooltip' => 'am_ws_itunes_app_aff', 'td_class' => 'blank',
-					'content' => $form->get_no_input_options( 'am_ws_itunes_app_aff', $this->p->options ),
+					'th_class' => 'medium',
+					'td_class' => 'blank',
+					'label'    => _x( 'Affiliate Data', 'option label', 'wpsso-am' ),
+					'tooltip'  => 'am_ws_itunes_app_aff',
+					'content'  => $form->get_no_input_options( 'am_ws_itunes_app_aff', $this->p->options ),
 				),
 				'am_ws_itunes_app_arg' => array(
-					'label' => _x( 'Argument String', 'option label', 'wpsso-am' ),
-					'th_class' => 'medium', 'tooltip' => 'am_ws_itunes_app_arg', 'td_class' => 'blank',
-					'content' => $form->get_no_input_options( 'am_ws_itunes_app_arg', $this->p->options, 'wide' ),
+					'th_class' => 'medium',
+					'td_class' => 'blank',
+					'label'    => _x( 'Argument String', 'option label', 'wpsso-am' ),
+					'tooltip'  => 'am_ws_itunes_app_arg',
+					'content'  => $form->get_no_input_options( 'am_ws_itunes_app_arg', $this->p->options, 'wide' ),
 				),
 			);
 
