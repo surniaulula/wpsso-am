@@ -97,7 +97,8 @@ if ( ! class_exists( 'WpssoAmGplAdminPost' ) ) {
 				 * iPad App Details
 				 */
 				'subsection_ipad_app' => array(
-					'td_class' => 'subsection', 'header' => 'h5',
+					'td_class' => 'subsection',
+					'header'   => 'h5',
 					'label'    => _x( 'iPad App Details', 'metabox title', 'wpsso-am' )
 				),
 				'am_ipad_app_id' => array(

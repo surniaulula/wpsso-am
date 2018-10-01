@@ -199,63 +199,63 @@ msgctxt "option label"
 msgid "iPhone App URL Scheme"
 msgstr ""
 
-#: lib/gpl/admin/post.php:101 lib/pro/admin/post.php:107
+#: lib/gpl/admin/post.php:102 lib/pro/admin/post.php:107
 msgctxt "metabox title"
 msgid "iPad App Details"
 msgstr ""
 
-#: lib/gpl/admin/post.php:106 lib/pro/admin/post.php:111
+#: lib/gpl/admin/post.php:107 lib/pro/admin/post.php:111
 msgctxt "option label"
 msgid "iPad App ID"
 msgstr ""
 
-#: lib/gpl/admin/post.php:113 lib/pro/admin/post.php:117
+#: lib/gpl/admin/post.php:114 lib/pro/admin/post.php:117
 msgctxt "option label"
 msgid "iPad App Name"
 msgstr ""
 
-#: lib/gpl/admin/post.php:121 lib/pro/admin/post.php:124
+#: lib/gpl/admin/post.php:122 lib/pro/admin/post.php:124
 msgctxt "option label"
 msgid "iPad App URL Scheme"
 msgstr ""
 
-#: lib/gpl/admin/post.php:132 lib/pro/admin/post.php:135
+#: lib/gpl/admin/post.php:133 lib/pro/admin/post.php:135
 msgctxt "metabox title"
 msgid "Google Play App Details"
 msgstr ""
 
-#: lib/gpl/admin/post.php:137 lib/pro/admin/post.php:139
+#: lib/gpl/admin/post.php:138 lib/pro/admin/post.php:139
 msgctxt "option label"
 msgid "Google Play App ID"
 msgstr ""
 
-#: lib/gpl/admin/post.php:144 lib/pro/admin/post.php:145
+#: lib/gpl/admin/post.php:145 lib/pro/admin/post.php:145
 msgctxt "option label"
 msgid "Google Play App Name"
 msgstr ""
 
-#: lib/gpl/admin/post.php:152 lib/pro/admin/post.php:152
+#: lib/gpl/admin/post.php:153 lib/pro/admin/post.php:152
 msgctxt "option label"
 msgid "Google Play App URL Scheme"
 msgstr ""
 
-#: lib/gpl/admin/post.php:163 lib/pro/admin/post.php:163
+#: lib/gpl/admin/post.php:164 lib/pro/admin/post.php:163
 #: lib/submenu/am-general.php:36
 msgctxt "metabox title"
 msgid "Mobile App Banner"
 msgstr ""
 
-#: lib/gpl/admin/post.php:168 lib/pro/admin/post.php:167
+#: lib/gpl/admin/post.php:169 lib/pro/admin/post.php:167
 msgctxt "option label"
 msgid "App ID Number"
 msgstr ""
 
-#: lib/gpl/admin/post.php:175 lib/pro/admin/post.php:174
+#: lib/gpl/admin/post.php:176 lib/pro/admin/post.php:174
 msgctxt "option label"
 msgid "Affiliate Data"
 msgstr ""
 
-#: lib/gpl/admin/post.php:182 lib/pro/admin/post.php:181
+#: lib/gpl/admin/post.php:183 lib/pro/admin/post.php:181
 msgctxt "option label"
 msgid "Argument String"
 msgstr ""
