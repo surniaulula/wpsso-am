@@ -128,6 +128,17 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
+**Version 1.9.2-dev.3 (2018/10/01)**
+
+* *New Features*
+	* None.
+* *Improvements*
+	* None.
+* *Bugfixes*
+	* None.
+* *Developer Notes*
+	* Minor changes for code style and standardization.
+
 **Version 1.9.1 (2018/09/09)**
 
 * *New Features*
@@ -151,6 +162,10 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 	* None.
 
 == Upgrade Notice ==
+
+= 1.9.2-dev.3 =
+
+(2018/10/01) Minor changes for code style and standardization.
 
 = 1.9.1 =
 
