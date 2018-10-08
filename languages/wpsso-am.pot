@@ -265,37 +265,37 @@ msgctxt "metabox title"
 msgid "Mobile App Products"
 msgstr ""
 
-#: lib/submenu/am-general.php:53
+#: lib/submenu/am-general.php:58
 msgctxt "metabox tab"
 msgid "Apple Store App"
 msgstr ""
 
-#: lib/submenu/am-general.php:85
+#: lib/submenu/am-general.php:95
 msgctxt "option label"
 msgid "Add Banner to Archive Webpages"
 msgstr ""
 
-#: lib/submenu/am-general.php:89
+#: lib/submenu/am-general.php:99
 msgctxt "option label"
 msgid "Add Banner to Static Front Page"
 msgstr ""
 
-#: lib/submenu/am-general.php:99
+#: lib/submenu/am-general.php:109
 msgctxt "option label"
 msgid "Add Banner to Post Types"
 msgstr ""
 
-#: lib/submenu/am-general.php:108
+#: lib/submenu/am-general.php:118
 msgctxt "option label"
 msgid "Default App ID Number"
 msgstr ""
 
-#: lib/submenu/am-general.php:112
+#: lib/submenu/am-general.php:122
 msgctxt "option label"
 msgid "Default Affiliate Data"
 msgstr ""
 
-#: lib/submenu/am-general.php:116
+#: lib/submenu/am-general.php:126
 msgctxt "option label"
 msgid "Default Argument String"
 msgstr ""
