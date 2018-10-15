@@ -37,8 +37,8 @@ if ( ! class_exists( 'WpssoAmGplAdminAmGeneral' ) ) {
 
 			$add_to_checkboxes = '';
 			foreach ( $this->p->util->get_post_types( 'objects' ) as $pt ) {
-				$add_to_checkboxes .= '<p>'.$form->get_no_checkbox( 'am_ap_add_to_'.$pt->name ).
-					' '.$pt->label.( empty( $pt->description ) ? '' : ' ('.$pt->description.')' ).'</p>';
+				$add_to_checkboxes .= '<p>'.$form->get_no_checkbox( 'am_ap_add_to_'.$pt->name ). ' ' .
+					$pt->label.( empty( $pt->description ) ? '' : ' ('.$pt->description.')' ).'</p>';
 			}
 
 			$table_rows[] = $form->get_th_html( _x( 'Show Tab on Post Types', 'option label', 'wpsso-am' ), '', 'am_ap_add_to' ).
