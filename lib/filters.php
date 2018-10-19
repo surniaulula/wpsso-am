@@ -156,9 +156,11 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 			}
 
 			if ( $mod['id'] ) {
+
 				if ( $this->p->debug->enabled ) {
 					$this->p->debug->log( 'loading options from module ID ' . $mod['id'] );
 				}
+
 				$md_opts = $mod['obj']->get_options( $mod['id'] );	// Returns an empty string if no meta found.
 			}
 
