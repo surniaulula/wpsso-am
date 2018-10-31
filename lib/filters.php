@@ -249,13 +249,13 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 			return $tabs;
 		}
 
-		public function filter_messages_tooltip_post( $text, $idx ) {
+		public function filter_messages_tooltip_post( $text, $msg_key ) {
 
-			if ( strpos( $idx, 'tooltip-post-am_' ) !== 0 ) {
+			if ( strpos( $msg_key, 'tooltip-post-am_' ) !== 0 ) {
 				return $text;
 			}
 
-			switch ( $idx ) {
+			switch ( $msg_key ) {
 
 				case 'tooltip-post-am_iphone_app_id':
 
@@ -315,13 +315,13 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 			return $text;
 		}
 
-		public function filter_messages_tooltip( $text, $idx ) {
+		public function filter_messages_tooltip( $text, $msg_key ) {
 
-			if ( strpos( $idx, 'tooltip-am_' ) !== 0 ) {
+			if ( strpos( $msg_key, 'tooltip-am_' ) !== 0 ) {
 				return $text;
 			}
 
-			switch ( $idx ) {
+			switch ( $msg_key ) {
 
 				case 'tooltip-am_ws_on_index':
 
@@ -378,9 +378,9 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 			return $text;
 		}
 
-		public function filter_messages_info( $text, $idx ) {
+		public function filter_messages_info( $text, $msg_key ) {
 
-			switch ( $idx ) {
+			switch ( $msg_key ) {
 
 				case 'info-banner-general':
 
