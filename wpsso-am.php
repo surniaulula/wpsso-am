@@ -35,11 +35,15 @@ if ( ! class_exists( 'WpssoAm' ) ) {
 	class WpssoAm {
 
 		/**
-		 * Class Object Variables
+		 * Wpsso plugin class object variable.
 		 */
-		public $p;			// Wpsso
-		public $reg;			// WpssoAmRegister
-		public $filters;		// WpssoAmFilters
+		public $p;		// Wpsso
+
+		/**
+		 * Library class object variables.
+		 */
+		public $filters;	// WpssoAmFilters
+		public $reg;		// WpssoAmRegister
 
 		/**
 		 * Reference Variables (config, options, modules, etc.).
