@@ -97,7 +97,7 @@ if ( ! class_exists( 'WpssoAmRegister' ) ) {
 
 		private function activate_plugin() {
 
-			$version = WpssoAmConfig::$cf[ 'plugin' ]['wpssoam'][ 'version' ];	// only our config
+			$version = WpssoAmConfig::$cf[ 'plugin' ][ 'wpssoam' ][ 'version' ];	// only our config
 
 			if ( class_exists( 'WpssoUtil' ) ) {
 				WpssoUtil::save_all_times( 'wpssoam', $version );
