@@ -155,13 +155,13 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 				return $mt_name;
 			}
 
-			if ( $mod['id'] ) {
+			if ( $mod[ 'id' ] ) {
 
 				if ( $this->p->debug->enabled ) {
-					$this->p->debug->log( 'loading options from module ID ' . $mod['id'] );
+					$this->p->debug->log( 'loading options from module ID ' . $mod[ 'id' ] );
 				}
 
-				$md_opts = $mod['obj']->get_options( $mod['id'] );	// Returns an empty string if no meta found.
+				$md_opts = $mod[ 'obj' ]->get_options( $mod[ 'id' ] );	// Returns an empty string if no meta found.
 			}
 
 			if ( ! empty( $md_opts['am_ws_itunes_app_id'] ) ) {
@@ -241,7 +241,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 		}
 
 		public function filter_post_custom_meta_tabs( $tabs, $mod, $metabox_id ) {
-			if ( $metabox_id === $this->p->cf['meta']['id'] ) {
+			if ( $metabox_id === $this->p->cf['meta'][ 'id' ] ) {
 				if ( ! empty( $this->p->options['am_ap_add_to_' . $mod['post_type']] ) ) {
 					SucomUtil::add_after_key( $tabs, 'media', 'appmeta', _x( 'Mobile Apps', 'metabox tab', 'wpsso-am' ) );
 				}
@@ -440,15 +440,15 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 		public function filter_status_pro_features( $features, $ext, $info, $pkg ) {
 
 			$features['(code) Custom Mobile Apps Meta'] = array( 
-				'td_class' => $pkg['pp'] ? '' : 'blank',
+				'td_class' => $pkg[ 'pp' ] ? '' : 'blank',
 				'purchase' => $pkg['purchase'],
-				'status'   => $pkg['pp'] ? 'on' : 'off',
+				'status'   => $pkg[ 'pp' ] ? 'on' : 'off',
 			);
 
 			$features['(code) Twitter App Card Meta Tags'] = array( 
-				'td_class' => $pkg['pp'] ? '' : 'blank',
+				'td_class' => $pkg[ 'pp' ] ? '' : 'blank',
 				'purchase' => $pkg['purchase'],
-				'status'   => $pkg['pp'] ? 'on' : 'off',
+				'status'   => $pkg[ 'pp' ] ? 'on' : 'off',
 			);
 
 			return $features;

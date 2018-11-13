@@ -223,9 +223,9 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 		public static function get_version( $add_slug = false ) {
 
 			$ext  = 'wpssoam';
-			$info =& self::$cf['plugin'][$ext];
+			$info =& self::$cf[ 'plugin' ][$ext];
 
-			return $add_slug ? $info['slug'] . '-' . $info['version'] : $info['version'];
+			return $add_slug ? $info[ 'slug' ] . '-' . $info[ 'version' ] : $info[ 'version' ];
 		}
 
 		public static function set_constants( $plugin_filepath ) { 
@@ -235,11 +235,11 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 			}
 
 			define( 'WPSSOAM_FILEPATH', $plugin_filepath );						
-			define( 'WPSSOAM_PLUGINBASE', self::$cf['plugin']['wpssoam']['base'] );		// wpsso-am/wpsso-am.php
+			define( 'WPSSOAM_PLUGINBASE', self::$cf[ 'plugin' ]['wpssoam'][ 'base' ] );		// wpsso-am/wpsso-am.php
 			define( 'WPSSOAM_PLUGINDIR', trailingslashit( realpath( dirname( $plugin_filepath ) ) ) );
-			define( 'WPSSOAM_PLUGINSLUG', self::$cf['plugin']['wpssoam']['slug'] );		// wpsso-am
+			define( 'WPSSOAM_PLUGINSLUG', self::$cf[ 'plugin' ]['wpssoam'][ 'slug' ] );		// wpsso-am
 			define( 'WPSSOAM_URLPATH', trailingslashit( plugins_url( '', $plugin_filepath ) ) );
-			define( 'WPSSOAM_VERSION', self::$cf['plugin']['wpssoam']['version'] );						
+			define( 'WPSSOAM_VERSION', self::$cf[ 'plugin' ]['wpssoam'][ 'version' ] );						
 		}
 
 		public static function require_libs( $plugin_filepath ) {
