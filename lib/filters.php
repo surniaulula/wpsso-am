@@ -122,7 +122,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 
 			$md_opts = array();
 
-			if ( ! $mod['is_post'] ) {		// Aka "not singular".
+			if ( ! $mod[ 'is_post' ] ) {		// Aka "not singular".
 
 				if ( empty( $this->p->options['am_ws_on_index'] ) ) {
 					if ( $this->p->debug->enabled ) {
@@ -140,17 +140,17 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 					return $mt_name;
 				}
 
-			} elseif ( ! $mod['post_type'] ) {
+			} elseif ( ! $mod[ 'post_type' ] ) {
 
 				if ( $this->p->debug->enabled ) {
 					$this->p->debug->log( 'exiting early: module post_type is empty' );
 				}
 				return $mt_name;
 
-			} elseif ( empty( $this->p->options['am_ws_add_to_' . $mod['post_type']] ) ) {
+			} elseif ( empty( $this->p->options['am_ws_add_to_' . $mod[ 'post_type' ]] ) ) {
 
 				if ( $this->p->debug->enabled ) {
-					$this->p->debug->log( 'exiting early: am_ws_add_to_' . $mod['post_type'] . ' is empty' );
+					$this->p->debug->log( 'exiting early: am_ws_add_to_' . $mod[ 'post_type' ] . ' is empty' );
 				}
 				return $mt_name;
 			}
@@ -241,11 +241,13 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 		}
 
 		public function filter_post_custom_meta_tabs( $tabs, $mod, $metabox_id ) {
+
 			if ( $metabox_id === $this->p->cf['meta'][ 'id' ] ) {
-				if ( ! empty( $this->p->options['am_ap_add_to_' . $mod['post_type']] ) ) {
+				if ( ! empty( $this->p->options['am_ap_add_to_' . $mod[ 'post_type' ]] ) ) {
 					SucomUtil::add_after_key( $tabs, 'media', 'appmeta', _x( 'Mobile Apps', 'metabox tab', 'wpsso-am' ) );
 				}
 			}
+
 			return $tabs;
 		}
 
