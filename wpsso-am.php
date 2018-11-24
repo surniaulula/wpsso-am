@@ -171,7 +171,7 @@ if ( ! class_exists( 'WpssoAm' ) ) {
 
 			if ( is_admin() ) {
 				$this->p->avail['admin']['am-general'] = true;
-				$this->p->avail['admin']['post'] = true;
+				$this->p->avail['admin'][ 'post' ] = true;
 			}
 		}
 
