@@ -151,7 +151,7 @@ msgstr ""
 #: lib/gettext-config.php:7
 msgctxt "plugin description"
 msgid ""
-"WPSSO Core add-on to provide Apple Store / iTunes and Google Play App meta "
+"WPSSO Core add-on provides Apple Store / iTunes and Google Play App meta "
 "tags for Apple's mobile Safari and Twitter's App Card."
 msgstr ""
 
@@ -330,7 +330,7 @@ msgstr ""
 
 #. Description of the plugin/theme
 msgid ""
-"WPSSO Core add-on to provide Apple Store / iTunes and Google Play App meta "
+"WPSSO Core add-on provides Apple Store / iTunes and Google Play App meta "
 "tags for Apple's mobile Safari and Twitter's App Card."
 msgstr ""
 
