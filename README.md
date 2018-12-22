@@ -59,7 +59,6 @@
 <li>Default Argument String</li>
 </ul></li>
 </ul></li>
-<li><p>Download the Free version from <a href="https://surniaulula.github.io/wpsso-am/">GitHub</a> or <a href="https://wordpress.org/plugins/wpsso-am/">WordPress.org</a>.</p></li>
 </ul>
 
 <h3>WPSSO AM Additional Features (Pro version)</h3>

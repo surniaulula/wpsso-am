@@ -57,8 +57,6 @@ WPSSO Core add-on provides Apple Store / iTunes and Google Play App meta tags fo
 		* Default Affiliate Data
 		* Default Argument String
 
-* Download the Free version from [GitHub](https://surniaulula.github.io/wpsso-am/) or [WordPress.org](https://wordpress.org/plugins/wpsso-am/).
-
 <h3>WPSSO AM Additional Features (Pro version)</h3>
 
 * Extends the features of WPSSO Core Pro (requires an active and licensed <a href="https://wpsso.com/">WPSSO Core Pro plugin</a>).
