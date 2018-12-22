@@ -1,4 +1,4 @@
-=== WPSSO Mobile App Meta for mobile Safari and Twitter's App Card ===
+=== WPSSO Mobile App Meta for Apple's mobile Safari banner and Twitter's App Card ===
 Plugin Name: WPSSO Mobile App Meta
 Plugin Slug: wpsso-am
 Text Domain: wpsso-am
@@ -19,7 +19,7 @@ WPSSO Core add-on provides Apple Store / iTunes and Google Play App meta tags fo
 
 <p style="margin:0;"><img class="readme-icon" src="https://surniaulula.github.io/wpsso-am/assets/icon-256x256.png"></p>
 
-**Promote your website mobile App with a banner in Apple's mobile Safari.**
+**Promote your website's mobile App with a banner in Apple's mobile Safari.**
 
 **Add [Twitter App Card](https://dev.twitter.com/cards/types/app) meta tags to mobile App product pages:**
 
