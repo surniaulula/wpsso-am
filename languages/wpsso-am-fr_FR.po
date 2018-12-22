@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WPSSO Mobile App Meta 1.9.2\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-am\n"
-"POT-Creation-Date: 2018-12-21 19:20-0600\n"
-"PO-Revision-Date: 2018-12-21 19:20-0600\n"
+"POT-Creation-Date: 2018-12-22 10:37-0600\n"
+"PO-Revision-Date: 2018-12-22 10:37-0600\n"
 "Last-Translator: JS Morisset <jsm@surniaulula.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -120,8 +120,8 @@ msgstr "Méta App mobile"
 
 #: lib/gettext-config.php:7
 msgctxt "plugin description"
-msgid "WPSSO Core add-on provides Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari and Twitter's App Card."
-msgstr "Ajout WPSSO Core pour fournir des balises méta Apple Store / iTunes et Google Play App pour mobile Safari et la carte App de Twitter."
+msgid "WPSSO Core add-on provides Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari banner and Twitter's App Card."
+msgstr "Ajout WPSSO Core pour fournir des balises méta Apple Store / iTunes et Google Play App pour mobile Safari de Apple et la carte App de Twitter."
 
 # Ignore the post type to avoid gender issues in the French translation.
 #: lib/gettext-pro.php:6 lib/gpl/admin/post.php:38 lib/pro/admin/post.php:49
@@ -292,8 +292,8 @@ msgid "https://wpsso.com/extend/plugins/wpsso-am/"
 msgstr "https://wpsso.com/extend/plugins/wpsso-am/"
 
 #. Description of the plugin/theme
-msgid "WPSSO Core add-on provides Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari and Twitter's App Card."
-msgstr "Ajout WPSSO Core pour fournir des balises méta Apple Store / iTunes et Google Play App pour mobile Safari et la carte App de Twitter."
+msgid "WPSSO Core add-on provides Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari banner and Twitter's App Card."
+msgstr "Ajout WPSSO Core pour fournir des balises méta Apple Store / iTunes et Google Play App pour mobile Safari de Apple et la carte App de Twitter."
 
 #. Author of the plugin/theme
 msgid "JS Morisset"
