@@ -19,7 +19,7 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 					'version'     => '1.9.2',	// Plugin version.
 					'opt_version' => '7',		// Increment when changing default option values.
 					'short'       => 'WPSSO AM',	// Short plugin name.
-					'name'        => 'WPSSO Mobile App Meta [Add-on]',
+					'name'        => 'WPSSO Mobile App Meta',
 					'desc'        => 'WPSSO Core add-on provides Apple Store / iTunes and Google Play App meta tags for Apple\'s mobile Safari banner and Twitter\'s App Card.',
 					'slug'        => 'wpsso-am',
 					'base'        => 'wpsso-am/wpsso-am.php',

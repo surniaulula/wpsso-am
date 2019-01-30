@@ -1,8 +1,8 @@
-# Copyright (C) 2019 WPSSO Mobile App Meta [Add-on]
-# This file is distributed under the same license as the WPSSO Mobile App Meta [Add-on] package.
+# Copyright (C) 2019 WPSSO Mobile App Meta
+# This file is distributed under the same license as the WPSSO Mobile App Meta package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WPSSO Mobile App Meta [Add-on] 1.9.2\n"
+"Project-Id-Version: WPSSO Mobile App Meta 1.9.2\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-am\n"
 "POT-Creation-Date: 2019-MO-DA HO:MI+ZONE\n"
 "MIME-Version: 1.0\n"
@@ -321,7 +321,7 @@ msgid ""
 msgstr ""
 
 #. Plugin Name of the plugin/theme
-msgid "WPSSO Mobile App Meta [Add-on]"
+msgid "WPSSO Mobile App Meta"
 msgstr ""
 
 #. Plugin URI of the plugin/theme
