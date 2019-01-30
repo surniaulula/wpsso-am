@@ -1,5 +1,5 @@
 === WPSSO Mobile App Meta for Apple's mobile Safari banner and Twitter's App Card ===
-Plugin Name: WPSSO Mobile App Meta [Add-on]
+Plugin Name: WPSSO Mobile App Meta
 Plugin Slug: wpsso-am
 Text Domain: wpsso-am
 Domain Path: /languages
