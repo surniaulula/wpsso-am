@@ -126,20 +126,20 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 1.9.2 (2018/10/04)**
+**Version 1.9.3 (2019/01/31)**
 
 * *New Features*
 	* None.
 * *Improvements*
-	* None.
+	* Maintenance release for WPSSO Core v4.22.0.
 * *Bugfixes*
 	* None.
 * *Developer Notes*
-	* Minor changes for code style and standardization.
+	* Updated the required minimum PHP version from 5.4 to 5.5.
 
 == Upgrade Notice ==
 
-= 1.9.2 =
+= 1.9.3 =
 
-(2018/10/04) Minor changes for code style and standardization.
+(2019/01/31) Maintenance release for WPSSO Core v4.22.0.
 
