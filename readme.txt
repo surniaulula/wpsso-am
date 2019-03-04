@@ -126,6 +126,17 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
+**Version 1.9.4-dev.1 (2019/03/04)**
+
+* *New Features*
+	* None.
+* *Improvements*
+	* None.
+* *Bugfixes*
+	* None.
+* *Developer Notes*
+	* French translation updates.
+
 **Version 1.9.3 (2019/01/31)**
 
 * *New Features*
@@ -138,6 +149,10 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 	* Updated the required minimum PHP version from 5.4 to 5.5.
 
 == Upgrade Notice ==
+
+= 1.9.4-dev.1 =
+
+(2019/03/04) French translation updates.
 
 = 1.9.3 =
 
