@@ -126,7 +126,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 1.9.4-dev.1 (2019/03/04)**
+**Version 1.9.4 (2019/03/05)**
 
 * *New Features*
 	* None.
@@ -150,11 +150,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 == Upgrade Notice ==
 
-= 1.9.4-dev.1 =
+= 1.9.4 =
 
-(2019/03/04) French translation updates.
-
-= 1.9.3 =
-
-(2019/01/31) Maintenance release for WPSSO Core v4.22.0.
+(2019/03/05) French translation updates.
 
