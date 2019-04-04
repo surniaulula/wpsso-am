@@ -34,7 +34,7 @@ if ( ! class_exists( 'WpssoAmGplAdminPost' ) ) {
 
 			if ( empty( $mod[ 'post_status' ] ) || $mod[ 'post_status' ] === 'auto-draft' ) {
 
-				$table_rows[] = '<td><blockquote class="status-info"><p class="centered">'.
+				$table_rows[] = '<td><blockquote class="status-info"><p class="centered">' .
 					sprintf( __( 'Save a draft version or publish the %s to display these options.',
 						'wpsso-am' ), SucomUtil::titleize( $mod[ 'post_type' ] ) ).'</p></td>';
 
