@@ -53,7 +53,7 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 								'twittercard' => '(code) Twitter App Card Meta Tags',
 							),
 						),
-						'submenu' => array(	// Note that submenu elements must have unique keys.
+						'submenu' => array(
 							'am-general' => 'Mobile App Meta',
 						),
 					),
