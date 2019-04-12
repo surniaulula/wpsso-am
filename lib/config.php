@@ -38,9 +38,6 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 						),
 					),
 					'lib' => array(
-						'submenu' => array(	// Note that submenu elements must have unique keys.
-							'am-general' => 'Mobile App Meta',
-						),
 						'gpl' => array(
 							'admin' => array(
 								'am-general' => 'Extend Mobile App Meta Settings',
@@ -55,6 +52,9 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 							'head' => array(
 								'twittercard' => '(code) Twitter App Card Meta Tags',
 							),
+						),
+						'submenu' => array(	// Note that submenu elements must have unique keys.
+							'am-general' => 'Mobile App Meta',
 						),
 					),
 				),
