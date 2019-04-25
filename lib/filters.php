@@ -76,7 +76,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 
 		public function filter_get_defaults( $def_opts ) {
 
-			$def_opts = array_merge( $def_opts, self::$cf['opt']['defaults'] );
+			$def_opts = array_merge( $def_opts, self::$cf[ 'opt' ][ 'defaults' ] );
 
 			/**
 			 * Add options using a key prefix array and post type names.
@@ -95,17 +95,17 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 			$opts =& $this->p->options;		// Shortcut.
 
 			return array_merge( $md_defs, array(
-				'am_ap_ast' => isset( $opts['am_ap_ast'] ) ? $opts['am_ap_ast'] : 'US',
-				'am_iphone_app_id' => '',	// iPhone App ID.
-				'am_iphone_app_name' => '',	// iPhone App Name.
-				'am_iphone_app_url' => '',	// iPhone App URL Scheme.
-				'am_ipad_app_id' => '',		// iPad App ID.
-				'am_ipad_app_name' => '',	// iPad App Name.
-				'am_ipad_app_url' => '',	// iPad App URL Scheme.
-				'am_gplay_app_id' => '',	// Google Play App ID.
-				'am_gplay_app_name' => '',	// Google Play App Name.
-				'am_gplay_app_url' => '',	// Google Play App URL Scheme.
-				'am_ws_itunes_app_id' => '',	// App ID Number.
+				'am_ap_ast'            => isset( $opts[ 'am_ap_ast' ] ) ? $opts[ 'am_ap_ast' ] : 'US',
+				'am_iphone_app_id'     => '',	// iPhone App ID.
+				'am_iphone_app_name'   => '',	// iPhone App Name.
+				'am_iphone_app_url'    => '',	// iPhone App URL Scheme.
+				'am_ipad_app_id'       => '',	// iPad App ID.
+				'am_ipad_app_name'     => '',	// iPad App Name.
+				'am_ipad_app_url'      => '',	// iPad App URL Scheme.
+				'am_gplay_app_id'      => '',	// Google Play App ID.
+				'am_gplay_app_name'    => '',	// Google Play App Name.
+				'am_gplay_app_url'     => '',	// Google Play App URL Scheme.
+				'am_ws_itunes_app_id'  => '',	// App ID Number.
 				'am_ws_itunes_app_aff' => '',	// Affiliate Data.
 				'am_ws_itunes_app_arg' => '', 	// Argument String.
 			) );
@@ -124,16 +124,16 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 
 			if ( ! $mod[ 'is_post' ] ) {		// Aka "not singular".
 
-				if ( empty( $this->p->options['am_ws_on_index'] ) ) {
+				if ( empty( $this->p->options[ 'am_ws_on_index' ] ) ) {
 					if ( $this->p->debug->enabled ) {
 						$this->p->debug->log( 'exiting early: am_ws_on_index not enabled' );
 					}
 					return $mt_name;
 				}
 
-			} elseif ( $mod['is_home_page'] ) {
+			} elseif ( $mod[ 'is_home_page' ] ) {
 
-				if ( empty( $this->p->options['am_ws_on_front'] ) ) {
+				if ( empty( $this->p->options[ 'am_ws_on_front' ] ) ) {
 					if ( $this->p->debug->enabled ) {
 						$this->p->debug->log( 'exiting early: am_ws_on_front not enabled' );
 					}
@@ -147,7 +147,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 				}
 				return $mt_name;
 
-			} elseif ( empty( $this->p->options['am_ws_add_to_' . $mod[ 'post_type' ]] ) ) {
+			} elseif ( empty( $this->p->options[ 'am_ws_add_to_' . $mod[ 'post_type' ]] ) ) {
 
 				if ( $this->p->debug->enabled ) {
 					$this->p->debug->log( 'exiting early: am_ws_add_to_' . $mod[ 'post_type' ] . ' is empty' );
@@ -164,10 +164,10 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 				$md_opts = $mod[ 'obj' ]->get_options( $mod[ 'id' ] );	// Returns an empty string if no meta found.
 			}
 
-			if ( ! empty( $md_opts['am_ws_itunes_app_id'] ) ) {
-				$mt_name['apple-itunes-app'] = 'app-id=' . $md_opts['am_ws_itunes_app_id'];
-			} elseif ( ! empty( $this->p->options['am_ws_itunes_app_id'] ) ) {	// Fallback to global options.
-				$mt_name['apple-itunes-app'] = 'app-id=' . $this->p->options['am_ws_itunes_app_id'];
+			if ( ! empty( $md_opts[ 'am_ws_itunes_app_id' ] ) ) {
+				$mt_name[ 'apple-itunes-app' ] = 'app-id=' . $md_opts[ 'am_ws_itunes_app_id' ];
+			} elseif ( ! empty( $this->p->options[ 'am_ws_itunes_app_id' ] ) ) {	// Fallback to global options.
+				$mt_name[ 'apple-itunes-app' ] = 'app-id=' . $this->p->options[ 'am_ws_itunes_app_id' ];
 			} else {
 				if ( $this->p->debug->enabled ) {
 					$this->p->debug->log( 'exiting early: am_ws_itunes_app_id is empty' );
@@ -175,16 +175,16 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 				return $mt_name;
 			}	
 
-			if ( ! empty( $md_opts['am_ws_itunes_app_aff'] ) ) {
-				$mt_name['apple-itunes-app'] .= ', affiliate-data=' . $md_opts['am_ws_itunes_app_aff'];
-			} elseif ( ! empty( $this->p->options['am_ws_itunes_app_aff'] ) ) {	// Fallback to global options.
-				$mt_name['apple-itunes-app'] .= ', affiliate-data=' . $this->p->options['am_ws_itunes_app_aff'];
+			if ( ! empty( $md_opts[ 'am_ws_itunes_app_aff' ] ) ) {
+				$mt_name[ 'apple-itunes-app' ] .= ', affiliate-data=' . $md_opts[ 'am_ws_itunes_app_aff' ];
+			} elseif ( ! empty( $this->p->options[ 'am_ws_itunes_app_aff' ] ) ) {	// Fallback to global options.
+				$mt_name[ 'apple-itunes-app' ] .= ', affiliate-data=' . $this->p->options[ 'am_ws_itunes_app_aff' ];
 			}
 				
-			if ( ! empty( $md_opts['am_ws_itunes_app_arg'] ) ) {
-				$mt_name['apple-itunes-app'] .= ', app-argument=' . $md_opts['am_ws_itunes_app_arg'];
-			} elseif ( ! empty( $this->p->options['am_ws_itunes_app_arg'] ) ) {	// Fallback to global options.
-				$mt_name['apple-itunes-app'] .= ', app-argument=' . $this->p->options['am_ws_itunes_app_arg'];
+			if ( ! empty( $md_opts[ 'am_ws_itunes_app_arg' ] ) ) {
+				$mt_name[ 'apple-itunes-app' ] .= ', app-argument=' . $md_opts[ 'am_ws_itunes_app_arg' ];
+			} elseif ( ! empty( $this->p->options[ 'am_ws_itunes_app_arg' ] ) ) {	// Fallback to global options.
+				$mt_name[ 'apple-itunes-app' ] .= ', app-argument=' . $this->p->options[ 'am_ws_itunes_app_arg' ];
 			}
 
 			return $mt_name;
@@ -242,8 +242,8 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 
 		public function filter_post_custom_meta_tabs( $tabs, $mod, $metabox_id ) {
 
-			if ( $metabox_id === $this->p->cf['meta'][ 'id' ] ) {
-				if ( ! empty( $this->p->options['am_ap_add_to_' . $mod[ 'post_type' ]] ) ) {
+			if ( $metabox_id === $this->p->cf[ 'meta' ][ 'id' ] ) {
+				if ( ! empty( $this->p->options[ 'am_ap_add_to_' . $mod[ 'post_type' ]] ) ) {
 					SucomUtil::add_after_key( $tabs, 'media', 'appmeta', _x( 'Mobile Apps', 'metabox tab', 'wpsso-am' ) );
 				}
 			}
@@ -369,7 +369,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 
 				case 'tooltip-am_ap_add_to':
 
-					$metabox_title = _x( $this->p->cf['meta']['title'], 'metabox title', 'wpsso' );	// Use wpsso's text domain.
+					$metabox_title = _x( $this->p->cf[ 'meta' ][ 'title' ], 'metabox title', 'wpsso' );	// Use wpsso's text domain.
 					$metabox_tab = _x( 'Mobile Apps', 'metabox tab', 'wpsso-am' );
 
 					$text = sprintf( __( 'Include the <em>%1$s</em> tab in the %2$s metabox on Posts, Pages, etc.', 'wpsso-am' ), $metabox_tab, $metabox_title );
@@ -386,7 +386,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 
 				case 'info-banner-general':
 
-					$metabox_title = _x( $this->p->cf['meta']['title'], 'metabox title', 'wpsso' );	// Use wpsso's text domain.
+					$metabox_title = _x( $this->p->cf[ 'meta' ][ 'title' ], 'metabox title', 'wpsso' );	// Use wpsso's text domain.
 					$metabox_tab = _x( 'Mobile Apps', 'metabox tab', 'wpsso-am' );
 
 					$text = '<blockquote class="top-info"><p>';
@@ -413,7 +413,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 
 				case 'info-appmeta-general':
 
-					$metabox_title = _x( $this->p->cf['meta']['title'], 'metabox title', 'wpsso' );	// Use wpsso's text domain.
+					$metabox_title = _x( $this->p->cf[ 'meta' ][ 'title' ], 'metabox title', 'wpsso' );	// Use wpsso's text domain.
 					$metabox_tab   = _x( 'Mobile Apps', 'metabox tab', 'wpsso-am' );
 
 					$text = '<blockquote class="top-info"><p>';
@@ -432,8 +432,8 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 
 		public function filter_status_gpl_features( $features, $ext, $info, $pkg ) {
 
-			$features['(code) Mobile App Banner'] = array( 
-				'status' => $this->p->options['am_ws_itunes_app_id'] ? 'on' : 'off'
+			$features[ '(code) Mobile App Banner' ] = array( 
+				'status' => $this->p->options[ 'am_ws_itunes_app_id' ] ? 'on' : 'off'
 			);
 
 			return $features;
@@ -441,15 +441,15 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 
 		public function filter_status_pro_features( $features, $ext, $info, $pkg ) {
 
-			$features['(code) Custom Mobile Apps Meta'] = array( 
+			$features[ '(code) Custom Mobile Apps Meta' ] = array( 
 				'td_class' => $pkg[ 'pp' ] ? '' : 'blank',
-				'purchase' => $pkg['purchase'],
+				'purchase' => $pkg[ 'purchase' ],
 				'status'   => $pkg[ 'pp' ] ? 'on' : 'off',
 			);
 
-			$features['(code) Twitter App Card Meta Tags'] = array( 
+			$features[ '(code) Twitter App Card Meta Tags' ] = array( 
 				'td_class' => $pkg[ 'pp' ] ? '' : 'blank',
-				'purchase' => $pkg['purchase'],
+				'purchase' => $pkg[ 'purchase' ],
 				'status'   => $pkg[ 'pp' ] ? 'on' : 'off',
 			);
 
