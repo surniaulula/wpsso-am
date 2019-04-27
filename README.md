@@ -5,7 +5,7 @@
 <tr><th align="right" valign="top" nowrap>Summary</th><td>WPSSO Core add-on provides Apple Store / iTunes and Google Play App meta tags for Apple&#039;s mobile Safari banner and Twitter&#039;s App Card.</td></tr>
 <tr><th align="right" valign="top" nowrap>Stable Version</th><td>1.9.5</td></tr>
 <tr><th align="right" valign="top" nowrap>Requires At Least</th><td>WordPress 3.8</td></tr>
-<tr><th align="right" valign="top" nowrap>Tested Up To</th><td>WordPress 5.1.1</td></tr>
+<tr><th align="right" valign="top" nowrap>Tested Up To</th><td>WordPress 5.2</td></tr>
 <tr><th align="right" valign="top" nowrap>Contributors</th><td>jsmoriss</td></tr>
 <tr><th align="right" valign="top" nowrap>License</th><td><a href="https://www.gnu.org/licenses/gpl.txt">GPLv3</a></td></tr>
 <tr><th align="right" valign="top" nowrap>Tags / Keywords</th><td>app store, mobile app, app card, mobile, itunes, googleplay, google play, meta tags, app banner, safari, twitter app card, twitter card</td></tr>
