@@ -91,7 +91,9 @@ WPSSO Core add-on provides Apple Store / iTunes and Google Play App meta tags fo
 
 <h3>WPSSO Core Plugin Prerequisite</h3>
 
-WPSSO Mobile App Meta (aka WPSSO AM) is an add-on for the [WPSSO Core plugin](https://wordpress.org/plugins/wpsso/) (Free or Pro version). The [WPSSO AM Pro add-on](https://wpsso.com/extend/plugins/wpsso-am/) uses WPSSO Core Pro features and requires an active and licensed [WPSSO Core Pro plugin](https://wpsso.com/).
+WPSSO Mobile App Meta (aka WPSSO AM) is an add-on for the [WPSSO Core plugin](https://wordpress.org/plugins/wpsso/) (Free or Pro version).
+
+The [WPSSO AM Pro add-on](https://wpsso.com/extend/plugins/wpsso-am/) uses WPSSO Core Pro features and requires an active and licensed [WPSSO Core Pro plugin](https://wpsso.com/).
 
 == Installation ==
 
