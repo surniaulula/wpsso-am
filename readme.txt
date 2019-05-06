@@ -127,6 +127,17 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
+**Version 2.0.0-dev.1 (TBD)**
+
+* *New Features*
+	* None.
+* *Improvements*
+	* None.
+* *Bugfixes*
+	* None.
+* *Developer Notes*
+	* Update for code changes in WPSSO Core v5.0.0.
+
 **Version 1.9.5 (2019/04/09)**
 
 * *New Features*
@@ -139,6 +150,10 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 	* Maintenance release for WPSSO Core v4.27.2 config array updates.
 
 == Upgrade Notice ==
+
+= 2.0.0-dev.1 =
+
+(TBD) Update for code changes in WPSSO Core v5.0.0.
 
 = 1.9.5 =
 
