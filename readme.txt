@@ -127,7 +127,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 2.0.0-dev.1 (TBD)**
+**Version 1.10.0-dev.1 (2019/05/07)**
 
 * *New Features*
 	* None.
@@ -136,7 +136,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * *Bugfixes*
 	* None.
 * *Developer Notes*
-	* Update for code changes in WPSSO Core v5.0.0.
+	* Update for code changes in WPSSO Core v4.31.0.
 
 **Version 1.9.5 (2019/04/09)**
 
@@ -151,9 +151,9 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 == Upgrade Notice ==
 
-= 2.0.0-dev.1 =
+= 1.10.0-dev.1 =
 
-(TBD) Update for code changes in WPSSO Core v5.0.0.
+(2019/05/07) Update for code changes in WPSSO Core v4.31.0.
 
 = 1.9.5 =
 
