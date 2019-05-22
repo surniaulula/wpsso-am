@@ -75,7 +75,7 @@ if ( ! class_exists( 'WpssoAmGplAdminPost' ) ) {
 					'td_class' => 'blank',
 					'label'    => _x( 'iPhone App ID', 'option label', 'wpsso-am' ),
 					'tooltip'  => 'post-am_iphone_app_id',
-					'content'  => $form->get_no_input_value( '' ),
+					'content'  => $form->get_no_input_value(),
 				),
 				'am_iphone_app_name' => array(
 					'th_class' => 'medium',
@@ -106,7 +106,7 @@ if ( ! class_exists( 'WpssoAmGplAdminPost' ) ) {
 					'td_class' => 'blank',
 					'label'    => _x( 'iPad App ID', 'option label', 'wpsso-am' ),
 					'tooltip'  => 'post-am_ipad_app_id',
-					'content'  => $form->get_no_input_value( '' ),
+					'content'  => $form->get_no_input_value(),
 				),
 				'am_ipad_app_name' => array(
 					'th_class' => 'medium',
@@ -137,7 +137,7 @@ if ( ! class_exists( 'WpssoAmGplAdminPost' ) ) {
 					'td_class' => 'blank',
 					'label'    => _x( 'Google Play App ID', 'option label', 'wpsso-am' ),
 					'tooltip'  => 'post-am_gplay_app_id',
-					'content'  => $form->get_no_input_value( '' ),
+					'content'  => $form->get_no_input_value(),
 				),
 				'am_gplay_app_name' => array(
 					'th_class' => 'medium',
