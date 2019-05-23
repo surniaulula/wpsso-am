@@ -12,7 +12,7 @@
  * License URI: https://www.gnu.org/licenses/gpl.txt
  * Description: WPSSO Core add-on provides Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari banner and Twitter's App Card.
  * Requires At Least: 3.8
- * Tested Up To: 5.2
+ * Tested Up To: 5.2.1
  * Version: 1.10.0
  * 
  * Version Numbering: {major}.{minor}.{bugfix}[-{stage}.{level}]
