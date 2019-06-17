@@ -56,7 +56,7 @@ WPSSO Core add-on provides Apple Store / iTunes and Google Play App meta tags fo
 		* Default Affiliate Data
 		* Default Argument String
 
-<h3>WPSSO AM Additional Features (Pro version)</h3>
+<h3>WPSSO AM Pro / Premium Features</h3>
 
 * Extends the features of WPSSO Core Pro (requires an active and licensed <a href="https://wpsso.com/">WPSSO Core Pro plugin</a>).
 
@@ -91,7 +91,7 @@ WPSSO Core add-on provides Apple Store / iTunes and Google Play App meta tags fo
 
 <h3>WPSSO Core Plugin Prerequisite</h3>
 
-WPSSO Mobile App Meta (aka WPSSO AM) is an add-on for the [WPSSO Core plugin](https://wordpress.org/plugins/wpsso/) (Free or Pro version).
+WPSSO Mobile App Meta (aka WPSSO AM) is an add-on for the [WPSSO Core plugin](https://wordpress.org/plugins/wpsso/).
 
 The [WPSSO AM Pro add-on](https://wpsso.com/extend/plugins/wpsso-am/) uses WPSSO Core Pro features and requires an active and licensed [WPSSO Core Pro plugin](https://wpsso.com/).
 
@@ -107,7 +107,7 @@ The [WPSSO AM Pro add-on](https://wpsso.com/extend/plugins/wpsso-am/) uses WPSSO
 == Screenshots ==
 
 01. WPSSO AM settings page includes options for the Mobile App Banner, Apple Store App defaults, and the Mobile Apps tab.
-02. WPSSO AM tab in the Document SSO metabox provides custom settings for the Twitter App Card and Mobile App Banner (Pro version).
+02. WPSSO AM tab in the Document SSO metabox provides custom settings for the Twitter App Card and Mobile App Banner (Pro / Premium version).
 
 == Changelog ==
 
@@ -127,6 +127,17 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
+**Version 2.0.0-dev.1 (2019/06/17)**
+
+* *New Features*
+	* None.
+* *Improvements*
+	* None.
+* *Bugfixes*
+	* None.
+* *Developer Notes*
+	* Maintenance release for WPSSO Core v5.0.0.
+
 **Version 1.10.0 (2019/05/20)**
 
 * *New Features*
@@ -139,6 +150,10 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 	* Update for code changes in WPSSO Core v4.31.0.
 
 == Upgrade Notice ==
+
+= 2.0.0-dev.1 =
+
+(2019/06/17) Maintenance release for WPSSO Core v5.0.0.
 
 = 1.10.0 =
 
