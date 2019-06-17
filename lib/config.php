@@ -16,7 +16,7 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 		public static $cf = array(
 			'plugin' => array(
 				'wpssoam' => array(			// Plugin acronym.
-					'version'     => '1.10.0',	// Plugin version.
+					'version'     => '2.0.0-dev.1',	// Plugin version.
 					'opt_version' => '7',		// Increment when changing default option values.
 					'short'       => 'WPSSO AM',	// Short plugin name.
 					'name'        => 'WPSSO Mobile App Meta',
@@ -29,7 +29,7 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 					'req' => array(
 						'short'       => 'WPSSO Core',
 						'name'        => 'WPSSO Core',
-						'min_version' => '4.31.0',
+						'min_version' => '5.0.0-dev.1',
 					),
 					'assets' => array(
 						'icons' => array(
@@ -38,12 +38,6 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 						),
 					),
 					'lib' => array(
-						'gpl' => array(
-							'admin' => array(
-								'am-general' => 'Extend Mobile App Meta Settings',
-								'post'       => 'Extend Post Settings',
-							),
-						),
 						'pro' => array(
 							'admin' => array(
 								'am-general' => 'Extend Mobile App Meta Settings',
@@ -51,6 +45,12 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 							),
 							'head' => array(
 								'twittercard' => '(code) Twitter App Card Meta Tags',
+							),
+						),
+						'std' => array(
+							'admin' => array(
+								'am-general' => 'Extend Mobile App Meta Settings',
+								'post'       => 'Extend Post Settings',
 							),
 						),
 						'submenu' => array(
