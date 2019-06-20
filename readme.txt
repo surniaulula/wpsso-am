@@ -137,6 +137,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 	* None.
 * *Developer Notes*
 	* Maintenance release for WPSSO Core v5.0.0.
+	* Renamed the 'gpl' library sub-folder to 'std'.
 
 **Version 1.10.0 (2019/05/20)**
 
