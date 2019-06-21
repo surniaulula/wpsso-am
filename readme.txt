@@ -39,7 +39,7 @@ WPSSO Core add-on provides Apple Store / iTunes and Google Play App meta tags fo
 
 &#x2605;&#x2605;&#x2605;&#x2605;&#x2605; &mdash; "Universal links, smart app banners, Twitter app cards - App developers, this is the plugin you need." - [markofjohnson](https://wordpress.org/support/topic/universal-links-smart-app-banners-twitter-app-cards/)
 
-<h3>WPSSO AM Standard Features</h3>
+<h3>WPSSO AM Free / Standard Features</h3>
 
 * Extends the features of the WPSSO Core Free or Pro plugin.
 
