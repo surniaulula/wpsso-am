@@ -23,7 +23,7 @@ if ( ! class_exists( 'WpssoAmStdAdminPost' ) ) {
 
 			$this->p->util->add_plugin_filters( $this, array( 
 				'post_appmeta_rows' => 4,
-			) );
+			), 100 );
 		}
 
 		public function filter_post_appmeta_rows( $table_rows, $form, $head, $mod ) {
@@ -32,6 +32,14 @@ if ( ! class_exists( 'WpssoAmStdAdminPost' ) ) {
 				$this->p->debug->mark();
 			}
 
+			/**
+			 * Default option values.
+			 */
+			$def_app_name = $this->p->page->get_title( 0, '', $mod );
+
+			/**
+			 * Translated text strings.
+			 */
 			if ( empty( $mod[ 'post_status' ] ) || $mod[ 'post_status' ] === 'auto-draft' ) {
 
 				$table_rows[] = '<td><blockquote class="status-info"><p class="centered">' .
@@ -41,11 +49,13 @@ if ( ! class_exists( 'WpssoAmStdAdminPost' ) ) {
 				return $table_rows;	// abort
 			}
 
-			$def_app_name = $this->p->page->get_title( 0, '', $mod );
-
 			$table_rows[] = '<td colspan="2">' . $this->p->msgs->get( 'pro-feature-msg', array( 'lca' => 'wpssoam' ) ) . '</td>';
 
+			/**
+			 * Metabox form rows.
+			 */
 			$form_rows = array(
+
 				/**
 				 * Twitter App Card
 				 */
