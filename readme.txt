@@ -56,7 +56,7 @@ WPSSO Core add-on provides Apple Store / iTunes and Google Play App meta tags fo
 		* Default Affiliate Data
 		* Default Argument String
 
-<h3>WPSSO AM Pro / Premium Features</h3>
+<h3>WPSSO AM Premium Features</h3>
 
 * Adds optional [Twitter App Card](https://dev.twitter.com/cards/types/app) meta tags to webpages.
 
@@ -116,7 +116,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * {bugfix} = Backwards-compatible bug fixes or small improvements.
 * {stage}.{level} = Pre-production release: dev < a (alpha) < b (beta) < rc (release candidate).
 
-<h3>Free / Standard Version Repositories</h3>
+<h3>Free / Standard Add-on Repositories</h3>
 
 * [GitHub](https://surniaulula.github.io/wpsso-am/)
 * [WordPress.org](https://plugins.trac.wordpress.org/browser/wpsso-am/)

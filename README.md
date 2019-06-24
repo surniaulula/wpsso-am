@@ -61,7 +61,7 @@
 </ul></li>
 </ul>
 
-<h3>WPSSO AM Pro / Premium Features</h3>
+<h3>WPSSO AM Premium Features</h3>
 
 <ul>
 <li><p>Adds optional <a href="https://dev.twitter.com/cards/types/app">Twitter App Card</a> meta tags to webpages.</p></li>
