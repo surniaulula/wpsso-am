@@ -41,7 +41,7 @@ WPSSO Core add-on provides Apple Store / iTunes and Google Play App meta tags fo
 
 <h3>WPSSO AM Free / Standard Features</h3>
 
-* Extends the features of the WPSSO Core Free or Pro plugin.
+* Extends the features of the WPSSO Core plugin.
 
 * Adds an optional banner in Apple's mobile Safari for your website's Apple Store mobile App.
 
