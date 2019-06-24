@@ -58,8 +58,6 @@ WPSSO Core add-on provides Apple Store / iTunes and Google Play App meta tags fo
 
 <h3>WPSSO AM Pro / Premium Features</h3>
 
-* Extends the features of WPSSO Core Pro (requires an active and licensed <a href="https://wpsso.com/">WPSSO Core Pro plugin</a>).
-
 * Adds optional [Twitter App Card](https://dev.twitter.com/cards/types/app) meta tags to webpages.
 
 * Extends the Mobile App Meta settings page with additional options:
@@ -91,9 +89,7 @@ WPSSO Core add-on provides Apple Store / iTunes and Google Play App meta tags fo
 
 <h3>WPSSO Core Plugin Prerequisite</h3>
 
-WPSSO Mobile App Meta (aka WPSSO AM) is an add-on for the [WPSSO Core plugin](https://wordpress.org/plugins/wpsso/).
-
-The [WPSSO AM Pro add-on](https://wpsso.com/extend/plugins/wpsso-am/) uses WPSSO Core Pro features and requires an active and licensed [WPSSO Core Pro plugin](https://wpsso.com/).
+WPSSO Mobile App Meta (aka WPSSO AM) is an add-on for the [WPSSO Core plugin](https://wordpress.org/plugins/wpsso/) (Standard or Premium version).
 
 == Installation ==
 

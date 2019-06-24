@@ -64,7 +64,6 @@
 <h3>WPSSO AM Pro / Premium Features</h3>
 
 <ul>
-<li><p>Extends the features of WPSSO Core Pro (requires an active and licensed <a href="https://wpsso.com/">WPSSO Core Pro plugin</a>).</p></li>
 <li><p>Adds optional <a href="https://dev.twitter.com/cards/types/app">Twitter App Card</a> meta tags to webpages.</p></li>
 <li><p>Extends the Mobile App Meta settings page with additional options:</p>
 
@@ -117,9 +116,7 @@
 
 <h3>WPSSO Core Plugin Prerequisite</h3>
 
-<p>WPSSO Mobile App Meta (aka WPSSO AM) is an add-on for the <a href="https://wordpress.org/plugins/wpsso/">WPSSO Core plugin</a>.</p>
-
-<p>The <a href="https://wpsso.com/extend/plugins/wpsso-am/">WPSSO AM Pro add-on</a> uses WPSSO Core Pro features and requires an active and licensed <a href="https://wpsso.com/">WPSSO Core Pro plugin</a>.</p>
+<p>WPSSO Mobile App Meta (aka WPSSO AM) is an add-on for the <a href="https://wordpress.org/plugins/wpsso/">WPSSO Core plugin</a> (Standard or Premium version).</p>
 
 
 <h2>Installation</h2>
