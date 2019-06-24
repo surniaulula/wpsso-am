@@ -10,7 +10,7 @@ Tags: app store, mobile app, app card, mobile, itunes, googleplay, google play, 
 Contributors: jsmoriss
 Requires At Least: 3.8
 Tested Up To: 5.2.1
-Stable Tag: 1.10.0
+Stable Tag: 2.0.0
 
 WPSSO Core add-on provides Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari banner and Twitter's App Card.
 
@@ -136,27 +136,12 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * *Bugfixes*
 	* None.
 * *Developer Notes*
-	* Maintenance release for WPSSO Core v5.0.0.
 	* Renamed the 'gpl' library sub-folder to 'std'.
-
-**Version 1.10.0 (2019/05/20)**
-
-* *New Features*
-	* None.
-* *Improvements*
-	* None.
-* *Bugfixes*
-	* None.
-* *Developer Notes*
-	* Update for code changes in WPSSO Core v4.31.0.
+	* Maintenance release for WPSSO Core v5.0.0.
 
 == Upgrade Notice ==
 
 = 2.0.0 =
 
 (2019/06/24) Maintenance release for WPSSO Core v5.0.0.
-
-= 1.10.0 =
-
-(2019/05/20) Update for code changes in WPSSO Core v4.31.0.
 
