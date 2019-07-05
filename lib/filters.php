@@ -60,6 +60,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 			) );
 
 			if ( is_admin() ) {
+
 				$this->p->util->add_plugin_filters( $this, array( 
 					'option_type'           => 2,
 					'post_custom_meta_tabs' => 3,
@@ -67,6 +68,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 					'messages_tooltip'      => 2,
 					'messages_info'         => 2,
 				) );
+
 				$this->p->util->add_plugin_filters( $this, array( 
 					'status_pro_features' => 4,
 					'status_std_features' => 4,
