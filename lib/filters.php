@@ -72,7 +72,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 				$this->p->util->add_plugin_filters( $this, array( 
 					'status_pro_features' => 4,
 					'status_std_features' => 4,
-				), 10, 'wpssoam' );
+				), $prio = 10, $ext = 'wpssoam' );
 			}
 		}
 

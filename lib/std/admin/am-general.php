@@ -13,6 +13,8 @@ if ( ! class_exists( 'WpssoAmStdAdminAmGeneral' ) ) {
 
 	class WpssoAmStdAdminAmGeneral {
 
+		private $p;
+
 		public function __construct( &$plugin ) {
 
 			$this->p =& $plugin;
@@ -23,7 +25,7 @@ if ( ! class_exists( 'WpssoAmStdAdminAmGeneral' ) ) {
 
 			$this->p->util->add_plugin_filters( $this, array( 
 				'am_appmeta_general_rows' => 2,
-			), 100 );
+			), $prio = 100 );
 		}
 
 		public function filter_am_appmeta_general_rows( $table_rows, $form ) {

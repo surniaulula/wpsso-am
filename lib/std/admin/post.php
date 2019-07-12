@@ -13,6 +13,8 @@ if ( ! class_exists( 'WpssoAmStdAdminPost' ) ) {
 
 	class WpssoAmStdAdminPost {
 
+		private $p;
+
 		public function __construct( &$plugin ) {
 
 			$this->p =& $plugin;
@@ -23,7 +25,7 @@ if ( ! class_exists( 'WpssoAmStdAdminPost' ) ) {
 
 			$this->p->util->add_plugin_filters( $this, array( 
 				'post_appmeta_rows' => 4,
-			), 100 );
+			), $prio = 100 );
 		}
 
 		public function filter_post_appmeta_rows( $table_rows, $form, $head, $mod ) {
