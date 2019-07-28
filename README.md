@@ -114,7 +114,7 @@
 </ul></li>
 </ul>
 
-<h3>WPSSO Core Plugin Prerequisite</h3>
+<h3>WPSSO Core Plugin Required</h3>
 
 <p>WPSSO Mobile App Meta (aka WPSSO AM) is an add-on for the <a href="https://wordpress.org/plugins/wpsso/">WPSSO Core plugin</a>.</p>
 
