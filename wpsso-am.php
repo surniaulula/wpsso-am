@@ -206,7 +206,9 @@ if ( ! class_exists( 'WpssoAm' ) ) {
 			}
 
 			if ( ! $this->have_req_min ) {
+
 				$this->min_version_notice();
+
 				return;	// stop here
 			}
 		}
