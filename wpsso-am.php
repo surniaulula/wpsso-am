@@ -193,7 +193,7 @@ if ( ! class_exists( 'WpssoAm' ) ) {
 			}
 
 			if ( ! $this->have_req_min ) {
-				return;	// stop here
+				return;	// Stop here.
 			}
 
 			$this->filters = new WpssoAmFilters( $this->p );
@@ -209,7 +209,7 @@ if ( ! class_exists( 'WpssoAm' ) ) {
 
 				$this->min_version_notice();
 
-				return;	// stop here
+				return;	// Stop here.
 			}
 		}
 
