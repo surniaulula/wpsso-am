@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WPSSO Mobile App Meta package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WPSSO Mobile App Meta 2.0.0\n"
+"Project-Id-Version: WPSSO Mobile App Meta 2.1.0-b.3\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-am\n"
 "POT-Creation-Date: 2019-MO-DA HO:MI+ZONE\n"
 "MIME-Version: 1.0\n"
@@ -155,111 +155,129 @@ msgid ""
 "tags for Apple's mobile Safari banner and Twitter's App Card."
 msgstr ""
 
-#: lib/gettext-pro.php:6 lib/pro/admin/post.php:57 lib/std/admin/post.php:48
-msgid "Save a draft version or publish the %s to display these options."
-msgstr ""
-
-#: lib/gettext-pro.php:7 lib/pro/admin/post.php:74 lib/std/admin/post.php:68
-msgctxt "metabox title"
-msgid "Twitter App Card"
-msgstr ""
-
-#: lib/gettext-pro.php:8 lib/pro/admin/post.php:78 lib/std/admin/post.php:73
-msgctxt "option label"
-msgid "App Store Territory"
-msgstr ""
-
-#: lib/gettext-pro.php:9 lib/pro/admin/post.php:89 lib/std/admin/post.php:84
-msgctxt "metabox title"
-msgid "iPhone App Details"
-msgstr ""
-
-#: lib/gettext-pro.php:10 lib/pro/admin/post.php:93 lib/std/admin/post.php:89
-msgctxt "option label"
-msgid "iPhone App ID"
-msgstr ""
-
-#: lib/gettext-pro.php:11 lib/pro/admin/post.php:99 lib/std/admin/post.php:96
-msgctxt "option label"
-msgid "iPhone App Name"
-msgstr ""
-
-#: lib/gettext-pro.php:12 lib/pro/admin/post.php:106 lib/std/admin/post.php:104
-msgctxt "option label"
-msgid "iPhone App URL Scheme"
-msgstr ""
-
-#: lib/gettext-pro.php:13 lib/pro/admin/post.php:117 lib/std/admin/post.php:115
-msgctxt "metabox title"
-msgid "iPad App Details"
-msgstr ""
-
-#: lib/gettext-pro.php:14 lib/pro/admin/post.php:121 lib/std/admin/post.php:120
-msgctxt "option label"
-msgid "iPad App ID"
-msgstr ""
-
-#: lib/gettext-pro.php:15 lib/pro/admin/post.php:127 lib/std/admin/post.php:127
-msgctxt "option label"
-msgid "iPad App Name"
-msgstr ""
-
-#: lib/gettext-pro.php:16 lib/pro/admin/post.php:134 lib/std/admin/post.php:135
-msgctxt "option label"
-msgid "iPad App URL Scheme"
-msgstr ""
-
-#: lib/gettext-pro.php:17 lib/pro/admin/post.php:145 lib/std/admin/post.php:146
-msgctxt "metabox title"
-msgid "Google Play App Details"
-msgstr ""
-
-#: lib/gettext-pro.php:18 lib/pro/admin/post.php:149 lib/std/admin/post.php:151
-msgctxt "option label"
-msgid "Google Play App ID"
-msgstr ""
-
-#: lib/gettext-pro.php:19 lib/pro/admin/post.php:155 lib/std/admin/post.php:158
-msgctxt "option label"
-msgid "Google Play App Name"
-msgstr ""
-
-#: lib/gettext-pro.php:20 lib/pro/admin/post.php:162 lib/std/admin/post.php:166
-msgctxt "option label"
-msgid "Google Play App URL Scheme"
-msgstr ""
-
-#: lib/gettext-pro.php:21 lib/pro/admin/post.php:173 lib/std/admin/post.php:177
-#: lib/submenu/am-general.php:36
-msgctxt "metabox title"
-msgid "Mobile App Banner"
-msgstr ""
-
-#: lib/gettext-pro.php:22 lib/pro/admin/post.php:177 lib/std/admin/post.php:182
-msgctxt "option label"
-msgid "App ID Number"
-msgstr ""
-
-#: lib/gettext-pro.php:23 lib/pro/admin/post.php:184 lib/std/admin/post.php:189
-msgctxt "option label"
-msgid "Affiliate Data"
-msgstr ""
-
-#: lib/gettext-pro.php:24 lib/pro/admin/post.php:191 lib/std/admin/post.php:196
-msgctxt "option label"
-msgid "Argument String"
-msgstr ""
-
-#: lib/gettext-pro.php:25 lib/pro/admin/am-general.php:56
+#: lib/gettext-pro.php:6 lib/pro/admin/am-general.php:56
 #: lib/std/admin/am-general.php:49
 msgctxt "option label"
 msgid "Show Tab on Post Types"
 msgstr ""
 
-#: lib/gettext-pro.php:26 lib/pro/admin/am-general.php:59
+#: lib/gettext-pro.php:7 lib/pro/admin/am-general.php:59
 #: lib/std/admin/am-general.php:52
 msgctxt "option label"
 msgid "Default App Store Territory"
+msgstr ""
+
+#: lib/gettext-pro.php:8 lib/pro/admin/post-edit.php:57
+#: lib/std/admin/post-edit.php:48
+msgid "Save a draft version or publish the %s to display these options."
+msgstr ""
+
+#: lib/gettext-pro.php:9 lib/pro/admin/post-edit.php:74
+#: lib/std/admin/post-edit.php:68
+msgctxt "metabox title"
+msgid "Twitter App Card"
+msgstr ""
+
+#: lib/gettext-pro.php:10 lib/pro/admin/post-edit.php:78
+#: lib/std/admin/post-edit.php:73
+msgctxt "option label"
+msgid "App Store Territory"
+msgstr ""
+
+#: lib/gettext-pro.php:11 lib/pro/admin/post-edit.php:89
+#: lib/std/admin/post-edit.php:84
+msgctxt "metabox title"
+msgid "iPhone App Details"
+msgstr ""
+
+#: lib/gettext-pro.php:12 lib/pro/admin/post-edit.php:93
+#: lib/std/admin/post-edit.php:89
+msgctxt "option label"
+msgid "iPhone App ID"
+msgstr ""
+
+#: lib/gettext-pro.php:13 lib/pro/admin/post-edit.php:99
+#: lib/std/admin/post-edit.php:96
+msgctxt "option label"
+msgid "iPhone App Name"
+msgstr ""
+
+#: lib/gettext-pro.php:14 lib/pro/admin/post-edit.php:106
+#: lib/std/admin/post-edit.php:104
+msgctxt "option label"
+msgid "iPhone App URL Scheme"
+msgstr ""
+
+#: lib/gettext-pro.php:15 lib/pro/admin/post-edit.php:117
+#: lib/std/admin/post-edit.php:115
+msgctxt "metabox title"
+msgid "iPad App Details"
+msgstr ""
+
+#: lib/gettext-pro.php:16 lib/pro/admin/post-edit.php:121
+#: lib/std/admin/post-edit.php:120
+msgctxt "option label"
+msgid "iPad App ID"
+msgstr ""
+
+#: lib/gettext-pro.php:17 lib/pro/admin/post-edit.php:127
+#: lib/std/admin/post-edit.php:127
+msgctxt "option label"
+msgid "iPad App Name"
+msgstr ""
+
+#: lib/gettext-pro.php:18 lib/pro/admin/post-edit.php:134
+#: lib/std/admin/post-edit.php:135
+msgctxt "option label"
+msgid "iPad App URL Scheme"
+msgstr ""
+
+#: lib/gettext-pro.php:19 lib/pro/admin/post-edit.php:145
+#: lib/std/admin/post-edit.php:146
+msgctxt "metabox title"
+msgid "Google Play App Details"
+msgstr ""
+
+#: lib/gettext-pro.php:20 lib/pro/admin/post-edit.php:149
+#: lib/std/admin/post-edit.php:151
+msgctxt "option label"
+msgid "Google Play App ID"
+msgstr ""
+
+#: lib/gettext-pro.php:21 lib/pro/admin/post-edit.php:155
+#: lib/std/admin/post-edit.php:158
+msgctxt "option label"
+msgid "Google Play App Name"
+msgstr ""
+
+#: lib/gettext-pro.php:22 lib/pro/admin/post-edit.php:162
+#: lib/std/admin/post-edit.php:166
+msgctxt "option label"
+msgid "Google Play App URL Scheme"
+msgstr ""
+
+#: lib/gettext-pro.php:23 lib/pro/admin/post-edit.php:173
+#: lib/std/admin/post-edit.php:177 lib/submenu/am-general.php:36
+msgctxt "metabox title"
+msgid "Mobile App Banner"
+msgstr ""
+
+#: lib/gettext-pro.php:24 lib/pro/admin/post-edit.php:177
+#: lib/std/admin/post-edit.php:182
+msgctxt "option label"
+msgid "App ID Number"
+msgstr ""
+
+#: lib/gettext-pro.php:25 lib/pro/admin/post-edit.php:184
+#: lib/std/admin/post-edit.php:189
+msgctxt "option label"
+msgid "Affiliate Data"
+msgstr ""
+
+#: lib/gettext-pro.php:26 lib/pro/admin/post-edit.php:191
+#: lib/std/admin/post-edit.php:196
+msgctxt "option label"
+msgid "Argument String"
 msgstr ""
 
 #: lib/submenu/am-general.php:48

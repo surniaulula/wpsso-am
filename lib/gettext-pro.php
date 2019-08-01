@@ -3,6 +3,8 @@
 /**
  * Extract of translatable text strings from the lib/pro classes.
  */
+_x( 'Show Tab on Post Types', 'option label', 'wpsso-am' );
+_x( 'Default App Store Territory', 'option label', 'wpsso-am' );
 __( 'Save a draft version or publish the %s to display these options.', 'wpsso-am' );
 _x( 'Twitter App Card', 'metabox title', 'wpsso-am' );
 _x( 'App Store Territory', 'option label', 'wpsso-am' );
@@ -22,5 +24,3 @@ _x( 'Mobile App Banner', 'metabox title', 'wpsso-am' );
 _x( 'App ID Number', 'option label', 'wpsso-am' );
 _x( 'Affiliate Data', 'option label', 'wpsso-am' );
 _x( 'Argument String', 'option label', 'wpsso-am' );
-_x( 'Show Tab on Post Types', 'option label', 'wpsso-am' );
-_x( 'Default App Store Territory', 'option label', 'wpsso-am' );
