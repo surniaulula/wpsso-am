@@ -1,4 +1,4 @@
-=== WPSSO Mobile App Meta ===
+=== Mobile App Meta | WPSSO Add-on ===
 Plugin Name: WPSSO Mobile App Meta
 Plugin Slug: wpsso-am
 Text Domain: wpsso-am
@@ -12,7 +12,7 @@ Requires At Least: 3.8
 Tested Up To: 5.2.2
 Stable Tag: 2.1.0
 
-WPSSO Core add-on provides Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari banner and Twitter's App Card.
+Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari banner and Twitter's App Card.
 
 == Description ==
 
