@@ -151,8 +151,8 @@ msgstr ""
 #: lib/gettext-config.php:7
 msgctxt "plugin description"
 msgid ""
-"WPSSO Core add-on provides Apple Store / iTunes and Google Play App meta "
-"tags for Apple's mobile Safari banner and Twitter's App Card."
+"Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari "
+"banner and Twitter's App Card."
 msgstr ""
 
 #: lib/gettext-pro.php:6 lib/pro/admin/am-general.php:56
