@@ -123,7 +123,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 2.1.0-rc.1 (2019/08/01)**
+**Version 2.1.0 (2019/08/02)**
 
 * **New Features**
 	* None.
@@ -134,26 +134,9 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * **Developer Notes**
 	* Renamed the "post.php" library file to "post-edit.php" for WPSSO Core v5.4.0.
 
-**Version 2.0.0 (2019/06/24)**
-
-* **New Features**
-	* None.
-* **Improvements**
-	* Renamed "Pro" distribution to "Premium".
-	* Renamed "Free" distribution to "Standard".
-* **Bugfixes**
-	* None.
-* **Developer Notes**
-	* Renamed the 'gpl' library sub-folder to 'std'.
-	* Maintenance release for WPSSO Core v5.0.0.
-
 == Upgrade Notice ==
 
-= 2.1.0-rc.1 =
+= 2.1.0 =
 
-(2019/08/01) Renamed the "post.php" library file to "post-edit.php" for WPSSO Core v5.4.0.
-
-= 2.0.0 =
-
-(2019/06/24) Maintenance release for WPSSO Core v5.0.0.
+(2019/08/02) Renamed the "post.php" library file to "post-edit.php" for WPSSO Core v5.4.0.
 
