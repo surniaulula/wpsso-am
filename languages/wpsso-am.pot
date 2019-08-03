@@ -348,8 +348,8 @@ msgstr ""
 
 #. Description of the plugin/theme
 msgid ""
-"WPSSO Core add-on provides Apple Store / iTunes and Google Play App meta "
-"tags for Apple's mobile Safari banner and Twitter's App Card."
+"Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari "
+"banner and Twitter's App Card."
 msgstr ""
 
 #. Author of the plugin/theme
