@@ -13,7 +13,7 @@
  * Description: Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari banner and Twitter's App Card.
  * Requires At Least: 3.8
  * Tested Up To: 5.2.2
- * Version: 2.1.0
+ * Version: 2.1.1
  * 
  * Version Numbering: {major}.{minor}.{bugfix}[-{stage}.{level}]
  *
@@ -182,7 +182,7 @@ if ( ! class_exists( 'WpssoAm' ) ) {
 
 			if ( is_admin() ) {
 				$this->p->avail[ 'admin' ][ 'am-general' ] = true;
-				$this->p->avail[ 'admin' ][ 'post' ] = true;
+				$this->p->avail[ 'admin' ][ 'post-edit' ] = true;
 			}
 		}
 
