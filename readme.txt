@@ -123,20 +123,20 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 2.1.0 (2019/08/02)**
+**Version 2.1.0 (2019/08/04)**
 
 * **New Features**
 	* None.
 * **Improvements**
 	* None.
 * **Bugfixes**
-	* None.
+	* Fixed missing admin library loader definition for 'post-edit'.
 * **Developer Notes**
-	* Renamed the "post.php" library file to "post-edit.php" for WPSSO Core v5.4.0.
+	* None.
 
 == Upgrade Notice ==
 
-= 2.1.0 =
+= 2.1.1 =
 
-(2019/08/02) Renamed the "post.php" library file to "post-edit.php" for WPSSO Core v5.4.0.
+(2019/08/04) Fixed missing admin library loader definition for 'post-edit'.
 
