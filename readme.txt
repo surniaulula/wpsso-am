@@ -123,7 +123,18 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 2.1.0 (2019/08/04)**
+**Version 2.1.2-dev.1 (2019/08/05)**
+
+* **New Features**
+	* None.
+* **Improvements**
+	* None.
+* **Bugfixes**
+	* None.
+* **Developer Notes**
+	* Optimized loading of admin library modules for WPSSO Core v5.5.1.
+
+**Version 2.1.1 (2019/08/04)**
 
 * **New Features**
 	* None.
@@ -135,6 +146,10 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 	* None.
 
 == Upgrade Notice ==
+
+= 2.1.2-dev.1 =
+
+(2019/08/05) Optimized loading of admin library modules for WPSSO Core v5.5.1.
 
 = 2.1.1 =
 
