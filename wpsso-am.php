@@ -13,7 +13,7 @@
  * Description: Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari banner and Twitter's App Card.
  * Requires At Least: 3.8
  * Tested Up To: 5.2.2
- * Version: 2.1.1
+ * Version: 2.1.2-dev.1
  * 
  * Version Numbering: {major}.{minor}.{bugfix}[-{stage}.{level}]
  *
@@ -178,12 +178,8 @@ if ( ! class_exists( 'WpssoAm' ) ) {
 			}
 
 			$this->p->avail[ 'p_ext' ][ 'am' ] = true;		// Signal that this extension / add-on is available.
-			$this->p->avail[ 'head' ][ 'twittercard' ] = true;
 
-			if ( is_admin() ) {
-				$this->p->avail[ 'admin' ][ 'am-general' ] = true;
-				$this->p->avail[ 'admin' ][ 'post-edit' ] = true;
-			}
+			$this->p->avail[ 'head' ][ 'twittercard' ] = true;
 		}
 
 		public function wpsso_init_objects() {
