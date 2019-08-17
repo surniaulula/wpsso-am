@@ -8,7 +8,7 @@ License URI: https://www.gnu.org/licenses/gpl.txt
 Assets URI: https://surniaulula.github.io/wpsso-am/assets/
 Tags: app store, mobile app, app card, mobile, itunes, googleplay, google play, meta tags, app banner, safari, twitter app card, twitter card
 Contributors: jsmoriss
-Requires At Least: 3.8
+Requires At Least: 3.9
 Tested Up To: 5.2.2
 Stable Tag: 2.1.2
 
