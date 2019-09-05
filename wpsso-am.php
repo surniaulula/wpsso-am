@@ -12,7 +12,7 @@
  * License URI: https://www.gnu.org/licenses/gpl.txt
  * Description: Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari banner and Twitter's App Card.
  * Requires At Least: 3.9
- * Tested Up To: 5.2.2
+ * Tested Up To: 5.2.3
  * Version: 2.1.2
  * 
  * Version Numbering: {major}.{minor}.{bugfix}[-{stage}.{level}]
@@ -113,7 +113,7 @@ if ( ! class_exists( 'WpssoAm' ) ) {
 					require_once trailingslashit( ABSPATH ) . 'wp-admin/includes/plugin.php';
 				}
 
-				deactivate_plugins( $info[ 'base' ], true );	// $silent is true
+				deactivate_plugins( $info[ 'base' ], $silent = true );
 
 				wp_die( '<p>' . sprintf( $die_msg, $info[ 'name' ], $info[ 'req' ][ 'name' ], $info[ 'req' ][ 'short' ], $info[ 'short' ] ) . '</p>' );
 
