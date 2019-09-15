@@ -70,8 +70,8 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 				) );
 
 				$this->p->util->add_plugin_filters( $this, array( 
-					'status_pro_features' => 4,
 					'status_std_features' => 4,
+					'status_pro_features' => 4,
 				), $prio = 10, $ext = 'wpssoam' );
 			}
 		}
@@ -432,6 +432,15 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 			return $text;
 		}
 
+		public function filter_status_std_features( $features, $ext, $info, $pkg ) {
+
+			$features[ '(code) Mobile App Banner' ] = array( 
+				'status' => $this->p->options[ 'am_ws_itunes_app_id' ] ? 'on' : 'off'
+			);
+
+			return $features;
+		}
+
 		public function filter_status_pro_features( $features, $ext, $info, $pkg ) {
 
 			$features[ '(code) Custom Mobile Apps Meta' ] = array( 
@@ -444,15 +453,6 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 				'td_class' => $pkg[ 'pp' ] ? '' : 'blank',
 				'purchase' => $pkg[ 'purchase' ],
 				'status'   => $pkg[ 'pp' ] ? 'on' : 'off',
-			);
-
-			return $features;
-		}
-
-		public function filter_status_std_features( $features, $ext, $info, $pkg ) {
-
-			$features[ '(code) Mobile App Banner' ] = array( 
-				'status' => $this->p->options[ 'am_ws_itunes_app_id' ] ? 'on' : 'off'
 			);
 
 			return $features;
