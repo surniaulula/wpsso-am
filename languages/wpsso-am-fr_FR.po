@@ -2,10 +2,10 @@
 # This file is distributed under the same license as the WPSSO App Meta (WPSSO AM) package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WPSSO Mobile App Meta 2.1.2\n"
+"Project-Id-Version: WPSSO Mobile App Meta 2.1.3\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-am\n"
-"POT-Creation-Date: 2019-08-05 08:25-0700\n"
-"PO-Revision-Date: 2019-08-05 08:26-0700\n"
+"POT-Creation-Date: 2019-10-02 09:45-0700\n"
+"PO-Revision-Date: 2019-10-02 09:46-0700\n"
 "Last-Translator: JS Morisset <jsm@surniaulula.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -289,15 +289,11 @@ msgctxt "option label"
 msgid "Default Argument String"
 msgstr "Chaîne d'arguments par défaut"
 
-#: wpsso-am.php:106
-msgid "%1$s is an add-on for the %2$s plugin &mdash; please install and activate the %3$s plugin before activating %4$s."
-msgstr "%1$s est un ajout pour l'extension %2$s &mdash; SVP installer et activer l'extension %3$s avant d'activer %4$s."
-
-#: wpsso-am.php:108
+#: wpsso-am.php:103
 msgid "The %1$s add-on requires the %2$s plugin &mdash; install and activate the %3$s plugin or <a href=\"%4$s\">deactivate the %5$s add-on</a>."
 msgstr "L'ajout %1$s requiert l'extension %2$s &mdash; installer et activer l'extension %3$s ou <a href=\"%4$s\">désactiver l'ajout %5$s</a>."
 
-#: wpsso-am.php:216
+#: wpsso-am.php:198
 msgid "The %1$s version %2$s add-on requires %3$s version %4$s or newer (version %5$s is currently installed)."
 msgstr "L'ajout %1$s version %2$s requiert %3$s version %4$s ou plus récente (version %5$s est actuellement installée)."
 
