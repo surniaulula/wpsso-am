@@ -1,4 +1,4 @@
-<h1>Mobile App Meta | WPSSO Add-on</h1>
+<h1>Mobile App Meta</h1><h3>WPSSO Add-on</h3>
 
 <table>
 <tr><th align="right" valign="top" nowrap>Plugin Name</th><td>WPSSO Mobile App Meta</td></tr>
