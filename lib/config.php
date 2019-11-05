@@ -248,8 +248,8 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 
 		public static function require_libs( $plugin_filepath ) {
 
-			require_once WPSSOAM_PLUGINDIR . 'lib/register.php';
 			require_once WPSSOAM_PLUGINDIR . 'lib/filters.php';
+			require_once WPSSOAM_PLUGINDIR . 'lib/register.php';
 
 			add_filter( 'wpssoam_load_lib', array( 'WpssoAmConfig', 'load_lib' ), 10, 3 );
 		}
