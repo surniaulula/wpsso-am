@@ -36,7 +36,7 @@
 
 <p>&#x2605;&#x2605;&#x2605;&#x2605;&#x2605; &mdash; "Universal links, smart app banners, Twitter app cards - App developers, this is the plugin you need." - <a href="https://wordpress.org/support/topic/universal-links-smart-app-banners-twitter-app-cards/">markofjohnson</a></p>
 
-<h3>WPSSO AM Free / Standard Features</h3>
+<h3>WPSSO AM Standard Features</h3>
 
 <ul>
 <li><p>Extends the features of the WPSSO Core plugin.</p></li>

@@ -39,7 +39,7 @@ Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari ban
 
 &#x2605;&#x2605;&#x2605;&#x2605;&#x2605; &mdash; "Universal links, smart app banners, Twitter app cards - App developers, this is the plugin you need." - [markofjohnson](https://wordpress.org/support/topic/universal-links-smart-app-banners-twitter-app-cards/)
 
-<h3>WPSSO AM Free / Standard Features</h3>
+<h3>WPSSO AM Standard Features</h3>
 
 * Extends the features of the WPSSO Core plugin.
 
@@ -122,6 +122,17 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * [WordPress.org](https://plugins.trac.wordpress.org/browser/wpsso-am/)
 
 <h3>Changelog / Release Notes</h3>
+
+**Version 3.0.0-dev.1 (TBD)**
+
+* **New Features**
+	* Moved Premium add-on features into the Standard version.
+* **Improvements**
+	* None.
+* **Bugfixes**
+	* None.
+* **Developer Notes**
+	* None.
 
 **Version 2.1.3 (2019/10/04)**
 
