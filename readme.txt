@@ -123,7 +123,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 3.0.0-dev.1 (TBD)**
+**Version 3.0.0-dev.2 (TBD)**
 
 * **New Features**
 	* Moved Premium add-on features into the Standard version.
