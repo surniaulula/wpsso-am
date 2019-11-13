@@ -41,6 +41,7 @@
 <ul>
 <li><p>Extends the features of the WPSSO Core plugin.</p></li>
 <li><p>Adds an optional banner in Apple's mobile Safari for your website's Apple Store mobile App.</p></li>
+<li><p>Adds optional <a href="https://dev.twitter.com/cards/types/app">Twitter App Card</a> meta tags to webpages.</p></li>
 <li><p>Adds a Mobile App Meta settings page to the SSO menu with additional options:</p>
 
 <ul>
@@ -58,16 +59,6 @@
 <li>Default Affiliate Data</li>
 <li>Default Argument String</li>
 </ul></li>
-</ul></li>
-</ul>
-
-<h3>WPSSO AM Premium Features</h3>
-
-<ul>
-<li><p>Adds optional <a href="https://dev.twitter.com/cards/types/app">Twitter App Card</a> meta tags to webpages.</p></li>
-<li><p>Extends the Mobile App Meta settings page with additional options:</p>
-
-<ul>
 <li>Mobile App Products
 
 <ul>

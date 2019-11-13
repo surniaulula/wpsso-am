@@ -45,6 +45,8 @@ Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari ban
 
 * Adds an optional banner in Apple's mobile Safari for your website's Apple Store mobile App.
 
+* Adds optional [Twitter App Card](https://dev.twitter.com/cards/types/app) meta tags to webpages.
+
 * Adds a Mobile App Meta settings page to the SSO menu with additional options:
 
 	* Mobile App Banner
@@ -55,13 +57,6 @@ Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari ban
 		* Default App ID Number
 		* Default Affiliate Data
 		* Default Argument String
-
-<h3>WPSSO AM Premium Features</h3>
-
-* Adds optional [Twitter App Card](https://dev.twitter.com/cards/types/app) meta tags to webpages.
-
-* Extends the Mobile App Meta settings page with additional options:
-
 	* Mobile App Products
 		* Show Tab on Post Types
 		* Default App Store Territory
@@ -103,7 +98,7 @@ WPSSO Mobile App Meta (aka WPSSO AM) is an add-on for the [WPSSO Core plugin](ht
 == Screenshots ==
 
 01. WPSSO AM settings page includes options for the Mobile App Banner, Apple Store App defaults, and the Mobile Apps tab.
-02. WPSSO AM tab in the Document SSO metabox provides custom settings for the Twitter App Card and Mobile App Banner (Premium add-on).
+02. WPSSO AM tab in the Document SSO metabox provides custom settings for the Twitter App Card and Mobile App Banner.
 
 == Changelog ==
 
@@ -123,7 +118,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 3.0.0-dev.2 (TBD)**
+**Version 3.0.0-dev.2 (2019/11/13)**
 
 * **New Features**
 	* Moved Premium add-on features into the Standard version.
@@ -146,6 +141,10 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 	* None.
 
 == Upgrade Notice ==
+
+= 3.0.0-dev.2 =
+
+(2019/11/13) Moved Premium add-on features into the Standard version.
 
 = 2.1.3 =
 
