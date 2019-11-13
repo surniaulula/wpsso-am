@@ -92,7 +92,7 @@ if ( ! class_exists( 'WpssoAmSubmenuAmGeneral' ) && class_exists( 'WpssoAdmin' )
 		public function show_metabox_appmeta() {
 
 			$metabox_id = 'am-appmeta';
-			$tab_key = 'general';
+			$tab_key    = 'general';
 
 			$this->p->util->do_metabox_table( apply_filters( SucomUtil::sanitize_hookname( $this->p->lca . '_' . $metabox_id . '_' . $tab_key . '_rows' ),
 				$this->get_table_rows( $metabox_id, $tab_key ), $this->form, false ), 'metabox-' . $metabox_id . '-' . $tab_key );
@@ -117,6 +117,7 @@ if ( ! class_exists( 'WpssoAmSubmenuAmGeneral' ) && class_exists( 'WpssoAdmin' )
 					'<td>' . $this->form->get_checkbox( 'am_ws_on_front' ) . '</td>';
 
 					$add_to_checkboxes = '';
+
 					foreach ( $this->p->util->get_post_types( 'objects' ) as $pt ) {
 						$add_to_checkboxes .= '<p>' . $this->form->get_checkbox( 'am_ws_add_to_' . $pt->name ) . 
 							' ' . $pt->label . ( empty( $pt->description ) ? '' : ' (' . $pt->description . ')' ) . '</p>';
@@ -142,6 +143,27 @@ if ( ! class_exists( 'WpssoAmSubmenuAmGeneral' ) && class_exists( 'WpssoAdmin' )
 					$table_rows[] = $this->form->get_th_html( _x( 'Default Argument String',
 						'option label', 'wpsso-am' ), '', 'am_ws_itunes_app_arg' ) . 
 					'<td>' . $this->form->get_input( 'am_ws_itunes_app_arg', 'wide' ) . '</td>';
+
+					break;
+
+				case 'am-appmeta-general':
+
+					$table_rows[] = '<td colspan="2">' . $this->p->msgs->get( 'info-appmeta-general' ) . '</td>';
+
+					$add_to_checkboxes = '';
+
+					foreach ( $this->p->util->get_post_types( 'objects' ) as $pt ) {
+						$add_to_checkboxes .= '<p>' . $this->form->get_checkbox( 'am_ap_add_to_' . $pt->name ). ' ' .
+							$pt->label . ( empty( $pt->description ) ? '' : ' (' . $pt->description . ')' ) . '</p>';
+					}
+
+					$table_rows[] = $this->form->get_th_html( _x( 'Show Tab on Post Types',
+						'option label', 'wpsso-am' ), '', 'am_ap_add_to' ).
+					'<td>' . $add_to_checkboxes . '</td>';
+
+					$table_rows[] = $this->form->get_th_html( _x( 'Default App Store Territory',
+						'option label', 'wpsso-am' ), '', 'am_ap_ast' ).
+					'<td>' . $this->form->get_select( 'am_ap_ast', WpssoAmConfig::$app_stores ) . '</td>';
 
 					break;
 			}

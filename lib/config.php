@@ -23,7 +23,7 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 					'desc'        => 'Apple Store / iTunes and Google Play App meta tags for Apple\'s mobile Safari banner and Twitter\'s App Card.',
 					'slug'        => 'wpsso-am',
 					'base'        => 'wpsso-am/wpsso-am.php',
-					'update_auth' => 'tid',
+					'update_auth' => '',		// No premium version.
 					'text_domain' => 'wpsso-am',
 					'domain_path' => '/languages',
 					'req' => array(
@@ -39,19 +39,8 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 					),
 					'lib' => array(
 						'pro' => array(
-							'admin' => array(
-								'am-general' => 'Extend Mobile App Meta Settings',
-								'post-edit'  => 'Extend Post Edit Settings',
-							),
-							'head' => array(
-								'twittercard' => '(code) Twitter App Card Meta Tags',
-							),
 						),
 						'std' => array(
-							'admin' => array(
-								'am-general' => 'Extend Mobile App Meta Settings',
-								'post-edit'  => 'Extend Post Edit Settings',
-							),
 						),
 						'submenu' => array(
 							'am-general' => 'Mobile App Meta',
