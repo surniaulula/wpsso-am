@@ -54,7 +54,6 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 				'get_defaults'           => 1,
 				'get_md_defaults'        => 1,
 				'rename_options_keys'    => 1,
-				'rename_md_options_keys' => 1,
 				'meta_name'              => 2,
 				'tc_seed'                => 2,
 			) );
@@ -117,18 +116,6 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 				7 => array(
 					'plugin_wpssoam_tid' => '',
 				),
-			);
-
-			return $options_keys;
-		}
-
-		public function filter_rename_md_options_keys( $options_keys ) {
-
-			if ( $this->p->debug->enabled ) {
-				$this->p->debug->mark();
-			}
-
-			$options_keys[ 'wpssoam' ] = array(
 			);
 
 			return $options_keys;
