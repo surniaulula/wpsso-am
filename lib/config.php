@@ -16,8 +16,8 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 		public static $cf = array(
 			'plugin' => array(
 				'wpssoam' => array(			// Plugin acronym.
-					'version'     => '3.0.0-dev.2',	// Plugin version.
-					'opt_version' => '7',		// Increment when changing default option values.
+					'version'     => '3.0.0-b.1',	// Plugin version.
+					'opt_version' => '8',		// Increment when changing default option values.
 					'short'       => 'WPSSO AM',	// Short plugin name.
 					'name'        => 'WPSSO Mobile App Meta',
 					'desc'        => 'Apple Store / iTunes and Google Play App meta tags for Apple\'s mobile Safari banner and Twitter\'s App Card.',
@@ -29,7 +29,7 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 					'req' => array(
 						'short'       => 'WPSSO Core',
 						'name'        => 'WPSSO Core',
-						'min_version' => '6.11.1',
+						'min_version' => '6.11.3-b.1',
 					),
 					'assets' => array(
 						'icons' => array(
@@ -46,6 +46,33 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 							'am-general' => 'Mobile App Meta',
 						),
 					),
+				),
+			),
+			'opt' => array(
+				'defaults' => array(
+					'add_meta_name_apple-itunes-app'            => 1,
+					'add_meta_name_twitter:app:country'         => 1,
+					'add_meta_name_twitter:app:name:iphone'     => 1,
+					'add_meta_name_twitter:app:id:iphone'       => 1,
+					'add_meta_name_twitter:app:url:iphone'      => 1,
+					'add_meta_name_twitter:app:name:ipad'       => 1,
+					'add_meta_name_twitter:app:id:ipad'         => 1,
+					'add_meta_name_twitter:app:url:ipad'        => 1,
+					'add_meta_name_twitter:app:name:googleplay' => 1,
+					'add_meta_name_twitter:app:id:googleplay'   => 1,
+					'add_meta_name_twitter:app:url:googleplay'  => 1,
+					'am_ws_on_index'                            => 1,
+					'am_ws_on_front'                            => 1,
+					'am_ws_add_to_attachment'                   => 1,
+					'am_ws_add_to_page'                         => 1,
+					'am_ws_add_to_post'                         => 1,
+					'am_ws_itunes_app_id'                       => '',
+					'am_ws_itunes_app_aff'                      => '',
+					'am_ws_itunes_app_arg'                      => '%%request_url%%',
+					'am_ap_ast'                                 => 'US',
+					'am_ap_add_to_attachment'                   => 0,
+					'am_ap_add_to_page'                         => 1,
+					'am_ap_add_to_post'                         => 0,
 				),
 			),
 		);

@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WPSSO Mobile App Meta package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WPSSO Mobile App Meta 3.0.0-dev.2\n"
+"Project-Id-Version: WPSSO Mobile App Meta 3.0.0-b.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-am\n"
 "POT-Creation-Date: 2019-MO-DA HO:MI+ZONE\n"
 "MIME-Version: 1.0\n"
@@ -99,7 +99,7 @@ msgid "The App Store country providing your application."
 msgstr ""
 
 #: lib/filters-messages.php:156 lib/filters-messages.php:175
-#: lib/filters-messages.php:202 lib/filters.php:369
+#: lib/filters-messages.php:202 lib/filters.php:365
 msgctxt "metabox tab"
 msgid "Mobile Apps"
 msgstr ""
@@ -146,96 +146,96 @@ msgid ""
 "Card and customize the mobile App banner for Apple's mobile Safari."
 msgstr ""
 
-#: lib/filters.php:385 lib/gettext-pro.php:8
+#: lib/filters.php:381 lib/gettext-pro.php:8
 msgid "Save a draft version or publish the %s to display these options."
 msgstr ""
 
-#: lib/filters.php:407 lib/gettext-pro.php:9
+#: lib/filters.php:403 lib/gettext-pro.php:9
 msgctxt "metabox title"
 msgid "Twitter App Card"
 msgstr ""
 
-#: lib/filters.php:411 lib/gettext-pro.php:10
+#: lib/filters.php:407 lib/gettext-pro.php:10
 msgctxt "option label"
 msgid "App Store Territory"
 msgstr ""
 
-#: lib/filters.php:422 lib/gettext-pro.php:11
+#: lib/filters.php:418 lib/gettext-pro.php:11
 msgctxt "metabox title"
 msgid "iPhone App Details"
 msgstr ""
 
-#: lib/filters.php:426 lib/gettext-pro.php:12
+#: lib/filters.php:422 lib/gettext-pro.php:12
 msgctxt "option label"
 msgid "iPhone App ID"
 msgstr ""
 
-#: lib/filters.php:432 lib/gettext-pro.php:13
+#: lib/filters.php:428 lib/gettext-pro.php:13
 msgctxt "option label"
 msgid "iPhone App Name"
 msgstr ""
 
-#: lib/filters.php:439 lib/gettext-pro.php:14
+#: lib/filters.php:435 lib/gettext-pro.php:14
 msgctxt "option label"
 msgid "iPhone App URL Scheme"
 msgstr ""
 
-#: lib/filters.php:450 lib/gettext-pro.php:15
+#: lib/filters.php:446 lib/gettext-pro.php:15
 msgctxt "metabox title"
 msgid "iPad App Details"
 msgstr ""
 
-#: lib/filters.php:454 lib/gettext-pro.php:16
+#: lib/filters.php:450 lib/gettext-pro.php:16
 msgctxt "option label"
 msgid "iPad App ID"
 msgstr ""
 
-#: lib/filters.php:460 lib/gettext-pro.php:17
+#: lib/filters.php:456 lib/gettext-pro.php:17
 msgctxt "option label"
 msgid "iPad App Name"
 msgstr ""
 
-#: lib/filters.php:467 lib/gettext-pro.php:18
+#: lib/filters.php:463 lib/gettext-pro.php:18
 msgctxt "option label"
 msgid "iPad App URL Scheme"
 msgstr ""
 
-#: lib/filters.php:478 lib/gettext-pro.php:19
+#: lib/filters.php:474 lib/gettext-pro.php:19
 msgctxt "metabox title"
 msgid "Google Play App Details"
 msgstr ""
 
-#: lib/filters.php:482 lib/gettext-pro.php:20
+#: lib/filters.php:478 lib/gettext-pro.php:20
 msgctxt "option label"
 msgid "Google Play App ID"
 msgstr ""
 
-#: lib/filters.php:488 lib/gettext-pro.php:21
+#: lib/filters.php:484 lib/gettext-pro.php:21
 msgctxt "option label"
 msgid "Google Play App Name"
 msgstr ""
 
-#: lib/filters.php:495 lib/gettext-pro.php:22
+#: lib/filters.php:491 lib/gettext-pro.php:22
 msgctxt "option label"
 msgid "Google Play App URL Scheme"
 msgstr ""
 
-#: lib/filters.php:506 lib/gettext-pro.php:23 lib/submenu/am-general.php:36
+#: lib/filters.php:502 lib/gettext-pro.php:23 lib/submenu/am-general.php:36
 msgctxt "metabox title"
 msgid "Mobile App Banner"
 msgstr ""
 
-#: lib/filters.php:510 lib/gettext-pro.php:24
+#: lib/filters.php:506 lib/gettext-pro.php:24
 msgctxt "option label"
 msgid "App ID Number"
 msgstr ""
 
-#: lib/filters.php:517 lib/gettext-pro.php:25
+#: lib/filters.php:513 lib/gettext-pro.php:25
 msgctxt "option label"
 msgid "Affiliate Data"
 msgstr ""
 
-#: lib/filters.php:524 lib/gettext-pro.php:26
+#: lib/filters.php:520 lib/gettext-pro.php:26
 msgctxt "option label"
 msgid "Argument String"
 msgstr ""

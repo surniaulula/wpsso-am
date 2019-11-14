@@ -40,36 +40,6 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 			),
 		);
 
-		public static $cf = array(
-			'opt' => array(				// Options.
-				'defaults' => array(
-					'add_meta_name_apple-itunes-app'            => 1,
-					'add_meta_name_twitter:app:country'         => 1,
-					'add_meta_name_twitter:app:name:iphone'     => 1,
-					'add_meta_name_twitter:app:id:iphone'       => 1,
-					'add_meta_name_twitter:app:url:iphone'      => 1,
-					'add_meta_name_twitter:app:name:ipad'       => 1,
-					'add_meta_name_twitter:app:id:ipad'         => 1,
-					'add_meta_name_twitter:app:url:ipad'        => 1,
-					'add_meta_name_twitter:app:name:googleplay' => 1,
-					'add_meta_name_twitter:app:id:googleplay'   => 1,
-					'add_meta_name_twitter:app:url:googleplay'  => 1,
-					'am_ws_on_index'                            => 1,
-					'am_ws_on_front'                            => 1,
-					'am_ws_add_to_attachment'                   => 1,
-					'am_ws_add_to_page'                         => 1,
-					'am_ws_add_to_post'                         => 1,
-					'am_ws_itunes_app_id'                       => '',
-					'am_ws_itunes_app_aff'                      => '',
-					'am_ws_itunes_app_arg'                      => '%%request_url%%',
-					'am_ap_ast'                                 => 'US',
-					'am_ap_add_to_attachment'                   => 0,
-					'am_ap_add_to_page'                         => 1,
-					'am_ap_add_to_post'                         => 0,
-				),
-			),
-		);
-
 		public function __construct( &$plugin ) {
 
 			$this->p =& $plugin;
@@ -81,10 +51,12 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 			$this->msgs = new WpssoAmFiltersMessages( $plugin );
 
 			$this->p->util->add_plugin_filters( $this, array( 
-				'get_defaults'    => 1,
-				'get_md_defaults' => 1,
-				'meta_name'       => 2,
-				'tc_seed'         => 2,
+				'get_defaults'           => 1,
+				'get_md_defaults'        => 1,
+				'rename_options_keys'    => 1,
+				'rename_md_options_keys' => 1,
+				'meta_name'              => 2,
+				'tc_seed'                => 2,
 			) );
 
 			if ( is_admin() ) {
@@ -103,12 +75,9 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 
 		public function filter_get_defaults( $def_opts ) {
 
-			$def_opts = array_merge( $def_opts, self::$cf[ 'opt' ][ 'defaults' ] );
-
 			/**
 			 * Add options using a key prefix array and post type names.
 			 */
-
 			$def_opts = $this->p->util->add_ptns_to_opts( $def_opts, array(
 				'am_ap_add_to' => 0,
 				'am_ws_add_to' => 1,
@@ -136,6 +105,33 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 				'am_ws_itunes_app_aff' => '',	// Affiliate Data.
 				'am_ws_itunes_app_arg' => '', 	// Argument String.
 			) );
+		}
+
+		public function filter_rename_options_keys( $options_keys ) {
+
+			if ( $this->p->debug->enabled ) {
+				$this->p->debug->mark();
+			}
+
+			$options_keys[ 'wpssoam' ] = array(
+				7 => array(
+					'plugin_wpssoam_tid' => '',
+				),
+			);
+
+			return $options_keys;
+		}
+
+		public function filter_rename_md_options_keys( $options_keys ) {
+
+			if ( $this->p->debug->enabled ) {
+				$this->p->debug->mark();
+			}
+
+			$options_keys[ 'wpssoam' ] = array(
+			);
+
+			return $options_keys;
 		}
 
 		/**
