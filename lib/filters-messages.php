@@ -15,6 +15,9 @@ if ( ! class_exists( 'WpssoAmFiltersMessages' ) ) {
 
 		private $p;
 
+		/**
+		 * Instantiated by WpssoAmFilters->__construct().
+		 */
 		public function __construct( &$plugin ) {
 
 			$this->p =& $plugin;

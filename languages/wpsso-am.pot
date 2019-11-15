@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WPSSO Mobile App Meta package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WPSSO Mobile App Meta 3.0.0-b.1\n"
+"Project-Id-Version: WPSSO Mobile App Meta 3.0.0-b.2\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-am\n"
 "POT-Creation-Date: 2019-MO-DA HO:MI+ZONE\n"
 "MIME-Version: 1.0\n"
@@ -12,135 +12,135 @@ msgstr ""
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 
-#: lib/filters-messages.php:46
+#: lib/filters-messages.php:49
 msgid ""
 "The numeric representation of your iPhone application ID in the App Store "
 "(example: \"307234931\")."
 msgstr ""
 
-#: lib/filters-messages.php:52
+#: lib/filters-messages.php:55
 msgid "The name of your iPhone application."
 msgstr ""
 
-#: lib/filters-messages.php:58
+#: lib/filters-messages.php:61
 msgid ""
 "Your iPhone App's <em>custom</em> URL scheme (you must include \"://\" after "
 "the scheme name)."
 msgstr ""
 
-#: lib/filters-messages.php:64
+#: lib/filters-messages.php:67
 msgid ""
 "The numeric representation of your iPad application ID in the App Store "
 "(example: \"307234931\")."
 msgstr ""
 
-#: lib/filters-messages.php:70
+#: lib/filters-messages.php:73
 msgid "The name of your iPad application."
 msgstr ""
 
-#: lib/filters-messages.php:76
+#: lib/filters-messages.php:79
 msgid ""
 "Your iPad App's <em>custom</em> URL scheme (you must include \"://\" after "
 "the scheme name)."
 msgstr ""
 
-#: lib/filters-messages.php:82
+#: lib/filters-messages.php:85
 msgid ""
 "The fully qualified package name of your Google Play application (example: "
 "\"com.google.android.apps.maps\")."
 msgstr ""
 
-#: lib/filters-messages.php:88
+#: lib/filters-messages.php:91
 msgid "The name of your Google Play application."
 msgstr ""
 
-#: lib/filters-messages.php:94
+#: lib/filters-messages.php:97
 msgid ""
 "Your Google Play App's <em>custom</em> URL scheme (you must include \"://\" "
 "after the scheme name)."
 msgstr ""
 
-#: lib/filters-messages.php:112
+#: lib/filters-messages.php:115
 msgid "Add meta tags for the website's mobile App to index and archive pages."
 msgstr ""
 
-#: lib/filters-messages.php:118
+#: lib/filters-messages.php:121
 msgid "Add meta tags for the website's mobile App to a static front page."
 msgstr ""
 
-#: lib/filters-messages.php:124
+#: lib/filters-messages.php:127
 msgid ""
 "Add meta tags for the website's mobile App to Posts, Pages, and custom post "
 "types."
 msgstr ""
 
-#: lib/filters-messages.php:130
+#: lib/filters-messages.php:133
 msgid "A mobile App ID in the Apple Store (example: \"307234931\")."
 msgstr ""
 
-#: lib/filters-messages.php:136
+#: lib/filters-messages.php:139
 msgid "If you have an iTunes affiliate string, enter it here."
 msgstr ""
 
-#: lib/filters-messages.php:142
+#: lib/filters-messages.php:145
 msgid ""
 "A query string - which may include one or more inline variables - to provide "
 "context to your website's mobile App."
 msgstr ""
 
-#: lib/filters-messages.php:144
+#: lib/filters-messages.php:147
 msgid ""
 "If the user has your mobile App installed, this string can allow them to "
 "jump from your website to the same content in the mobile App."
 msgstr ""
 
-#: lib/filters-messages.php:150
+#: lib/filters-messages.php:153
 msgid "The App Store country providing your application."
 msgstr ""
 
-#: lib/filters-messages.php:156 lib/filters-messages.php:175
-#: lib/filters-messages.php:202 lib/filters.php:352
+#: lib/filters-messages.php:159 lib/filters-messages.php:178
+#: lib/filters-messages.php:205 lib/filters.php:352
 msgctxt "metabox tab"
 msgid "Mobile Apps"
 msgstr ""
 
-#: lib/filters-messages.php:160
+#: lib/filters-messages.php:163
 msgid "Include the <em>%1$s</em> tab in the %2$s metabox on Posts, Pages, etc."
 msgstr ""
 
-#: lib/filters-messages.php:179
+#: lib/filters-messages.php:182
 msgid ""
 "These options allow you to present a banner advertisement in Apple's mobile "
 "Safari for your Apple Store App."
 msgstr ""
 
-#: lib/filters-messages.php:181
+#: lib/filters-messages.php:184
 msgid ""
 "The banner advertisement allows users of your website to download your "
 "mobile App and/or switch to your mobile App when using Apple's mobile Safari."
 msgstr ""
 
-#: lib/filters-messages.php:183
+#: lib/filters-messages.php:186
 msgid ""
 "The Apple Store App information can be customized for each Post, Page, and "
 "custom post type under the <em>%1$s</em> tab in the %2$s metabox."
 msgstr ""
 
-#: lib/filters-messages.php:193
+#: lib/filters-messages.php:196
 msgid ""
 "If you have an Apple Store App to access your website (as an alternative to "
 "using mobile web browsers, for example) and/or want to promote a single "
 "Apple Store App on your website, enter its details here."
 msgstr ""
 
-#: lib/filters-messages.php:206
+#: lib/filters-messages.php:209
 msgid ""
 "A <em>%1$s</em> tab can be added to the %2$s metabox on Posts, Pages, and "
 "custom post types, allowing you to enter specific information about one or "
 "more Apple Store and Google Play mobile Apps."
 msgstr ""
 
-#: lib/filters-messages.php:208
+#: lib/filters-messages.php:211
 msgid ""
 "The <em>%s</em> information is used to create meta tags for Twitter's App "
 "Card and customize the mobile App banner for Apple's mobile Safari."
