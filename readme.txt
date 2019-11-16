@@ -118,7 +118,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 3.0.0-rc.3 (2019/11/15)**
+**Version 3.0.0-rc.4 (2019/11/16)**
 
 * **New Features**
 	* Moved Premium add-on features into the Standard version.
@@ -142,9 +142,9 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 == Upgrade Notice ==
 
-= 3.0.0-rc.3 =
+= 3.0.0-rc.4 =
 
-(2019/11/15) Moved Premium add-on features into the Standard version.
+(2019/11/16) Moved Premium add-on features into the Standard version.
 
 = 2.1.3 =
 
