@@ -13,7 +13,7 @@
  * Description: Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari banner and Twitter's App Card.
  * Requires At Least: 3.9
  * Tested Up To: 5.3
- * Version: 3.0.0-rc.3
+ * Version: 3.0.0-rc.4
  * 
  * Version Numbering: {major}.{minor}.{bugfix}[-{stage}.{level}]
  *
@@ -26,7 +26,7 @@
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
-	die( 'These aren\'t the droids you\'re looking for...' );
+	die( 'These aren\'t the droids you\'re looking for.' );
 }
 
 if ( ! class_exists( 'WpssoAm' ) ) {
@@ -53,9 +53,10 @@ if ( ! class_exists( 'WpssoAm' ) ) {
 
 		public function __construct() {
 
-			require_once ( dirname( __FILE__ ) . '/lib/config.php' );
+			require_once dirname( __FILE__ ) . '/lib/config.php';
 
 			WpssoAmConfig::set_constants( __FILE__ );
+
 			WpssoAmConfig::require_libs( __FILE__ );	// Includes the register.php class library.
 
 			$this->reg = new WpssoAmRegister();		// Activate, deactivate, uninstall hooks.
