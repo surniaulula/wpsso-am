@@ -118,7 +118,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 3.0.0-rc.4 (2019/11/16)**
+**Version 3.0.0 (2019/11/17)**
 
 * **New Features**
 	* Moved Premium add-on features into the Standard version.
@@ -142,11 +142,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 == Upgrade Notice ==
 
-= 3.0.0-rc.4 =
+= 3.0.0 =
 
-(2019/11/16) Moved Premium add-on features into the Standard version.
-
-= 2.1.3 =
-
-(2019/10/04) Maintenance release for WPSSO Core v6.7.0.
+(2019/11/17) Moved Premium add-on features into the Standard version.
 
