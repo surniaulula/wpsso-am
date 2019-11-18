@@ -103,7 +103,7 @@ if ( ! class_exists( 'WpssoAmRegister' ) ) {
 
 					$version = WpssoAmConfig::$cf[ 'plugin' ][ 'wpssoam' ][ 'version' ];
 
-					WpssoUtil::save_all_times( 'wpssoam', $version );
+					WpssoUtil::register_ext_version( 'wpssoam', $version );
 				}
 			}
 		}
