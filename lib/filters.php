@@ -9,13 +9,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 	die( 'These aren\'t the droids you\'re looking for.' );
 }
 
-if ( ! defined( 'WPSSOAM_PLUGINDIR' ) ) {
-	die( 'Do. Or do not. There is no try.' );
-}
-
-if ( ! class_exists( 'WpssoAmFiltersMessages' ) ) {
-	require_once WPSSOAM_PLUGINDIR . 'lib/filters-messages.php';
-}
 if ( ! class_exists( 'WpssoAmFilters' ) ) {
 
 	class WpssoAmFilters {
@@ -48,8 +41,6 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 				$this->p->debug->mark();
 			}
 
-			$this->msgs = new WpssoAmFiltersMessages( $plugin );
-
 			$this->p->util->add_plugin_filters( $this, array( 
 				'get_defaults'           => 1,
 				'get_md_defaults'        => 1,
@@ -59,6 +50,12 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 			) );
 
 			if ( is_admin() ) {
+
+				if ( ! class_exists( 'WpssoAmFiltersMessages' ) ) {
+					require_once WPSSOAM_PLUGINDIR . 'lib/filters-messages.php';
+				}
+
+				$this->msgs = new WpssoAmFiltersMessages( $plugin );
 
 				$this->p->util->add_plugin_filters( $this, array( 
 					'option_type'           => 2,
