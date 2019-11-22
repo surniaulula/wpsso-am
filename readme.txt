@@ -118,7 +118,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 3.0.1-dev.2 (TBD)**
+**Version 3.0.1-dev.2 (2019/11/21)**
 
 * **New Features**
 	* None.
@@ -140,18 +140,11 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * **Developer Notes**
 	* None.
 
-**Version 2.1.3 (2019/10/04)**
-
-* **New Features**
-	* None.
-* **Improvements**
-	* Maintenance release for WPSSO Core v6.7.0.
-* **Bugfixes**
-	* None.
-* **Developer Notes**
-	* None.
-
 == Upgrade Notice ==
+
+= 3.0.1-dev.2 =
+
+(2019/11/21) Update for the new WpssoUtilReg class in WPSSO Core v6.13.0.
 
 = 3.0.0 =
 
