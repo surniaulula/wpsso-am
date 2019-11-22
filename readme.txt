@@ -127,7 +127,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * **Bugfixes**
 	* None.
 * **Developer Notes**
-	* Updated WpssoAmRegister->activate_plugin() for the new WpssoUtilReg class in WPSSO Core v6.13.0.
+	* Updated `WpssoAmRegister->activate_plugin()` for the new WpssoUtilReg class in WPSSO Core v6.13.0.
 
 **Version 3.0.0 (2019/11/17)**
 
