@@ -10,7 +10,7 @@ Tags: app store, mobile app, app card, mobile, itunes, googleplay, google play, 
 Contributors: jsmoriss
 Requires At Least: 3.9
 Tested Up To: 5.3
-Stable Tag: 3.0.0
+Stable Tag: 3.0.1
 
 Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari banner and Twitter's App Card.
 
@@ -145,8 +145,4 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 = 3.0.1 =
 
 (2019/11/23) Update for the new WpssoUtilReg class in WPSSO Core v6.13.0.
-
-= 3.0.0 =
-
-(2019/11/17) Moved Premium add-on features into the Standard version.
 
