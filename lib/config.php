@@ -243,7 +243,7 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 			return $add_slug ? $info[ 'slug' ] . '-' . $info[ 'version' ] : $info[ 'version' ];
 		}
 
-		public static function set_constants( $plugin_filepath ) { 
+		public static function set_constants( $plugin_file_path ) { 
 
 			if ( defined( 'WPSSOAM_VERSION' ) ) {	// Define constants only once.
 				return;
@@ -254,15 +254,15 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 			/**
 			 * Define fixed constants.
 			 */
-			define( 'WPSSOAM_FILEPATH', $plugin_filepath );						
+			define( 'WPSSOAM_FILEPATH', $plugin_file_path );						
 			define( 'WPSSOAM_PLUGINBASE', $info[ 'base' ] );	// Example: wpsso-am/wpsso-am.php.
-			define( 'WPSSOAM_PLUGINDIR', trailingslashit( realpath( dirname( $plugin_filepath ) ) ) );
+			define( 'WPSSOAM_PLUGINDIR', trailingslashit( realpath( dirname( $plugin_file_path ) ) ) );
 			define( 'WPSSOAM_PLUGINSLUG', $info[ 'slug' ] );	// Example: wpsso-am.
-			define( 'WPSSOAM_URLPATH', trailingslashit( plugins_url( '', $plugin_filepath ) ) );
+			define( 'WPSSOAM_URLPATH', trailingslashit( plugins_url( '', $plugin_file_path ) ) );
 			define( 'WPSSOAM_VERSION', $info[ 'version' ] );						
 		}
 
-		public static function require_libs( $plugin_filepath ) {
+		public static function require_libs( $plugin_file_path ) {
 
 			require_once WPSSOAM_PLUGINDIR . 'lib/filters.php';
 			require_once WPSSOAM_PLUGINDIR . 'lib/register.php';
@@ -274,11 +274,11 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 
 			if ( false === $ret && ! empty( $filespec ) ) {
 
-				$filepath = WPSSOAM_PLUGINDIR . 'lib/' . $filespec . '.php';
+				$file_path = WPSSOAM_PLUGINDIR . 'lib/' . $filespec . '.php';
 
-				if ( file_exists( $filepath ) ) {
+				if ( file_exists( $file_path ) ) {
 
-					require_once $filepath;
+					require_once $file_path;
 
 					if ( empty( $classname ) ) {
 						return SucomUtil::sanitize_classname( 'wpssoam' . $filespec, $allow_underscore = false );
