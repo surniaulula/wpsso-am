@@ -97,8 +97,8 @@ WPSSO Mobile App Meta (aka WPSSO AM) is an add-on for the [WPSSO Core plugin](ht
 
 == Screenshots ==
 
-01. WPSSO AM settings page includes options for the Mobile App Banner, Apple Store App defaults, and the Mobile Apps tab.
-02. WPSSO AM tab in the Document SSO metabox provides custom settings for the Twitter App Card and Mobile App Banner.
+01. The WPSSO AM settings page offers options for the Mobile App Banner, Apple Store defaults, and the Mobile Apps tab.
+02. The WPSSO AM tab in the Document SSO metabox provides custom settings for the Twitter App Card and Mobile App Banner.
 
 == Changelog ==
 
