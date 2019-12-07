@@ -11,6 +11,7 @@
  * License: GPLv3
  * License URI: https://www.gnu.org/licenses/gpl.txt
  * Description: Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari banner and Twitter's App Card.
+ * Requires PHP: 5.5
  * Requires At Least: 3.9
  * Tested Up To: 5.3
  * Version: 3.0.1
