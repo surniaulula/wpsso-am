@@ -363,7 +363,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 
 				$table_rows[ 'save_a_draft' ] = '<td><blockquote class="status-info"><p class="centered">' .
 					sprintf( __( 'Save a draft version or publish the %s to display these options.',
-						'wpsso-am' ), SucomUtil::titleize( $mod[ 'post_type' ] ) ).'</p></td>';
+						'wpsso-am' ), SucomUtil::titleize( $mod[ 'post_type' ] ) ).'</p></blockquote></td>';
 
 				return $table_rows;	// Abort.
 			}
