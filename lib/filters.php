@@ -35,6 +35,17 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 
 		public function __construct( &$plugin ) {
 
+			/**
+			 * Just in case - prevent filters from being hooked and executed more than once.
+			 */
+			static $do_once = null;
+
+			if ( true === $do_once ) {
+				return;	// Stop here.
+			}
+
+			$do_once = true;
+
 			$this->p =& $plugin;
 
 			if ( $this->p->debug->enabled ) {
@@ -42,6 +53,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 			}
 
 			$this->p->util->add_plugin_filters( $this, array( 
+				'option_type'            => 2,
 				'get_defaults'           => 1,
 				'get_md_defaults'        => 1,
 				'rename_options_keys'    => 1,
@@ -58,7 +70,6 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 				$this->msgs = new WpssoAmFiltersMessages( $plugin );
 
 				$this->p->util->add_plugin_filters( $this, array( 
-					'option_type'           => 2,
 					'post_custom_meta_tabs' => 3,
 					'post_appmeta_rows'     => 4,
 				), $prio = 50 );	// Run after WPSSO Core's own Standard / Premium filters.
@@ -67,6 +78,56 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 					'status_std_features' => 4,
 				), $prio = 10, $ext = 'wpssoam' );	// Hook into our own filters.
 			}
+		}
+
+		public function filter_option_type( $type, $base_key ) {
+
+			if ( ! empty( $type ) ) {
+				return $type;
+			} elseif ( strpos( $base_key, 'am_' ) !== 0 ) {
+				return $type;
+			}
+
+			switch ( $base_key ) {
+
+				case 'am_ws_itunes_app_id':
+				case 'am_iphone_app_id':
+				case 'am_ipad_app_id':
+
+					return 'blank_num';
+
+					break;
+
+				/**
+				 * Text strings that can be blank.
+				 */
+				case 'am_ws_itunes_app_aff':
+				case 'am_ws_itunes_app_arg':
+				case 'am_iphone_app_name':
+				case 'am_ipad_app_name':
+				case 'am_gplay_app_id':
+				case 'am_gplay_app_name':
+
+					return 'ok_blank';
+
+					break;
+
+				case 'am_ap_ast':
+
+					return 'not_blank';
+
+					break;
+
+				case 'am_iphone_app_url':
+				case 'am_ipad_app_url':
+				case 'am_gplay_app_url':
+
+					return 'url';
+
+					break;
+			}
+
+			return $type;
 		}
 
 		public function filter_get_defaults( $def_opts ) {
@@ -290,56 +351,6 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 			}
 
 			return array_merge( $tc, $tc_app );
-		}
-
-		public function filter_option_type( $type, $base_key ) {
-
-			if ( ! empty( $type ) ) {
-				return $type;
-			} elseif ( strpos( $base_key, 'am_' ) !== 0 ) {
-				return $type;
-			}
-
-			switch ( $base_key ) {
-
-				case 'am_ws_itunes_app_id':
-				case 'am_iphone_app_id':
-				case 'am_ipad_app_id':
-
-					return 'blank_num';
-
-					break;
-
-				/**
-				 * Text strings that can be blank.
-				 */
-				case 'am_ws_itunes_app_aff':
-				case 'am_ws_itunes_app_arg':
-				case 'am_iphone_app_name':
-				case 'am_ipad_app_name':
-				case 'am_gplay_app_id':
-				case 'am_gplay_app_name':
-
-					return 'ok_blank';
-
-					break;
-
-				case 'am_ap_ast':
-
-					return 'not_blank';
-
-					break;
-
-				case 'am_iphone_app_url':
-				case 'am_ipad_app_url':
-				case 'am_gplay_app_url':
-
-					return 'url';
-
-					break;
-			}
-
-			return $type;
 		}
 
 		public function filter_post_custom_meta_tabs( $tabs, $mod, $metabox_id ) {
