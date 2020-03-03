@@ -370,18 +370,6 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 				$this->p->debug->mark();
 			}
 
-			if ( empty( $mod[ 'post_status' ] ) || $mod[ 'post_status' ] === 'auto-draft' ) {
-
-				$table_rows[ 'save_draft' ] = '<td><blockquote class="status-info"><p class="centered">' .
-					sprintf( __( 'Save a draft version or publish the %s to display these options.',
-						'wpsso-am' ), SucomUtil::titleize( $mod[ 'post_type' ] ) ).'</p></blockquote></td>';
-
-				return $table_rows;	// Abort.
-			}
-
-			/**
-			 * Default option values.
-			 */
 			$def_app_name = $this->p->page->get_title( 0, '', $mod );
 
 			/**
@@ -422,14 +410,14 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 					'th_class' => 'medium',
 					'label'    => _x( 'iPhone App Name', 'option label', 'wpsso-am' ),
 					'tooltip'  => 'post-am_iphone_app_name',
-					'content'  => $form->get_input( 'am_iphone_app_name', 'wide', '', 0, $def_app_name ),
+					'content'  => $form->get_input( 'am_iphone_app_name', $css_class = 'wide', $css_id = '', 0, $def_app_name ),
 				),
 				'am_iphone_app_url' => array(
 					'tr_class' => $form->get_css_class_hide( 'basic', 'am_iphone_app_url' ),
 					'th_class' => 'medium',
 					'label'    => _x( 'iPhone App URL Scheme', 'option label', 'wpsso-am' ),
 					'tooltip'  => 'post-am_iphone_app_url',
-					'content'  => $form->get_input( 'am_iphone_app_url', 'wide' ),
+					'content'  => $form->get_input( 'am_iphone_app_url', $css_class = 'wide' ),
 				),
 
 				/**
@@ -450,14 +438,14 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 					'th_class' => 'medium',
 					'label'    => _x( 'iPad App Name', 'option label', 'wpsso-am' ),
 					'tooltip'  => 'post-am_ipad_app_name',
-					'content'  => $form->get_input( 'am_ipad_app_name', 'wide', '', 0, $def_app_name ),
+					'content'  => $form->get_input( 'am_ipad_app_name', $css_class = 'wide', $css_id = '', 0, $def_app_name ),
 				),
 				'am_ipad_app_url' => array(
 					'tr_class' => $form->get_css_class_hide( 'basic', 'am_ipad_app_url' ),
 					'th_class' => 'medium',
 					'label'    => _x( 'iPad App URL Scheme', 'option label', 'wpsso-am' ),
 					'tooltip'  => 'post-am_ipad_app_url',
-					'content'  => $form->get_input( 'am_ipad_app_url', 'wide' ),
+					'content'  => $form->get_input( 'am_ipad_app_url', $css_class = 'wide' ),
 				),
 
 				/**
@@ -478,14 +466,15 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 					'th_class' => 'medium',
 					'label'    => _x( 'Google Play App Name', 'option label', 'wpsso-am' ),
 					'tooltip'  => 'post-am_gplay_app_name',
-					'content'  => $form->get_input( 'am_gplay_app_name', 'wide', '', 0, $def_app_name ),
+					'content'  => $form->get_input( 'am_gplay_app_name', $css_class = 'wide', $css_id = '',
+						$len = 0, $def_app_name ),
 				),
 				'am_gplay_app_url' => array(
 					'tr_class' => $form->get_css_class_hide( 'basic', 'am_gplay_app_url' ),
 					'th_class' => 'medium',
 					'label'    => _x( 'Google Play App URL Scheme', 'option label', 'wpsso-am' ),
 					'tooltip'  => 'post-am_gplay_app_url',
-					'content'  => $form->get_input( 'am_gplay_app_url', 'wide' ),
+					'content'  => $form->get_input( 'am_gplay_app_url', $css_class = 'wide' ),
 				),
 
 				/**
@@ -500,22 +489,22 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 					'th_class' => 'medium',
 					'label'    => _x( 'App ID Number', 'option label', 'wpsso-am' ),
 					'tooltip'  => 'am_ws_itunes_app_id',
-					'content'  => $form->get_input( 'am_ws_itunes_app_id',
-						'', '', 0, $this->p->options['am_ws_itunes_app_id'] ),
+					'content'  => $form->get_input( 'am_ws_itunes_app_id', $css_class = '', $css_id = '',
+						$len = 0, $this->p->options['am_ws_itunes_app_id'] ),
 				),
 				'am_ws_itunes_app_aff' => array(
 					'th_class' => 'medium',
 					'label'    => _x( 'Affiliate Data', 'option label', 'wpsso-am' ),
 					'tooltip'  => 'am_ws_itunes_app_aff',
-					'content'  => $form->get_input( 'am_ws_itunes_app_aff', 
-						'', '', 0, $this->p->options['am_ws_itunes_app_aff'] ),
+					'content'  => $form->get_input( 'am_ws_itunes_app_aff', $css_class = '', $css_id = '',
+						$len = 0, $this->p->options['am_ws_itunes_app_aff'] ),
 				),
 				'am_ws_itunes_app_arg' => array(
 					'th_class' => 'medium',
 					'label'    => _x( 'Argument String', 'option label', 'wpsso-am' ),
 					'tooltip'  => 'am_ws_itunes_app_arg',
-					'content'  => $form->get_input( 'am_ws_itunes_app_arg',
-						'wide', '', 0, $this->p->options['am_ws_itunes_app_arg'] ),
+					'content'  => $form->get_input( 'am_ws_itunes_app_arg', $css_class = 'wide', $css_id = '',
+						$len = 0, $this->p->options['am_ws_itunes_app_arg'] ),
 				),
 			);
 
