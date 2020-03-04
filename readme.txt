@@ -11,7 +11,7 @@ Contributors: jsmoriss
 Requires PHP: 5.5
 Requires At Least: 4.0
 Tested Up To: 5.3.2
-Stable Tag: 3.0.1
+Stable Tag: 3.1.0
 
 Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari banner and Twitter's App Card.
 
@@ -154,8 +154,4 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 = 3.1.0 =
 
 (2020/03/04) Removed the 'no_auto_draft' deprecated argument from all form options.
-
-= 3.0.1 =
-
-(2019/11/23) Update for the new WpssoUtilReg class in WPSSO Core v6.13.1.
 
