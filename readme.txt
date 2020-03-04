@@ -8,7 +8,7 @@ License URI: https://www.gnu.org/licenses/gpl.txt
 Assets URI: https://surniaulula.github.io/wpsso-am/assets/
 Tags: app store, mobile app, app card, mobile, itunes, googleplay, google play, meta tags, app banner, safari, twitter app card, twitter card
 Contributors: jsmoriss
-Requires PHP: 5.5
+Requires PHP: 5.6
 Requires At Least: 4.0
 Tested Up To: 5.4
 Stable Tag: 3.1.0
@@ -130,24 +130,9 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * **Developer Notes**
 	* Removed the 'no_auto_draft' deprecated argument from all form options.
 * **Requires At Least**
-	* PHP v5.5.
+	* PHP v5.6.
 	* WordPress v4.0.
-	* WPSSO Core v6.23.0.
-
-**Version 3.0.1 (2019/11/23)**
-
-* **New Features**
-	* None.
-* **Improvements**
-	* None.
-* **Bugfixes**
-	* None.
-* **Developer Notes**
-	* Updated `WpssoAmRegister->activate_plugin()` for the new WpssoUtilReg class in WPSSO Core v6.13.1.
-* **Requires At Least**
-	* PHP v5.5.
-	* WordPress v4.0.
-	* WPSSO Core v6.21.2.
+	* WPSSO Core v6.23.1.
 
 == Upgrade Notice ==
 
