@@ -112,7 +112,7 @@ if ( ! class_exists( 'WpssoAmSubmenuAmGeneral' ) && class_exists( 'WpssoAdmin' )
 						'option label', 'wpsso-am' ), null, 'am_ws_on_index' ) . 
 					'<td>' . $this->form->get_checkbox( 'am_ws_on_index' ) . '</td>';
 
-					$table_rows[] = $this->form->get_th_html( _x( 'Add Banner to Static Front Page',
+					$table_rows[] = $this->form->get_th_html( _x( 'Add Banner to Page Homepage',
 						'option label', 'wpsso-am' ), null, 'am_ws_on_front' ) . 
 					'<td>' . $this->form->get_checkbox( 'am_ws_on_front' ) . '</td>';
 

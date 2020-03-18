@@ -279,7 +279,7 @@ msgstr ""
 
 #: lib/submenu/am-general.php:115
 msgctxt "option label"
-msgid "Add Banner to Static Front Page"
+msgid "Add Banner to Page Homepage"
 msgstr ""
 
 #: lib/submenu/am-general.php:126
