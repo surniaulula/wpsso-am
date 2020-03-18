@@ -52,7 +52,7 @@ Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari ban
 
 	* Mobile App Banner
 		* Add Banner to Archive Webpages
-		* Add Banner to Static Front Page
+		* Add Banner to Page Homepage
 		* Add Banner to Post Types (posts, pages, media, products, etc.).
 	* Apple Store App
 		* Default App ID Number

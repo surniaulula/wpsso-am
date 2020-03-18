@@ -50,7 +50,7 @@
 
 <ul>
 <li>Add Banner to Archive Webpages</li>
-<li>Add Banner to Static Front Page</li>
+<li>Add Banner to Page Homepage</li>
 <li>Add Banner to Post Types (posts, pages, media, products, etc.).</li>
 </ul></li>
 <li>Apple Store App
