@@ -71,7 +71,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 
 				$this->p->util->add_plugin_filters( $this, array( 
 					'post_document_meta_tabs' => 3,
-					'post_appmeta_rows'     => 4,
+					'post_appmeta_rows'       => 4,
 				), $prio = 50 );	// Run after WPSSO Core's own Standard / Premium filters.
 
 				$this->p->util->add_plugin_filters( $this, array( 
