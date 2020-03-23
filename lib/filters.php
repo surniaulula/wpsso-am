@@ -70,7 +70,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 				$this->msgs = new WpssoAmFiltersMessages( $plugin );
 
 				$this->p->util->add_plugin_filters( $this, array( 
-					'post_custom_meta_tabs' => 3,
+					'post_document_meta_tabs' => 3,
 					'post_appmeta_rows'     => 4,
 				), $prio = 50 );	// Run after WPSSO Core's own Standard / Premium filters.
 
@@ -353,7 +353,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 			return array_merge( $tc, $tc_app );
 		}
 
-		public function filter_post_custom_meta_tabs( $tabs, $mod, $metabox_id ) {
+		public function filter_post_document_meta_tabs( $tabs, $mod, $metabox_id ) {
 
 			if ( $metabox_id === $this->p->cf[ 'meta' ][ 'id' ] ) {
 				if ( ! empty( $this->p->options[ 'am_ap_add_to_' . $mod[ 'post_type' ]] ) ) {
