@@ -2,10 +2,10 @@
 # This file is distributed under the same license as the WPSSO App Meta (WPSSO AM) package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WPSSO Mobile App Meta 3.1.0\n"
+"Project-Id-Version: WPSSO Mobile App Meta 3.2.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-am\n"
-"POT-Creation-Date: 2020-03-03 13:32-0800\n"
-"PO-Revision-Date: 2020-03-03 13:32-0800\n"
+"POT-Creation-Date: 2020-03-25 14:19-0700\n"
+"PO-Revision-Date: 2020-03-25 14:20-0700\n"
 "Last-Translator: JS Morisset <jsm@surniaulula.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -245,17 +245,17 @@ msgstr "App du Apple Store"
 #: lib/submenu/am-general.php:111
 msgctxt "option label"
 msgid "Add Banner to Archive Webpages"
-msgstr "Ajouter aux pages Web d'archive"
+msgstr "Ajouter bannière aux pages d'archive"
 
 #: lib/submenu/am-general.php:115
 msgctxt "option label"
-msgid "Add Banner to Static Front Page"
-msgstr "Ajouter à la page statique d'avant"
+msgid "Add Banner to Page Homepage"
+msgstr "Ajouter bannière à la page d'accueil"
 
 #: lib/submenu/am-general.php:126
 msgctxt "option label"
 msgid "Add Banner to Post Types"
-msgstr "Ajouter aux articles de type"
+msgstr "Ajouter bannière aux articles de type"
 
 #: lib/submenu/am-general.php:135
 msgctxt "option label"
@@ -276,7 +276,7 @@ msgstr "Chaîne d'arguments par défaut"
 msgid "The %1$s add-on requires the %2$s plugin &mdash; install and activate the %3$s plugin or <a href=\"%4$s\">deactivate the %5$s add-on</a>."
 msgstr "L'ajout %1$s requiert l'extension %2$s &mdash; installer et activer l'extension %3$s ou <a href=\"%4$s\">désactiver l'ajout %5$s</a>."
 
-#: wpsso-am.php:204
+#: wpsso-am.php:207
 msgid "The %1$s version %2$s add-on requires %3$s version %4$s or newer (version %5$s is currently installed)."
 msgstr "L'ajout %1$s version %2$s requiert %3$s version %4$s ou plus récente (version %5$s est actuellement installée)."
 
@@ -299,3 +299,7 @@ msgstr "JS Morisset"
 #. Author URI of the plugin/theme
 msgid "https://wpsso.com/"
 msgstr "https://wpsso.com/"
+
+#~ msgctxt "option label"
+#~ msgid "Add Banner to Static Front Page"
+#~ msgstr "Ajouter à la page statique d'avant"
