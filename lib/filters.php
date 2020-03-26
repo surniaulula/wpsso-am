@@ -518,7 +518,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 			);
 
 			$features[ '(code) Twitter App Card Meta Tags' ] = array( 
-				'status'   => 'on',
+				'status' => 'on',
 			);
 
 			return $features;
