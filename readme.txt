@@ -119,6 +119,21 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
+**Version 3.3.0-dev.1 (2020/04/02)**
+
+* **New Features**
+	* None.
+* **Improvements**
+	* None.
+* **Bugfixes**
+	* None.
+* **Developer Notes**
+	* Refactored WPSSO Core active and minimum version dependency checks.
+* **Requires At Least**
+	* PHP v5.6.
+	* WordPress v4.0.
+	* WPSSO Core v6.27.1.
+
 **Version 3.2.0 (2020/03/27)**
 
 * **New Features**
@@ -134,28 +149,13 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 	* WordPress v4.0.
 	* WPSSO Core v6.27.1.
 
-**Version 3.1.0 (2020/03/04)**
-
-* **New Features**
-	* None.
-* **Improvements**
-	* None.
-* **Bugfixes**
-	* None.
-* **Developer Notes**
-	* Removed the 'no_auto_draft' deprecated argument from all form options.
-* **Requires At Least**
-	* PHP v5.6.
-	* WordPress v4.0.
-	* WPSSO Core v6.23.2.
-
 == Upgrade Notice ==
+
+= 3.3.0-dev.1 =
+
+(2020/04/02) Refactored WPSSO Core active and minimum version dependency checks.
 
 = 3.2.0 =
 
 (2020/03/27) Renamed 'custom_meta' hooks to 'document_meta' for WPSSO Core v6.26.0.
-
-= 3.1.0 =
-
-(2020/03/04) Removed the 'no_auto_draft' deprecated argument from all form options.
 
