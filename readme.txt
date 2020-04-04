@@ -9,7 +9,7 @@ Assets URI: https://surniaulula.github.io/wpsso-am/assets/
 Tags: app store, mobile app, app card, mobile, itunes, googleplay, google play, meta tags, app banner, safari, twitter app card, twitter card
 Contributors: jsmoriss
 Requires PHP: 5.6
-Requires At Least: 4.0
+Requires At Least: 4.2
 Tested Up To: 5.4
 Stable Tag: 3.2.0
 
@@ -119,20 +119,20 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 3.3.0-dev.3 (2020/04/03)**
+**Version 3.3.0-dev.4 (2020/04/04)**
 
 * **New Features**
 	* None.
 * **Improvements**
-	* None.
+	* Updated "Requires At Least" to WordPress v4.2.
 * **Bugfixes**
 	* None.
 * **Developer Notes**
 	* Refactored WPSSO Core active and minimum version dependency checks.
 * **Requires At Least**
 	* PHP v5.6.
-	* WordPress v4.0.
-	* WPSSO Core v6.27.2-dev.3.
+	* WordPress v4.2.
+	* WPSSO Core v6.28.0-dev.4.
 
 **Version 3.2.0 (2020/03/27)**
 
@@ -151,9 +151,9 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 == Upgrade Notice ==
 
-= 3.3.0-dev.3 =
+= 3.3.0-dev.4 =
 
-(2020/04/03) Refactored WPSSO Core active and minimum version dependency checks.
+(2020/04/04) Updated "Requires At Least" to WordPress v4.2. Refactored WPSSO Core active and minimum version dependency checks.
 
 = 3.2.0 =
 
