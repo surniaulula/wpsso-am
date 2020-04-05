@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WPSSO Mobile App Meta 3.3.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-am\n"
-"POT-Creation-Date: 2020-04-03 11:20-0700\n"
-"PO-Revision-Date: 2020-04-03 11:24-0700\n"
+"POT-Creation-Date: 2020-04-05 15:43-0700\n"
+"PO-Revision-Date: 2020-04-05 15:44-0700\n"
 "Last-Translator: JS Morisset <jsm@surniaulula.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -214,7 +214,7 @@ msgstr "Méta app mobile"
 
 #: lib/gettext-config.php:7
 msgctxt "plugin description"
-msgid "Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari banner and Twitter's App Card."
+msgid "Apple Store / iTunes and Google Play App Meta Tags for Apple's mobile Safari Banner and Twitter's App Card."
 msgstr "Balises méta Apple Store / iTunes et Google Play App pour la bannière mobile Safari de Apple et la carte app de Twitter."
 
 #: lib/gettext-pro.php:6 lib/submenu/am-general.php:160
@@ -289,7 +289,7 @@ msgid "https://wpsso.com/extend/plugins/wpsso-am/"
 msgstr "https://wpsso.com/extend/plugins/wpsso-am/"
 
 #. Description of the plugin/theme
-msgid "Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari banner and Twitter's App Card."
+msgid "Apple Store / iTunes and Google Play App Meta Tags for Apple's mobile Safari Banner and Twitter's App Card."
 msgstr "Balises méta Apple Store / iTunes et Google Play App pour la bannière mobile Safari de Apple et la carte app de Twitter."
 
 #. Author of the plugin/theme
