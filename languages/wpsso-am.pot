@@ -244,8 +244,8 @@ msgstr ""
 #: lib/gettext-config.php:7
 msgctxt "plugin description"
 msgid ""
-"Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari "
-"banner and Twitter's App Card."
+"Apple Store / iTunes and Google Play App Meta Tags for Apple's mobile Safari "
+"Banner and Twitter's App Card"
 msgstr ""
 
 #: lib/gettext-pro.php:6 lib/submenu/am-general.php:160
@@ -324,8 +324,8 @@ msgstr ""
 
 #. Description of the plugin/theme
 msgid ""
-"Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari "
-"banner and Twitter's App Card."
+"Apple Store / iTunes and Google Play App Meta Tags for Apple's mobile Safari "
+"Banner and Twitter's App Card."
 msgstr ""
 
 #. Author of the plugin/theme

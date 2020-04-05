@@ -20,7 +20,7 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 					'opt_version' => '8',		// Increment when changing default option values.
 					'short'       => 'WPSSO AM',	// Short plugin name.
 					'name'        => 'WPSSO Mobile App Meta',
-					'desc'        => 'Apple Store / iTunes and Google Play App meta tags for Apple\'s mobile Safari banner and Twitter\'s App Card.',
+					'desc'        => 'Apple Store / iTunes and Google Play App Meta Tags for Apple\'s mobile Safari Banner and Twitter\'s App Card',
 					'slug'        => 'wpsso-am',
 					'base'        => 'wpsso-am/wpsso-am.php',
 					'update_auth' => '',		// No premium version.
