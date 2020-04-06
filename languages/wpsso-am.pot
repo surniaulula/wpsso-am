@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WPSSO Mobile App Meta package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WPSSO Mobile App Meta 3.3.0-rc.3\n"
+"Project-Id-Version: WPSSO Mobile App Meta 3.3.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-am\n"
 "POT-Creation-Date: 2020-MO-DA HO:MI+ZONE\n"
 "MIME-Version: 1.0\n"
@@ -308,7 +308,7 @@ msgid ""
 "plugin or <a href=\"%3$s\">deactivate this add-on</a>."
 msgstr ""
 
-#: wpsso-am.php:224
+#: wpsso-am.php:229
 msgid ""
 "The %1$s version %2$s add-on requires %3$s version %4$s or newer (version "
 "%5$s is currently installed)."
