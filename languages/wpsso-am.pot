@@ -248,12 +248,12 @@ msgid ""
 "Banner and Twitter's App Card."
 msgstr ""
 
-#: lib/gettext-pro.php:6 lib/submenu/am-general.php:160
+#: lib/gettext-pro.php:6 lib/submenu/am-general.php:161
 msgctxt "option label"
 msgid "Show Tab on Post Types"
 msgstr ""
 
-#: lib/gettext-pro.php:7 lib/submenu/am-general.php:164
+#: lib/gettext-pro.php:7 lib/submenu/am-general.php:165
 msgctxt "option label"
 msgid "Default App Store Territory"
 msgstr ""
@@ -272,32 +272,32 @@ msgctxt "metabox tab"
 msgid "Apple Store App"
 msgstr ""
 
-#: lib/submenu/am-general.php:111
+#: lib/submenu/am-general.php:112
 msgctxt "option label"
 msgid "Add Banner to Archive Webpages"
 msgstr ""
 
-#: lib/submenu/am-general.php:115
+#: lib/submenu/am-general.php:116
 msgctxt "option label"
 msgid "Add Banner to Page Homepage"
 msgstr ""
 
-#: lib/submenu/am-general.php:126
+#: lib/submenu/am-general.php:127
 msgctxt "option label"
 msgid "Add Banner to Post Types"
 msgstr ""
 
-#: lib/submenu/am-general.php:135
+#: lib/submenu/am-general.php:136
 msgctxt "option label"
 msgid "Default App ID Number"
 msgstr ""
 
-#: lib/submenu/am-general.php:139
+#: lib/submenu/am-general.php:140
 msgctxt "option label"
 msgid "Default Affiliate Data"
 msgstr ""
 
-#: lib/submenu/am-general.php:143
+#: lib/submenu/am-general.php:144
 msgctxt "option label"
 msgid "Default Argument String"
 msgstr ""
