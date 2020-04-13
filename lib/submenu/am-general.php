@@ -57,6 +57,9 @@ if ( ! class_exists( 'WpssoAmSubmenuAmGeneral' ) && class_exists( 'WpssoAdmin' )
 					$metabox_context, $metabox_prio, $callback_args );
 		}
 
+		/**
+		 * Mobile App Banner metabox.
+		 */
 		public function show_metabox_banner() {
 
 			$metabox_id = 'am-banner';
@@ -65,9 +68,13 @@ if ( ! class_exists( 'WpssoAmSubmenuAmGeneral' ) && class_exists( 'WpssoAdmin' )
 
 			$filter_name = SucomUtil::sanitize_hookname( $this->p->lca . '_' . $metabox_id . '_' . $tab_key . '_rows' );
 
-			$this->p->util->do_metabox_table( apply_filters( $filter_name, $this->get_table_rows( $metabox_id, $tab_key ), $this->form ),
-				'metabox-' . $metabox_id . '-' . $tab_key );
+			$table_rows = apply_filters( $filter_name, $this->get_table_rows( $metabox_id, $tab_key ), $this->form );
 
+			$this->p->util->do_metabox_table( $table_rows, 'metabox-' . $metabox_id . '-' . $tab_key );
+
+			/**
+			 * Apple Store App tab.
+			 */
 			$filter_name = SucomUtil::sanitize_hookname( $this->p->lca . '_' . $metabox_id . '_tabs' );
 
 			$tabs = apply_filters( $filter_name, array(
@@ -89,14 +96,20 @@ if ( ! class_exists( 'WpssoAmSubmenuAmGeneral' ) && class_exists( 'WpssoAdmin' )
 			$this->p->util->do_metabox_tabbed( $metabox_id, $tabs, $table_rows );
 		}
 
+		/**
+		 * Mobile App Products metabox.
+		 */
 		public function show_metabox_appmeta() {
 
 			$metabox_id = 'am-appmeta';
 
 			$tab_key = 'general';
 
-			$this->p->util->do_metabox_table( apply_filters( SucomUtil::sanitize_hookname( $this->p->lca . '_' . $metabox_id . '_' . $tab_key . '_rows' ),
-				$this->get_table_rows( $metabox_id, $tab_key ), $this->form, false ), 'metabox-' . $metabox_id . '-' . $tab_key );
+			$filter_name = SucomUtil::sanitize_hookname( $this->p->lca . '_' . $metabox_id . '_' . $tab_key . '_rows' );
+
+			$table_rows = apply_filters( $filter_name, $this->get_table_rows( $metabox_id, $tab_key ), $this->form );
+
+			$this->p->util->do_metabox_table( $table_rows, 'metabox-' . $metabox_id . '-' . $tab_key );
 		}
 
 		protected function get_table_rows( $metabox_id, $tab_key ) {
