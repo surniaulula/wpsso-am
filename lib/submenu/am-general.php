@@ -132,9 +132,10 @@ if ( ! class_exists( 'WpssoAmSubmenuAmGeneral' ) && class_exists( 'WpssoAdmin' )
 
 					$add_to_checkboxes = '';
 
-					foreach ( $this->p->util->get_post_types( 'objects' ) as $pt ) {
-						$add_to_checkboxes .= '<p>' . $this->form->get_checkbox( 'am_ws_add_to_' . $pt->name ) . 
-							' ' . $pt->label . ( empty( $pt->description ) ? '' : ' (' . $pt->description . ')' ) . '</p>';
+					foreach ( $this->p->util->get_post_types( 'objects' ) as $pt ) {	// Get public post types.
+
+						$add_to_checkboxes .= '<p>' . $this->form->get_checkbox( 'am_ws_add_to_' . $pt->name ) . ' ' .
+							$pt->label . ( empty( $pt->description ) ? '' : ' (' . $pt->description . ')' ) . '</p>';
 					}
 
 					$table_rows[] = $this->form->get_th_html( _x( 'Add Banner to Post Types',
@@ -166,7 +167,8 @@ if ( ! class_exists( 'WpssoAmSubmenuAmGeneral' ) && class_exists( 'WpssoAdmin' )
 
 					$add_to_checkboxes = '';
 
-					foreach ( $this->p->util->get_post_types( 'objects' ) as $pt ) {
+					foreach ( $this->p->util->get_post_types( 'objects' ) as $pt ) {	// Get public post types.
+
 						$add_to_checkboxes .= '<p>' . $this->form->get_checkbox( 'am_ap_add_to_' . $pt->name ). ' ' .
 							$pt->label . ( empty( $pt->description ) ? '' : ' (' . $pt->description . ')' ) . '</p>';
 					}
