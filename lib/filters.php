@@ -132,10 +132,14 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 
 		public function filter_get_defaults( $def_opts ) {
 
+			if ( $this->p->debug->enabled ) {
+				$this->p->debug->mark();
+			}
+
 			/**
 			 * Add options using a key prefix array and post type names.
 			 */
-			$def_opts = $this->p->util->add_ptns_to_opts( $def_opts, array(
+			$this->p->util->add_ptns_to_opts( $def_opts, array(
 				'am_ap_add_to' => 0,
 				'am_ws_add_to' => 1,
 			) );

@@ -126,20 +126,23 @@ if ( ! class_exists( 'WpssoAmSubmenuAmGeneral' ) && class_exists( 'WpssoAdmin' )
 						'option label', 'wpsso-am' ), null, 'am_ws_on_index' ) . 
 					'<td>' . $this->form->get_checkbox( 'am_ws_on_index' ) . '</td>';
 
-					$table_rows[] = $this->form->get_th_html( _x( 'Add Banner to Page Homepage',
-						'option label', 'wpsso-am' ), null, 'am_ws_on_front' ) . 
+					$table_rows[] = '' .
+					$this->form->get_th_html( _x( 'Add Banner to Page Homepage', 'option label', 'wpsso-am' ),
+						$css_class = '', $css_id = 'am_ws_on_front' ) . 
 					'<td>' . $this->form->get_checkbox( 'am_ws_on_front' ) . '</td>';
 
 					$add_to_checkboxes = '';
 
-					foreach ( $this->p->util->get_post_types( 'objects' ) as $pt ) {	// Get public post types.
+					foreach ( $this->p->util->get_post_types( 'objects' ) as $obj ) {
 
-						$add_to_checkboxes .= '<p>' . $this->form->get_checkbox( 'am_ws_add_to_' . $pt->name ) . ' ' .
-							$pt->label . ( empty( $pt->description ) ? '' : ' (' . $pt->description . ')' ) . '</p>';
+						$add_to_checkboxes .= '<p>' . $this->form->get_checkbox( 'am_ws_add_to_' . $obj->name ) . ' ' .
+							$obj->label . ( empty( $obj->description ) ? '' : ' (' . $obj->description . ')' ) . '</p>';
 					}
 
-					$table_rows[] = $this->form->get_th_html( _x( 'Add Banner to Post Types',
-						'option label', 'wpsso-am' ), null, 'am_ws_add_to' ) . '<td>' . $add_to_checkboxes . '</td>';
+					$table_rows[] = '' .
+					$this->form->get_th_html( _x( 'Add Banner to Post Types', 'option label', 'wpsso-am' ),
+						$css_class = '', $css_id = 'am_ws_add_to' ) .
+					'<td>' . $add_to_checkboxes . '</td>';
 
 					break;
 
@@ -167,10 +170,10 @@ if ( ! class_exists( 'WpssoAmSubmenuAmGeneral' ) && class_exists( 'WpssoAdmin' )
 
 					$add_to_checkboxes = '';
 
-					foreach ( $this->p->util->get_post_types( 'objects' ) as $pt ) {	// Get public post types.
+					foreach ( $this->p->util->get_post_types( 'objects' ) as $obj ) {
 
-						$add_to_checkboxes .= '<p>' . $this->form->get_checkbox( 'am_ap_add_to_' . $pt->name ). ' ' .
-							$pt->label . ( empty( $pt->description ) ? '' : ' (' . $pt->description . ')' ) . '</p>';
+						$add_to_checkboxes .= '<p>' . $this->form->get_checkbox( 'am_ap_add_to_' . $obj->name ). ' ' .
+							$obj->label . ( empty( $obj->description ) ? '' : ' (' . $obj->description . ')' ) . '</p>';
 					}
 
 					$table_rows[] = $this->form->get_th_html( _x( 'Show Tab on Post Types',
