@@ -91,8 +91,8 @@ WPSSO Mobile App Meta (aka WPSSO AM) is an add-on for the [WPSSO Core plugin](ht
 
 <h3 class="top">Install and Uninstall</h3>
 
-* [Install the WPSSO AM Add-on](https://wpsso.com/docs/plugins/wpsso-am/installation/install-the-plugin/)
-* [Uninstall the WPSSO AM Add-on](https://wpsso.com/docs/plugins/wpsso-am/installation/uninstall-the-plugin/)
+* [Install the WPSSO Mobile App Meta add-on](https://wpsso.com/docs/plugins/wpsso-am/installation/install-the-plugin/).
+* [Uninstall the WPSSO Mobile App Meta add-on](https://wpsso.com/docs/plugins/wpsso-am/installation/uninstall-the-plugin/).
 
 == Frequently Asked Questions ==
 

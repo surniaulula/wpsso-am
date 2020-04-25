@@ -116,8 +116,8 @@
 <h3 class="top">Install and Uninstall</h3>
 
 <ul>
-<li><a href="https://wpsso.com/docs/plugins/wpsso-am/installation/install-the-plugin/">Install the WPSSO AM Add-on</a></li>
-<li><a href="https://wpsso.com/docs/plugins/wpsso-am/installation/uninstall-the-plugin/">Uninstall the WPSSO AM Add-on</a></li>
+<li><a href="https://wpsso.com/docs/plugins/wpsso-am/installation/install-the-plugin/">Install the WPSSO Mobile App Meta add-on</a>.</li>
+<li><a href="https://wpsso.com/docs/plugins/wpsso-am/installation/uninstall-the-plugin/">Uninstall the WPSSO Mobile App Meta add-on</a>.</li>
 </ul>
 
 
