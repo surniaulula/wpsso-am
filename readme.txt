@@ -1,5 +1,5 @@
-=== Mobile App Meta | WPSSO Add-on ===
-Plugin Name: WPSSO Mobile App Meta
+=== Mobile App Meta Tags | WPSSO Add-on ===
+Plugin Name: WPSSO Mobile App Meta Tags
 Plugin Slug: wpsso-am
 Text Domain: wpsso-am
 Domain Path: /languages
@@ -48,7 +48,7 @@ Apple Store / iTunes and Google Play App Meta Tags for Apple's mobile Safari Ban
 
 * Adds optional [Twitter App Card](https://dev.twitter.com/cards/types/app) meta tags to webpages.
 
-* Adds a Mobile App Meta settings page to the SSO menu with additional options:
+* Adds a Mobile App Meta Tags settings page to the SSO menu with additional options:
 
 	* Mobile App Banner
 		* Add Banner to Archive Webpages
@@ -85,14 +85,14 @@ Apple Store / iTunes and Google Play App Meta Tags for Apple's mobile Safari Ban
 
 <h3>WPSSO Core Plugin Required</h3>
 
-WPSSO Mobile App Meta (aka WPSSO AM) is an add-on for the [WPSSO Core plugin](https://wordpress.org/plugins/wpsso/).
+WPSSO Mobile App Meta Tags (aka WPSSO AM) is an add-on for the [WPSSO Core plugin](https://wordpress.org/plugins/wpsso/).
 
 == Installation ==
 
 <h3 class="top">Install and Uninstall</h3>
 
-* [Install the WPSSO Mobile App Meta add-on](https://wpsso.com/docs/plugins/wpsso-am/installation/install-the-plugin/).
-* [Uninstall the WPSSO Mobile App Meta add-on](https://wpsso.com/docs/plugins/wpsso-am/installation/uninstall-the-plugin/).
+* [Install the WPSSO Mobile App Meta Tags add-on](https://wpsso.com/docs/plugins/wpsso-am/installation/install-the-plugin/).
+* [Uninstall the WPSSO Mobile App Meta Tags add-on](https://wpsso.com/docs/plugins/wpsso-am/installation/uninstall-the-plugin/).
 
 == Frequently Asked Questions ==
 

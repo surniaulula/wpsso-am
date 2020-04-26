@@ -1,7 +1,7 @@
-<h1>Mobile App Meta</h1><h3>WPSSO Add-on</h3>
+<h1>Mobile App Meta Tags</h1><h3>WPSSO Add-on</h3>
 
 <table>
-<tr><th align="right" valign="top" nowrap>Plugin Name</th><td>WPSSO Mobile App Meta</td></tr>
+<tr><th align="right" valign="top" nowrap>Plugin Name</th><td>WPSSO Mobile App Meta Tags</td></tr>
 <tr><th align="right" valign="top" nowrap>Summary</th><td>Apple Store / iTunes and Google Play App Meta Tags for Apple&#039;s mobile Safari Banner and Twitter&#039;s App Card.</td></tr>
 <tr><th align="right" valign="top" nowrap>Stable Version</th><td>3.3.0</td></tr>
 <tr><th align="right" valign="top" nowrap>Requires PHP</th><td>5.6 or newer</td></tr>
@@ -43,7 +43,7 @@
 <li><p>Extends the features of the WPSSO Core plugin.</p></li>
 <li><p>Adds an optional banner in Apple's mobile Safari for your website's Apple Store mobile App.</p></li>
 <li><p>Adds optional <a href="https://dev.twitter.com/cards/types/app">Twitter App Card</a> meta tags to webpages.</p></li>
-<li><p>Adds a Mobile App Meta settings page to the SSO menu with additional options:</p>
+<li><p>Adds a Mobile App Meta Tags settings page to the SSO menu with additional options:</p>
 
 <ul>
 <li>Mobile App Banner
@@ -108,7 +108,7 @@
 
 <h3>WPSSO Core Plugin Required</h3>
 
-<p>WPSSO Mobile App Meta (aka WPSSO AM) is an add-on for the <a href="https://wordpress.org/plugins/wpsso/">WPSSO Core plugin</a>.</p>
+<p>WPSSO Mobile App Meta Tags (aka WPSSO AM) is an add-on for the <a href="https://wordpress.org/plugins/wpsso/">WPSSO Core plugin</a>.</p>
 
 
 <h2>Installation</h2>
@@ -116,8 +116,8 @@
 <h3 class="top">Install and Uninstall</h3>
 
 <ul>
-<li><a href="https://wpsso.com/docs/plugins/wpsso-am/installation/install-the-plugin/">Install the WPSSO Mobile App Meta add-on</a>.</li>
-<li><a href="https://wpsso.com/docs/plugins/wpsso-am/installation/uninstall-the-plugin/">Uninstall the WPSSO Mobile App Meta add-on</a>.</li>
+<li><a href="https://wpsso.com/docs/plugins/wpsso-am/installation/install-the-plugin/">Install the WPSSO Mobile App Meta Tags add-on</a>.</li>
+<li><a href="https://wpsso.com/docs/plugins/wpsso-am/installation/uninstall-the-plugin/">Uninstall the WPSSO Mobile App Meta Tags add-on</a>.</li>
 </ul>
 
 
