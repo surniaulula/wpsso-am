@@ -19,7 +19,7 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 					'version'     => '3.3.0',	// Plugin version.
 					'opt_version' => '8',		// Increment when changing default option values.
 					'short'       => 'WPSSO AM',	// Short plugin name.
-					'name'        => 'WPSSO Mobile App Meta',
+					'name'        => 'WPSSO Mobile App Meta Tags',
 					'desc'        => 'Apple Store / iTunes and Google Play App Meta Tags for Apple\'s mobile Safari Banner and Twitter\'s App Card.',
 					'slug'        => 'wpsso-am',
 					'base'        => 'wpsso-am/wpsso-am.php',
@@ -57,7 +57,7 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 						'std' => array(
 						),
 						'submenu' => array(
-							'am-general' => 'Mobile App Meta',
+							'am-general' => 'Mobile Apps',
 						),
 					),
 				),

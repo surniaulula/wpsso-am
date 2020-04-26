@@ -1,8 +1,8 @@
-# Copyright (C) 2020 WPSSO Mobile App Meta
-# This file is distributed under the same license as the WPSSO Mobile App Meta package.
+# Copyright (C) 2020 WPSSO Mobile App Meta Tags
+# This file is distributed under the same license as the WPSSO Mobile App Meta Tags package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WPSSO Mobile App Meta 3.3.0\n"
+"Project-Id-Version: WPSSO Mobile App Meta Tags 3.3.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-am\n"
 "POT-Creation-Date: 2020-MO-DA HO:MI+ZONE\n"
 "MIME-Version: 1.0\n"
@@ -238,7 +238,7 @@ msgstr ""
 
 #: lib/gettext-config.php:6
 msgctxt "lib file description"
-msgid "Mobile App Meta"
+msgid "Mobile Apps"
 msgstr ""
 
 #: lib/gettext-config.php:7
@@ -315,7 +315,7 @@ msgid ""
 msgstr ""
 
 #. Plugin Name of the plugin/theme
-msgid "WPSSO Mobile App Meta"
+msgid "WPSSO Mobile App Meta Tags"
 msgstr ""
 
 #. Plugin URI of the plugin/theme
