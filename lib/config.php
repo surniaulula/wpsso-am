@@ -52,10 +52,6 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 					 * Library files loaded and instantiated by WPSSO.
 					 */
 					'lib' => array(
-						'pro' => array(
-						),
-						'std' => array(
-						),
 						'submenu' => array(
 							'am-general' => 'Mobile Apps',
 						),
