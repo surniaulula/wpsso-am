@@ -360,7 +360,9 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 		public function filter_post_document_meta_tabs( $tabs, $mod, $metabox_id ) {
 
 			if ( $metabox_id === $this->p->cf[ 'meta' ][ 'id' ] ) {
+
 				if ( ! empty( $this->p->options[ 'am_ap_add_to_' . $mod[ 'post_type' ]] ) ) {
+
 					SucomUtil::add_after_key( $tabs, 'media', 'appmeta', _x( 'Mobile Apps', 'metabox tab', 'wpsso-am' ) );
 				}
 			}
