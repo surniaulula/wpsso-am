@@ -130,7 +130,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 			return $type;
 		}
 
-		public function filter_get_defaults( $def_opts ) {
+		public function filter_get_defaults( $defs ) {
 
 			if ( $this->p->debug->enabled ) {
 				$this->p->debug->mark();
@@ -139,12 +139,12 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 			/**
 			 * Add options using a key prefix array and post type names.
 			 */
-			$this->p->util->add_ptns_to_opts( $def_opts, array(
+			$this->p->util->add_post_type_names( $defs, array(
 				'am_ap_add_to' => 0,
 				'am_ws_add_to' => 1,
 			) );
 
-			return $def_opts;
+			return $defs;
 		}
 
 		public function filter_get_md_defaults( $md_defs ) {
