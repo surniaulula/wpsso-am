@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WPSSO Mobile App Meta 3.4.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-am\n"
-"POT-Creation-Date: 2020-05-07 14:21-0700\n"
-"PO-Revision-Date: 2020-05-07 14:24-0700\n"
+"POT-Creation-Date: 2020-05-08 07:06-0700\n"
+"PO-Revision-Date: 2020-05-08 07:09-0700\n"
 "Last-Translator: JS Morisset <jsm@surniaulula.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -272,13 +272,13 @@ msgctxt "option label"
 msgid "Default Argument String"
 msgstr "Chaîne d'arguments par défaut"
 
-#: wpsso-am.php:229
+#: wpsso-am.php:246
 msgid "The %1$s version %2$s add-on requires the %3$s plugin &mdash; please activate the missing plugin."
-msgstr "L'ajout %1$s version %2$s requiert l'extension %2$s &mdash; veuillez activer l'extension manquante."
+msgstr "L'ajout %1$s version %2$s nécessite l'extension %3$s &mdash; veuillez activer l'extension manquante."
 
-#: wpsso-am.php:232
-msgid "The %1$s version %2$s add-on requires the %3$s version %4$s plugin or newer (version %5$s is currently installed)."
-msgstr "L'ajout %1$s version %2$s requiert l'extension %3$s version %4$s ou plus récente (la version %5$s est actuellement installée)."
+#: wpsso-am.php:249
+msgid "The %1$s version %2$s add-on requires %3$s version %4$s or newer (version %5$s is currently installed)."
+msgstr "L'ajout %1$s version %2$s nécessite %3$s version %4$s ou plus récente (la version %5$s est actuellement installée)."
 
 #. Plugin Name of the plugin/theme
 msgid "WPSSO Mobile App Meta Tags"
