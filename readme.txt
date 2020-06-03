@@ -119,6 +119,22 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
+**Version 3.5.0-dev.5 (2020/06/03)**
+
+* **New Features**
+	* None.
+* **Improvements**
+	* None.
+* **Bugfixes**
+	* None.
+* **Developer Notes**
+	* Updated method calls for WPSSO Core v7.8.0:
+		* Changed `WpssoUtil->get_post_types()` to `SucomUtilWP::get_post_types()`.
+* **Requires At Least**
+	* PHP v5.6.
+	* WordPress v4.2.
+	* WPSSO Core v7.8.0-dev.5.
+
 **Version 3.4.0 (2020/05/09)**
 
 * **New Features**
@@ -165,6 +181,10 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 	* WPSSO Core v6.27.1.
 
 == Upgrade Notice ==
+
+= 3.5.0-dev.5 =
+
+(2020/06/03) Updated method calls for WPSSO Core v7.8.0.
 
 = 3.4.0 =
 
