@@ -165,36 +165,9 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 	* WordPress v4.2.
 	* WPSSO Core v7.3.0.
 
-**Version 3.2.0 (2020/03/27)**
-
-* **New Features**
-	* None.
-* **Improvements**
-	* None.
-* **Bugfixes**
-	* None.
-* **Developer Notes**
-	* Renamed 'custom_meta' hooks to 'document_meta' for WPSSO Core v6.26.0.
-* **Requires At Least**
-	* PHP v5.6.
-	* WordPress v4.0.
-	* WPSSO Core v6.27.1.
-
 == Upgrade Notice ==
 
 = 3.5.0 =
 
 (2020/06/04) Updated method calls for WPSSO Core v7.8.0.
-
-= 3.4.0 =
-
-(2020/05/09) Refactored the required plugin check to (optionally) check the class name and a version constant.
-
-= 3.3.0 =
-
-(2020/04/06) Updated "Requires At Least" to WordPress v4.2. Refactored WPSSO Core active and minimum version dependency checks.
-
-= 3.2.0 =
-
-(2020/03/27) Renamed 'custom_meta' hooks to 'document_meta' for WPSSO Core v6.26.0.
 
