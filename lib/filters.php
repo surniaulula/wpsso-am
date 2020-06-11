@@ -96,8 +96,6 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 
 					return 'blank_num';
 
-					break;
-
 				/**
 				 * Text strings that can be blank.
 				 */
@@ -110,21 +108,15 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 
 					return 'ok_blank';
 
-					break;
-
 				case 'am_ap_ast':
 
 					return 'not_blank';
-
-					break;
 
 				case 'am_iphone_app_url':
 				case 'am_ipad_app_url':
 				case 'am_gplay_app_url':
 
 					return 'url';
-
-					break;
 			}
 
 			return $type;
