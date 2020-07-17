@@ -146,92 +146,92 @@ msgid ""
 "Card and customize the mobile App banner for Apple's mobile Safari."
 msgstr ""
 
-#: lib/filters.php:384 lib/gettext-pro.php:9
+#: lib/filters.php:384
 msgctxt "metabox title"
 msgid "Twitter App Card"
 msgstr ""
 
-#: lib/filters.php:388 lib/gettext-pro.php:10
+#: lib/filters.php:388
 msgctxt "option label"
 msgid "App Store Territory"
 msgstr ""
 
-#: lib/filters.php:399 lib/gettext-pro.php:11
+#: lib/filters.php:399
 msgctxt "metabox title"
 msgid "iPhone App Details"
 msgstr ""
 
-#: lib/filters.php:403 lib/gettext-pro.php:12
+#: lib/filters.php:403
 msgctxt "option label"
 msgid "iPhone App ID"
 msgstr ""
 
-#: lib/filters.php:409 lib/gettext-pro.php:13
+#: lib/filters.php:409
 msgctxt "option label"
 msgid "iPhone App Name"
 msgstr ""
 
-#: lib/filters.php:416 lib/gettext-pro.php:14
+#: lib/filters.php:416
 msgctxt "option label"
 msgid "iPhone App URL Scheme"
 msgstr ""
 
-#: lib/filters.php:427 lib/gettext-pro.php:15
+#: lib/filters.php:427
 msgctxt "metabox title"
 msgid "iPad App Details"
 msgstr ""
 
-#: lib/filters.php:431 lib/gettext-pro.php:16
+#: lib/filters.php:431
 msgctxt "option label"
 msgid "iPad App ID"
 msgstr ""
 
-#: lib/filters.php:437 lib/gettext-pro.php:17
+#: lib/filters.php:437
 msgctxt "option label"
 msgid "iPad App Name"
 msgstr ""
 
-#: lib/filters.php:444 lib/gettext-pro.php:18
+#: lib/filters.php:444
 msgctxt "option label"
 msgid "iPad App URL Scheme"
 msgstr ""
 
-#: lib/filters.php:455 lib/gettext-pro.php:19
+#: lib/filters.php:455
 msgctxt "metabox title"
 msgid "Google Play App Details"
 msgstr ""
 
-#: lib/filters.php:459 lib/gettext-pro.php:20
+#: lib/filters.php:459
 msgctxt "option label"
 msgid "Google Play App ID"
 msgstr ""
 
-#: lib/filters.php:465 lib/gettext-pro.php:21
+#: lib/filters.php:465
 msgctxt "option label"
 msgid "Google Play App Name"
 msgstr ""
 
-#: lib/filters.php:473 lib/gettext-pro.php:22
+#: lib/filters.php:473
 msgctxt "option label"
 msgid "Google Play App URL Scheme"
 msgstr ""
 
-#: lib/filters.php:484 lib/gettext-pro.php:23 lib/submenu/am-general.php:36
+#: lib/filters.php:484 lib/submenu/am-general.php:36
 msgctxt "metabox title"
 msgid "Mobile App Banner"
 msgstr ""
 
-#: lib/filters.php:488 lib/gettext-pro.php:24
+#: lib/filters.php:488
 msgctxt "option label"
 msgid "App ID Number"
 msgstr ""
 
-#: lib/filters.php:495 lib/gettext-pro.php:25
+#: lib/filters.php:495
 msgctxt "option label"
 msgid "Affiliate Data"
 msgstr ""
 
-#: lib/filters.php:502 lib/gettext-pro.php:26
+#: lib/filters.php:502
 msgctxt "option label"
 msgid "Argument String"
 msgstr ""
@@ -246,20 +246,6 @@ msgctxt "plugin description"
 msgid ""
 "Apple Store / iTunes and Google Play App Meta Tags for Apple's mobile Safari "
 "Banner and Twitter's App Card."
-msgstr ""
-
-#: lib/gettext-pro.php:6 lib/submenu/am-general.php:179
-msgctxt "option label"
-msgid "Show Tab on Post Types"
-msgstr ""
-
-#: lib/gettext-pro.php:7 lib/submenu/am-general.php:183
-msgctxt "option label"
-msgid "Default App Store Territory"
-msgstr ""
-
-#: lib/gettext-pro.php:8
-msgid "Save a draft version or publish the %s to display these options."
 msgstr ""
 
 #: lib/submenu/am-general.php:48
@@ -300,6 +286,16 @@ msgstr ""
 #: lib/submenu/am-general.php:161
 msgctxt "option label"
 msgid "Default Argument String"
+msgstr ""
+
+#: lib/submenu/am-general.php:179
+msgctxt "option label"
+msgid "Show Tab on Post Types"
+msgstr ""
+
+#: lib/submenu/am-general.php:183
+msgctxt "option label"
+msgid "Default App Store Territory"
 msgstr ""
 
 #: wpsso-am.php:246
