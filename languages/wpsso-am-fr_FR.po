@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WPSSO Mobile App Meta 3.4.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-am\n"
-"POT-Creation-Date: 2020-05-08 07:06-0700\n"
-"PO-Revision-Date: 2020-05-08 07:09-0700\n"
+"POT-Creation-Date: 2020-07-17 09:19-0700\n"
+"PO-Revision-Date: 2020-07-17 09:19-0700\n"
 "Last-Translator: JS Morisset <jsm@surniaulula.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -82,7 +82,7 @@ msgid "The App Store country providing your application."
 msgstr "Le pays du App Store fournissant votre application."
 
 #: lib/filters-messages.php:170 lib/filters-messages.php:189
-#: lib/filters-messages.php:216 lib/filters.php:366
+#: lib/filters-messages.php:216 lib/filters.php:358
 msgctxt "metabox tab"
 msgid "Mobile Apps"
 msgstr "Apps mobile"
@@ -115,92 +115,92 @@ msgstr "Un onglet <em>%1$s</em> peut être ajouté dans la metabox %2$s pour les
 msgid "The <em>%s</em> information is used to create meta tags for Twitter's App Card and customize the mobile App banner for Apple's mobile Safari."
 msgstr "Les informations <em>%s</em> sont utilisées pour créer des balises méta pour la carte app de Twitter et personnaliser la bannière d'app pour le navigateur mobile Safari d'Apple."
 
-#: lib/filters.php:392 lib/gettext-pro.php:9
+#: lib/filters.php:384
 msgctxt "metabox title"
 msgid "Twitter App Card"
 msgstr "Carte app de Twitter"
 
-#: lib/filters.php:396 lib/gettext-pro.php:10
+#: lib/filters.php:388
 msgctxt "option label"
 msgid "App Store Territory"
 msgstr "Territoire du App Store"
 
-#: lib/filters.php:407 lib/gettext-pro.php:11
+#: lib/filters.php:399
 msgctxt "metabox title"
 msgid "iPhone App Details"
 msgstr "Détails app iPhone"
 
-#: lib/filters.php:411 lib/gettext-pro.php:12
+#: lib/filters.php:403
 msgctxt "option label"
 msgid "iPhone App ID"
 msgstr "ID d'app iPhone"
 
-#: lib/filters.php:417 lib/gettext-pro.php:13
+#: lib/filters.php:409
 msgctxt "option label"
 msgid "iPhone App Name"
 msgstr "Nom d'app iPhone"
 
-#: lib/filters.php:424 lib/gettext-pro.php:14
+#: lib/filters.php:416
 msgctxt "option label"
 msgid "iPhone App URL Scheme"
 msgstr "Schéma URL app iPhone"
 
-#: lib/filters.php:435 lib/gettext-pro.php:15
+#: lib/filters.php:427
 msgctxt "metabox title"
 msgid "iPad App Details"
 msgstr "Détails app iPad"
 
-#: lib/filters.php:439 lib/gettext-pro.php:16
+#: lib/filters.php:431
 msgctxt "option label"
 msgid "iPad App ID"
 msgstr "ID d'app iPad"
 
-#: lib/filters.php:445 lib/gettext-pro.php:17
+#: lib/filters.php:437
 msgctxt "option label"
 msgid "iPad App Name"
 msgstr "Nom d'app iPad"
 
-#: lib/filters.php:452 lib/gettext-pro.php:18
+#: lib/filters.php:444
 msgctxt "option label"
 msgid "iPad App URL Scheme"
 msgstr "Schéma URL app iPad"
 
-#: lib/filters.php:463 lib/gettext-pro.php:19
+#: lib/filters.php:455
 msgctxt "metabox title"
 msgid "Google Play App Details"
 msgstr "Détails app Google Play"
 
-#: lib/filters.php:467 lib/gettext-pro.php:20
+#: lib/filters.php:459
 msgctxt "option label"
 msgid "Google Play App ID"
 msgstr "ID d'app Google Play"
 
-#: lib/filters.php:473 lib/gettext-pro.php:21
+#: lib/filters.php:465
 msgctxt "option label"
 msgid "Google Play App Name"
 msgstr "Nom d'app Google Play"
 
-#: lib/filters.php:481 lib/gettext-pro.php:22
+#: lib/filters.php:473
 msgctxt "option label"
 msgid "Google Play App URL Scheme"
 msgstr "Schéma URL app Google Play"
 
-#: lib/filters.php:492 lib/gettext-pro.php:23 lib/submenu/am-general.php:36
+#: lib/filters.php:484 lib/submenu/am-general.php:36
 msgctxt "metabox title"
 msgid "Mobile App Banner"
 msgstr "Bannière app Mobile"
 
-#: lib/filters.php:496 lib/gettext-pro.php:24
+#: lib/filters.php:488
 msgctxt "option label"
 msgid "App ID Number"
 msgstr "Numéro d'ID app"
 
-#: lib/filters.php:503 lib/gettext-pro.php:25
+#: lib/filters.php:495
 msgctxt "option label"
 msgid "Affiliate Data"
 msgstr "Donnée d'affilié"
 
-#: lib/filters.php:510 lib/gettext-pro.php:26
+#: lib/filters.php:502
 msgctxt "option label"
 msgid "Argument String"
 msgstr "Chaîne d'arguments"
@@ -214,21 +214,6 @@ msgstr "Apps mobile"
 msgctxt "plugin description"
 msgid "Apple Store / iTunes and Google Play App Meta Tags for Apple's mobile Safari Banner and Twitter's App Card."
 msgstr "Balises méta Apple Store / iTunes et Google Play App pour la bannière mobile Safari de Apple et la carte app de Twitter."
-
-#: lib/gettext-pro.php:6 lib/submenu/am-general.php:179
-msgctxt "option label"
-msgid "Show Tab on Post Types"
-msgstr "Afficher l'onglet sur articles de type"
-
-#: lib/gettext-pro.php:7 lib/submenu/am-general.php:183
-msgctxt "option label"
-msgid "Default App Store Territory"
-msgstr "Territoire du App Store par défaut"
-
-# Ignore the post type to avoid gender issues in the French translation.
-#: lib/gettext-pro.php:8
-msgid "Save a draft version or publish the %s to display these options."
-msgstr "Enregistrer un brouillon ou publier pour activer ces options."
 
 #: lib/submenu/am-general.php:48
 msgctxt "metabox title"
@@ -270,6 +255,16 @@ msgctxt "option label"
 msgid "Default Argument String"
 msgstr "Chaîne d'arguments par défaut"
 
+#: lib/submenu/am-general.php:179
+msgctxt "option label"
+msgid "Show Tab on Post Types"
+msgstr "Afficher l'onglet sur articles de type"
+
+#: lib/submenu/am-general.php:183
+msgctxt "option label"
+msgid "Default App Store Territory"
+msgstr "Territoire du App Store par défaut"
+
 #: wpsso-am.php:246
 msgid "The %1$s version %2$s add-on requires the %3$s plugin &mdash; please activate the missing plugin."
 msgstr "L'ajout %1$s version %2$s nécessite l'extension %3$s &mdash; veuillez activer l'extension manquante."
@@ -297,3 +292,7 @@ msgstr "JS Morisset"
 #. Author URI of the plugin/theme
 msgid "https://wpsso.com/"
 msgstr "https://wpsso.com/"
+
+# Ignore the post type to avoid gender issues in the French translation.
+#~ msgid "Save a draft version or publish the %s to display these options."
+#~ msgstr "Enregistrer un brouillon ou publier pour activer ces options."
