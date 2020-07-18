@@ -292,7 +292,3 @@ msgstr "JS Morisset"
 #. Author URI of the plugin/theme
 msgid "https://wpsso.com/"
 msgstr "https://wpsso.com/"
-
-# Ignore the post type to avoid gender issues in the French translation.
-#~ msgid "Save a draft version or publish the %s to display these options."
-#~ msgstr "Enregistrer un brouillon ou publier pour activer ces options."
