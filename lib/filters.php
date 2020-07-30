@@ -75,8 +75,8 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 				), $prio = 50 );	// Run after WPSSO Core's own Standard / Premium filters.
 
 				$this->p->util->add_plugin_filters( $this, array( 
-					'status_std_features' => 4,
-				), $prio = 10, $ext = 'wpssoam' );	// Hook into our own filters.
+					'status_std_features' => 3,
+				), $prio = 10, $ext = 'wpssoam' );	// Hooks the 'wpssoam' filters.
 			}
 		}
 
@@ -509,7 +509,15 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 			return $form->get_md_form_rows( $table_rows, $form_rows, $head, $mod );
 		}
 
-		public function filter_status_std_features( $features, $ext, $info, $pkg ) {
+		/**
+		 * Filter for 'wpssoam_status_std_features'.
+		 */
+		public function filter_status_std_features( $features, $ext, $info ) {
+
+			if ( $this->p->debug->enabled ) {
+
+				$this->p->debug->mark();
+			}
 
 			$features[ '(code) Mobile App Banner' ] = array( 
 				'status' => $this->p->options[ 'am_ws_itunes_app_id' ] ? 'on' : 'off'
