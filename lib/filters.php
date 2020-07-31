@@ -519,11 +519,11 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 				$this->p->debug->mark();
 			}
 
-			$features[ '(code) Mobile App Banner' ] = array( 
+			$features[ _x( '(code) Mobile App Banner', 'lib file description', 'wpsso-am' ) ] = array( 
 				'status' => $this->p->options[ 'am_ws_itunes_app_id' ] ? 'on' : 'off'
 			);
 
-			$features[ '(code) Twitter App Card Meta Tags' ] = array( 
+			$features[ _x( '(code) Twitter App Card Meta Tags', 'lib file description', 'wpsso-am' ) ] = array( 
 				'status' => 'on',
 			);
 
