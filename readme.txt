@@ -10,7 +10,7 @@ Tags: app store, mobile app, app card, mobile, itunes, googleplay, google play, 
 Contributors: jsmoriss
 Requires PHP: 5.6
 Requires At Least: 4.2
-Tested Up To: 5.4.2
+Tested Up To: 5.5
 Stable Tag: 3.5.0
 
 Apple Store / iTunes and Google Play App Meta Tags for Apple's mobile Safari Banner and Twitter's App Card.
@@ -119,6 +119,21 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
+**Version 3.6.0-dev.1 (2020/07/30)**
+
+* **New Features**
+	* None.
+* **Improvements**
+	* Added the ability to translate labels in the "Standard Features Status" metabox in the SSO &gt; Dashboard page.
+* **Bugfixes**
+	* None.
+* **Developer Notes**
+	* None.
+* **Requires At Least**
+	* PHP v5.6.
+	* WordPress v4.2.
+	* WPSSO Core v7.8.0.
+
 **Version 3.5.0 (2020/06/04)**
 
 * **New Features**
@@ -166,6 +181,10 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 	* WPSSO Core v7.3.0.
 
 == Upgrade Notice ==
+
+= 3.6.0-dev.1 =
+
+(2020/07/30) Added the ability to translate labels in the "Standard Features Status" metabox.
 
 = 3.5.0 =
 
