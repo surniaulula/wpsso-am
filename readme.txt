@@ -119,7 +119,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 3.6.0-dev.2 (2020/07/31)**
+**Version 3.6.0-dev.3 (2020/08/01)**
 
 * **New Features**
 	* None.
@@ -128,11 +128,11 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * **Bugfixes**
 	* None.
 * **Developer Notes**
-	* Renamed the config array keys for icons URLs from 'low' and 'high' to '1x' and '2x'.
+	* Tested with WordPress v5.5.
 * **Requires At Least**
 	* PHP v5.6.
 	* WordPress v4.2.
-	* WPSSO Core v7.15.0-dev.2.
+	* WPSSO Core v7.15.0-dev.3.
 
 **Version 3.5.0 (2020/06/04)**
 
@@ -182,9 +182,9 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 == Upgrade Notice ==
 
-= 3.6.0-dev.2 =
+= 3.6.0-dev.3 =
 
-(2020/07/31) Added the ability to translate labels in the "Standard Features Status" metabox.
+(2020/08/01) Tested with WordPress v5.5. Added the ability to translate labels in the "Standard Features Status" metabox.
 
 = 3.5.0 =
 
