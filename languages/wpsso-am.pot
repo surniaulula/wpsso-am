@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WPSSO Mobile App Meta Tags package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WPSSO Mobile App Meta Tags 3.6.0-dev.3\n"
+"Project-Id-Version: WPSSO Mobile App Meta Tags 3.6.0-dev.4\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-am\n"
 "POT-Creation-Date: 2020-MO-DA HO:MI+ZONE\n"
 "MIME-Version: 1.0\n"
@@ -308,13 +308,13 @@ msgctxt "option label"
 msgid "Default App Store Territory"
 msgstr ""
 
-#: wpsso-am.php:246
+#: wpsso-am.php:254
 msgid ""
 "The %1$s version %2$s add-on requires the %3$s plugin &mdash; please "
 "activate the missing plugin."
 msgstr ""
 
-#: wpsso-am.php:249
+#: wpsso-am.php:257
 msgid ""
 "The %1$s version %2$s add-on requires %3$s version %4$s or newer (version "
 "%5$s is currently installed)."
