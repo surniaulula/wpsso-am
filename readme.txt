@@ -119,7 +119,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 3.6.0-dev.3 (2020/08/01)**
+**Version 3.6.0-dev.4 (2020/08/01)**
 
 * **New Features**
 	* None.
@@ -132,7 +132,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * **Requires At Least**
 	* PHP v5.6.
 	* WordPress v4.2.
-	* WPSSO Core v7.15.0-dev.3.
+	* WPSSO Core v7.15.0-dev.4.
 
 **Version 3.5.0 (2020/06/04)**
 
@@ -182,7 +182,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 == Upgrade Notice ==
 
-= 3.6.0-dev.3 =
+= 3.6.0-dev.4 =
 
 (2020/08/01) Tested with WordPress v5.5. Added the ability to translate labels in the "Standard Features Status" metabox.
 
