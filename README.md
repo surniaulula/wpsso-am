@@ -3,7 +3,7 @@
 <table>
 <tr><th align="right" valign="top" nowrap>Plugin Name</th><td>WPSSO Mobile App Meta Tags</td></tr>
 <tr><th align="right" valign="top" nowrap>Summary</th><td>Apple Store / iTunes and Google Play App Meta Tags for Apple&#039;s mobile Safari Banner and Twitter&#039;s App Card.</td></tr>
-<tr><th align="right" valign="top" nowrap>Stable Version</th><td>3.5.0</td></tr>
+<tr><th align="right" valign="top" nowrap>Stable Version</th><td>3.6.0</td></tr>
 <tr><th align="right" valign="top" nowrap>Requires PHP</th><td>5.6 or newer</td></tr>
 <tr><th align="right" valign="top" nowrap>Requires WordPress</th><td>4.2 or newer</td></tr>
 <tr><th align="right" valign="top" nowrap>Tested Up To WordPress</th><td>5.5</td></tr>
