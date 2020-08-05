@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WPSSO Mobile App Meta Tags package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WPSSO Mobile App Meta Tags 3.7.0-dev.1\n"
+"Project-Id-Version: WPSSO Mobile App Meta Tags 3.7.0-dev.2\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-am\n"
 "POT-Creation-Date: 2020-MO-DA HO:MI+ZONE\n"
 "MIME-Version: 1.0\n"
@@ -99,7 +99,7 @@ msgid "The App Store country providing your application."
 msgstr ""
 
 #: lib/filters-messages.php:170 lib/filters-messages.php:189
-#: lib/filters-messages.php:216 lib/filters.php:358
+#: lib/filters-messages.php:216 lib/filters.php:362
 msgctxt "metabox tab"
 msgid "Mobile Apps"
 msgstr ""
@@ -146,102 +146,102 @@ msgid ""
 "Card and customize the mobile App banner for Apple's mobile Safari."
 msgstr ""
 
-#: lib/filters.php:384
+#: lib/filters.php:388
 msgctxt "metabox title"
 msgid "Twitter App Card"
 msgstr ""
 
-#: lib/filters.php:388
+#: lib/filters.php:392
 msgctxt "option label"
 msgid "App Store Territory"
 msgstr ""
 
-#: lib/filters.php:399
+#: lib/filters.php:403
 msgctxt "metabox title"
 msgid "iPhone App Details"
 msgstr ""
 
-#: lib/filters.php:403
+#: lib/filters.php:407
 msgctxt "option label"
 msgid "iPhone App ID"
 msgstr ""
 
-#: lib/filters.php:409
+#: lib/filters.php:413
 msgctxt "option label"
 msgid "iPhone App Name"
 msgstr ""
 
-#: lib/filters.php:416
+#: lib/filters.php:420
 msgctxt "option label"
 msgid "iPhone App URL Scheme"
 msgstr ""
 
-#: lib/filters.php:427
+#: lib/filters.php:431
 msgctxt "metabox title"
 msgid "iPad App Details"
 msgstr ""
 
-#: lib/filters.php:431
+#: lib/filters.php:435
 msgctxt "option label"
 msgid "iPad App ID"
 msgstr ""
 
-#: lib/filters.php:437
+#: lib/filters.php:441
 msgctxt "option label"
 msgid "iPad App Name"
 msgstr ""
 
-#: lib/filters.php:444
+#: lib/filters.php:448
 msgctxt "option label"
 msgid "iPad App URL Scheme"
 msgstr ""
 
-#: lib/filters.php:455
+#: lib/filters.php:459
 msgctxt "metabox title"
 msgid "Google Play App Details"
 msgstr ""
 
-#: lib/filters.php:459
+#: lib/filters.php:463
 msgctxt "option label"
 msgid "Google Play App ID"
 msgstr ""
 
-#: lib/filters.php:465
+#: lib/filters.php:469
 msgctxt "option label"
 msgid "Google Play App Name"
 msgstr ""
 
-#: lib/filters.php:473
+#: lib/filters.php:477
 msgctxt "option label"
 msgid "Google Play App URL Scheme"
 msgstr ""
 
-#: lib/filters.php:484 lib/submenu/am-general.php:36
+#: lib/filters.php:488 lib/submenu/am-general.php:36
 msgctxt "metabox title"
 msgid "Mobile App Banner"
 msgstr ""
 
-#: lib/filters.php:488
+#: lib/filters.php:492
 msgctxt "option label"
 msgid "App ID Number"
 msgstr ""
 
-#: lib/filters.php:495
+#: lib/filters.php:499
 msgctxt "option label"
 msgid "Affiliate Data"
 msgstr ""
 
-#: lib/filters.php:502
+#: lib/filters.php:506
 msgctxt "option label"
 msgid "Argument String"
 msgstr ""
 
-#: lib/filters.php:523
+#: lib/filters.php:527
 msgctxt "lib file description"
 msgid "(code) Mobile App Banner"
 msgstr ""
 
-#: lib/filters.php:528
+#: lib/filters.php:532
 msgctxt "lib file description"
 msgid "(code) Twitter App Card Meta Tags"
 msgstr ""
