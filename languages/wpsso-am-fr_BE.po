@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WPSSO Mobile App Meta 3.7.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-am\n"
-"POT-Creation-Date: 2020-08-04 12:01-0700\n"
-"PO-Revision-Date: 2020-08-04 12:02-0700\n"
+"POT-Creation-Date: 2020-08-04 12:27-0700\n"
+"PO-Revision-Date: 2020-08-04 12:28-0700\n"
 "Last-Translator: JS Morisset <jsm@surniaulula.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -205,17 +205,12 @@ msgctxt "option label"
 msgid "Argument String"
 msgstr "Chaîne d'arguments"
 
-#: lib/filters.php:522 lib/filters.php:526
+#: lib/filters.php:523
 msgctxt "lib file description"
 msgid "(code) Mobile App Banner"
 msgstr "(code) Bannière app Mobile"
 
-#: lib/filters.php:523
-msgctxt "lib file description"
-msgid "{code} Mobile App Banner"
-msgstr "{code} Bannière app Mobile"
-
-#: lib/filters.php:531
+#: lib/filters.php:528
 msgctxt "lib file description"
 msgid "(code) Twitter App Card Meta Tags"
 msgstr "(code) Balises méta carte app de Twitter"
@@ -280,11 +275,11 @@ msgctxt "option label"
 msgid "Default App Store Territory"
 msgstr "Territoire du App Store par défaut"
 
-#: wpsso-am.php:254
+#: wpsso-am.php:275
 msgid "The %1$s version %2$s add-on requires the %3$s plugin &mdash; please activate the missing plugin."
 msgstr "L'ajout %1$s version %2$s nécessite l'extension %3$s &mdash; veuillez activer l'extension manquante."
 
-#: wpsso-am.php:257
+#: wpsso-am.php:288
 msgid "The %1$s version %2$s add-on requires %3$s version %4$s or newer (version %5$s is currently installed)."
 msgstr "L'ajout %1$s version %2$s nécessite %3$s version %4$s ou plus récente (la version %5$s est actuellement installée)."
 
