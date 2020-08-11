@@ -119,7 +119,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 3.7.0-rc.1 (2020/08/11)**
+**Version 3.7.0 (2020/08/11)**
 
 * **New Features**
 	* None.
@@ -133,76 +133,11 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * **Requires At Least**
 	* PHP v5.6.
 	* WordPress v4.2.
-	* WPSSO Core v8.0.0-rc.1.
-
-**Version 3.6.0 (2020/08/02)**
-
-* **New Features**
-	* None.
-* **Improvements**
-	* Added the ability to translate labels in the "Standard Features Status" metabox in the SSO &gt; Dashboard page.
-* **Bugfixes**
-	* None.
-* **Developer Notes**
-	* Tested with WordPress v5.5.
-* **Requires At Least**
-	* PHP v5.6.
-	* WordPress v4.2.
-	* WPSSO Core v7.15.0.
-
-**Version 3.5.0 (2020/06/04)**
-
-* **New Features**
-	* None.
-* **Improvements**
-	* None.
-* **Bugfixes**
-	* None.
-* **Developer Notes**
-	* Updated method calls for WPSSO Core v7.8.0:
-		* Changed `WpssoUtil->get_post_types()` to `SucomUtilWP::get_post_types()`.
-* **Requires At Least**
-	* PHP v5.6.
-	* WordPress v4.2.
-	* WPSSO Core v7.8.0.
-
-**Version 3.4.0 (2020/05/09)**
-
-* **New Features**
-	* None.
-* **Improvements**
-	* None.
-* **Bugfixes**
-	* None.
-* **Developer Notes**
-	* Refactored the required plugin check to (optionally) check the class name and a version constant.
-* **Requires At Least**
-	* PHP v5.6.
-	* WordPress v4.2.
-	* WPSSO Core v7.5.0.
-
-**Version 3.3.0 (2020/04/06)**
-
-* **New Features**
-	* None.
-* **Improvements**
-	* Updated "Requires At Least" to WordPress v4.2.
-* **Bugfixes**
-	* None.
-* **Developer Notes**
-	* Refactored WPSSO Core active and minimum version dependency checks.
-* **Requires At Least**
-	* PHP v5.6.
-	* WordPress v4.2.
-	* WPSSO Core v7.3.0.
+	* WPSSO Core v8.0.0.
 
 == Upgrade Notice ==
 
-= 3.7.0-rc.1 =
+= 3.7.0 =
 
 (2020/08/11) Added support for the new WpssoUtilMetabox class in WPSSO Core v8.0.0. Refactored text domain related methods to allow reloading translation files when debugging is enabled.
-
-= 3.6.0 =
-
-(2020/08/02) Tested with WordPress v5.5. Added the ability to translate labels in the "Standard Features Status" metabox.
 
