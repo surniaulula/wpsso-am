@@ -51,9 +51,9 @@ Apple Store / iTunes and Google Play App Meta Tags for Apple's mobile Safari Ban
 * Adds a Mobile App Meta Tags settings page to the SSO menu with additional options:
 
 	* Mobile App Banner
-		* Add Banner to Archive Webpages
-		* Add Banner to Page Homepage
+		* Add Banner to Home Page
 		* Add Banner to Post Types (posts, pages, media, products, etc.).
+		* Add Banner to Archive Pages
 	* Apple Store App
 		* Default App ID Number
 		* Default Affiliate Data
