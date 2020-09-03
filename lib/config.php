@@ -80,9 +80,9 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 					'add_meta_name_twitter:app:name:googleplay' => 1,
 					'add_meta_name_twitter:app:id:googleplay'   => 1,
 					'add_meta_name_twitter:app:url:googleplay'  => 1,
-					'am_ws_on_index'                            => 1,
-					'am_ws_on_front'                            => 1,
-					'am_ws_add_to_attachment'                   => 1,
+					'am_ws_on_front'                            => 1,	// Add Banner to Home Page.
+					'am_ws_on_index'                            => 1,	// Add Banner to Archive Pages.
+					'am_ws_add_to_attachment'                   => 1,	// Add Banner to Post Types.
 					'am_ws_add_to_page'                         => 1,
 					'am_ws_add_to_post'                         => 1,
 					'am_ws_itunes_app_id'                       => '',

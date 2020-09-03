@@ -61,11 +61,11 @@ msgid ""
 msgstr ""
 
 #: lib/filters-messages.php:126
-msgid "Add meta tags for the website's mobile App to index and archive pages."
+msgid "Add meta tags for the website's mobile App to a static front page."
 msgstr ""
 
 #: lib/filters-messages.php:132
-msgid "Add meta tags for the website's mobile App to a static front page."
+msgid "Add meta tags for the website's mobile App to index and archive pages."
 msgstr ""
 
 #: lib/filters-messages.php:138
@@ -99,7 +99,7 @@ msgid "The App Store country providing your application."
 msgstr ""
 
 #: lib/filters-messages.php:170 lib/filters-messages.php:189
-#: lib/filters-messages.php:216 lib/filters.php:362
+#: lib/filters-messages.php:216 lib/filters.php:387
 msgctxt "metabox tab"
 msgid "Mobile Apps"
 msgstr ""
@@ -146,102 +146,102 @@ msgid ""
 "Card and customize the mobile App banner for Apple's mobile Safari."
 msgstr ""
 
-#: lib/filters.php:388
+#: lib/filters.php:414
 msgctxt "metabox title"
 msgid "Twitter App Card"
 msgstr ""
 
-#: lib/filters.php:392
+#: lib/filters.php:418
 msgctxt "option label"
 msgid "App Store Territory"
 msgstr ""
 
-#: lib/filters.php:403
+#: lib/filters.php:429
 msgctxt "metabox title"
 msgid "iPhone App Details"
 msgstr ""
 
-#: lib/filters.php:407
+#: lib/filters.php:433
 msgctxt "option label"
 msgid "iPhone App ID"
 msgstr ""
 
-#: lib/filters.php:413
+#: lib/filters.php:439
 msgctxt "option label"
 msgid "iPhone App Name"
 msgstr ""
 
-#: lib/filters.php:420
+#: lib/filters.php:446
 msgctxt "option label"
 msgid "iPhone App URL Scheme"
 msgstr ""
 
-#: lib/filters.php:431
+#: lib/filters.php:457
 msgctxt "metabox title"
 msgid "iPad App Details"
 msgstr ""
 
-#: lib/filters.php:435
+#: lib/filters.php:461
 msgctxt "option label"
 msgid "iPad App ID"
 msgstr ""
 
-#: lib/filters.php:441
+#: lib/filters.php:467
 msgctxt "option label"
 msgid "iPad App Name"
 msgstr ""
 
-#: lib/filters.php:448
+#: lib/filters.php:474
 msgctxt "option label"
 msgid "iPad App URL Scheme"
 msgstr ""
 
-#: lib/filters.php:459
+#: lib/filters.php:485
 msgctxt "metabox title"
 msgid "Google Play App Details"
 msgstr ""
 
-#: lib/filters.php:463
+#: lib/filters.php:489
 msgctxt "option label"
 msgid "Google Play App ID"
 msgstr ""
 
-#: lib/filters.php:469
+#: lib/filters.php:495
 msgctxt "option label"
 msgid "Google Play App Name"
 msgstr ""
 
-#: lib/filters.php:477
+#: lib/filters.php:503
 msgctxt "option label"
 msgid "Google Play App URL Scheme"
 msgstr ""
 
-#: lib/filters.php:488 lib/submenu/am-general.php:36
+#: lib/filters.php:514 lib/submenu/am-general.php:38
 msgctxt "metabox title"
 msgid "Mobile App Banner"
 msgstr ""
 
-#: lib/filters.php:492
+#: lib/filters.php:518
 msgctxt "option label"
 msgid "App ID Number"
 msgstr ""
 
-#: lib/filters.php:499
+#: lib/filters.php:525
 msgctxt "option label"
 msgid "Affiliate Data"
 msgstr ""
 
-#: lib/filters.php:506
+#: lib/filters.php:532
 msgctxt "option label"
 msgid "Argument String"
 msgstr ""
 
-#: lib/filters.php:527
+#: lib/filters.php:553
 msgctxt "lib file description"
 msgid "(code) Mobile App Banner"
 msgstr ""
 
-#: lib/filters.php:532
+#: lib/filters.php:558
 msgctxt "lib file description"
 msgid "(code) Twitter App Card Meta Tags"
 msgstr ""
@@ -258,52 +258,52 @@ msgid ""
 "Banner and Twitter's App Card."
 msgstr ""
 
-#: lib/submenu/am-general.php:48
+#: lib/submenu/am-general.php:50
 msgctxt "metabox title"
 msgid "Mobile App Products"
 msgstr ""
 
-#: lib/submenu/am-general.php:81
+#: lib/submenu/am-general.php:83
 msgctxt "metabox tab"
 msgid "Apple Store App"
 msgstr ""
 
-#: lib/submenu/am-general.php:125
+#: lib/submenu/am-general.php:127
 msgctxt "option label"
-msgid "Add Banner to Archive Webpages"
+msgid "Add Banner to Home Page"
 msgstr ""
 
-#: lib/submenu/am-general.php:130
-msgctxt "option label"
-msgid "Add Banner to Page Homepage"
-msgstr ""
-
-#: lib/submenu/am-general.php:143
+#: lib/submenu/am-general.php:138
 msgctxt "option label"
 msgid "Add Banner to Post Types"
 msgstr ""
 
-#: lib/submenu/am-general.php:153
+#: lib/submenu/am-general.php:141
+msgctxt "option label"
+msgid "Add Banner to Archive Pages"
+msgstr ""
+
+#: lib/submenu/am-general.php:150
 msgctxt "option label"
 msgid "Default App ID Number"
 msgstr ""
 
-#: lib/submenu/am-general.php:157
+#: lib/submenu/am-general.php:153
 msgctxt "option label"
 msgid "Default Affiliate Data"
 msgstr ""
 
-#: lib/submenu/am-general.php:161
+#: lib/submenu/am-general.php:156
 msgctxt "option label"
 msgid "Default Argument String"
 msgstr ""
 
-#: lib/submenu/am-general.php:179
+#: lib/submenu/am-general.php:173
 msgctxt "option label"
 msgid "Show Tab on Post Types"
 msgstr ""
 
-#: lib/submenu/am-general.php:183
+#: lib/submenu/am-general.php:176
 msgctxt "option label"
 msgid "Default App Store Territory"
 msgstr ""

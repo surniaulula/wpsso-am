@@ -42,6 +42,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 			static $do_once = null;
 
 			if ( true === $do_once ) {
+
 				return;	// Stop here.
 			}
 
@@ -50,6 +51,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 			$this->p =& $plugin;
 
 			if ( $this->p->debug->enabled ) {
+
 				$this->p->debug->mark();
 			}
 
@@ -65,6 +67,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 			if ( is_admin() ) {
 
 				if ( ! class_exists( 'WpssoAmFiltersMessages' ) ) {
+
 					require_once WPSSOAM_PLUGINDIR . 'lib/filters-messages.php';
 				}
 
@@ -129,6 +132,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 		public function filter_get_defaults( $defs ) {
 
 			if ( $this->p->debug->enabled ) {
+
 				$this->p->debug->mark();
 			}
 
@@ -167,6 +171,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 		public function filter_rename_options_keys( $options_keys ) {
 
 			if ( $this->p->debug->enabled ) {
+
 				$this->p->debug->mark();
 			}
 
@@ -185,6 +190,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 		public function filter_meta_name( $mt_name, $mod ) {
 
 			if ( $this->p->debug->enabled ) {
+
 				$this->p->debug->mark();
 			}
 
@@ -192,9 +198,10 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 
 			if ( ! $mod[ 'is_post' ] ) {		// Aka "not singular".
 
-				if ( empty( $this->p->options[ 'am_ws_on_index' ] ) ) {
+				if ( empty( $this->p->options[ 'am_ws_on_index' ] ) ) {	// Add Banner to Archive Pages.
 
 					if ( $this->p->debug->enabled ) {
+
 						$this->p->debug->log( 'exiting early: am_ws_on_index not enabled' );
 					}
 
@@ -203,9 +210,10 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 
 			} elseif ( $mod[ 'is_home_page' ] ) {
 
-				if ( empty( $this->p->options[ 'am_ws_on_front' ] ) ) {
+				if ( empty( $this->p->options[ 'am_ws_on_front' ] ) ) {	// Add Banner to Home Page.
 
 					if ( $this->p->debug->enabled ) {
+
 						$this->p->debug->log( 'exiting early: am_ws_on_front not enabled' );
 					}
 
@@ -215,6 +223,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 			} elseif ( ! $mod[ 'post_type' ] ) {
 
 				if ( $this->p->debug->enabled ) {
+
 					$this->p->debug->log( 'exiting early: module post_type is empty' );
 				}
 
@@ -223,6 +232,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 			} elseif ( empty( $this->p->options[ 'am_ws_add_to_' . $mod[ 'post_type' ]] ) ) {
 
 				if ( $this->p->debug->enabled ) {
+
 					$this->p->debug->log( 'exiting early: am_ws_add_to_' . $mod[ 'post_type' ] . ' is empty' );
 				}
 
@@ -232,6 +242,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 			if ( $mod[ 'id' ] ) {
 
 				if ( $this->p->debug->enabled ) {
+
 					$this->p->debug->log( 'loading options from module ID ' . $mod[ 'id' ] );
 				}
 
@@ -249,6 +260,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 			} else {
 
 				if ( $this->p->debug->enabled ) {
+
 					$this->p->debug->log( 'exiting early: am_ws_itunes_app_id is empty' );
 				}
 
@@ -279,12 +291,14 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 		public function filter_tc_seed( array $tc, array $mod ) {
 
 			if ( $this->p->debug->enabled ) {
+
 				$this->p->debug->mark();
 			}
 
 			if ( ! $mod[ 'is_post' ] ) {	// aka "not singular"
 
 				if ( $this->p->debug->enabled ) {
+
 					$this->p->debug->log( 'exiting early: index page (not singular)' );
 				}
 
@@ -293,6 +307,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 			} elseif ( ! $mod[ 'post_type' ] ) {
 
 				if ( $this->p->debug->enabled ) {
+
 					$this->p->debug->log( 'exiting early: module post_type is empty' );
 				}
 
@@ -301,6 +316,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 			} elseif ( empty( $this->p->options[ 'am_ap_add_to_' . $mod[ 'post_type' ] ] ) ) {
 
 				if ( $this->p->debug->enabled ) {
+
 					$this->p->debug->log( 'exiting early: am_ap_add_to_' . $mod[ 'post_type' ] . ' is empty' );
 				}
 
@@ -308,6 +324,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 			}
 
 			if ( $this->p->debug->enabled ) {
+
 				$this->p->debug->log( 'loading options from post ID ' . $mod[ 'id' ] );
 			}
 
@@ -321,26 +338,34 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 					$tc_app[ 'twitter:card' ] = 'app';
 
 					if ( empty( $md_opts[ $key . '_name' ] ) ) {
+
 						$tc_app[ $mt_names[ 'name' ] ] = $this->p->page->get_title( 0, '', $mod );
+
 					} else {
+
 						$tc_app[ $mt_names[ 'name' ] ] = $md_opts[ $key . '_name' ];
 					}
 
 					$tc_app[ $mt_names[ 'id' ] ] = $md_opts[ $key . '_id' ];
 
 					if ( ! empty( $md_opts[ $key . '_url' ] ) ) {
+
 						$tc_app[ $mt_names[ 'url' ] ] = $md_opts[ $key . '_url' ];
 					}
 				}
 			}
 
 			if ( empty( $tc_app[ 'twitter:card' ] ) || $tc_app[ 'twitter:card' ] !== 'app' ) {
+
 				return $tc;
 			}
 
 			if ( empty( $md_opts[ 'am_ap_ast' ] ) ) {
+
 				$tc_app[ 'twitter:app:country' ] = $this->p->options[ 'am_ap_ast' ];
+
 			} else {
+
 				$tc_app[ 'twitter:app:country' ] = $md_opts[ 'am_ap_ast' ];
 			}
 
@@ -369,6 +394,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 		public function filter_post_appmeta_rows( $table_rows, $form, $head, $mod ) {
 
 			if ( $this->p->debug->enabled ) {
+
 				$this->p->debug->mark();
 			}
 

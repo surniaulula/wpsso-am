@@ -121,19 +121,19 @@ if ( ! class_exists( 'WpssoAmFiltersMessages' ) ) {
 
 			switch ( $msg_key ) {
 
-				case 'tooltip-am_ws_on_index':
-
-					$text = __( 'Add meta tags for the website\'s mobile App to index and archive pages.', 'wpsso-am' );
-
-					break;
-
-				case 'tooltip-am_ws_on_front':
+				case 'tooltip-am_ws_on_front':	// Add Banner to Home Page.
 
 					$text = __( 'Add meta tags for the website\'s mobile App to a static front page.', 'wpsso-am' );
 
 					break;
 
-				case 'tooltip-am_ws_add_to':
+				case 'tooltip-am_ws_on_index':	// Add Banner to Archive Pages.
+
+					$text = __( 'Add meta tags for the website\'s mobile App to index and archive pages.', 'wpsso-am' );
+
+					break;
+
+				case 'tooltip-am_ws_add_to':	// Add Banner to Post Types.
 
 					$text = __( 'Add meta tags for the website\'s mobile App to Posts, Pages, and custom post types.', 'wpsso-am' );
 
