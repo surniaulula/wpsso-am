@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WPSSO Mobile App Meta 3.7.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-am\n"
-"POT-Creation-Date: 2020-08-10 21:33-0700\n"
-"PO-Revision-Date: 2020-08-10 21:33-0700\n"
+"POT-Creation-Date: 2020-09-03 15:31-0700\n"
+"PO-Revision-Date: 2020-09-03 15:32-0700\n"
 "Last-Translator: JS Morisset <jsm@surniaulula.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -50,12 +50,12 @@ msgid "Your Google Play App's <em>custom</em> URL scheme (you must include \"://
 msgstr "Le schéma d'URL <em>personnalisé</em> de votre application Google Play (vous devez inclure \"://\" suivant le nom du schéma)."
 
 #: lib/filters-messages.php:126
-msgid "Add meta tags for the website's mobile App to index and archive pages."
-msgstr "Ajouter les balises méta pour l'app mobile du site Web aux pages d'index et archives."
-
-#: lib/filters-messages.php:132
 msgid "Add meta tags for the website's mobile App to a static front page."
 msgstr "Ajouter les balises méta pour l'app mobile du site Web à la page d'accueil statique."
+
+#: lib/filters-messages.php:132
+msgid "Add meta tags for the website's mobile App to index and archive pages."
+msgstr "Ajouter les balises méta pour l'app mobile du site Web aux pages d'index et archives."
 
 #: lib/filters-messages.php:138
 msgid "Add meta tags for the website's mobile App to Posts, Pages, and custom post types."
@@ -82,7 +82,7 @@ msgid "The App Store country providing your application."
 msgstr "Le pays du App Store fournissant votre application."
 
 #: lib/filters-messages.php:170 lib/filters-messages.php:189
-#: lib/filters-messages.php:216 lib/filters.php:362
+#: lib/filters-messages.php:216 lib/filters.php:387
 msgctxt "metabox tab"
 msgid "Mobile Apps"
 msgstr "Apps mobile"
@@ -115,102 +115,102 @@ msgstr "Un onglet <em>%1$s</em> peut être ajouté dans la metabox %2$s pour les
 msgid "The <em>%s</em> information is used to create meta tags for Twitter's App Card and customize the mobile App banner for Apple's mobile Safari."
 msgstr "Les informations <em>%s</em> sont utilisées pour créer des balises méta pour la carte app de Twitter et personnaliser la bannière d'app pour le navigateur mobile Safari d'Apple."
 
-#: lib/filters.php:388
+#: lib/filters.php:414
 msgctxt "metabox title"
 msgid "Twitter App Card"
 msgstr "Carte app de Twitter"
 
-#: lib/filters.php:392
+#: lib/filters.php:418
 msgctxt "option label"
 msgid "App Store Territory"
 msgstr "Territoire du App Store"
 
-#: lib/filters.php:403
+#: lib/filters.php:429
 msgctxt "metabox title"
 msgid "iPhone App Details"
 msgstr "Détails app iPhone"
 
-#: lib/filters.php:407
+#: lib/filters.php:433
 msgctxt "option label"
 msgid "iPhone App ID"
 msgstr "ID d'app iPhone"
 
-#: lib/filters.php:413
+#: lib/filters.php:439
 msgctxt "option label"
 msgid "iPhone App Name"
 msgstr "Nom d'app iPhone"
 
-#: lib/filters.php:420
+#: lib/filters.php:446
 msgctxt "option label"
 msgid "iPhone App URL Scheme"
 msgstr "Schéma URL app iPhone"
 
-#: lib/filters.php:431
+#: lib/filters.php:457
 msgctxt "metabox title"
 msgid "iPad App Details"
 msgstr "Détails app iPad"
 
-#: lib/filters.php:435
+#: lib/filters.php:461
 msgctxt "option label"
 msgid "iPad App ID"
 msgstr "ID d'app iPad"
 
-#: lib/filters.php:441
+#: lib/filters.php:467
 msgctxt "option label"
 msgid "iPad App Name"
 msgstr "Nom d'app iPad"
 
-#: lib/filters.php:448
+#: lib/filters.php:474
 msgctxt "option label"
 msgid "iPad App URL Scheme"
 msgstr "Schéma URL app iPad"
 
-#: lib/filters.php:459
+#: lib/filters.php:485
 msgctxt "metabox title"
 msgid "Google Play App Details"
 msgstr "Détails app Google Play"
 
-#: lib/filters.php:463
+#: lib/filters.php:489
 msgctxt "option label"
 msgid "Google Play App ID"
 msgstr "ID d'app Google Play"
 
-#: lib/filters.php:469
+#: lib/filters.php:495
 msgctxt "option label"
 msgid "Google Play App Name"
 msgstr "Nom d'app Google Play"
 
-#: lib/filters.php:477
+#: lib/filters.php:503
 msgctxt "option label"
 msgid "Google Play App URL Scheme"
 msgstr "Schéma URL app Google Play"
 
-#: lib/filters.php:488 lib/submenu/am-general.php:36
+#: lib/filters.php:514 lib/submenu/am-general.php:38
 msgctxt "metabox title"
 msgid "Mobile App Banner"
 msgstr "Bannière app Mobile"
 
-#: lib/filters.php:492
+#: lib/filters.php:518
 msgctxt "option label"
 msgid "App ID Number"
 msgstr "Numéro d'ID app"
 
-#: lib/filters.php:499
+#: lib/filters.php:525
 msgctxt "option label"
 msgid "Affiliate Data"
 msgstr "Donnée d'affilié"
 
-#: lib/filters.php:506
+#: lib/filters.php:532
 msgctxt "option label"
 msgid "Argument String"
 msgstr "Chaîne d'arguments"
 
-#: lib/filters.php:527
+#: lib/filters.php:553
 msgctxt "lib file description"
 msgid "(code) Mobile App Banner"
 msgstr "(code) Bannière app Mobile"
 
-#: lib/filters.php:532
+#: lib/filters.php:558
 msgctxt "lib file description"
 msgid "(code) Twitter App Card Meta Tags"
 msgstr "(code) Balises méta carte app de Twitter"
@@ -225,52 +225,52 @@ msgctxt "plugin description"
 msgid "Apple Store / iTunes and Google Play App Meta Tags for Apple's mobile Safari Banner and Twitter's App Card."
 msgstr "Balises méta Apple Store / iTunes et Google Play App pour la bannière mobile Safari de Apple et la carte app de Twitter."
 
-#: lib/submenu/am-general.php:48
+#: lib/submenu/am-general.php:50
 msgctxt "metabox title"
 msgid "Mobile App Products"
 msgstr "Produits app mobile"
 
-#: lib/submenu/am-general.php:81
+#: lib/submenu/am-general.php:83
 msgctxt "metabox tab"
 msgid "Apple Store App"
 msgstr "App du Apple Store"
 
-#: lib/submenu/am-general.php:125
+#: lib/submenu/am-general.php:127
 msgctxt "option label"
-msgid "Add Banner to Archive Webpages"
-msgstr "Ajouter bannière aux pages d'archive"
-
-#: lib/submenu/am-general.php:130
-msgctxt "option label"
-msgid "Add Banner to Page Homepage"
+msgid "Add Banner to Home Page"
 msgstr "Ajouter bannière à la page d'accueil"
 
-#: lib/submenu/am-general.php:143
+#: lib/submenu/am-general.php:138
 msgctxt "option label"
 msgid "Add Banner to Post Types"
 msgstr "Ajouter bannière aux articles de type"
 
-#: lib/submenu/am-general.php:153
+#: lib/submenu/am-general.php:141
+msgctxt "option label"
+msgid "Add Banner to Archive Pages"
+msgstr "Ajouter bannière aux pages d'archive"
+
+#: lib/submenu/am-general.php:150
 msgctxt "option label"
 msgid "Default App ID Number"
 msgstr "Numéro d'ID app par défaut"
 
-#: lib/submenu/am-general.php:157
+#: lib/submenu/am-general.php:153
 msgctxt "option label"
 msgid "Default Affiliate Data"
 msgstr "Donnée d'affilié par défaut"
 
-#: lib/submenu/am-general.php:161
+#: lib/submenu/am-general.php:156
 msgctxt "option label"
 msgid "Default Argument String"
 msgstr "Chaîne d'arguments par défaut"
 
-#: lib/submenu/am-general.php:179
+#: lib/submenu/am-general.php:173
 msgctxt "option label"
 msgid "Show Tab on Post Types"
 msgstr "Afficher l'onglet sur articles de type"
 
-#: lib/submenu/am-general.php:183
+#: lib/submenu/am-general.php:176
 msgctxt "option label"
 msgid "Default App Store Territory"
 msgstr "Territoire du App Store par défaut"
