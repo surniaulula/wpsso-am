@@ -18,6 +18,11 @@ msgid "Mobile Apps"
 msgstr ""
 
 #: gettext/gettext-lib-config.php:7
+msgctxt "plugin name"
+msgid "WPSSO Mobile App Meta Tags"
+msgstr ""
+
+#: gettext/gettext-lib-config.php:8
 msgctxt "plugin description"
 msgid ""
 "Apple Store / iTunes and Google Play App Meta Tags for Apple's mobile Safari "

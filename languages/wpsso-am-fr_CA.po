@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: WPSSO Mobile App Meta 3.7.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-am\n"
 "POT-Creation-Date: 2020-09-14 11:15-0700\n"
-"PO-Revision-Date: 2020-09-14 11:15-0700\n"
+"PO-Revision-Date: 2020-09-15 08:56-0700\n"
 "Last-Translator: JS Morisset <jsm@surniaulula.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -285,7 +285,7 @@ msgstr "L'ajout %1$s version %2$s nécessite %3$s version %4$s ou plus récente 
 
 #. Plugin Name of the plugin/theme
 msgid "WPSSO Mobile App Meta Tags"
-msgstr "WPSSO Mobile App Meta Tags"
+msgstr "WPSSO balises méta d'App mobile"
 
 #. Plugin URI of the plugin/theme
 msgid "https://wpsso.com/extend/plugins/wpsso-am/"
