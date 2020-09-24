@@ -151,7 +151,7 @@ if ( ! class_exists( 'WpssoAmFiltersMessages' ) ) {
 				case 'tooltip-am_ws_itunes_app_arg':
 
 					$text = __( 'A query string - which may include one or more inline variables - to provide context to your website\'s mobile App.', 'wpsso-am' ) . ' ';
-					
+
 					$text .= __( 'If the user has your mobile App installed, this string can allow them to jump from your website to the same content in the mobile App.', 'wpsso-am' );
 
 					break;
@@ -186,13 +186,13 @@ if ( ! class_exists( 'WpssoAmFiltersMessages' ) ) {
 					$metabox_tab = _x( 'Mobile Apps', 'metabox tab', 'wpsso-am' );
 
 					$text = '<blockquote class="top-info"><p>';
-					
+
 					$text .= __( 'These options allow you to present a banner advertisement in Apple\'s mobile Safari for your Apple Store App.', 'wpsso-am' ) . ' ';
-					
+
 					$text .= __( 'The banner advertisement allows users of your website to download your mobile App and/or switch to your mobile App when using Apple\'s mobile Safari.', 'wpsso-am' ) . ' ';
-					
+
 					$text .= sprintf( __( 'The Apple Store App information can be customized for each Post, Page, and custom post type under the <em>%1$s</em> tab in the %2$s metabox.', 'wpsso-am' ), $metabox_tab, $metabox_title );
-					
+
 					$text .= '</p></blockquote>';
 
 					break;
@@ -200,9 +200,9 @@ if ( ! class_exists( 'WpssoAmFiltersMessages' ) ) {
 				case 'info-banner-itunes':
 
 					$text = '<blockquote class="top-info"><p>';
-					
+
 					$text .= __( 'If you have an Apple Store App to access your website (as an alternative to using mobile web browsers, for example) and/or want to promote a single Apple Store App on your website, enter its details here.', 'wpsso-am' );
-					
+
 					$text .= '</p></blockquote>';
 
 					break;
@@ -213,11 +213,11 @@ if ( ! class_exists( 'WpssoAmFiltersMessages' ) ) {
 					$metabox_tab   = _x( 'Mobile Apps', 'metabox tab', 'wpsso-am' );
 
 					$text = '<blockquote class="top-info"><p>';
-					
+
 					$text .= sprintf( __( 'A <em>%1$s</em> tab can be added to the %2$s metabox on Posts, Pages, and custom post types, allowing you to enter specific information about one or more Apple Store and Google Play mobile Apps.', 'wpsso-am' ), $metabox_tab, $metabox_title ) . ' ';
-					
+
 					$text .= sprintf( __( 'The <em>%s</em> information is used to create meta tags for Twitter\'s App Card and customize the mobile App banner for Apple\'s mobile Safari.', 'wpsso-am' ), $metabox_tab );
-					
+
 					$text .= '</p></blockquote>';
 
 					break;

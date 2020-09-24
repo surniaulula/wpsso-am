@@ -183,7 +183,7 @@ if ( ! class_exists( 'WpssoAm' ) ) {
 			self::$missing_shown = true;
 
 			if ( ! $doing_ajax && $missing_reqs ) {
-				
+
 				$error_pre = sprintf( '%s error:', __METHOD__ );
 
 				foreach ( $missing_reqs as $key => $req_info ) {
@@ -196,7 +196,7 @@ if ( ! class_exists( 'WpssoAm' ) ) {
 
 							SucomUtil::safe_error_log( $error_pre . ' ' . $req_info[ 'notice' ], $strip_html = true );
 						}
-			
+
 						if ( $this->p->debug->enabled ) {
 
 							$this->p->debug->log( strtolower( $req_info[ 'notice' ] ) );

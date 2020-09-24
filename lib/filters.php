@@ -272,7 +272,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 
 				$mt_name[ 'apple-itunes-app' ] .= ', affiliate-data=' . $this->p->options[ 'am_ws_itunes_app_aff' ];
 			}
-				
+
 			if ( ! empty( $md_opts[ 'am_ws_itunes_app_arg' ] ) ) {
 
 				$mt_name[ 'apple-itunes-app' ] .= ', app-argument=' . $md_opts[ 'am_ws_itunes_app_arg' ];
