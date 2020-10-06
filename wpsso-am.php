@@ -40,14 +40,8 @@ if ( ! class_exists( 'WpssoAm' ) ) {
 
 	class WpssoAm extends WpssoAddOn {
 
-		/**
-		 * Library class object variables.
-		 */
 		public $filters;	// WpssoAmFilters class.
 
-		/**
-		 * Reference Variables (config, options, modules, etc.).
-		 */
 		protected $p;
 
 		private static $instance = null;
