@@ -6,6 +6,7 @@
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
+
 	die( 'These aren\'t the droids you\'re looking for.' );
 }
 
@@ -23,6 +24,7 @@ if ( ! class_exists( 'WpssoAmFiltersMessages' ) ) {
 			static $do_once = null;
 
 			if ( true === $do_once ) {
+
 				return;	// Stop here.
 			}
 
@@ -31,6 +33,7 @@ if ( ! class_exists( 'WpssoAmFiltersMessages' ) ) {
 			$this->p =& $plugin;
 
 			if ( $this->p->debug->enabled ) {
+
 				$this->p->debug->mark();
 			}
 
@@ -47,6 +50,7 @@ if ( ! class_exists( 'WpssoAmFiltersMessages' ) ) {
 		public function filter_messages_tooltip_post( $text, $msg_key ) {
 
 			if ( strpos( $msg_key, 'tooltip-post-am_' ) !== 0 ) {
+
 				return $text;
 			}
 
@@ -113,6 +117,7 @@ if ( ! class_exists( 'WpssoAmFiltersMessages' ) ) {
 		public function filter_messages_tooltip( $text, $msg_key ) {
 
 			if ( strpos( $msg_key, 'tooltip-am_' ) !== 0 ) {
+
 				return $text;
 			}
 
