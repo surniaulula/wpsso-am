@@ -1,15 +1,3 @@
-
-Warning: Use of undefined constant self - assumed 'self' (this will throw an Error in a future version of PHP) in /home/jsmoriss/svn/github/surniaulula/surniaulula.github.io/trunk/tools/parse-readme.php on line 473
-
-Warning: Use of undefined constant self - assumed 'self' (this will throw an Error in a future version of PHP) in /home/jsmoriss/svn/github/surniaulula/surniaulula.github.io/trunk/tools/parse-readme.php on line 473
-
-Warning: Use of undefined constant self - assumed 'self' (this will throw an Error in a future version of PHP) in /home/jsmoriss/svn/github/surniaulula/surniaulula.github.io/trunk/tools/parse-readme.php on line 473
-
-Warning: Use of undefined constant self - assumed 'self' (this will throw an Error in a future version of PHP) in /home/jsmoriss/svn/github/surniaulula/surniaulula.github.io/trunk/tools/parse-readme.php on line 473
-
-Warning: Use of undefined constant self - assumed 'self' (this will throw an Error in a future version of PHP) in /home/jsmoriss/svn/github/surniaulula/surniaulula.github.io/trunk/tools/parse-readme.php on line 473
-
-Warning: Use of undefined constant self - assumed 'self' (this will throw an Error in a future version of PHP) in /home/jsmoriss/svn/github/surniaulula/surniaulula.github.io/trunk/tools/parse-readme.php on line 473
 <h1>Mobile App Meta Tags</h1><h3>WPSSO Add-on</h3>
 
 <table>
