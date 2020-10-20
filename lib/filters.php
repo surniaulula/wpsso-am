@@ -262,7 +262,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 				}
 
 				return $mt_name;
-			}	
+			}
 
 			if ( ! empty( $md_opts[ 'am_ws_itunes_app_aff' ] ) ) {
 

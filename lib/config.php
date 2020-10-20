@@ -276,12 +276,12 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 			/**
 			 * Define fixed constants.
 			 */
-			define( 'WPSSOAM_FILEPATH', $plugin_file );						
+			define( 'WPSSOAM_FILEPATH', $plugin_file );
 			define( 'WPSSOAM_PLUGINBASE', $info[ 'base' ] );	// Example: wpsso-am/wpsso-am.php.
 			define( 'WPSSOAM_PLUGINDIR', trailingslashit( realpath( dirname( $plugin_file ) ) ) );
 			define( 'WPSSOAM_PLUGINSLUG', $info[ 'slug' ] );	// Example: wpsso-am.
 			define( 'WPSSOAM_URLPATH', trailingslashit( plugins_url( '', $plugin_file ) ) );
-			define( 'WPSSOAM_VERSION', $info[ 'version' ] );						
+			define( 'WPSSOAM_VERSION', $info[ 'version' ] );
 		}
 
 		public static function require_libs( $plugin_file ) {
