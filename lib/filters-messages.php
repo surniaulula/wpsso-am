@@ -14,7 +14,7 @@ if ( ! class_exists( 'WpssoAmFiltersMessages' ) ) {
 
 	class WpssoAmFiltersMessages {
 
-		private $p;
+		private $p;	// Wpsso class object.
 
 		/**
 		 * Instantiated by WpssoAmFilters->__construct().

@@ -14,7 +14,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 
 	class WpssoAmFilters {
 
-		private $p;
+		private $p;	// Wpsso class object.
 
 		private $md_opts_mt = array(
 			'am_iphone_app' => array( 
