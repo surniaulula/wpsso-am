@@ -264,7 +264,7 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 			return $add_slug ? $info[ 'slug' ] . '-' . $info[ 'version' ] : $info[ 'version' ];
 		}
 
-		public static function set_constants( $plugin_file ) { 
+		public static function set_constants( $plugin_file ) {
 
 			if ( defined( 'WPSSOAM_VERSION' ) ) {	// Define constants only once.
 

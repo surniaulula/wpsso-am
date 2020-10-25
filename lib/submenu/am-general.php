@@ -90,7 +90,7 @@ if ( ! class_exists( 'WpssoAmSubmenuAmGeneral' ) && class_exists( 'WpssoAdmin' )
 				$filter_name = SucomUtil::sanitize_hookname( $this->p->lca . '_' . $metabox_id . '_' . $tab_key . '_rows' );
 
 				$table_rows[ $tab_key ] = array_merge(
-					$this->get_table_rows( $metabox_id, $tab_key ), 
+					$this->get_table_rows( $metabox_id, $tab_key ),
 					(array) apply_filters( $filter_name, array(), $this->form )
 				);
 			}
@@ -150,7 +150,7 @@ if ( ! class_exists( 'WpssoAmSubmenuAmGeneral' ) && class_exists( 'WpssoAdmin' )
 					$table_rows[] = $this->form->get_th_html( _x( 'Default App ID Number', 'option label', 'wpsso-am' ),
 						$css_class = '', $css_id = 'am_ws_itunes_app_id' ) . '<td>' . $this->form->get_input( 'am_ws_itunes_app_id' ) . '</td>';
 
-					$table_rows[] = $this->form->get_th_html( _x( 'Default Affiliate Data', 'option label', 'wpsso-am' ), 
+					$table_rows[] = $this->form->get_th_html( _x( 'Default Affiliate Data', 'option label', 'wpsso-am' ),
 						$css_class = '', $css_id = 'am_ws_itunes_app_aff' ) . '<td>' . $this->form->get_input( 'am_ws_itunes_app_aff' ) . '</td>';
 
 					$table_rows[] = $this->form->get_th_html( _x( 'Default Argument String', 'option label', 'wpsso-am' ),
