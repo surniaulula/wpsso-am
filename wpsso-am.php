@@ -13,7 +13,7 @@
  * Description: Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari banner and Twitter's App Card.
  * Requires PHP: 5.6
  * Requires At Least: 4.4
- * Tested Up To: 5.5.4
+ * Tested Up To: 5.6
  * Version: 3.8.1
  * 
  * Version Numbering: {major}.{minor}.{bugfix}[-{stage}.{level}]
