@@ -1,4 +1,4 @@
-=== Mobile App Meta Tags | WPSSO Add-on ===
+=== WPSSO Mobile App Meta Tags ===
 Plugin Name: WPSSO Mobile App Meta Tags
 Plugin Slug: wpsso-am
 Text Domain: wpsso-am
