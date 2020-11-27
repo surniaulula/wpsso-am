@@ -63,10 +63,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 
 			if ( is_admin() ) {
 
-				if ( ! class_exists( 'WpssoAmFiltersMessages' ) ) {
-
-					require_once WPSSOAM_PLUGINDIR . 'lib/filters-messages.php';
-				}
+				require_once WPSSOAM_PLUGINDIR . 'lib/filters-messages.php';
 
 				$this->msgs = new WpssoAmFiltersMessages( $plugin );
 
