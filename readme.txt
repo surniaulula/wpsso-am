@@ -11,7 +11,7 @@ Contributors: jsmoriss
 Requires PHP: 5.6
 Requires At Least: 4.4
 Tested Up To: 5.6
-Stable Tag: 3.8.1
+Stable Tag: 3.9.0
 
 Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari banner and Twitter's App Card.
 
