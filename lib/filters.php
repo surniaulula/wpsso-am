@@ -15,6 +15,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 	class WpssoAmFilters {
 
 		private $p;	// Wpsso class object.
+		private $a;	// WpssoAm class object.
 
 		private $md_opts_mt = array(
 			'am_iphone_app' => array( 
@@ -34,7 +35,10 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 			),
 		);
 
-		public function __construct( &$plugin ) {
+		/**
+		 * Instantiated by WpssoAm->init_objects().
+		 */
+		public function __construct( &$plugin, &$addon ) {
 
 			static $do_once = null;
 
@@ -46,11 +50,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 			$do_once = true;
 
 			$this->p =& $plugin;
-
-			if ( $this->p->debug->enabled ) {
-
-				$this->p->debug->mark();
-			}
+			$this->a =& $addon;
 
 			$this->p->util->add_plugin_filters( $this, array( 
 				'option_type'            => 2,
@@ -65,7 +65,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 
 				require_once WPSSOAM_PLUGINDIR . 'lib/filters-messages.php';
 
-				$this->msgs = new WpssoAmFiltersMessages( $plugin );
+				$this->msgs = new WpssoAmFiltersMessages( $plugin, $addon );
 
 				$this->p->util->add_plugin_filters( $this, array( 
 					'post_document_meta_tabs' => 3,
@@ -125,11 +125,6 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 
 		public function filter_get_defaults( $defs ) {
 
-			if ( $this->p->debug->enabled ) {
-
-				$this->p->debug->mark();
-			}
-
 			/**
 			 * Add options using a key prefix array and post type names.
 			 */
@@ -164,11 +159,6 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 
 		public function filter_rename_options_keys( $options_keys ) {
 
-			if ( $this->p->debug->enabled ) {
-
-				$this->p->debug->mark();
-			}
-
 			$options_keys[ 'wpssoam' ] = array(
 				7 => array(
 					'plugin_wpssoam_tid' => '',
@@ -182,11 +172,6 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 		 * Adds the website app meta tag to the $mt_name array.
 		 */
 		public function filter_meta_name( $mt_name, $mod ) {
-
-			if ( $this->p->debug->enabled ) {
-
-				$this->p->debug->mark();
-			}
 
 			$md_opts = array();
 
@@ -283,11 +268,6 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 		}
 
 		public function filter_tc_seed( array $tc, array $mod ) {
-
-			if ( $this->p->debug->enabled ) {
-
-				$this->p->debug->mark();
-			}
 
 			if ( ! $mod[ 'is_post' ] ) {	// aka "not singular"
 
@@ -386,11 +366,6 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 		}
 
 		public function filter_post_appmeta_rows( $table_rows, $form, $head, $mod ) {
-
-			if ( $this->p->debug->enabled ) {
-
-				$this->p->debug->mark();
-			}
 
 			$def_app_name = $this->p->page->get_title( 0, '', $mod );
 
@@ -537,11 +512,6 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 		 * Filter for 'wpssoam_status_std_features'.
 		 */
 		public function filter_status_std_features( $features, $ext, $info ) {
-
-			if ( $this->p->debug->enabled ) {
-
-				$this->p->debug->mark();
-			}
 
 			$features[ '(code) Mobile App Banner' ] = array( 
 				'label_transl' => _x( '(code) Mobile App Banner', 'lib file description', 'wpsso-am' ),
