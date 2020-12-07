@@ -299,7 +299,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 
 			if ( $this->p->debug->enabled ) {
 
-				$this->p->debug->log( 'loading options from post ID ' . $mod[ 'id' ] );
+				$this->p->debug->log( 'loading options from post id ' . $mod[ 'id' ] );
 			}
 
 			$tc_app  = array();
