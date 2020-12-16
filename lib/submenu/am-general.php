@@ -129,7 +129,7 @@ if ( ! class_exists( 'WpssoAmSubmenuAmGeneral' ) && class_exists( 'WpssoAdmin' )
 
 					$add_to_checkboxes = '';
 
-					foreach ( SucomUtilWP::get_post_types( 'objects' ) as $obj ) {
+					foreach ( SucomUtilWP::get_post_types( $output = 'objects' ) as $obj ) {
 
 						$add_to_checkboxes .= '<p>' . $this->form->get_checkbox( 'am_ws_add_to_' . $obj->name ) . ' ' .
 							$obj->label . ( empty( $obj->description ) ? '' : ' (' . $obj->description . ')' ) . '</p>';
@@ -164,7 +164,7 @@ if ( ! class_exists( 'WpssoAmSubmenuAmGeneral' ) && class_exists( 'WpssoAdmin' )
 
 					$add_to_checkboxes = '';
 
-					foreach ( SucomUtilWP::get_post_types( 'objects' ) as $obj ) {
+					foreach ( SucomUtilWP::get_post_types( $output = 'objects' ) as $obj ) {
 
 						$add_to_checkboxes .= '<p>' . $this->form->get_checkbox( 'am_ap_add_to_' . $obj->name ). ' ' .
 							$obj->label . ( empty( $obj->description ) ? '' : ' (' . $obj->description . ')' ) . '</p>';
