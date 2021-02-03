@@ -46,7 +46,7 @@ Adds an optional banner in Apple's mobile Safari for your website's Apple Store 
 
 Adds optional [Twitter App Card](https://dev.twitter.com/cards/types/app) meta tags to webpages.
 
-Adds a Mobile App Meta Tags settings page with additional options:
+Adds a Mobile Apps settings page with additional options:
 
 * Mobile App Banner
 	* Add Banner to Home Page
@@ -60,7 +60,7 @@ Adds a Mobile App Meta Tags settings page with additional options:
 	* Show Tab on Post Types
 	* Default App Store Territory
 
-Includes and optional Mobile Apps tab in the Document SSO metabox with additional options:
+Includes a Mobile Apps tab in the Document SSO metabox with additional options:
 
 * Twitter App Card
 	* App Store Territory
