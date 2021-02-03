@@ -40,7 +40,7 @@ Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari ban
 
 <h3>WPSSO AM Add-on Features</h3>
 
-Extends the features of the [WPSSO Core plugin](https://wordpress.org/plugins/wpsso/).
+Extends the features of the [WPSSO Core plugin](https://wordpress.org/plugins/wpsso/) (required).
 
 Adds an optional banner in Apple's mobile Safari for your website's Apple Store mobile App.
 
@@ -83,9 +83,7 @@ Includes and optional Mobile Apps tab in the Document SSO metabox with additiona
 
 <h3>WPSSO Core Plugin Required</h3>
 
-WPSSO Mobile App Meta Tags (aka WPSSO AM) is an add-on for the [WPSSO Core plugin](https://wordpress.org/plugins/wpsso/).
-
-WPSSO Core and its add-ons make sure your content looks best on social sites and in search results, no matter how webpages are shared, re-shared, messaged, posted, embedded, or crawled.
+WPSSO Mobile App Meta Tags (aka WPSSO AM) is an add-on for the [WPSSO Core plugin](https://wordpress.org/plugins/wpsso/). WPSSO Core and its add-ons make sure your content looks best on social sites and in search results, no matter how webpages are shared, re-shared, messaged, posted, embedded, or crawled.
 
 == Installation ==
 

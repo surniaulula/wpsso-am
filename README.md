@@ -37,7 +37,7 @@
 
 <h3>WPSSO AM Add-on Features</h3>
 
-<p>Extends the features of the <a href="https://wordpress.org/plugins/wpsso/">WPSSO Core plugin</a>.</p>
+<p>Extends the features of the <a href="https://wordpress.org/plugins/wpsso/">WPSSO Core plugin</a> (required).</p>
 
 <p>Adds an optional banner in Apple's mobile Safari for your website's Apple Store mobile App.</p>
 
@@ -108,9 +108,7 @@
 
 <h3>WPSSO Core Plugin Required</h3>
 
-<p>WPSSO Mobile App Meta Tags (aka WPSSO AM) is an add-on for the <a href="https://wordpress.org/plugins/wpsso/">WPSSO Core plugin</a>.</p>
-
-<p>WPSSO Core and its add-ons make sure your content looks best on social sites and in search results, no matter how webpages are shared, re-shared, messaged, posted, embedded, or crawled.</p>
+<p>WPSSO Mobile App Meta Tags (aka WPSSO AM) is an add-on for the <a href="https://wordpress.org/plugins/wpsso/">WPSSO Core plugin</a>. WPSSO Core and its add-ons make sure your content looks best on social sites and in search results, no matter how webpages are shared, re-shared, messaged, posted, embedded, or crawled.</p>
 
 
 <h2>Installation</h2>
