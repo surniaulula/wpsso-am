@@ -40,7 +40,7 @@ Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari ban
 
 <h3>WPSSO AM Add-on Features</h3>
 
-Extends the features of the [WPSSO Core plugin](https://wordpress.org/plugins/wpsso/) (required).
+Extends the features of the [WPSSO Core plugin](https://wordpress.org/plugins/wpsso/) (required plugin).
 
 Adds an optional banner in Apple's mobile Safari for your website's Apple Store mobile App.
 
