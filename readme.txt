@@ -19,7 +19,7 @@ Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari ban
 
 <p><img class="readme-icon" src="https://surniaulula.github.io/wpsso-am/assets/icon-256x256.png"> <strong>Promote your website's mobile App with a banner in Apple's mobile Safari.</strong></p>
 
-**Optionally add [Twitter App Card](https://dev.twitter.com/cards/types/app) meta tags to your mobile App product pages:**
+**Optionally add [Twitter App Card](https://dev.twitter.com/cards/types/app) markup to mobile App product pages:**
 
 <ul style="display:inline-block;">
 <li>twitter:app:country</li>
@@ -46,7 +46,7 @@ Adds an optional banner in Apple's mobile Safari for your website's Apple Store 
 
 Adds optional [Twitter App Card](https://dev.twitter.com/cards/types/app) meta tags to webpages.
 
-Adds a Mobile Apps settings page with additional options:
+Includes a Mobile Apps settings page with additional options:
 
 * Mobile App Banner
 	* Add Banner to Home Page
