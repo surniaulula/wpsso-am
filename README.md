@@ -16,7 +16,7 @@
 
 <p><img class="readme-icon" src="https://surniaulula.github.io/wpsso-am/assets/icon-256x256.png"> <strong>Promote your website's mobile App with a banner in Apple's mobile Safari.</strong></p>
 
-<p><strong>Add <a href="https://dev.twitter.com/cards/types/app">Twitter App Card</a> meta tags to mobile App product pages:</strong></p>
+<p><strong>Optionally add <a href="https://dev.twitter.com/cards/types/app">Twitter App Card</a> meta tags to your mobile App product pages:</strong></p>
 
 <ul style="display:inline-block;">
 <li>twitter:app:country</li>
