@@ -38,48 +38,48 @@ Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari ban
 
 &#x2605;&#x2605;&#x2605;&#x2605;&#x2605; &mdash; "Universal links, smart app banners, Twitter app cards - App developers, this is the plugin you need." - [markofjohnson](https://wordpress.org/support/topic/universal-links-smart-app-banners-twitter-app-cards/)
 
-<h3>WPSSO AM Standard Features</h3>
+<h3>WPSSO AM Features</h3>
 
-* Extends the features of the [WPSSO Core plugin](https://wordpress.org/plugins/wpsso/).
+Extends the features of the [WPSSO Core plugin](https://wordpress.org/plugins/wpsso/).
 
-* Adds an optional banner in Apple's mobile Safari for your website's Apple Store mobile App.
+Adds an optional banner in Apple's mobile Safari for your website's Apple Store mobile App.
 
-* Adds optional [Twitter App Card](https://dev.twitter.com/cards/types/app) meta tags to webpages.
+Adds optional [Twitter App Card](https://dev.twitter.com/cards/types/app) meta tags to webpages.
 
-* Adds a Mobile App Meta Tags settings page to the SSO menu with additional options:
+Adds a Mobile App Meta Tags settings page to the SSO menu with additional options:
 
-	* Mobile App Banner
-		* Add Banner to Home Page
-		* Add Banner to Post Types (posts, pages, media, products, etc.).
-		* Add Banner to Archive Pages
-	* Apple Store App
-		* Default App ID Number
-		* Default Affiliate Data
-		* Default Argument String
-	* Mobile App Products
-		* Show Tab on Post Types
-		* Default App Store Territory
+* Mobile App Banner
+	* Add Banner to Home Page
+	* Add Banner to Post Types (posts, pages, media, products, etc.).
+	* Add Banner to Archive Pages
+* Apple Store App
+	* Default App ID Number
+	* Default Affiliate Data
+	* Default Argument String
+* Mobile App Products
+	* Show Tab on Post Types
+	* Default App Store Territory
 
-* Includes and optional Mobile Apps tab in the Document SSO metabox with additional options:
+Includes and optional Mobile Apps tab in the Document SSO metabox with additional options:
 
-	* Twitter App Card
-		* App Store Territory
-		* iPhone App Details
-			* iPhone App ID
-			* iPhone App Name
-			* iPhone App URL Scheme
-		* iPad App Details
-			* iPad App ID
-			* iPad App Name
-			* iPad App URL Scheme
-		* Google Play App Details
-			* Google Play App ID
-			* Google Play App Name
-			* Google Play App URL Scheme
-	* Mobile App Banner
-		* App ID Number
-		* Affiliate Data
-		* Argument String
+* Twitter App Card
+	* App Store Territory
+	* iPhone App Details
+		* iPhone App ID
+		* iPhone App Name
+		* iPhone App URL Scheme
+	* iPad App Details
+		* iPad App ID
+		* iPad App Name
+		* iPad App URL Scheme
+	* Google Play App Details
+		* Google Play App ID
+		* Google Play App Name
+		* Google Play App URL Scheme
+* Mobile App Banner
+	* App ID Number
+	* Affiliate Data
+	* Argument String
 
 <h3>WPSSO Core Plugin Required</h3>
 
