@@ -122,59 +122,62 @@ if ( ! class_exists( 'WpssoAmSubmenuAmGeneral' ) && class_exists( 'WpssoAdmin' )
 
 				case 'am-banner-general':
 
-					$table_rows[] = '<td colspan="2">' . $this->p->msgs->get( 'info-banner-general' ) . '</td>';
+					$table_rows[ 'info-banner-general' ] = '' .
+						'<td colspan="2">' . $this->p->msgs->get( 'info-banner-general' ) . '</td>';
 
-					$table_rows[] = $this->form->get_th_html( _x( 'Add Banner to Home Page', 'option label', 'wpsso-am' ),
-						$css_class = '', $css_id = 'am_ws_on_front' ) . '<td>' . $this->form->get_checkbox( 'am_ws_on_front' ) . '</td>';
+					$table_rows[ 'am_ws_on_front' ] = '' .
+						$this->form->get_th_html( _x( 'Add Banner to Home Page', 'option label', 'wpsso-am' ),
+							$css_class = '', $css_id = 'am_ws_on_front' ) .
+						'<td>' . $this->form->get_checkbox( 'am_ws_on_front' ) . '</td>';
 
-					$add_to_checkboxes = '';
+					$table_rows[ 'am_ws_add_to' ] = '' .
+						$this->form->get_th_html( _x( 'Add Banner to Post Types', 'option label', 'wpsso-am' ),
+							$css_class = '', $css_id = 'am_ws_add_to' ) .
+						'<td>' . $this->form->get_checklist_post_types( $name_prefix = 'am_ws_add_to' ) . '</td>';
 
-					foreach ( SucomUtilWP::get_post_types( $output = 'objects' ) as $obj ) {
-
-						$add_to_checkboxes .= '<p>' . $this->form->get_checkbox( 'am_ws_add_to_' . $obj->name ) . ' ' .
-							$obj->label . ( empty( $obj->description ) ? '' : ' (' . $obj->description . ')' ) . '</p>';
-					}
-
-					$table_rows[] = $this->form->get_th_html( _x( 'Add Banner to Post Types', 'option label', 'wpsso-am' ),
-						$css_class = '', $css_id = 'am_ws_add_to' ) . '<td>' . $add_to_checkboxes . '</td>';
-
-					$table_rows[] = $this->form->get_th_html( _x( 'Add Banner to Archive Pages', 'option label', 'wpsso-am' ),
-						$css_class = '', $css_id = 'am_ws_on_index' ) . '<td>' . $this->form->get_checkbox( 'am_ws_on_index' ) . '</td>';
+					$table_rows[ 'am_ws_on_index' ] = '' .
+						$this->form->get_th_html( _x( 'Add Banner to Archive Pages', 'option label', 'wpsso-am' ),
+							$css_class = '', $css_id = 'am_ws_on_index' ) .
+						'<td>' . $this->form->get_checkbox( 'am_ws_on_index' ) . '</td>';
 
 					break;
 
 				case 'am-banner-itunes':
 
-					$table_rows[] = '<td colspan="2">' . $this->p->msgs->get( 'info-banner-itunes' ) . '</td>';
+					$table_rows[ 'info-banner-itunes' ] = '' .
+						'<td colspan="2">' . $this->p->msgs->get( 'info-banner-itunes' ) . '</td>';
 
-					$table_rows[] = $this->form->get_th_html( _x( 'Default App ID Number', 'option label', 'wpsso-am' ),
-						$css_class = '', $css_id = 'am_ws_itunes_app_id' ) . '<td>' . $this->form->get_input( 'am_ws_itunes_app_id' ) . '</td>';
+					$table_rows[ 'am_ws_itunes_app_id' ] = '' .
+						$this->form->get_th_html( _x( 'Default App ID Number', 'option label', 'wpsso-am' ),
+							$css_class = '', $css_id = 'am_ws_itunes_app_id' ) .
+						'<td>' . $this->form->get_input( 'am_ws_itunes_app_id' ) . '</td>';
 
-					$table_rows[] = $this->form->get_th_html( _x( 'Default Affiliate Data', 'option label', 'wpsso-am' ),
-						$css_class = '', $css_id = 'am_ws_itunes_app_aff' ) . '<td>' . $this->form->get_input( 'am_ws_itunes_app_aff' ) . '</td>';
+					$table_rows[ 'am_ws_itunes_app_aff' ] = '' .
+						$this->form->get_th_html( _x( 'Default Affiliate Data', 'option label', 'wpsso-am' ),
+							$css_class = '', $css_id = 'am_ws_itunes_app_aff' ) .
+						'<td>' . $this->form->get_input( 'am_ws_itunes_app_aff' ) . '</td>';
 
-					$table_rows[] = $this->form->get_th_html( _x( 'Default Argument String', 'option label', 'wpsso-am' ),
-						$css_class = '', $css_id = 'am_ws_itunes_app_arg' ) . '<td>' . $this->form->get_input( 'am_ws_itunes_app_arg', 'wide' ) . '</td>';
+					$table_rows[ 'am_ws_itunes_app_arg' ] = '' .
+						$this->form->get_th_html( _x( 'Default Argument String', 'option label', 'wpsso-am' ),
+							$css_class = '', $css_id = 'am_ws_itunes_app_arg' ) .
+						'<td>' . $this->form->get_input( 'am_ws_itunes_app_arg', 'wide' ) . '</td>';
 
 					break;
 
 				case 'am-appmeta-general':
 
-					$table_rows[] = '<td colspan="2">' . $this->p->msgs->get( 'info-appmeta-general' ) . '</td>';
+					$table_rows[ 'info-appmeta-general' ] = '' .
+						'<td colspan="2">' . $this->p->msgs->get( 'info-appmeta-general' ) . '</td>';
 
-					$add_to_checkboxes = '';
+					$table_rows[ 'am_ap_add_to' ] = '' .
+						$this->form->get_th_html( _x( 'Show Tab on Post Types', 'option label', 'wpsso-am' ),
+							$css_class = '', $css_id = 'am_ap_add_to' ).
+						'<td>' . $this->form->get_checklist_post_types( $name_prefix = 'am_ap_add_to' ) . '</td>';
 
-					foreach ( SucomUtilWP::get_post_types( $output = 'objects' ) as $obj ) {
-
-						$add_to_checkboxes .= '<p>' . $this->form->get_checkbox( 'am_ap_add_to_' . $obj->name ). ' ' .
-							$obj->label . ( empty( $obj->description ) ? '' : ' (' . $obj->description . ')' ) . '</p>';
-					}
-
-					$table_rows[] = $this->form->get_th_html( _x( 'Show Tab on Post Types', 'option label', 'wpsso-am' ),
-						$css_class = '', $css_id = 'am_ap_add_to' ). '<td>' . $add_to_checkboxes . '</td>';
-
-					$table_rows[] = $this->form->get_th_html( _x( 'Default App Store Territory', 'option label', 'wpsso-am' ),
-						$css_class = '', $css_id = 'am_ap_ast' ). '<td>' . $this->form->get_select( 'am_ap_ast', WpssoAmConfig::$app_stores ) . '</td>';
+					$table_rows[ 'am_ap_ast' ] = '' .
+						$this->form->get_th_html( _x( 'Default App Store Territory', 'option label', 'wpsso-am' ),
+							$css_class = '', $css_id = 'am_ap_ast' ).
+						'<td>' . $this->form->get_select( 'am_ap_ast', WpssoAmConfig::$app_stores ) . '</td>';
 
 					break;
 			}
