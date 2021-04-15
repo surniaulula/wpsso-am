@@ -126,7 +126,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * **Bugfixes**
 	* None.
 * **Developer Notes**
-	* None.
+	* Added support for `SucomForm->get_checklist_post_types()` in the add-on settings page.
 * **Requires At Least**
 	* PHP v7.0.
 	* WordPress v4.5.
@@ -182,7 +182,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 = 3.10.0-dev.1 =
 
-(2021/04/15) None.
+(2021/04/15) Added support for `SucomForm->get_checklist_post_types()` in the add-on settings page.
 
 = 3.9.1 =
 
