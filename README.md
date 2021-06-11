@@ -33,7 +33,7 @@
 
 <h3>Users Love the WPSSO AM Add-on</h3>
 
-<p>&#x2605;&#x2605;&#x2605;&#x2605;&#x2605; &mdash; "Universal links, smart app banners, Twitter app cards - App developers, this is the plugin you need." - <a href="https://wordpress.org/support/topic/universal-links-smart-app-banners-twitter-app-cards/">markofjohnson</a></p>
+<p>&#x2605;&#x2605;&#x2605;&#x2605;&#x2605; - "Universal links, smart app banners, Twitter app cards - App developers, this is the plugin you need." - <a href="https://wordpress.org/support/topic/universal-links-smart-app-banners-twitter-app-cards/">markofjohnson</a></p>
 
 <h3>WPSSO AM Add-on Features</h3>
 
