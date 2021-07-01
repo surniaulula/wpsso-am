@@ -9,7 +9,7 @@ Assets URI: https://surniaulula.github.io/wpsso-am/assets/
 Tags: app store, mobile app, app card, mobile, itunes, googleplay, google play, meta tags, app banner, safari, twitter app card, twitter card
 Contributors: jsmoriss
 Requires PHP: 7.0
-Requires At Least: 4.5
+Requires At Least: 5.0
 Tested Up To: 5.7.2
 Stable Tag: 3.10.0
 
@@ -129,8 +129,8 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 	* Added support for `SucomForm->get_checklist_post_types()` in the add-on settings page.
 * **Requires At Least**
 	* PHP v7.0.
-	* WordPress v4.5.
-	* WPSSO Core v8.26.3.
+	* WordPress v5.0.
+	* WPSSO Core v8.34.0.
 
 **Version 3.9.1 (2021/02/25)**
 
