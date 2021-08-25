@@ -57,8 +57,8 @@ Includes a Mobile Apps settings page with additional options:
 	* Default Affiliate Data
 	* Default Argument String
 * Mobile App Products
-	* Show Tab on Post Types
 	* Default App Store Territory
+	* Show Tab on Post Types
 
 Includes a Mobile Apps tab in the Document SSO metabox with additional options:
 

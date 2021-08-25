@@ -63,8 +63,8 @@
 <li>Mobile App Products
 
 <ul>
-<li>Show Tab on Post Types</li>
 <li>Default App Store Territory</li>
+<li>Show Tab on Post Types</li>
 </ul></li>
 </ul>
 
