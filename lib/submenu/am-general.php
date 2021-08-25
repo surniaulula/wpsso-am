@@ -66,7 +66,7 @@ if ( ! class_exists( 'WpssoAmSubmenuAmGeneral' ) && class_exists( 'WpssoAdmin' )
 
 			$metabox_id = 'am-banner';
 
-			$tab_key = 'general';
+			$tab_key = 'settings';
 
 			$filter_name = SucomUtil::sanitize_hookname( 'wpsso_' . $metabox_id . '_' . $tab_key . '_rows' );
 
@@ -105,7 +105,7 @@ if ( ! class_exists( 'WpssoAmSubmenuAmGeneral' ) && class_exists( 'WpssoAdmin' )
 
 			$metabox_id = 'am-appmeta';
 
-			$tab_key = 'general';
+			$tab_key = 'settings';
 
 			$filter_name = SucomUtil::sanitize_hookname( 'wpsso_' . $metabox_id . '_' . $tab_key . '_rows' );
 
@@ -120,10 +120,10 @@ if ( ! class_exists( 'WpssoAmSubmenuAmGeneral' ) && class_exists( 'WpssoAdmin' )
 
 			switch ( $metabox_id . '-' . $tab_key ) {
 
-				case 'am-banner-general':
+				case 'am-banner-settings':
 
-					$table_rows[ 'info-banner-general' ] = '' .
-						'<td colspan="2">' . $this->p->msgs->get( 'info-banner-general' ) . '</td>';
+					$table_rows[ 'info-banner-settings' ] = '' .
+						'<td colspan="2">' . $this->p->msgs->get( 'info-banner-settings' ) . '</td>';
 
 					$table_rows[ 'am_ws_on_front' ] = '' .
 						$this->form->get_th_html( _x( 'Add Banner to Home Page', 'option label', 'wpsso-am' ),
@@ -164,20 +164,20 @@ if ( ! class_exists( 'WpssoAmSubmenuAmGeneral' ) && class_exists( 'WpssoAdmin' )
 
 					break;
 
-				case 'am-appmeta-general':
+				case 'am-appmeta-settings':
 
-					$table_rows[ 'info-appmeta-general' ] = '' .
-						'<td colspan="2">' . $this->p->msgs->get( 'info-appmeta-general' ) . '</td>';
-
-					$table_rows[ 'am_ap_add_to' ] = '' .
-						$this->form->get_th_html( _x( 'Show Tab on Post Types', 'option label', 'wpsso-am' ),
-							$css_class = '', $css_id = 'am_ap_add_to' ).
-						'<td>' . $this->form->get_checklist_post_types( $name_prefix = 'am_ap_add_to' ) . '</td>';
+					$table_rows[ 'info-appmeta-settings' ] = '' .
+						'<td colspan="2">' . $this->p->msgs->get( 'info-appmeta-settings' ) . '</td>';
 
 					$table_rows[ 'am_ap_ast' ] = '' .
 						$this->form->get_th_html( _x( 'Default App Store Territory', 'option label', 'wpsso-am' ),
 							$css_class = '', $css_id = 'am_ap_ast' ).
 						'<td>' . $this->form->get_select( 'am_ap_ast', WpssoAmConfig::$app_stores ) . '</td>';
+
+					$table_rows[ 'am_ap_add_to' ] = '' .
+						$this->form->get_th_html( _x( 'Show Tab on Post Types', 'option label', 'wpsso-am' ),
+							$css_class = '', $css_id = 'am_ap_add_to' ).
+						'<td>' . $this->form->get_checklist_post_types( $name_prefix = 'am_ap_add_to' ) . '</td>';
 
 					break;
 			}

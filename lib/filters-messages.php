@@ -170,7 +170,7 @@ if ( ! class_exists( 'WpssoAmFiltersMessages' ) ) {
 
 			switch ( $msg_key ) {
 
-				case 'info-banner-general':
+				case 'info-banner-settings':
 
 					$metabox_tab = _x( 'Mobile Apps', 'metabox tab', 'wpsso-am' );
 
@@ -198,7 +198,7 @@ if ( ! class_exists( 'WpssoAmFiltersMessages' ) ) {
 
 					break;
 
-				case 'info-appmeta-general':
+				case 'info-appmeta-settings':
 
 					$metabox_tab = _x( 'Mobile Apps', 'metabox tab', 'wpsso-am' );
 

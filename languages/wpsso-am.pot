@@ -317,12 +317,12 @@ msgstr ""
 
 #: lib/submenu/am-general.php:173
 msgctxt "option label"
-msgid "Show Tab on Post Types"
+msgid "Default App Store Territory"
 msgstr ""
 
 #: lib/submenu/am-general.php:178
 msgctxt "option label"
-msgid "Default App Store Territory"
+msgid "Show Tab on Post Types"
 msgstr ""
 
 #. Plugin Name of the plugin/theme
