@@ -130,15 +130,15 @@ if ( ! class_exists( 'WpssoAmSubmenuAmGeneral' ) && class_exists( 'WpssoAdmin' )
 							$css_class = '', $css_id = 'am_ws_on_front' ) .
 						'<td>' . $this->form->get_checkbox( 'am_ws_on_front' ) . '</td>';
 
+					$table_rows[ 'am_ws_on_archive' ] = '' .
+						$this->form->get_th_html( _x( 'Add Banner to Archive Pages', 'option label', 'wpsso-am' ),
+							$css_class = '', $css_id = 'am_ws_on_archive' ) .
+						'<td>' . $this->form->get_checkbox( 'am_ws_on_archive' ) . '</td>';
+
 					$table_rows[ 'am_ws_add_to' ] = '' .
 						$this->form->get_th_html( _x( 'Add Banner to Post Types', 'option label', 'wpsso-am' ),
 							$css_class = '', $css_id = 'am_ws_add_to' ) .
 						'<td>' . $this->form->get_checklist_post_types( $name_prefix = 'am_ws_add_to' ) . '</td>';
-
-					$table_rows[ 'am_ws_on_index' ] = '' .
-						$this->form->get_th_html( _x( 'Add Banner to Archive Pages', 'option label', 'wpsso-am' ),
-							$css_class = '', $css_id = 'am_ws_on_index' ) .
-						'<td>' . $this->form->get_checkbox( 'am_ws_on_index' ) . '</td>';
 
 					break;
 

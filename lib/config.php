@@ -17,8 +17,8 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 		public static $cf = array(
 			'plugin' => array(
 				'wpssoam' => array(			// Plugin acronym.
-					'version'     => '3.10.0',	// Plugin version.
-					'opt_version' => '8',		// Increment when changing default option values.
+					'version'     => '3.10.1-dev.1',	// Plugin version.
+					'opt_version' => '9',		// Increment when changing default option values.
 					'short'       => 'WPSSO AM',	// Short plugin name.
 					'name'        => 'WPSSO Mobile App Meta Tags',
 					'desc'        => 'Apple Store / iTunes and Google Play App meta tags for Apple\'s mobile Safari banner and Twitter\'s App Card.',
@@ -37,7 +37,7 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 							'home'          => 'https://wordpress.org/plugins/wpsso/',
 							'plugin_class'  => 'Wpsso',
 							'version_const' => 'WPSSO_VERSION',
-							'min_version'   => '8.34.0',
+							'min_version'   => '8.36.1-dev.1',
 						),
 					),
 
@@ -83,7 +83,7 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 					'add_meta_name_twitter:app:id:googleplay'   => 1,
 					'add_meta_name_twitter:app:url:googleplay'  => 1,
 					'am_ws_on_front'                            => 1,	// Add Banner to Home Page.
-					'am_ws_on_index'                            => 1,	// Add Banner to Archive Pages.
+					'am_ws_on_archive'                          => 1,	// Add Banner to Archive Pages.
 					'am_ws_add_to_attachment'                   => 1,	// Add Banner to Post Types.
 					'am_ws_add_to_page'                         => 1,
 					'am_ws_add_to_post'                         => 1,

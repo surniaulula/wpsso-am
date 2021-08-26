@@ -16,6 +16,8 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 
 		private $p;	// Wpsso class object.
 		private $a;	// WpssoAm class object.
+		private $msgs;	// WpssoAmFiltersMessages class object.
+		private $upg;	// WpssoAmFiltersUpgrade class object.
 
 		private $md_opts_mt = array(
 			'am_iphone_app' => array( 
@@ -52,11 +54,14 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 			$this->p =& $plugin;
 			$this->a =& $addon;
 
+			require_once WPSSOAM_PLUGINDIR . 'lib/filters-upgrade.php';
+
+			$this->upg = new WpssoAmFiltersUpgrade( $plugin, $addon );
+
 			$this->p->util->add_plugin_filters( $this, array( 
 				'option_type'            => 2,
 				'get_defaults'           => 1,
 				'get_md_defaults'        => 1,
-				'rename_options_keys'    => 1,
 				'meta_name'              => 2,
 				'tc_seed'                => 2,
 			) );
@@ -157,17 +162,6 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 			) );
 		}
 
-		public function filter_rename_options_keys( $options_keys ) {
-
-			$options_keys[ 'wpssoam' ] = array(
-				7 => array(
-					'plugin_wpssoam_tid' => '',
-				),
-			);
-
-			return $options_keys;
-		}
-
 		/**
 		 * Adds the website app meta tag to the $mt_name array.
 		 */
@@ -175,25 +169,25 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 
 			$md_opts = array();
 
-			if ( ! $mod[ 'is_post' ] ) {		// Aka "not singular".
-
-				if ( empty( $this->p->options[ 'am_ws_on_index' ] ) ) {	// Add Banner to Archive Pages.
-
-					if ( $this->p->debug->enabled ) {
-
-						$this->p->debug->log( 'exiting early: am_ws_on_index not enabled' );
-					}
-
-					return $mt_name;
-				}
-
-			} elseif ( $mod[ 'is_home_page' ] ) {
+			if ( $mod[ 'is_home' ] ) {	// Static front page (singular post).
 
 				if ( empty( $this->p->options[ 'am_ws_on_front' ] ) ) {	// Add Banner to Home Page.
 
 					if ( $this->p->debug->enabled ) {
 
 						$this->p->debug->log( 'exiting early: am_ws_on_front not enabled' );
+					}
+
+					return $mt_name;
+				}
+
+			} elseif ( ! $mod[ 'is_post' ] ) {	// Not singular.
+
+				if ( empty( $this->p->options[ 'am_ws_on_archive' ] ) ) {	// Add Banner to Archive Pages.
+
+					if ( $this->p->debug->enabled ) {
+
+						$this->p->debug->log( 'exiting early: am_ws_on_archive not enabled' );
 					}
 
 					return $mt_name;
@@ -208,7 +202,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 
 				return $mt_name;
 
-			} elseif ( empty( $this->p->options[ 'am_ws_add_to_' . $mod[ 'post_type' ]] ) ) {
+			} elseif ( empty( $this->p->options[ 'am_ws_add_to_' . $mod[ 'post_type' ] ] ) ) {
 
 				if ( $this->p->debug->enabled ) {
 
@@ -269,11 +263,11 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 
 		public function filter_tc_seed( array $tc, array $mod ) {
 
-			if ( ! $mod[ 'is_post' ] ) {	// aka "not singular"
+			if ( ! $mod[ 'is_post' ] ) {
 
 				if ( $this->p->debug->enabled ) {
 
-					$this->p->debug->log( 'exiting early: index page (not singular)' );
+					$this->p->debug->log( 'exiting early: archive page (not singular)' );
 				}
 
 				return $tc;
@@ -346,7 +340,8 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 			unset( $tc[ 'twitter:title' ] );
 
 			foreach ( range( 1, 4 ) as $num ) {	// Just in case.
-				unset( $tc[ 'twitter:label' . $num], $tc[ 'twitter:data' . $num] );
+
+				unset( $tc[ 'twitter:label' . $num ], $tc[ 'twitter:data' . $num ] );
 			}
 
 			return array_merge( $tc, $tc_app );
