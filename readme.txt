@@ -117,7 +117,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 3.10.1-rc.1 (2021/08/27)**
+**Version 3.10.1 (2021/08/27)**
 
 * **New Features**
 	* None.
@@ -130,7 +130,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * **Requires At Least**
 	* PHP v7.0.
 	* WordPress v5.0.
-	* WPSSO Core v8.36.1-rc.1.
+	* WPSSO Core v8.36.1.
 
 **Version 3.10.0 (2021/04/17)**
 
@@ -195,7 +195,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 == Upgrade Notice ==
 
-= 3.10.1-rc.1 =
+= 3.10.1 =
 
 (2021/08/27) Improved logic check for "Add Banner to Home Page" option.
 
