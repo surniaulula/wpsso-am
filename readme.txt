@@ -117,6 +117,21 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
+**Version 3.10.2-rc.1 (2021/09/02)**
+
+* **New Features**
+	* None.
+* **Improvements**
+	* Minor translation string updates.
+* **Bugfixes**
+	* None.
+* **Developer Notes**
+	* None.
+* **Requires At Least**
+	* PHP v7.0.
+	* WordPress v5.0.
+	* WPSSO Core v8.37.0-rc.1.
+
 **Version 3.10.1 (2021/08/27)**
 
 * **New Features**
@@ -147,53 +162,11 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 	* WordPress v5.0.
 	* WPSSO Core v8.34.0.
 
-**Version 3.9.1 (2021/02/25)**
-
-* **New Features**
-	* None.
-* **Improvements**
-	* Updated the banners and icons of WPSSO Core and its add-ons.
-* **Bugfixes**
-	* None.
-* **Developer Notes**
-	* None.
-* **Requires At Least**
-	* PHP v7.0.
-	* WordPress v4.5.
-	* WPSSO Core v8.25.2.
-
-**Version 3.9.0 (2020/12/01)**
-
-* **New Features**
-	* None.
-* **Improvements**
-	* None.
-* **Bugfixes**
-	* None.
-* **Developer Notes**
-	* Included the `$addon` argument for library class constructors.
-* **Requires At Least**
-	* PHP v7.0.
-	* WordPress v4.5.
-	* WPSSO Core v8.16.0.
-
-**Version 3.8.1 (2020/10/17)**
-
-* **New Features**
-	* None.
-* **Improvements**
-	* Refactored the add-on class to extend a new WpssoAddOn abstract class.
-* **Bugfixes**
-	* Fixed backwards compatibility with older 'init_objects' and 'init_plugin' action arguments.
-* **Developer Notes**
-	* Added a new WpssoAddOn class in lib/abstracts/add-on.php.
-	* Added a new SucomAddOn class in lib/abstracts/com/add-on.php.
-* **Requires At Least**
-	* PHP v5.6.
-	* WordPress v4.4.
-	* WPSSO Core v8.13.0.
-
 == Upgrade Notice ==
+
+= 3.10.2-rc.1 =
+
+(2021/09/02) Minor translation string updates.
 
 = 3.10.1 =
 
@@ -202,16 +175,4 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 = 3.10.0 =
 
 (2021/04/17) Added support for `SucomForm->get_checklist_post_types()` in the add-on settings page.
-
-= 3.9.1 =
-
-(2021/02/25) Updated the banners and icons of WPSSO Core and its add-ons.
-
-= 3.9.0 =
-
-(2020/12/01) Included the `$addon` argument for library class constructors.
-
-= 3.8.1 =
-
-(2020/10/17) Refactored the add-on class to extend a new WpssoAddOn abstract class.
 
