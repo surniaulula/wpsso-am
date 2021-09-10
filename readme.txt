@@ -117,6 +117,22 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
+**Version 3.11.0-dev.6 (2021/09/10)**
+
+* **New Features**
+	* None.
+* **Improvements**
+	* None.
+* **Bugfixes**
+	* Fixed tooltips for options in the Document SSO metabox.
+* **Developer Notes**
+	* Added a new WpssoAmFiltersEdit class.
+	* Added a new WpssoAmFiltersOptions class.
+* **Requires At Least**
+	* PHP v7.0.
+	* WordPress v5.0.
+	* WPSSO Core v8.37.0.
+
 **Version 3.10.2 (2021/09/02)**
 
 * **New Features**
@@ -163,6 +179,10 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 	* WPSSO Core v8.34.0.
 
 == Upgrade Notice ==
+
+= 3.11.0-dev.6 =
+
+(2021/09/10) Fixed tooltips for options in the Document SSO metabox.
 
 = 3.10.2 =
 
