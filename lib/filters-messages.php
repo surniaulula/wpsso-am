@@ -26,85 +26,12 @@ if ( ! class_exists( 'WpssoAmFiltersMessages' ) ) {
 			$this->a =& $addon;
 
 			$this->p->util->add_plugin_filters( $this, array( 
-				'messages_tooltip_post' => 2,
-				'messages_tooltip'      => 2,
+				'messages_tooltip_am'   => 2,
 				'messages_info'         => 2,
 			) );
 		}
 
-		public function filter_messages_tooltip_post( $text, $msg_key ) {
-
-			if ( strpos( $msg_key, 'tooltip-post-am_' ) !== 0 ) {
-
-				return $text;
-			}
-
-			switch ( $msg_key ) {
-
-				case 'tooltip-post-am_iphone_app_id':
-
-					$text = __( 'The numeric representation of your iPhone application ID in the App Store (example: "307234931").', 'wpsso-am' );
-
-					break;
-
-				case 'tooltip-post-am_iphone_app_name':
-
-					$text = __( 'The name of your iPhone application.', 'wpsso-am' );
-
-					break;
-
-				case 'tooltip-post-am_iphone_app_url':
-
-					$text = __( 'Your iPhone App\'s <em>custom</em> URL scheme (you must include "://" after the scheme name).', 'wpsso-am' );
-
-					break;
-
-				case 'tooltip-post-am_ipad_app_id':
-
-					$text = __( 'The numeric representation of your iPad application ID in the App Store (example: "307234931").', 'wpsso-am' );
-
-					break;
-
-				case 'tooltip-post-am_ipad_app_name':
-
-					$text = __( 'The name of your iPad application.', 'wpsso-am' );
-
-					break;
-
-				case 'tooltip-post-am_ipad_app_url':
-
-					$text = __( 'Your iPad App\'s <em>custom</em> URL scheme (you must include "://" after the scheme name).', 'wpsso-am' );
-
-					break;
-
-				case 'tooltip-post-am_gplay_app_id':
-
-					$text = __( 'The fully qualified package name of your Google Play application (example: "com.google.android.apps.maps").', 'wpsso-am' );
-
-					break;
-
-				case 'tooltip-post-am_gplay_app_name':
-
-					$text = __( 'The name of your Google Play application.', 'wpsso-am' );
-
-					break;
-
-				case 'tooltip-post-am_gplay_app_url':
-
-					$text = __( 'Your Google Play App\'s <em>custom</em> URL scheme (you must include "://" after the scheme name).', 'wpsso-am' );
-
-					break;
-			}
-
-			return $text;
-		}
-
-		public function filter_messages_tooltip( $text, $msg_key ) {
-
-			if ( strpos( $msg_key, 'tooltip-am_' ) !== 0 ) {
-
-				return $text;
-			}
+		public function filter_messages_tooltip_am( $text, $msg_key ) {
 
 			switch ( $msg_key ) {
 
@@ -159,6 +86,60 @@ if ( ! class_exists( 'WpssoAmFiltersMessages' ) ) {
 					$metabox_title = _x( $this->p->cf[ 'meta' ][ 'title' ], 'metabox title', 'wpsso' );	// Use wpsso's text domain.
 
 					$text = sprintf( __( 'Include the <em>%1$s</em> tab in the %2$s metabox on Posts, Pages, etc.', 'wpsso-am' ), $metabox_tab, $metabox_title );
+
+					break;
+
+				case 'tooltip-am_iphone_app_id':
+
+					$text = __( 'The numeric representation of your iPhone application ID in the App Store (example: "307234931").', 'wpsso-am' );
+
+					break;
+
+				case 'tooltip-am_iphone_app_name':
+
+					$text = __( 'The name of your iPhone application.', 'wpsso-am' );
+
+					break;
+
+				case 'tooltip-am_iphone_app_url':
+
+					$text = __( 'Your iPhone App\'s <em>custom</em> URL scheme (you must include "://" after the scheme name).', 'wpsso-am' );
+
+					break;
+
+				case 'tooltip-am_ipad_app_id':
+
+					$text = __( 'The numeric representation of your iPad application ID in the App Store (example: "307234931").', 'wpsso-am' );
+
+					break;
+
+				case 'tooltip-am_ipad_app_name':
+
+					$text = __( 'The name of your iPad application.', 'wpsso-am' );
+
+					break;
+
+				case 'tooltip-am_ipad_app_url':
+
+					$text = __( 'Your iPad App\'s <em>custom</em> URL scheme (you must include "://" after the scheme name).', 'wpsso-am' );
+
+					break;
+
+				case 'tooltip-am_gplay_app_id':
+
+					$text = __( 'The fully qualified package name of your Google Play application (example: "com.google.android.apps.maps").', 'wpsso-am' );
+
+					break;
+
+				case 'tooltip-am_gplay_app_name':
+
+					$text = __( 'The name of your Google Play application.', 'wpsso-am' );
+
+					break;
+
+				case 'tooltip-am_gplay_app_url':
+
+					$text = __( 'Your Google Play App\'s <em>custom</em> URL scheme (you must include "://" after the scheme name).', 'wpsso-am' );
 
 					break;
 			}
