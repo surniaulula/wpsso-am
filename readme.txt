@@ -117,7 +117,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 3.11.0-b.1 (2021/09/11)**
+**Version 3.11.0-b.2 (2021/09/11)**
 
 * **New Features**
 	* None.
@@ -131,7 +131,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * **Requires At Least**
 	* PHP v7.0.
 	* WordPress v5.0.
-	* WPSSO Core v8.39.0-b.1.
+	* WPSSO Core v8.39.0-b.2.
 
 **Version 3.10.2 (2021/09/02)**
 
@@ -180,7 +180,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 == Upgrade Notice ==
 
-= 3.11.0-b.1 =
+= 3.11.0-b.2 =
 
 (2021/09/11) Fixed tooltips for options in the Document SSO metabox.
 
