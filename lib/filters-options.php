@@ -34,11 +34,11 @@ if ( ! class_exists( 'WpssoAmFiltersOptions' ) ) {
 
 		public function filter_option_type( $type, $base_key ) {
 
-			if ( ! empty( $type ) ) {
+			if ( ! empty( $type ) ) {	// Return early if we already have a type.
 
 				return $type;
 
-			} elseif ( strpos( $base_key, 'am_' ) !== 0 ) {
+			} elseif ( 0 !== strpos( $base_key, 'am_' ) ) {	// Nothing to do.
 
 				return $type;
 			}
