@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WPSSO Mobile App Meta Tags package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WPSSO Mobile App Meta Tags 3.11.0\n"
+"Project-Id-Version: WPSSO Mobile App Meta Tags 3.12.0-dev.3\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-am\n"
 "POT-Creation-Date: 2021-MO-DA HO:MI+ZONE\n"
 "MIME-Version: 1.0\n"
@@ -265,12 +265,12 @@ msgid ""
 "Card and customize the mobile App banner for Apple's mobile Safari."
 msgstr ""
 
-#: lib/filters.php:279
+#: lib/filters.php:280
 msgctxt "lib file description"
 msgid "(code) Mobile App Banner"
 msgstr ""
 
-#: lib/filters.php:284
+#: lib/filters.php:285
 msgctxt "lib file description"
 msgid "(code) Twitter App Card Meta Tags"
 msgstr ""

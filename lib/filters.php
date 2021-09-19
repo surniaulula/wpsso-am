@@ -21,24 +21,6 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 		private $opts;	// WpssoAmFiltersOptions class object.
 		private $upg;	// WpssoAmFiltersUpgrade class object.
 
-		private $md_opts_mt = array(
-			'am_iphone_app' => array( 
-				'name' => 'twitter:app:name:iphone',
-				'id'   => 'twitter:app:id:iphone',
-				'url'  => 'twitter:app:url:iphone',
-			),
-			'am_ipad_app' => array(
-				'name' => 'twitter:app:name:ipad',
-				'id'   => 'twitter:app:id:ipad',
-				'url'  => 'twitter:app:url:ipad',
-			),
-			'am_gplay_app' => array(
-				'name' => 'twitter:app:name:googleplay',
-				'id'   => 'twitter:app:id:googleplay',
-				'url'  => 'twitter:app:url:googleplay',
-			),
-		);
-
 		/**
 		 * Instantiated by WpssoAm->init_objects().
 		 */
@@ -220,33 +202,52 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 			}
 
 			$tc_app  = array();
+
+			$tc_app_info = array(
+				'am_iphone_app' => array( 
+					'name' => 'twitter:app:name:iphone',
+					'id'   => 'twitter:app:id:iphone',
+					'url'  => 'twitter:app:url:iphone',
+				),
+				'am_ipad_app' => array(
+					'name' => 'twitter:app:name:ipad',
+					'id'   => 'twitter:app:id:ipad',
+					'url'  => 'twitter:app:url:ipad',
+				),
+				'am_gplay_app' => array(
+					'name' => 'twitter:app:name:googleplay',
+					'id'   => 'twitter:app:id:googleplay',
+					'url'  => 'twitter:app:url:googleplay',
+				),
+			);
+
 			$md_opts = $mod[ 'obj' ]->get_options( $mod[ 'id' ] );	// Returns empty string if no meta found.
 
-			foreach ( $this->md_opts_mt as $key => $mt_names ) {
+			foreach ( $tc_app_info as $opt_prefix => $mt_names ) {
 
-				if ( ! empty( $md_opts[ $key . '_id' ] ) ) {	// Define the app card if we have an app ID.
+				if ( ! empty( $md_opts[ $opt_prefix . '_id' ] ) ) {	// Define the app card if we have an app ID.
 
 					$tc_app[ 'twitter:card' ] = 'app';
 
-					if ( empty( $md_opts[ $key . '_name' ] ) ) {
+					if ( empty( $md_opts[ $opt_prefix . '_name' ] ) ) {
 
 						$tc_app[ $mt_names[ 'name' ] ] = $this->p->page->get_title( 0, '', $mod );
 
 					} else {
 
-						$tc_app[ $mt_names[ 'name' ] ] = $md_opts[ $key . '_name' ];
+						$tc_app[ $mt_names[ 'name' ] ] = $md_opts[ $opt_prefix . '_name' ];
 					}
 
-					$tc_app[ $mt_names[ 'id' ] ] = $md_opts[ $key . '_id' ];
+					$tc_app[ $mt_names[ 'id' ] ] = $md_opts[ $opt_prefix . '_id' ];
 
-					if ( ! empty( $md_opts[ $key . '_url' ] ) ) {
+					if ( ! empty( $md_opts[ $opt_prefix . '_url' ] ) ) {
 
-						$tc_app[ $mt_names[ 'url' ] ] = $md_opts[ $key . '_url' ];
+						$tc_app[ $mt_names[ 'url' ] ] = $md_opts[ $opt_prefix . '_url' ];
 					}
 				}
 			}
 
-			if ( empty( $tc_app[ 'twitter:card' ] ) || $tc_app[ 'twitter:card' ] !== 'app' ) {
+			if ( empty( $tc_app[ 'twitter:card' ] ) || 'app' !== $tc_app[ 'twitter:card' ] ) {
 
 				return $tc;
 			}
