@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: WPSSO Mobile App Meta Tags 3.11.0\n"
+"Project-Id-Version: WPSSO Mobile App Meta Tags 3.12.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-am\n"
 "POT-Creation-Date: 2021-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-09-11 12:20-0700\n"
+"PO-Revision-Date: 2021-09-19 18:04-0700\n"
 "Last-Translator: JS Morisset <jsm@surniaulula.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -228,12 +228,12 @@ msgstr "Un onglet <em>%1$s</em> peut être ajouté dans la metabox %2$s pour les
 msgid "The <em>%s</em> information is used to create meta tags for Twitter's App Card and customize the mobile App banner for Apple's mobile Safari."
 msgstr "Les informations <em>%s</em> sont utilisées pour créer des balises méta pour la carte app de Twitter et personnaliser la bannière d'app pour le navigateur mobile Safari d'Apple."
 
-#: lib/filters.php:279
+#: lib/filters.php:280
 msgctxt "lib file description"
 msgid "(code) Mobile App Banner"
 msgstr "(code) Bannière app Mobile"
 
-#: lib/filters.php:284
+#: lib/filters.php:285
 msgctxt "lib file description"
 msgid "(code) Twitter App Card Meta Tags"
 msgstr "(code) Balises méta carte app de Twitter"
