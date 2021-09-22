@@ -117,7 +117,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 3.12.0-b.2 (2021/09/21)**
+**Version 3.12.0-b.2 (2021/09/22)**
 
 * **New Features**
 	* None.
@@ -197,7 +197,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 = 3.12.0-b.2 =
 
-(2021/09/21) Minor code optimization.
+(2021/09/22) Minor code optimization.
 
 = 3.11.0 =
 
