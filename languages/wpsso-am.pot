@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WPSSO Mobile App Meta Tags package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WPSSO Mobile App Meta Tags 3.12.0\n"
+"Project-Id-Version: WPSSO Mobile App Meta Tags 3.12.1-b.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-am\n"
 "POT-Creation-Date: 2021-MO-DA HO:MI+ZONE\n"
 "MIME-Version: 1.0\n"
@@ -280,47 +280,47 @@ msgctxt "metabox title"
 msgid "Mobile App Products"
 msgstr ""
 
-#: lib/submenu/am-general.php:83
+#: lib/submenu/am-general.php:85
 msgctxt "metabox tab"
 msgid "Apple Store App"
 msgstr ""
 
-#: lib/submenu/am-general.php:129
+#: lib/submenu/am-general.php:132
 msgctxt "option label"
 msgid "Add Banner to Home Page"
 msgstr ""
 
-#: lib/submenu/am-general.php:134
+#: lib/submenu/am-general.php:137
 msgctxt "option label"
 msgid "Add Banner to Archive Pages"
 msgstr ""
 
-#: lib/submenu/am-general.php:139
+#: lib/submenu/am-general.php:142
 msgctxt "option label"
 msgid "Add Banner to Post Types"
 msgstr ""
 
-#: lib/submenu/am-general.php:151
+#: lib/submenu/am-general.php:154
 msgctxt "option label"
 msgid "Default App ID Number"
 msgstr ""
 
-#: lib/submenu/am-general.php:156
+#: lib/submenu/am-general.php:159
 msgctxt "option label"
 msgid "Default Affiliate Data"
 msgstr ""
 
-#: lib/submenu/am-general.php:161
+#: lib/submenu/am-general.php:164
 msgctxt "option label"
 msgid "Default Argument String"
 msgstr ""
 
-#: lib/submenu/am-general.php:173
+#: lib/submenu/am-general.php:176
 msgctxt "option label"
 msgid "Default App Store Territory"
 msgstr ""
 
-#: lib/submenu/am-general.php:178
+#: lib/submenu/am-general.php:181
 msgctxt "option label"
 msgid "Show Tab on Post Types"
 msgstr ""
