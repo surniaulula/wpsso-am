@@ -22,16 +22,16 @@ Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari ban
 **Optionally add [Twitter App Card](https://dev.twitter.com/cards/types/app) markup to mobile App product pages:**
 
 <ul style="display:inline-block;">
-<li>twitter:app:country</li>
-<li>twitter:app:id:iphone</li>
-<li>twitter:app:id:ipad</li>
-<li>twitter:app:id:googleplay</li>
-<li>twitter:app:name:iphone</li>
-<li>twitter:app:name:ipad</li>
-<li>twitter:app:name:googleplay</li>
-<li>twitter:app:url:iphone</li>
-<li>twitter:app:url:ipad</li>
-<li>twitter:app:url:googleplay</li>
+	<li>twitter:app:country</li>
+	<li>twitter:app:id:iphone</li>
+	<li>twitter:app:id:ipad</li>
+	<li>twitter:app:id:googleplay</li>
+	<li>twitter:app:name:iphone</li>
+	<li>twitter:app:name:ipad</li>
+	<li>twitter:app:name:googleplay</li>
+	<li>twitter:app:url:iphone</li>
+	<li>twitter:app:url:ipad</li>
+	<li>twitter:app:url:googleplay</li>
 </ul>
 
 <h3>Users Love the WPSSO AM Add-on</h3>
