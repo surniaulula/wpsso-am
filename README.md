@@ -14,9 +14,13 @@
 
 <h2>Description</h2>
 
+<!-- about -->
+
+<p><strong>Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari banner and Twitter's App Card.</strong></p>
+
 <p><strong>Promote your website's mobile App with a banner in Apple's mobile Safari.</strong></p>
 
-<p><strong>Optionally add <a href="https://dev.twitter.com/cards/types/app">Twitter App Card</a> markup to mobile App product pages:</strong></p>
+<p><strong>Add <a href="https://dev.twitter.com/cards/types/app">Twitter App Card</a> markup to mobile App product pages:</strong></p>
 
 <ul>
     <li>twitter:app:country</li>
@@ -30,6 +34,8 @@
     <li>twitter:app:url:ipad</li>
     <li>twitter:app:url:googleplay</li>
 </ul>
+
+<!-- /about -->
 
 <h3>Users Love the WPSSO AM Add-on</h3>
 

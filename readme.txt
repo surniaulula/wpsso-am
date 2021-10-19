@@ -17,9 +17,13 @@ Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari ban
 
 == Description ==
 
+<!-- about -->
+
+**Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari banner and Twitter's App Card.**
+
 **Promote your website's mobile App with a banner in Apple's mobile Safari.**
 
-**Optionally add [Twitter App Card](https://dev.twitter.com/cards/types/app) markup to mobile App product pages:**
+**Add [Twitter App Card](https://dev.twitter.com/cards/types/app) markup to mobile App product pages:**
 
 <ul>
 	<li>twitter:app:country</li>
@@ -33,6 +37,8 @@ Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari ban
 	<li>twitter:app:url:ipad</li>
 	<li>twitter:app:url:googleplay</li>
 </ul>
+
+<!-- /about -->
 
 <h3>Users Love the WPSSO AM Add-on</h3>
 
