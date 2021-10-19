@@ -17,11 +17,11 @@ Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari ban
 
 == Description ==
 
-<p><img class="readme-icon" src="https://surniaulula.github.io/wpsso-am/assets/icon-256x256.png"> <strong>Promote your website's mobile App with a banner in Apple's mobile Safari.</strong></p>
+**Promote your website's mobile App with a banner in Apple's mobile Safari.**
 
 **Optionally add [Twitter App Card](https://dev.twitter.com/cards/types/app) markup to mobile App product pages:**
 
-<ul style="display:inline-block;">
+<ul>
 	<li>twitter:app:country</li>
 	<li>twitter:app:id:iphone</li>
 	<li>twitter:app:id:ipad</li>
