@@ -16,7 +16,7 @@
 
 <!-- about -->
 
-<p><strong>Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari banner and Twitter's App Card.</strong></p>
+<p><strong>Apple Store / iTunes and Google Play App meta tags.</strong></p>
 
 <p><strong>Promote your website's mobile App with a banner in Apple's mobile Safari.</strong></p>
 
