@@ -82,9 +82,6 @@ if ( ! class_exists( 'WpssoAmFiltersOptions' ) ) {
 
 		public function filter_get_defaults( $defs ) {
 
-			/**
-			 * Add options using a key prefix array and post type names.
-			 */
 			$this->p->util->add_post_type_names( $defs, array(
 				'am_ap_add_to' => 0,
 				'am_ws_add_to' => 1,
