@@ -66,10 +66,7 @@ if ( ! class_exists( 'WpssoAm' ) ) {
 			load_plugin_textdomain( 'wpsso-am', false, 'wpsso-am/languages/' );
 		}
 
-		/**
-		 * $is_admin, $doing_ajax, and $doing_cron available since WPSSO Core v8.8.0.
-		 */
-		public function init_objects( $is_admin = false, $doing_ajax = false, $doing_cron = false ) {
+		public function init_objects() {
 
 			$this->p =& Wpsso::get_instance();
 
