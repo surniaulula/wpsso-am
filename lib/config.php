@@ -291,12 +291,25 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 			require_once WPSSOAM_PLUGINDIR . 'lib/filters.php';
 			require_once WPSSOAM_PLUGINDIR . 'lib/register.php';
 
-			add_filter( 'wpssoam_load_lib', array( 'WpssoAmConfig', 'load_lib' ), 10, 3 );
+			add_filter( 'wpssoam_load_lib', array( __CLASS__, 'load_lib' ), 10, 3 );
 		}
 
 		public static function load_lib( $success = false, $filespec = '', $classname = '' ) {
 
-			if ( false === $success && ! empty( $filespec ) ) {
+			if ( false !== $success ) {
+
+				return $success;
+			}
+
+			if ( ! empty( $classname ) ) {
+
+				if ( class_exists( $classname ) ) {
+
+					return $classname;
+				}
+			}
+
+			if ( ! empty( $filespec ) ) {
 
 				$file_path = WPSSOAM_PLUGINDIR . 'lib/' . $filespec . '.php';
 
@@ -307,7 +320,6 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 					if ( empty( $classname ) ) {
 
 						return SucomUtil::sanitize_classname( 'wpssoam' . $filespec, $allow_underscore = false );
-
 					}
 
 					return $classname;
