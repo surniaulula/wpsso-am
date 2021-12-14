@@ -17,7 +17,7 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 		public static $cf = array(
 			'plugin' => array(
 				'wpssoam' => array(			// Plugin acronym.
-					'version'     => '3.12.2',	// Plugin version.
+					'version'     => '3.13.0-dev.3',	// Plugin version.
 					'opt_version' => '9',		// Increment when changing default option values.
 					'short'       => 'WPSSO AM',	// Short plugin name.
 					'name'        => 'WPSSO Mobile App Meta Tags',
@@ -37,7 +37,7 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 							'home'          => 'https://wordpress.org/plugins/wpsso/',
 							'plugin_class'  => 'Wpsso',
 							'version_const' => 'WPSSO_VERSION',
-							'min_version'   => '9.8.0',
+							'min_version'   => '9.11.1-dev.3',
 						),
 					),
 
@@ -91,7 +91,7 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 					'am_ws_itunes_app_aff'                      => '',
 					'am_ws_itunes_app_arg'                      => '%%request_url%%',
 					'am_ap_ast'                                 => 'US',
-					'am_ap_add_to_attachment'                   => 0,
+					'am_ap_add_to_attachment'                   => 0,	// Show Tab on Post Types.
 					'am_ap_add_to_page'                         => 1,
 					'am_ap_add_to_post'                         => 0,
 				),
