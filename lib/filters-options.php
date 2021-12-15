@@ -26,18 +26,18 @@ if ( ! class_exists( 'WpssoAmFiltersOptions' ) ) {
 			$this->a =& $addon;
 
 			$this->p->util->add_plugin_filters( $this, array( 
-				'add_custom_post_type_names' => 1,
-				'get_md_defaults'            => 1,
-				'option_type'                => 2,
+				'add_custom_post_type_options' => 1,
+				'get_md_defaults'              => 1,
+				'option_type'                  => 2,
 			) );
 		}
 
-		public function filter_add_custom_post_type_names( $post_type_names ) {
+		public function filter_add_custom_post_type_options( $opt_prefixes ) {
 
-			$post_type_names[ 'am_ws_add_to' ] = 1;	// Add Banner to Post Types.
-			$post_type_names[ 'am_ap_add_to' ] = 0;	// Show Tab on Post Types.
+			$opt_prefixes[ 'am_ws_add_to' ] = 1;	// Add Banner to Post Types.
+			$opt_prefixes[ 'am_ap_add_to' ] = 0;	// Show Tab on Post Types.
 
-			return $post_type_names;
+			return $opt_prefixes;
 		}
 
 		public function filter_get_md_defaults( $md_defs ) {
