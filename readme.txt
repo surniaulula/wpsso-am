@@ -129,7 +129,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 3.13.0-dev.3 (TBD)**
+**Version 3.13.0-dev.4 (2021/12/15)**
 
 * **New Features**
 	* None.
@@ -138,11 +138,11 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * **Bugfixes**
 	* None.
 * **Developer Notes**
-	* None.
+	* Replaced a call to `WpssoUtil->add_post_type_names()` with a new 'wpsso_add_custom_post_type_options' filter hook.
 * **Requires At Least**
 	* PHP v7.2.
 	* WordPress v5.2.
-	* WPSSO Core v9.11.1-dev.3.
+	* WPSSO Core v9.12.0-dev.4.
 
 **Version 3.12.2 (2021/11/16)**
 
@@ -252,9 +252,9 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 == Upgrade Notice ==
 
-= 3.13.0-dev.3 =
+= 3.13.0-dev.4 =
 
-(TBD) None.
+(2021/12/15) Replaced a method call with a filter hook when completing the default options array.
 
 = 3.12.2 =
 
