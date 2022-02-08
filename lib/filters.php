@@ -231,7 +231,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 
 					if ( empty( $md_opts[ $opt_prefix . '_name' ] ) ) {
 
-						$tc_app[ $mt_names[ 'name' ] ] = $this->p->page->get_title( 0, '', $mod );
+						$tc_app[ $mt_names[ 'name' ] ] = $this->p->page->get_title( $title_max_len = 0, $dots = '', $mod );
 
 					} else {
 
