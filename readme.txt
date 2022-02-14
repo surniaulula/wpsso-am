@@ -138,7 +138,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * **Bugfixes**
 	* None.
 * **Developer Notes**
-	* Updated the `WpssoPage` class `get_title()`, `get_description()`, and `get_caption()` arguments for WPSSO Core v10.4.0.
+	* Updated the `WpssoPage` class `get_title()`, `get_description()`, and `get_caption()` method arguments for WPSSO Core v10.4.0.
 * **Requires At Least**
 	* PHP v7.2.
 	* WordPress v5.2.
@@ -287,7 +287,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 = 3.15.0-dev.2 =
 
-(2022/02/14) Updated the `WpssoPage` class `get_title()`, `get_description()`, and `get_caption()` arguments for WPSSO Core v10.4.0.
+(2022/02/14) Updated `WpssoPage` class method arguments for WPSSO Core v10.4.0.
 
 = 3.14.0 =
 
