@@ -47,7 +47,10 @@ if ( ! class_exists( 'WpssoAmFiltersEdit' ) ) {
 
 		public function filter_post_edit_appmeta_rows( $table_rows, $form, $head, $mod ) {
 
-			$def_app_name = $this->p->page->get_title( $max_len = 0, $dots = '', $mod );
+			/**
+			 * Use default $md_key = 'seo_title' and no maximum length.
+			 */
+			$def_app_name = $this->p->page->get_title( $mod );
 
 			/**
 			 * Metabox form rows.
@@ -87,7 +90,7 @@ if ( ! class_exists( 'WpssoAmFiltersEdit' ) ) {
 					'th_class' => 'medium',
 					'label'    => _x( 'iPhone App Name', 'option label', 'wpsso-am' ),
 					'tooltip'  => 'am_iphone_app_name',
-					'content'  => $form->get_input( 'am_iphone_app_name', $css_class = 'wide', $css_id = '', 0, $def_app_name ),
+					'content'  => $form->get_input( 'am_iphone_app_name', $css_class = 'wide', $css_id = '', $max_len = 0, $def_app_name ),
 				),
 				'am_iphone_app_url' => array(
 					'tr_class' => $form->get_css_class_hide( 'basic', 'am_iphone_app_url' ),
@@ -115,7 +118,7 @@ if ( ! class_exists( 'WpssoAmFiltersEdit' ) ) {
 					'th_class' => 'medium',
 					'label'    => _x( 'iPad App Name', 'option label', 'wpsso-am' ),
 					'tooltip'  => 'am_ipad_app_name',
-					'content'  => $form->get_input( 'am_ipad_app_name', $css_class = 'wide', $css_id = '', 0, $def_app_name ),
+					'content'  => $form->get_input( 'am_ipad_app_name', $css_class = 'wide', $css_id = '', $max_len = 0, $def_app_name ),
 				),
 				'am_ipad_app_url' => array(
 					'tr_class' => $form->get_css_class_hide( 'basic', 'am_ipad_app_url' ),
@@ -143,7 +146,7 @@ if ( ! class_exists( 'WpssoAmFiltersEdit' ) ) {
 					'th_class' => 'medium',
 					'label'    => _x( 'Google Play App Name', 'option label', 'wpsso-am' ),
 					'tooltip'  => 'am_gplay_app_name',
-					'content'  => $form->get_input( 'am_gplay_app_name', $css_class = 'wide', $css_id = '', $len = 0, $def_app_name ),
+					'content'  => $form->get_input( 'am_gplay_app_name', $css_class = 'wide', $css_id = '', $max_len = 0, $def_app_name ),
 				),
 				'am_gplay_app_url' => array(
 					'tr_class' => $form->get_css_class_hide( 'basic', 'am_gplay_app_url' ),
@@ -172,15 +175,15 @@ if ( ! class_exists( 'WpssoAmFiltersEdit' ) ) {
 					'th_class' => 'medium',
 					'label'    => _x( 'Affiliate Data', 'option label', 'wpsso-am' ),
 					'tooltip'  => 'am_ws_itunes_app_aff',	// Use tootip from settings page.
-					'content'  => $form->get_input( 'am_ws_itunes_app_aff', $css_class = '', $css_id = '',
-						$len = 0, $this->p->options[ 'am_ws_itunes_app_aff' ] ),
+					'content'  => $form->get_input( 'am_ws_itunes_app_aff', $css_class = '', $css_id = '', $max_len = 0,
+						$this->p->options[ 'am_ws_itunes_app_aff' ] ),
 				),
 				'am_ws_itunes_app_arg' => array(
 					'th_class' => 'medium',
 					'label'    => _x( 'Argument String', 'option label', 'wpsso-am' ),
 					'tooltip'  => 'am_ws_itunes_app_arg',	// Use tootip from settings page.
-					'content'  => $form->get_input( 'am_ws_itunes_app_arg', $css_class = 'wide', $css_id = '',
-						$len = 0, $this->p->options[ 'am_ws_itunes_app_arg' ] ),
+					'content'  => $form->get_input( 'am_ws_itunes_app_arg', $css_class = 'wide', $css_id = '', $max_len = 0,
+						$this->p->options[ 'am_ws_itunes_app_arg' ] ),
 				),
 			);
 

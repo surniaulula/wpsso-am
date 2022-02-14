@@ -231,7 +231,10 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 
 					if ( empty( $md_opts[ $opt_prefix . '_name' ] ) ) {
 
-						$tc_app[ $mt_names[ 'name' ] ] = $this->p->page->get_title( $title_max_len = 0, $dots = '', $mod );
+						/**
+						 * Use default $md_key = 'seo_title' and no maximum length.
+						 */
+						$tc_app[ $mt_names[ 'name' ] ] = $this->p->page->get_title( $mod );
 
 					} else {
 
