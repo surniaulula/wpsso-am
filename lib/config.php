@@ -17,8 +17,8 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 		public static $cf = array(
 			'plugin' => array(
 				'wpssoam' => array(			// Plugin acronym.
-					'version'     => '3.15.0',	// Plugin version.
-					'opt_version' => '9',		// Increment when changing default option values.
+					'version'     => '3.15.1-b.1',	// Plugin version.
+					'opt_version' => '10',		// Increment when changing default option values.
 					'short'       => 'WPSSO AM',	// Short plugin name.
 					'name'        => 'WPSSO Mobile App Meta Tags',
 					'desc'        => 'Apple Store / iTunes and Google Play App meta tags for Apple\'s mobile Safari banner and Twitter\'s App Card.',
@@ -37,7 +37,7 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 							'home'          => 'https://wordpress.org/plugins/wpsso/',
 							'plugin_class'  => 'Wpsso',
 							'version_const' => 'WPSSO_VERSION',
-							'min_version'   => '11.0.0',
+							'min_version'   => '11.5.0-b.1',
 						),
 					),
 
