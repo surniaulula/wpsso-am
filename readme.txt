@@ -129,6 +129,23 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
+**Version 3.16.0-dev.6 (2022/03/09)**
+
+Maintenance release.
+
+* **New Features**
+	* None.
+* **Improvements**
+	* Added dynamic placeholders to Document SSO metabox title and description options.
+* **Bugfixes**
+	* None.
+* **Developer Notes**
+	* None.
+* **Requires At Least**
+	* PHP v7.2.
+	* WordPress v5.2.
+	* WPSSO Core v11.6.0-dev.6.
+
 **Version 3.15.1 (2022/03/07)**
 
 Maintenance release.
@@ -301,6 +318,10 @@ Maintenance release.
 	* WPSSO Core v8.34.0.
 
 == Upgrade Notice ==
+
+= 3.16.0-dev.6 =
+
+(2022/03/09) Added dynamic placeholders to Document SSO metabox title and description options.
 
 = 3.15.1 =
 
