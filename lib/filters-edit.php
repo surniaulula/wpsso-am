@@ -90,7 +90,8 @@ if ( ! class_exists( 'WpssoAmFiltersEdit' ) ) {
 					'th_class' => 'medium',
 					'label'    => _x( 'iPhone App Name', 'option label', 'wpsso-am' ),
 					'tooltip'  => 'am_iphone_app_name',
-					'content'  => $form->get_input( 'am_iphone_app_name', $css_class = 'wide', $css_id = '', $max_len = 0, $def_app_name ),
+					'content'  => $form->get_input_dep( 'am_iphone_app_name', $css_class = 'wide', $css_id = '',
+						$max_len = 0, $def_app_name, $is_disabled = false, $dep_id = 'seo_title' ),
 				),
 				'am_iphone_app_url' => array(
 					'tr_class' => $form->get_css_class_hide( 'basic', 'am_iphone_app_url' ),
@@ -118,7 +119,8 @@ if ( ! class_exists( 'WpssoAmFiltersEdit' ) ) {
 					'th_class' => 'medium',
 					'label'    => _x( 'iPad App Name', 'option label', 'wpsso-am' ),
 					'tooltip'  => 'am_ipad_app_name',
-					'content'  => $form->get_input( 'am_ipad_app_name', $css_class = 'wide', $css_id = '', $max_len = 0, $def_app_name ),
+					'content'  => $form->get_input_dep( 'am_ipad_app_name', $css_class = 'wide', $css_id = '',
+						$max_len = 0, $def_app_name, $is_disabled = false, $dep_id = 'seo_title' ),
 				),
 				'am_ipad_app_url' => array(
 					'tr_class' => $form->get_css_class_hide( 'basic', 'am_ipad_app_url' ),
@@ -146,7 +148,8 @@ if ( ! class_exists( 'WpssoAmFiltersEdit' ) ) {
 					'th_class' => 'medium',
 					'label'    => _x( 'Google Play App Name', 'option label', 'wpsso-am' ),
 					'tooltip'  => 'am_gplay_app_name',
-					'content'  => $form->get_input( 'am_gplay_app_name', $css_class = 'wide', $css_id = '', $max_len = 0, $def_app_name ),
+					'content'  => $form->get_input_dep( 'am_gplay_app_name', $css_class = 'wide', $css_id = '',
+						$max_len = 0, $def_app_name, $is_disabled = false, $dep_id = 'seo_title' ),
 				),
 				'am_gplay_app_url' => array(
 					'tr_class' => $form->get_css_class_hide( 'basic', 'am_gplay_app_url' ),
