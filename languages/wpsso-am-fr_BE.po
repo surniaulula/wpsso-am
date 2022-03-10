@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: WPSSO Mobile App Meta Tags 3.15.1\n"
+"Project-Id-Version: WPSSO Mobile App Meta Tags 3.16.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-am\n"
 "POT-Creation-Date: 2022-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2022-03-07 06:34-0800\n"
+"PO-Revision-Date: 2022-03-10 07:13-0800\n"
 "Last-Translator: JS Morisset <jsm@surniaulula.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -71,67 +71,67 @@ msgctxt "option label"
 msgid "iPhone App Name"
 msgstr "Nom d'app iPhone"
 
-#: lib/filters-edit.php:98
+#: lib/filters-edit.php:99
 msgctxt "option label"
 msgid "iPhone App URL Scheme"
 msgstr "Schéma URL app iPhone"
 
-#: lib/filters-edit.php:109
+#: lib/filters-edit.php:110
 msgctxt "metabox title"
 msgid "iPad App Information"
 msgstr "Informations d'app iPad"
 
-#: lib/filters-edit.php:113
+#: lib/filters-edit.php:114
 msgctxt "option label"
 msgid "iPad App ID"
 msgstr "ID d'app iPad"
 
-#: lib/filters-edit.php:119
+#: lib/filters-edit.php:120
 msgctxt "option label"
 msgid "iPad App Name"
 msgstr "Nom d'app iPad"
 
-#: lib/filters-edit.php:126
+#: lib/filters-edit.php:128
 msgctxt "option label"
 msgid "iPad App URL Scheme"
 msgstr "Schéma URL app iPad"
 
-#: lib/filters-edit.php:137
+#: lib/filters-edit.php:139
 msgctxt "metabox title"
 msgid "Google Play App Information"
 msgstr "Informations d'app Google Play"
 
-#: lib/filters-edit.php:141
+#: lib/filters-edit.php:143
 msgctxt "option label"
 msgid "Google Play App ID"
 msgstr "ID d'app Google Play"
 
-#: lib/filters-edit.php:147
+#: lib/filters-edit.php:149
 msgctxt "option label"
 msgid "Google Play App Name"
 msgstr "Nom d'app Google Play"
 
-#: lib/filters-edit.php:154
+#: lib/filters-edit.php:157
 msgctxt "option label"
 msgid "Google Play App URL Scheme"
 msgstr "Schéma URL app Google Play"
 
-#: lib/filters-edit.php:165 lib/submenu/am-general.php:38
+#: lib/filters-edit.php:168 lib/submenu/am-general.php:38
 msgctxt "metabox title"
 msgid "Mobile App Banner"
 msgstr "Bannière app Mobile"
 
-#: lib/filters-edit.php:169
+#: lib/filters-edit.php:172
 msgctxt "option label"
 msgid "App ID Number"
 msgstr "Numéro d'ID app"
 
-#: lib/filters-edit.php:176
+#: lib/filters-edit.php:179
 msgctxt "option label"
 msgid "Affiliate Data"
 msgstr "Donnée d'affilié"
 
-#: lib/filters-edit.php:183
+#: lib/filters-edit.php:186
 msgctxt "option label"
 msgid "Argument String"
 msgstr "Chaîne d'arguments"
