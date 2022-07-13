@@ -10,7 +10,7 @@ Tags: app store, mobile app, app card, mobile, itunes, googleplay, google play, 
 Contributors: jsmoriss
 Requires PHP: 7.2
 Requires At Least: 5.2
-Tested Up To: 6.0.0
+Tested Up To: 6.0.1
 Stable Tag: 3.16.0
 
 Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari banner and Twitter's App Card.
