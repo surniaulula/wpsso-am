@@ -46,7 +46,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 
 			$this->upg = new WpssoAmFiltersUpgrade( $plugin, $addon );
 
-			$this->p->util->add_plugin_filters( $this, array( 
+			$this->p->util->add_plugin_filters( $this, array(
 				'meta_name' => 2,
 				'tc_seed'   => 2,
 			) );
@@ -61,7 +61,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 
 				$this->msgs = new WpssoAmFiltersMessages( $plugin, $addon );
 
-				$this->p->util->add_plugin_filters( $this, array( 
+				$this->p->util->add_plugin_filters( $this, array(
 					'status_std_features' => 3,
 				), $prio = 10, $ext = 'wpssoam' );	// Hooks the 'wpssoam' filters.
 			}
@@ -204,7 +204,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 			$tc_app  = array();
 
 			$tc_app_info = array(
-				'am_iphone_app' => array( 
+				'am_iphone_app' => array(
 					'name' => 'twitter:app:name:iphone',
 					'id'   => 'twitter:app:id:iphone',
 					'url'  => 'twitter:app:url:iphone',
@@ -279,12 +279,12 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 		 */
 		public function filter_status_std_features( $features, $ext, $info ) {
 
-			$features[ '(code) Mobile App Banner' ] = array( 
+			$features[ '(code) Mobile App Banner' ] = array(
 				'label_transl' => _x( '(code) Mobile App Banner', 'lib file description', 'wpsso-am' ),
 				'status'       => $this->p->options[ 'am_ws_itunes_app_id' ] ? 'on' : 'off'
 			);
 
-			$features[ '(code) Twitter App Card Meta Tags' ] = array( 
+			$features[ '(code) Twitter App Card Meta Tags' ] = array(
 				'label_transl' => _x( '(code) Twitter App Card Meta Tags', 'lib file description', 'wpsso-am' ),
 				'status'       => 'on',
 			);

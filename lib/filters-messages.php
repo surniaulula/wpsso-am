@@ -25,9 +25,9 @@ if ( ! class_exists( 'WpssoAmFiltersMessages' ) ) {
 			$this->p =& $plugin;
 			$this->a =& $addon;
 
-			$this->p->util->add_plugin_filters( $this, array( 
-				'messages_tooltip_am'   => 2,
-				'messages_info'         => 2,
+			$this->p->util->add_plugin_filters( $this, array(
+				'messages_tooltip_am' => 2,
+				'messages_info'       => 2,
 			) );
 		}
 

@@ -25,7 +25,7 @@ if ( ! class_exists( 'WpssoAmFiltersEdit' ) ) {
 			$this->p =& $plugin;
 			$this->a =& $addon;
 
-			$this->p->util->add_plugin_filters( $this, array( 
+			$this->p->util->add_plugin_filters( $this, array(
 				'post_document_meta_tabs' => 3,
 				'post_edit_appmeta_rows'  => 4,
 			), $prio = 100 );

@@ -25,7 +25,7 @@ if ( ! class_exists( 'WpssoAmFiltersOptions' ) ) {
 			$this->p =& $plugin;
 			$this->a =& $addon;
 
-			$this->p->util->add_plugin_filters( $this, array( 
+			$this->p->util->add_plugin_filters( $this, array(
 				'add_custom_post_type_options' => 1,
 				'get_md_defaults'              => 1,
 				'option_type'                  => 2,
