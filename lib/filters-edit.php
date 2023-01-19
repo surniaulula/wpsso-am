@@ -17,7 +17,7 @@ if ( ! class_exists( 'WpssoAmFiltersEdit' ) ) {
 		private $p;	// Wpsso class object.
 		private $a;	// WpssoAm class object.
 
-		/**
+		/*
 		 * Instantiated by WpssoAmFilters->__construct().
 		 */
 		public function __construct( &$plugin, &$addon ) {
@@ -47,17 +47,17 @@ if ( ! class_exists( 'WpssoAmFiltersEdit' ) ) {
 
 		public function filter_post_edit_appmeta_rows( $table_rows, $form, $head, $mod ) {
 
-			/**
+			/*
 			 * Use default $md_key = 'seo_title' and no maximum length.
 			 */
 			$def_app_name = $this->p->page->get_title( $mod );
 
-			/**
+			/*
 			 * Metabox form rows.
 			 */
 			$form_rows = array(
 
-				/**
+				/*
 				 * Twitter App Card
 				 */
 				'subsection_app_card' => array(
@@ -72,7 +72,7 @@ if ( ! class_exists( 'WpssoAmFiltersEdit' ) ) {
 					'content'  => $form->get_select( 'am_ap_ast', WpssoAmConfig::$app_stores ),
 				),
 
-				/**
+				/*
 				 * iPhone App Information
 				 */
 				'subsection_iphone_app' => array(
@@ -101,7 +101,7 @@ if ( ! class_exists( 'WpssoAmFiltersEdit' ) ) {
 					'content'  => $form->get_input( 'am_iphone_app_url', $css_class = 'wide' ),
 				),
 
-				/**
+				/*
 				 * iPad App Information
 				 */
 				'subsection_ipad_app' => array(
@@ -130,7 +130,7 @@ if ( ! class_exists( 'WpssoAmFiltersEdit' ) ) {
 					'content'  => $form->get_input( 'am_ipad_app_url', $css_class = 'wide' ),
 				),
 
-				/**
+				/*
 				 * Google Play App Information
 				 */
 				'subsection_gplay_app' => array(
@@ -159,7 +159,7 @@ if ( ! class_exists( 'WpssoAmFiltersEdit' ) ) {
 					'content'  => $form->get_input( 'am_gplay_app_url', $css_class = 'wide' ),
 				),
 
-				/**
+				/*
 				 * Mobile App Banner
 				 */
 				'subsection_app_banner' => array(

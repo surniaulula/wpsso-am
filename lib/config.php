@@ -28,7 +28,7 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 					'text_domain' => 'wpsso-am',
 					'domain_path' => '/languages',
 
-					/**
+					/*
 					 * Required plugin and its version.
 					 */
 					'req' => array(
@@ -41,12 +41,12 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 						),
 					),
 
-					/**
+					/*
 					 * URLs or relative paths to plugin banners and icons.
 					 */
 					'assets' => array(
 
-						/**
+						/*
 						 * Icon image array keys are '1x' and '2x'.
 						 */
 						'icons' => array(
@@ -55,7 +55,7 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 						),
 					),
 
-					/**
+					/*
 					 * Library files loaded and instantiated by WPSSO.
 					 */
 					'lib' => array(
@@ -66,7 +66,7 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 				),
 			),
 
-			/**
+			/*
 			 * Additional add-on setting options.
 			 */
 			'opt' => array(
@@ -98,7 +98,7 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 			),
 		);
 
-		/**
+		/*
 		 * From https://developer.apple.com/library/ios/documentation/LanguagesUtilities/Conceptual/iTunesConnect_Guide/Appendices/AppStoreTerritories.html.
 		 */
 		public static $app_stores = array(
@@ -275,7 +275,7 @@ if ( ! class_exists( 'WpssoAmConfig' ) ) {
 
 			$info =& self::$cf[ 'plugin' ][ 'wpssoam' ];
 
-			/**
+			/*
 			 * Define fixed constants.
 			 */
 			define( 'WPSSOAM_FILEPATH', $plugin_file );

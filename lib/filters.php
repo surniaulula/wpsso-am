@@ -21,7 +21,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 		private $opts;	// WpssoAmFiltersOptions class object.
 		private $upg;	// WpssoAmFiltersUpgrade class object.
 
-		/**
+		/*
 		 * Instantiated by WpssoAm->init_objects().
 		 */
 		public function __construct( &$plugin, &$addon ) {
@@ -67,7 +67,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 			}
 		}
 
-		/**
+		/*
 		 * Adds the website app meta tag to the $mt_name array.
 		 */
 		public function filter_meta_name( $mt_name, $mod ) {
@@ -231,7 +231,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 
 					if ( empty( $md_opts[ $opt_prefix . '_name' ] ) ) {
 
-						/**
+						/*
 						 * Use default $md_key = 'seo_title' and no maximum length.
 						 */
 						$tc_app[ $mt_names[ 'name' ] ] = $this->p->page->get_title( $mod );
@@ -274,7 +274,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 			return array_merge( $tc, $tc_app );
 		}
 
-		/**
+		/*
 		 * Filter for 'wpssoam_status_std_features'.
 		 */
 		public function filter_status_std_features( $features, $ext, $info ) {

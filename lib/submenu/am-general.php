@@ -29,7 +29,7 @@ if ( ! class_exists( 'WpssoAmSubmenuAmGeneral' ) && class_exists( 'WpssoAdmin' )
 			$this->menu_ext  = $ext;
 		}
 
-		/**
+		/*
 		 * Called by the extended WpssoAdmin class.
 		 */
 		protected function add_meta_boxes() {
@@ -59,7 +59,7 @@ if ( ! class_exists( 'WpssoAmSubmenuAmGeneral' ) && class_exists( 'WpssoAdmin' )
 					$metabox_context, $metabox_prio, $callback_args );
 		}
 
-		/**
+		/*
 		 * Mobile App Banner metabox.
 		 */
 		public function show_metabox_banner() {
@@ -76,7 +76,7 @@ if ( ! class_exists( 'WpssoAmSubmenuAmGeneral' ) && class_exists( 'WpssoAdmin' )
 
 			$this->p->util->metabox->do_table( $table_rows, 'metabox-' . $metabox_id . '-' . $tab_key );
 
-			/**
+			/*
 			 * Apple Store App tab.
 			 */
 			$filter_name = SucomUtil::sanitize_hookname( 'wpsso_' . $metabox_id . '_tabs' );
@@ -99,7 +99,7 @@ if ( ! class_exists( 'WpssoAmSubmenuAmGeneral' ) && class_exists( 'WpssoAdmin' )
 			$this->p->util->metabox->do_tabbed( $metabox_id, $tabs, $table_rows );
 		}
 
-		/**
+		/*
 		 * Mobile App Products metabox.
 		 */
 		public function show_metabox_appmeta() {
