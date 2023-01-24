@@ -130,6 +130,21 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
+**Version 3.17.1-dev.2 (2023/01/24)**
+
+* **New Features**
+	* None.
+* **Improvements**
+	* Added compatibility declaration for WooCommerce HPOS.
+* **Bugfixes**
+	* None.
+* **Developer Notes**
+	* Updated the `WpssoAbstractAddOn` class.
+* **Requires At Least**
+	* PHP v7.2.
+	* WordPress v5.2.
+	* WPSSO Core v14.6.1-dev.2.
+
 **Version 3.17.0 (2023/01/20)**
 
 * **New Features**
@@ -334,6 +349,10 @@ Maintenance release.
 	* WPSSO Core v8.34.0.
 
 == Upgrade Notice ==
+
+= 3.17.1-dev.2 =
+
+(2023/01/24) Added compatibility declaration for WooCommerce HPOS.
 
 = 3.17.0 =
 
