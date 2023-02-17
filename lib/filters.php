@@ -62,7 +62,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 				$this->msgs = new WpssoAmFiltersMessages( $plugin, $addon );
 
 				$this->p->util->add_plugin_filters( $this, array(
-					'status_std_features' => 3,
+					'features_status' => 3,
 				), $prio = 10, $ext = 'wpssoam' );	// Hooks the 'wpssoam' filters.
 			}
 		}
@@ -275,9 +275,9 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 		}
 
 		/*
-		 * Filter for 'wpssoam_status_std_features'.
+		 * Filter for 'wpssoam_features_status'.
 		 */
-		public function filter_status_std_features( $features, $ext, $info ) {
+		public function filter_features_status( $features, $ext, $info ) {
 
 			$features[ '(code) Mobile App Banner' ] = array(
 				'label_transl' => _x( '(code) Mobile App Banner', 'lib file description', 'wpsso-am' ),
