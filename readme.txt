@@ -132,6 +132,21 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
+**Version 3.18.0-dev.1 (TBD)**
+
+* **New Features**
+	* None.
+* **Improvements**
+	* None.
+* **Bugfixes**
+	* None.
+* **Developer Notes**
+	* Renamed the 'wpssoam_status_std_features' filter to 'wpssoam_features_status'.
+* **Requires At Least**
+	* PHP v7.2.
+	* WordPress v5.4.
+	* WPSSO Core v15.4.0-dev.1.
+
 **Version 3.17.1 (2023/01/26)**
 
 * **New Features**
@@ -351,6 +366,10 @@ Maintenance release.
 	* WPSSO Core v8.34.0.
 
 == Upgrade Notice ==
+
+= 3.18.0-dev.1 =
+
+(TBD) Renamed the 'wpssoam_status_std_features' filter to 'wpssoam_features_status'.
 
 = 3.17.1 =
 
