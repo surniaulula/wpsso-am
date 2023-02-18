@@ -132,7 +132,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 3.18.0-dev.2 (2023/02/17)**
+**Version 3.18.0-dev.2 (2023/02/18)**
 
 * **New Features**
 	* None.
@@ -369,7 +369,7 @@ Maintenance release.
 
 = 3.18.0-dev.2 =
 
-(2023/02/17) Renamed the 'wpssoam_status_std_features' filter to 'wpssoam_features_status'.
+(2023/02/18) Renamed the 'wpssoam_status_std_features' filter to 'wpssoam_features_status'.
 
 = 3.17.1 =
 
