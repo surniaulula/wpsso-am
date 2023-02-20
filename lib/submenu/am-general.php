@@ -64,15 +64,11 @@ if ( ! class_exists( 'WpssoAmSubmenuAmGeneral' ) && class_exists( 'WpssoAdmin' )
 		 */
 		public function show_metabox_banner() {
 
-			$metabox_id = 'am-banner';
-
-			$tab_key = 'settings';
-
+			$metabox_id  = 'am-banner';
+			$tab_key     = 'settings';
 			$filter_name = SucomUtil::sanitize_hookname( 'wpsso_' . $metabox_id . '_' . $tab_key . '_rows' );
-
-			$table_rows = $this->get_table_rows( $metabox_id, $tab_key );
-
-			$table_rows = apply_filters( $filter_name, $table_rows, $this->form, $network = false );
+			$table_rows  = $this->get_table_rows( $metabox_id, $tab_key );
+			$table_rows  = apply_filters( $filter_name, $table_rows, $this->form, $network = false );
 
 			$this->p->util->metabox->do_table( $table_rows, 'metabox-' . $metabox_id . '-' . $tab_key );
 
@@ -80,8 +76,7 @@ if ( ! class_exists( 'WpssoAmSubmenuAmGeneral' ) && class_exists( 'WpssoAdmin' )
 			 * Apple Store App tab.
 			 */
 			$filter_name = SucomUtil::sanitize_hookname( 'wpsso_' . $metabox_id . '_tabs' );
-
-			$tabs = apply_filters( $filter_name, array(
+			$tabs        = apply_filters( $filter_name, array(
 				'itunes' => _x( 'Apple Store App', 'metabox tab', 'wpsso-am' ),
 			) );
 
@@ -89,10 +84,8 @@ if ( ! class_exists( 'WpssoAmSubmenuAmGeneral' ) && class_exists( 'WpssoAdmin' )
 
 			foreach ( $tabs as $tab_key => $title ) {
 
-				$filter_name = SucomUtil::sanitize_hookname( 'wpsso_' . $metabox_id . '_' . $tab_key . '_rows' );
-
+				$filter_name            = SucomUtil::sanitize_hookname( 'wpsso_' . $metabox_id . '_' . $tab_key . '_rows' );
 				$table_rows[ $tab_key ] = $this->get_table_rows( $metabox_id, $tab_key );
-
 				$table_rows[ $tab_key ] = apply_filters( $filter_name, $table_rows[ $tab_key ], $this->form, $network = false );
 			}
 
