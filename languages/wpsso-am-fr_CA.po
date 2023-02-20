@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: WPSSO Mobile App Meta Tags 3.17.0\n"
+"Project-Id-Version: WPSSO Mobile App Meta Tags 3.18.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-am\n"
 "POT-Creation-Date: 2023-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2023-01-18 11:53-0800\n"
+"PO-Revision-Date: 2023-02-20 10:29-0800\n"
 "Last-Translator: JS Morisset <jsm@surniaulula.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -13,11 +13,11 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Poedit 3.2.2\n"
 
-#: gettext/gettext-lib-abstract-com.php:5 lib/abstract/com/add-on.php:206
+#: gettext/gettext-lib-abstract-com.php:5 lib/abstract/com/add-on.php:209
 msgid "The %1$s add-on requires the %2$s plugin."
 msgstr "L'ajout %1$s requiert l'extension %2$s."
 
-#: gettext/gettext-lib-abstract-com.php:6 lib/abstract/com/add-on.php:220
+#: gettext/gettext-lib-abstract-com.php:6 lib/abstract/com/add-on.php:223
 msgid "The %1$s add-on requires %2$s version %3$s or newer (version %4$s is currently installed)."
 msgstr "L'ajout %1$s nécessite %2$s version %3$s ou plus récente (la version %4$s est installée actuellement)."
 
@@ -253,47 +253,47 @@ msgctxt "metabox title"
 msgid "Mobile App Products"
 msgstr "Produits app mobile"
 
-#: lib/submenu/am-general.php:85
+#: lib/submenu/am-general.php:80
 msgctxt "metabox tab"
 msgid "Apple Store App"
 msgstr "App du Apple Store"
 
-#: lib/submenu/am-general.php:132
+#: lib/submenu/am-general.php:125
 msgctxt "option label"
 msgid "Add Banner to Home Page"
 msgstr "Ajouter bannière à la page d'accueil"
 
-#: lib/submenu/am-general.php:137
+#: lib/submenu/am-general.php:130
 msgctxt "option label"
 msgid "Add Banner to Archive Pages"
 msgstr "Ajouter bannière aux pages d'archive"
 
-#: lib/submenu/am-general.php:142
+#: lib/submenu/am-general.php:135
 msgctxt "option label"
 msgid "Add Banner to Post Types"
 msgstr "Ajouter bannière aux articles de type"
 
-#: lib/submenu/am-general.php:154
+#: lib/submenu/am-general.php:147
 msgctxt "option label"
 msgid "Default App ID Number"
 msgstr "Numéro d'ID app par défaut"
 
-#: lib/submenu/am-general.php:159
+#: lib/submenu/am-general.php:152
 msgctxt "option label"
 msgid "Default Affiliate Data"
 msgstr "Donnée d'affilié par défaut"
 
-#: lib/submenu/am-general.php:164
+#: lib/submenu/am-general.php:157
 msgctxt "option label"
 msgid "Default Argument String"
 msgstr "Chaîne d'arguments par défaut"
 
-#: lib/submenu/am-general.php:176
+#: lib/submenu/am-general.php:169
 msgctxt "option label"
 msgid "Default App Store Territory"
 msgstr "Territoire du App Store par défaut"
 
-#: lib/submenu/am-general.php:181
+#: lib/submenu/am-general.php:174
 msgctxt "option label"
 msgid "Show Tab on Post Types"
 msgstr "Afficher l'onglet sur articles de type"
