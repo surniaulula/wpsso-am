@@ -10,7 +10,7 @@ Tags: app store, mobile app, app card, mobile, itunes, googleplay, google play, 
 Contributors: jsmoriss
 Requires Plugins: wpsso
 Requires PHP: 7.2
-Requires At Least: 5.4
+Requires At Least: 5.5
 Tested Up To: 6.2.0
 Stable Tag: 3.18.0
 
@@ -144,7 +144,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 	* Renamed the 'wpssoam_status_std_features' filter to 'wpssoam_features_status'.
 * **Requires At Least**
 	* PHP v7.2.
-	* WordPress v5.4.
+	* WordPress v5.5.
 	* WPSSO Core v15.4.0.
 
 **Version 3.17.1 (2023/01/26)**
