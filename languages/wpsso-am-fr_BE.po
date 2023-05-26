@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: WPSSO Mobile App Meta Tags 3.18.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-am\n"
 "POT-Creation-Date: 2023-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2023-02-20 10:29-0800\n"
+"PO-Revision-Date: 2023-05-26 04:11-0700\n"
 "Last-Translator: JS Morisset <jsm@surniaulula.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 3.2.2\n"
+"X-Generator: Poedit 3.3.1\n"
 
 #: gettext/gettext-lib-abstract-com.php:5 lib/abstract/com/add-on.php:209
 msgid "The %1$s add-on requires the %2$s plugin."
@@ -29,7 +29,7 @@ msgstr "Apps mobile"
 #: gettext/gettext-lib-config.php:6
 msgctxt "plugin name"
 msgid "WPSSO Mobile App Meta Tags"
-msgstr "WPSSO balises méta d'App mobile"
+msgstr "WPSSO Balises méta d'App mobile"
 
 #: gettext/gettext-lib-config.php:7
 msgctxt "plugin description"
@@ -300,7 +300,7 @@ msgstr "Afficher l'onglet sur articles de type"
 
 #. Plugin Name of the plugin/theme
 msgid "WPSSO Mobile App Meta Tags"
-msgstr "WPSSO balises méta d'App mobile"
+msgstr "WPSSO Balises méta d'App mobile"
 
 #. Plugin URI of the plugin/theme
 msgid "https://wpsso.com/extend/plugins/wpsso-am/"
