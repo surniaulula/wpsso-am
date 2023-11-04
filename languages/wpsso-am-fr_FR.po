@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: WPSSO Mobile App Meta Tags 3.18.0\n"
+"Project-Id-Version: WPSSO Mobile App Meta Tags 3.19.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-am\n"
 "POT-Creation-Date: 2023-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2023-05-26 04:11-0700\n"
+"PO-Revision-Date: 2023-11-03 21:24-0700\n"
 "Last-Translator: JS Morisset <jsm@surniaulula.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 3.3.1\n"
+"X-Generator: Poedit 3.4.1\n"
 
 #: gettext/gettext-lib-abstract-com.php:5 lib/abstract/com/add-on.php:209
 msgid "The %1$s add-on requires the %2$s plugin."
@@ -116,7 +116,7 @@ msgctxt "option label"
 msgid "Google Play App URL Scheme"
 msgstr "Schéma URL app Google Play"
 
-#: lib/filters-edit.php:168 lib/submenu/am-general.php:38
+#: lib/filters-edit.php:168 lib/submenu/mobile-apps.php:32
 msgctxt "metabox title"
 msgid "Mobile App Banner"
 msgstr "Bannière app Mobile"
@@ -248,52 +248,52 @@ msgctxt "lib file description"
 msgid "(code) Twitter App Card Meta Tags"
 msgstr "(code) Balises méta carte app de Twitter"
 
-#: lib/submenu/am-general.php:50
+#: lib/submenu/mobile-apps.php:33
 msgctxt "metabox title"
 msgid "Mobile App Products"
 msgstr "Produits app mobile"
 
-#: lib/submenu/am-general.php:80
+#: lib/submenu/mobile-apps.php:47
 msgctxt "metabox tab"
 msgid "Apple Store App"
 msgstr "App du Apple Store"
 
-#: lib/submenu/am-general.php:125
+#: lib/submenu/mobile-apps.php:66
 msgctxt "option label"
 msgid "Add Banner to Home Page"
 msgstr "Ajouter bannière à la page d'accueil"
 
-#: lib/submenu/am-general.php:130
+#: lib/submenu/mobile-apps.php:71
 msgctxt "option label"
 msgid "Add Banner to Archive Pages"
 msgstr "Ajouter bannière aux pages d'archive"
 
-#: lib/submenu/am-general.php:135
+#: lib/submenu/mobile-apps.php:76
 msgctxt "option label"
 msgid "Add Banner to Post Types"
 msgstr "Ajouter bannière aux articles de type"
 
-#: lib/submenu/am-general.php:147
+#: lib/submenu/mobile-apps.php:88
 msgctxt "option label"
 msgid "Default App ID Number"
 msgstr "Numéro d'ID app par défaut"
 
-#: lib/submenu/am-general.php:152
+#: lib/submenu/mobile-apps.php:93
 msgctxt "option label"
 msgid "Default Affiliate Data"
 msgstr "Donnée d'affilié par défaut"
 
-#: lib/submenu/am-general.php:157
+#: lib/submenu/mobile-apps.php:98
 msgctxt "option label"
 msgid "Default Argument String"
 msgstr "Chaîne d'arguments par défaut"
 
-#: lib/submenu/am-general.php:169
+#: lib/submenu/mobile-apps.php:110
 msgctxt "option label"
 msgid "Default App Store Territory"
 msgstr "Territoire du App Store par défaut"
 
-#: lib/submenu/am-general.php:174
+#: lib/submenu/mobile-apps.php:115
 msgctxt "option label"
 msgid "Show Tab on Post Types"
 msgstr "Afficher l'onglet sur articles de type"
