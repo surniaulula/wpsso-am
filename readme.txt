@@ -132,7 +132,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 3.19.0-dev.10 (2021/11/04)**
+**Version 3.19.0-dev.11 (2021/11/04)**
 
 * **New Features**
 	* None.
@@ -145,7 +145,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * **Requires At Least**
 	* PHP v7.2.34.
 	* WordPress v5.5.
-	* WPSSO Core v16.7.0-dev.10.
+	* WPSSO Core v16.7.0-dev.11.
 
 **Version 3.18.0 (2023/02/20)**
 
@@ -164,7 +164,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 == Upgrade Notice ==
 
-= 3.19.0-dev.10 =
+= 3.19.0-dev.11 =
 
 (2021/11/04) Refactored the settings page load process.
 
