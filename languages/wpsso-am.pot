@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WPSSO Mobile App Meta Tags package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WPSSO Mobile App Meta Tags 3.19.0-dev.10\n"
+"Project-Id-Version: WPSSO Mobile App Meta Tags 3.19.0-dev.11\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-am\n"
 "POT-Creation-Date: 2023-MO-DA HO:MI+ZONE\n"
 "MIME-Version: 1.0\n"
@@ -44,97 +44,97 @@ msgctxt "plugin name"
 msgid "WPSSO Core"
 msgstr ""
 
-#: lib/filters-edit.php:41
+#: lib/filters-edit.php:45
 msgctxt "metabox tab"
 msgid "Edit Mobile Apps"
 msgstr ""
 
-#: lib/filters-edit.php:66
+#: lib/filters-edit.php:68
 msgctxt "metabox title"
 msgid "Twitter App Card"
 msgstr ""
 
-#: lib/filters-edit.php:70
+#: lib/filters-edit.php:72
 msgctxt "option label"
 msgid "App Store Territory"
 msgstr ""
 
-#: lib/filters-edit.php:81
+#: lib/filters-edit.php:83
 msgctxt "metabox title"
 msgid "iPhone App Information"
 msgstr ""
 
-#: lib/filters-edit.php:85
+#: lib/filters-edit.php:87
 msgctxt "option label"
 msgid "iPhone App ID"
 msgstr ""
 
-#: lib/filters-edit.php:91
+#: lib/filters-edit.php:93
 msgctxt "option label"
 msgid "iPhone App Name"
 msgstr ""
 
-#: lib/filters-edit.php:99
+#: lib/filters-edit.php:101
 msgctxt "option label"
 msgid "iPhone App URL Scheme"
 msgstr ""
 
-#: lib/filters-edit.php:110
+#: lib/filters-edit.php:112
 msgctxt "metabox title"
 msgid "iPad App Information"
 msgstr ""
 
-#: lib/filters-edit.php:114
+#: lib/filters-edit.php:116
 msgctxt "option label"
 msgid "iPad App ID"
 msgstr ""
 
-#: lib/filters-edit.php:120
+#: lib/filters-edit.php:122
 msgctxt "option label"
 msgid "iPad App Name"
 msgstr ""
 
-#: lib/filters-edit.php:128
+#: lib/filters-edit.php:130
 msgctxt "option label"
 msgid "iPad App URL Scheme"
 msgstr ""
 
-#: lib/filters-edit.php:139
+#: lib/filters-edit.php:141
 msgctxt "metabox title"
 msgid "Google Play App Information"
 msgstr ""
 
-#: lib/filters-edit.php:143
+#: lib/filters-edit.php:145
 msgctxt "option label"
 msgid "Google Play App ID"
 msgstr ""
 
-#: lib/filters-edit.php:149
+#: lib/filters-edit.php:151
 msgctxt "option label"
 msgid "Google Play App Name"
 msgstr ""
 
-#: lib/filters-edit.php:157
+#: lib/filters-edit.php:159
 msgctxt "option label"
 msgid "Google Play App URL Scheme"
 msgstr ""
 
-#: lib/filters-edit.php:168 lib/submenu/mobile-apps.php:32
+#: lib/filters-edit.php:170 lib/submenu/mobile-apps.php:32
 msgctxt "metabox title"
 msgid "Mobile App Banner"
 msgstr ""
 
-#: lib/filters-edit.php:172
+#: lib/filters-edit.php:174
 msgctxt "option label"
 msgid "App ID Number"
 msgstr ""
 
-#: lib/filters-edit.php:179
+#: lib/filters-edit.php:181
 msgctxt "option label"
 msgid "Affiliate Data"
 msgstr ""
 
-#: lib/filters-edit.php:186
+#: lib/filters-edit.php:188
 msgctxt "option label"
 msgid "Argument String"
 msgstr ""

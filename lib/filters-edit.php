@@ -26,26 +26,28 @@ if ( ! class_exists( 'WpssoAmFiltersEdit' ) ) {
 			$this->a =& $addon;
 
 			$this->p->util->add_plugin_filters( $this, array(
-				'post_document_meta_tabs' => 3,
-				'post_edit_appmeta_rows'  => 4,
+				'mb_sso_tabs'               => 2,
+				'mb_sso_edit_appmeta_rows'  => 4,
 			), $prio = 100 );
 		}
 
-		public function filter_post_document_meta_tabs( $tabs, $mod, $metabox_id ) {
+		public function filter_mb_sso_tabs( $tabs, $mod ) {
 
-			if ( $metabox_id === $this->p->cf[ 'meta' ][ 'id' ] ) {
+			if ( empty( $mod[ 'is_post' ] ) ) {
+				
+				return $tabs;
 
-				if ( ! empty( $this->p->options[ 'am_ap_add_to_' . $mod[ 'post_type' ] ] ) ) {
+			} elseif ( empty( $this->p->options[ 'am_ap_add_to_' . $mod[ 'post_type' ] ] ) ) {
 
-					SucomUtil::add_after_key( $tabs, $after_tab = 'edit_visibility', 'edit_appmeta',
-						_x( 'Edit Mobile Apps', 'metabox tab', 'wpsso-am' ) );
-				}
+				return $tabs;
 			}
+
+			SucomUtil::add_after_key( $tabs, 'edit_visibility', 'edit_appmeta', _x( 'Edit Mobile Apps', 'metabox tab', 'wpsso-am' ) );
 
 			return $tabs;
 		}
 
-		public function filter_post_edit_appmeta_rows( $table_rows, $form, $head, $mod ) {
+		public function filter_mb_sso_edit_appmeta_rows( $table_rows, $form, $head, $mod ) {
 
 			/*
 			 * Use default $md_key = 'seo_title' and no maximum length.
