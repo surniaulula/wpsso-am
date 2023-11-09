@@ -30,9 +30,9 @@ if ( ! class_exists( 'WpssoAmFiltersUpgrade' ) ) {
 			) );
 		}
 
-		public function filter_rename_options_keys( $options_keys ) {
+		public function filter_rename_options_keys( $rename_options ) {
 
-			$options_keys[ 'wpssoam' ] = array(
+			$rename_options[ 'wpssoam' ] = array(
 				7 => array(
 					'plugin_wpssoam_tid' => '',
 				),
@@ -41,7 +41,7 @@ if ( ! class_exists( 'WpssoAmFiltersUpgrade' ) ) {
 				),
 			);
 
-			return $options_keys;
+			return $rename_options;
 		}
 	}
 }
