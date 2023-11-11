@@ -34,7 +34,7 @@ if ( ! class_exists( 'WpssoAmFiltersEdit' ) ) {
 		public function filter_mb_sso_tabs( $tabs, $mod ) {
 
 			if ( empty( $mod[ 'is_post' ] ) ) {
-				
+
 				return $tabs;
 
 			} elseif ( empty( $this->p->options[ 'am_ap_add_to_' . $mod[ 'post_type' ] ] ) ) {
