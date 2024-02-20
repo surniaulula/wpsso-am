@@ -14,7 +14,7 @@ Requires At Least: 5.8
 Tested Up To: 6.4.3
 Stable Tag: 4.0.0
 
-Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari banner and Twitter's App Card.
+Apple Store and Google Play App meta tags for Apple\'s mobile Safari banner and X\'s (Twitter) App Card.
 
 == Description ==
 
@@ -24,7 +24,7 @@ Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari ban
 
 **Promote your website's mobile App with a banner in Apple's mobile Safari.**
 
-**Add [Twitter App Card](https://dev.twitter.com/cards/types/app) markup to mobile App product pages:**
+**Add [X (Twitter) App Card](https://dev.twitter.com/cards/types/app) markup to mobile App product pages:**
 
 <ul>
 	<li>twitter:app:country</li>
@@ -47,7 +47,7 @@ Extends the features of the [WPSSO Core plugin](https://wordpress.org/plugins/wp
 
 Adds an optional banner in Apple's mobile Safari for your website's Apple Store mobile App.
 
-Adds optional [Twitter App Card](https://dev.twitter.com/cards/types/app) meta tags to webpages.
+Adds optional [X (Twitter) App Card](https://dev.twitter.com/cards/types/app) meta tags to webpages.
 
 Includes a Mobile Apps settings page with additional options:
 
@@ -65,7 +65,7 @@ Includes a Mobile Apps settings page with additional options:
 
 Includes a Mobile Apps tab in the Document SSO metabox with additional options:
 
-* Twitter App Card
+* X (Twitter) App Card
 	* App Store Territory
 	* iPhone App Details
 		* iPhone App ID
@@ -100,7 +100,7 @@ WPSSO Mobile App Meta Tags (WPSSO AM) is an add-on for the [WPSSO Core plugin](h
 == Screenshots ==
 
 01. The WPSSO AM settings page offers options for the Mobile App Banner, Apple Store defaults, and the Mobile Apps tab.
-02. The WPSSO AM tab in the Document SSO metabox provides custom settings for the Twitter App Card and Mobile App Banner.
+02. The WPSSO AM tab in the Document SSO metabox provides custom settings for the X (Twitter) App Card and Mobile App Banner.
 
 == Changelog ==
 
@@ -128,7 +128,22 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 4.0.0 (2021/11/08)**
+**Version 4.1.0-dev.1 (2024/02/20)**
+
+* **New Features**
+	* None.
+* **Improvements**
+	* None.
+* **Bugfixes**
+	* None.
+* **Developer Notes**
+	* None.
+* **Requires At Least**
+	* PHP v7.2.34.
+	* WordPress v5.8.
+	* WPSSO Core v17.14.0-rc.1.
+
+**Version 4.0.0 (2023/11/08)**
 
 * **New Features**
 	* None.
@@ -160,9 +175,13 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 == Upgrade Notice ==
 
+= 4.1.0-dev.1 =
+
+(2024/02/20) None.
+
 = 4.0.0 =
 
-(2021/11/08) Refactored the settings page and metabox load process for WPSSO Core v17.0.0.
+(2023/11/08) Refactored the settings page and metabox load process for WPSSO Core v17.0.0.
 
 = 3.18.0 =
 
