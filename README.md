@@ -2,7 +2,7 @@
 
 <table>
 <tr><th align="right" valign="top" nowrap>Plugin Name</th><td>WPSSO Mobile App Meta Tags</td></tr>
-<tr><th align="right" valign="top" nowrap>Summary</th><td>Apple Store / iTunes and Google Play App meta tags for Apple&#039;s mobile Safari banner and Twitter&#039;s App Card.</td></tr>
+<tr><th align="right" valign="top" nowrap>Summary</th><td>Apple Store and Google Play App meta tags for Apple\&#039;s mobile Safari banner and X\&#039;s (Twitter) App Card.</td></tr>
 <tr><th align="right" valign="top" nowrap>Stable Version</th><td>4.0.0</td></tr>
 <tr><th align="right" valign="top" nowrap>Requires PHP</th><td>7.2.34 or newer</td></tr>
 <tr><th align="right" valign="top" nowrap>Requires WordPress</th><td>5.8 or newer</td></tr>
@@ -20,7 +20,7 @@
 
 <p><strong>Promote your website's mobile App with a banner in Apple's mobile Safari.</strong></p>
 
-<p><strong>Add <a href="https://dev.twitter.com/cards/types/app">Twitter App Card</a> markup to mobile App product pages:</strong></p>
+<p><strong>Add <a href="https://dev.twitter.com/cards/types/app">X (Twitter) App Card</a> markup to mobile App product pages:</strong></p>
 
 <ul>
     <li>twitter:app:country</li>
@@ -43,7 +43,7 @@
 
 <p>Adds an optional banner in Apple's mobile Safari for your website's Apple Store mobile App.</p>
 
-<p>Adds optional <a href="https://dev.twitter.com/cards/types/app">Twitter App Card</a> meta tags to webpages.</p>
+<p>Adds optional <a href="https://dev.twitter.com/cards/types/app">X (Twitter) App Card</a> meta tags to webpages.</p>
 
 <p>Includes a Mobile Apps settings page with additional options:</p>
 
@@ -73,7 +73,7 @@
 <p>Includes a Mobile Apps tab in the Document SSO metabox with additional options:</p>
 
 <ul>
-<li>Twitter App Card
+<li>X (Twitter) App Card
 
 <ul>
 <li>App Store Territory</li>
