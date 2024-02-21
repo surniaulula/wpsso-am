@@ -128,12 +128,12 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 4.1.0-dev.1 (2024/02/20)**
+**Version 4.1.0-rc.3 (2024/02/21)**
 
 * **New Features**
 	* None.
 * **Improvements**
-	* None.
+	* Renamed Twitter to X (Twitter).
 * **Bugfixes**
 	* None.
 * **Developer Notes**
@@ -141,7 +141,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * **Requires At Least**
 	* PHP v7.2.34.
 	* WordPress v5.8.
-	* WPSSO Core v17.14.0-rc.1.
+	* WPSSO Core v17.14.0-rc.3.
 
 **Version 4.0.0 (2023/11/08)**
 
@@ -175,9 +175,9 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 == Upgrade Notice ==
 
-= 4.1.0-dev.1 =
+= 4.1.0-rc.3 =
 
-(2024/02/20) None.
+(2024/02/21) Renamed Twitter to X (Twitter).
 
 = 4.0.0 =
 
