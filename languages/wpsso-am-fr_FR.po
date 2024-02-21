@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: WPSSO Mobile App Meta Tags 4.0.0\n"
+"Project-Id-Version: WPSSO Mobile App Meta Tags 4.1.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-am\n"
-"POT-Creation-Date: 2023-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2023-11-06 06:58-0800\n"
+"POT-Creation-Date: 2024-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2024-02-21 01:40-0800\n"
 "Last-Translator: JS Morisset <jsm@surniaulula.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -11,13 +11,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 3.4.1\n"
+"X-Generator: Poedit 3.4.2\n"
 
-#: gettext/gettext-lib-abstract-com.php:5 lib/abstract/com/add-on.php:209
+#: gettext/gettext-lib-abstract-com.php:5 lib/abstract/com/add-on.php:243
 msgid "The %1$s add-on requires the %2$s plugin."
 msgstr "L'ajout %1$s requiert l'extension %2$s."
 
-#: gettext/gettext-lib-abstract-com.php:6 lib/abstract/com/add-on.php:223
+#: gettext/gettext-lib-abstract-com.php:6 lib/abstract/com/add-on.php:262
 msgid "The %1$s add-on requires %2$s version %3$s or newer (version %4$s is currently installed)."
 msgstr "L'ajout %1$s nécessite %2$s version %3$s ou plus récente (la version %4$s est installée actuellement)."
 
@@ -33,105 +33,105 @@ msgstr "WPSSO Balises méta d'App mobile"
 
 #: gettext/gettext-lib-config.php:7
 msgctxt "plugin description"
-msgid "Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari banner and Twitter's App Card."
-msgstr "Balises méta Apple Store / iTunes et Google Play App pour la bannière mobile Safari de Apple et la carte app de Twitter."
+msgid "Apple Store and Google Play App meta tags for Apple's mobile Safari banner and X's (Twitter) App Card."
+msgstr "Balises méta Apple Store et Google Play App pour la bannière Safari mobile d'Apple et la carte app de X (Twitter)."
 
 #: gettext/gettext-lib-config.php:8
 msgctxt "plugin name"
 msgid "WPSSO Core"
 msgstr "WPSSO Core"
 
-#: lib/filters-edit.php:41
+#: lib/filters-edit.php:45
 msgctxt "metabox tab"
 msgid "Edit Mobile Apps"
 msgstr "Modifier apps mobiles"
 
-#: lib/filters-edit.php:66
+#: lib/filters-edit.php:68
 msgctxt "metabox title"
-msgid "Twitter App Card"
-msgstr "Carte app de Twitter"
+msgid "X (Twitter) App Card"
+msgstr "Carte app de X (Twitter)"
 
-#: lib/filters-edit.php:70
+#: lib/filters-edit.php:72
 msgctxt "option label"
 msgid "App Store Territory"
 msgstr "Territoire du App Store"
 
-#: lib/filters-edit.php:81
+#: lib/filters-edit.php:83
 msgctxt "metabox title"
 msgid "iPhone App Information"
 msgstr "Informations d'app iPhone"
 
-#: lib/filters-edit.php:85
+#: lib/filters-edit.php:87
 msgctxt "option label"
 msgid "iPhone App ID"
 msgstr "ID d'app iPhone"
 
-#: lib/filters-edit.php:91
+#: lib/filters-edit.php:93
 msgctxt "option label"
 msgid "iPhone App Name"
 msgstr "Nom d'app iPhone"
 
-#: lib/filters-edit.php:99
+#: lib/filters-edit.php:101
 msgctxt "option label"
 msgid "iPhone App URL Scheme"
 msgstr "Schéma URL app iPhone"
 
-#: lib/filters-edit.php:110
+#: lib/filters-edit.php:112
 msgctxt "metabox title"
 msgid "iPad App Information"
 msgstr "Informations d'app iPad"
 
-#: lib/filters-edit.php:114
+#: lib/filters-edit.php:116
 msgctxt "option label"
 msgid "iPad App ID"
 msgstr "ID d'app iPad"
 
-#: lib/filters-edit.php:120
+#: lib/filters-edit.php:122
 msgctxt "option label"
 msgid "iPad App Name"
 msgstr "Nom d'app iPad"
 
-#: lib/filters-edit.php:128
+#: lib/filters-edit.php:130
 msgctxt "option label"
 msgid "iPad App URL Scheme"
 msgstr "Schéma URL app iPad"
 
-#: lib/filters-edit.php:139
+#: lib/filters-edit.php:141
 msgctxt "metabox title"
 msgid "Google Play App Information"
 msgstr "Informations d'app Google Play"
 
-#: lib/filters-edit.php:143
+#: lib/filters-edit.php:145
 msgctxt "option label"
 msgid "Google Play App ID"
 msgstr "ID d'app Google Play"
 
-#: lib/filters-edit.php:149
+#: lib/filters-edit.php:151
 msgctxt "option label"
 msgid "Google Play App Name"
 msgstr "Nom d'app Google Play"
 
-#: lib/filters-edit.php:157
+#: lib/filters-edit.php:159
 msgctxt "option label"
 msgid "Google Play App URL Scheme"
 msgstr "Schéma URL app Google Play"
 
-#: lib/filters-edit.php:168 lib/submenu/mobile-apps.php:32
+#: lib/filters-edit.php:170 lib/submenu/mobile-apps.php:32
 msgctxt "metabox title"
 msgid "Mobile App Banner"
 msgstr "Bannière app Mobile"
 
-#: lib/filters-edit.php:172
+#: lib/filters-edit.php:174
 msgctxt "option label"
 msgid "App ID Number"
 msgstr "Numéro d'ID app"
 
-#: lib/filters-edit.php:179
+#: lib/filters-edit.php:181
 msgctxt "option label"
 msgid "Affiliate Data"
 msgstr "Donnée d'affilié"
 
-#: lib/filters-edit.php:186
+#: lib/filters-edit.php:188
 msgctxt "option label"
 msgid "Argument String"
 msgstr "Chaîne d'arguments"
@@ -235,8 +235,8 @@ msgid "A <em>%1$s</em> tab can be added to the %2$s metabox on Posts, Pages, and
 msgstr "Un onglet <em>%1$s</em> peut être ajouté dans la metabox %2$s pour les Articles, Pages et les articles de type personnalisé, vous permettant d'entrer des informations d'une ou plusieurs applications mobile Apple Store et Google Play."
 
 #: lib/filters-messages.php:192
-msgid "The <em>%s</em> information is used to create meta tags for Twitter's App Card and customize the mobile App banner for Apple's mobile Safari."
-msgstr "Les informations <em>%s</em> sont utilisées pour créer des balises méta pour la carte app de Twitter et personnaliser la bannière d'app pour le navigateur mobile Safari d'Apple."
+msgid "The <em>%s</em> information is used to create meta tags for X's (Twitter) App Card and customize the mobile App banner for Apple's mobile Safari."
+msgstr "Les informations <em>%s</em> sont utilisées pour créer des balises méta pour la carte app de X (Twitter) et personnaliser la bannière d'app pour le navigateur mobile Safari d'Apple."
 
 #: lib/filters.php:283
 msgctxt "lib file description"
@@ -245,8 +245,8 @@ msgstr "(code) Bannière app Mobile"
 
 #: lib/filters.php:288
 msgctxt "lib file description"
-msgid "(code) Twitter App Card Meta Tags"
-msgstr "(code) Balises méta carte app de Twitter"
+msgid "(code) X (Twitter) App Card Meta Tags"
+msgstr "(code) Balises méta carte app de X (Twitter)"
 
 #: lib/submenu/mobile-apps.php:33
 msgctxt "metabox title"
@@ -307,8 +307,8 @@ msgid "https://wpsso.com/extend/plugins/wpsso-am/"
 msgstr "https://wpsso.com/extend/plugins/wpsso-am/"
 
 #. Description of the plugin/theme
-msgid "Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari banner and Twitter's App Card."
-msgstr "Balises méta Apple Store / iTunes et Google Play App pour la bannière mobile Safari de Apple et la carte app de Twitter."
+msgid "Apple Store and Google Play App meta tags for Apple\\'s mobile Safari banner and X\\'s (Twitter) App Card."
+msgstr "Balises méta Apple Store et Google Play App pour la bannière Safari mobile d'Apple et la carte app de X (Twitter)."
 
 #. Author of the plugin/theme
 msgid "JS Morisset"

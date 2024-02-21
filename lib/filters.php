@@ -284,8 +284,8 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 				'status'       => $this->p->options[ 'am_ws_itunes_app_id' ] ? 'on' : 'off'
 			);
 
-			$features[ '(code) Twitter App Card Meta Tags' ] = array(
-				'label_transl' => _x( '(code) Twitter App Card Meta Tags', 'lib file description', 'wpsso-am' ),
+			$features[ '(code) X (Twitter) App Card Meta Tags' ] = array(
+				'label_transl' => _x( '(code) X (Twitter) App Card Meta Tags', 'lib file description', 'wpsso-am' ),
 				'status'       => 'on',
 			);
 

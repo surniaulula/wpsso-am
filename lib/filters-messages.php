@@ -189,7 +189,7 @@ if ( ! class_exists( 'WpssoAmFiltersMessages' ) ) {
 
 					$text .= sprintf( __( 'A <em>%1$s</em> tab can be added to the %2$s metabox on Posts, Pages, and custom post types, allowing you to enter specific information about one or more Apple Store and Google Play mobile Apps.', 'wpsso-am' ), $metabox_tab, $metabox_title ) . ' ';
 
-					$text .= sprintf( __( 'The <em>%s</em> information is used to create meta tags for Twitter\'s App Card and customize the mobile App banner for Apple\'s mobile Safari.', 'wpsso-am' ), $metabox_tab );
+					$text .= sprintf( __( 'The <em>%s</em> information is used to create meta tags for X\'s (Twitter) App Card and customize the mobile App banner for Apple\'s mobile Safari.', 'wpsso-am' ), $metabox_tab );
 
 					$text .= '</p></blockquote>';
 

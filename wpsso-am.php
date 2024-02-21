@@ -10,12 +10,12 @@
  * Author URI: https://wpsso.com/
  * License: GPLv3
  * License URI: https://www.gnu.org/licenses/gpl.txt
- * Description: Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari banner and Twitter's App Card.
+ * Description: Apple Store and Google Play App meta tags for Apple\'s mobile Safari banner and X\'s (Twitter) App Card.
  * Requires Plugins: wpsso
  * Requires PHP: 7.2.34
  * Requires At Least: 5.8
  * Tested Up To: 6.4.3
- * Version: 4.0.0
+ * Version: 4.1.0-rc.3
  *
  * Version Numbering: {major}.{minor}.{bugfix}[-{stage}.{level}]
  *

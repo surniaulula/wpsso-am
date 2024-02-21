@@ -60,12 +60,12 @@ if ( ! class_exists( 'WpssoAmFiltersEdit' ) ) {
 			$form_rows = array(
 
 				/*
-				 * Twitter App Card
+				 * X (Twitter) App Card
 				 */
 				'subsection_app_card' => array(
 					'td_class' => 'subsection top',
 					'header'   => 'h4',
-					'label'    => _x( 'Twitter App Card', 'metabox title', 'wpsso-am' )
+					'label'    => _x( 'X (Twitter) App Card', 'metabox title', 'wpsso-am' )
 				),
 				'am_ap_ast' => array(
 					'th_class' => 'medium',

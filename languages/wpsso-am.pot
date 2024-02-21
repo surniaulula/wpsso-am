@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WPSSO Mobile App Meta Tags package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WPSSO Mobile App Meta Tags 4.0.0\n"
+"Project-Id-Version: WPSSO Mobile App Meta Tags 4.1.0-rc.3\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-am\n"
 "POT-Creation-Date: 2024-MO-DA HO:MI+ZONE\n"
 "MIME-Version: 1.0\n"
@@ -35,8 +35,8 @@ msgstr ""
 #: gettext/gettext-lib-config.php:7
 msgctxt "plugin description"
 msgid ""
-"Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari "
-"banner and Twitter's App Card."
+"Apple Store and Google Play App meta tags for Apple's mobile Safari banner "
+"and X's (Twitter) App Card."
 msgstr ""
 
 #: gettext/gettext-lib-config.php:8
@@ -51,7 +51,7 @@ msgstr ""
 
 #: lib/filters-edit.php:68
 msgctxt "metabox title"
-msgid "Twitter App Card"
+msgid "X (Twitter) App Card"
 msgstr ""
 
 #: lib/filters-edit.php:72
@@ -269,8 +269,8 @@ msgstr ""
 
 #: lib/filters-messages.php:192
 msgid ""
-"The <em>%s</em> information is used to create meta tags for Twitter's App "
-"Card and customize the mobile App banner for Apple's mobile Safari."
+"The <em>%s</em> information is used to create meta tags for X's (Twitter) "
+"App Card and customize the mobile App banner for Apple's mobile Safari."
 msgstr ""
 
 #: lib/filters.php:283
@@ -280,7 +280,7 @@ msgstr ""
 
 #: lib/filters.php:288
 msgctxt "lib file description"
-msgid "(code) Twitter App Card Meta Tags"
+msgid "(code) X (Twitter) App Card Meta Tags"
 msgstr ""
 
 #: lib/submenu/mobile-apps.php:33
@@ -343,8 +343,8 @@ msgstr ""
 
 #. Description of the plugin/theme
 msgid ""
-"Apple Store / iTunes and Google Play App meta tags for Apple's mobile Safari "
-"banner and Twitter's App Card."
+"Apple Store and Google Play App meta tags for Apple\\'s mobile Safari banner "
+"and X\\'s (Twitter) App Card."
 msgstr ""
 
 #. Author of the plugin/theme
