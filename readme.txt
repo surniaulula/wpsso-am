@@ -6,7 +6,7 @@ Domain Path: /languages
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl.txt
 Assets URI: https://surniaulula.github.io/wpsso-am/assets/
-Tags: app store, mobile app, app card, mobile, itunes, googleplay, google play, meta tags, app banner, safari, twitter app card, twitter card
+Tags: app store, mobile app, app card, itunes, google play
 Contributors: jsmoriss
 Requires Plugins: wpsso
 Requires PHP: 7.2.34
