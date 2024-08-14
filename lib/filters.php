@@ -60,10 +60,6 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 				require_once WPSSOAM_PLUGINDIR . 'lib/filters-messages.php';
 
 				$this->msgs = new WpssoAmFiltersMessages( $plugin, $addon );
-
-				$this->p->util->add_plugin_filters( $this, array(
-					'features_status' => 3,
-				), $prio = 10, $ext = 'wpssoam' );	// Hooks the 'wpssoam' filters.
 			}
 		}
 
@@ -259,10 +255,7 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 
 				$tc_app[ 'twitter:app:country' ] = $this->p->options[ 'am_ap_ast' ];
 
-			} else {
-
-				$tc_app[ 'twitter:app:country' ] = $md_opts[ 'am_ap_ast' ];
-			}
+			} else $tc_app[ 'twitter:app:country' ] = $md_opts[ 'am_ap_ast' ];
 
 			unset( $tc[ 'twitter:title' ] );
 
@@ -272,24 +265,6 @@ if ( ! class_exists( 'WpssoAmFilters' ) ) {
 			}
 
 			return array_merge( $tc, $tc_app );
-		}
-
-		/*
-		 * Filter for 'wpssoam_features_status'.
-		 */
-		public function filter_features_status( $features, $ext, $info ) {
-
-			$features[ '(code) Mobile App Banner' ] = array(
-				'label_transl' => _x( '(code) Mobile App Banner', 'lib file description', 'wpsso-am' ),
-				'status'       => $this->p->options[ 'am_ws_itunes_app_id' ] ? 'on' : 'off'
-			);
-
-			$features[ '(code) X (Twitter) App Card Meta Tags' ] = array(
-				'label_transl' => _x( '(code) X (Twitter) App Card Meta Tags', 'lib file description', 'wpsso-am' ),
-				'status'       => 'on',
-			);
-
-			return $features;
 		}
 	}
 }
