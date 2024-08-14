@@ -128,6 +128,21 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
+**Version 4.2.0-dev.5 (2024/08/14)**
+
+* **New Features**
+	* None.
+* **Improvements**
+	* None.
+* **Bugfixes**
+	* None.
+* **Developer Notes**
+	* None.
+* **Requires At Least**
+	* PHP v7.2.34.
+	* WordPress v5.8.
+	* WPSSO Core v18.0.0-dev.5.
+
 **Version 4.1.0 (2024/02/21)**
 
 * **New Features**
@@ -158,22 +173,11 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 	* WordPress v5.8.
 	* WPSSO Core v17.0.0.
 
-**Version 3.18.0 (2023/02/20)**
-
-* **New Features**
-	* None.
-* **Improvements**
-	* None.
-* **Bugfixes**
-	* None.
-* **Developer Notes**
-	* Renamed the 'wpssoam_status_std_features' filter to 'wpssoam_features_status'.
-* **Requires At Least**
-	* PHP v7.2.34.
-	* WordPress v5.5.
-	* WPSSO Core v15.4.0.
-
 == Upgrade Notice ==
+
+= 4.2.0-dev.5 =
+
+(2024/08/14) None.
 
 = 4.1.0 =
 
@@ -182,8 +186,4 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 = 4.0.0 =
 
 (2023/11/08) Refactored the settings page and metabox load process for WPSSO Core v17.0.0.
-
-= 3.18.0 =
-
-(2023/02/20) Renamed the 'wpssoam_status_std_features' filter to 'wpssoam_features_status'.
 
