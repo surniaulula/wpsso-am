@@ -9,8 +9,8 @@ Assets URI: https://surniaulula.github.io/wpsso-am/assets/
 Tags: app store, mobile app, app card, itunes, google play
 Contributors: jsmoriss
 Requires Plugins: wpsso
-Requires PHP: 7.2.34
-Requires At Least: 5.8
+Requires PHP: 7.4.33
+Requires At Least: 5.9
 Tested Up To: 6.6.2
 Stable Tag: 4.3.0
 
@@ -139,70 +139,13 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * **Developer Notes**
 	* Changed the main instantiation action hook from 'init_objects' to 'init_objects_preloader'.
 * **Requires At Least**
-	* PHP v7.2.34.
-	* WordPress v5.8.
-	* WPSSO Core v18.5.0.
-
-**Version 4.2.0 (2024/08/15)**
-
-* **New Features**
-	* None.
-* **Improvements**
-	* None.
-* **Bugfixes**
-	* None.
-* **Developer Notes**
-	* Removed the 'wpsso_features_status' filter hook.
-* **Requires At Least**
-	* PHP v7.2.34.
-	* WordPress v5.8.
-	* WPSSO Core v18.0.0.
-
-**Version 4.1.0 (2024/02/21)**
-
-* **New Features**
-	* None.
-* **Improvements**
-	* Renamed Twitter to X (Twitter).
-* **Bugfixes**
-	* None.
-* **Developer Notes**
-	* None.
-* **Requires At Least**
-	* PHP v7.2.34.
-	* WordPress v5.8.
-	* WPSSO Core v17.18.0.
-
-**Version 4.0.0 (2023/11/08)**
-
-* **New Features**
-	* None.
-* **Improvements**
-	* None.
-* **Bugfixes**
-	* None.
-* **Developer Notes**
-	* Refactored the settings page and metabox load process for WPSSO Core v17.0.0.
-* **Requires At Least**
-	* PHP v7.2.34.
-	* WordPress v5.8.
-	* WPSSO Core v17.0.0.
+	* PHP v7.4.33.
+	* WordPress v5.9.
+	* WPSSO Core v18.7.3.
 
 == Upgrade Notice ==
 
 = 4.3.0 =
 
 (2024/08/25) Changed the main instantiation action hook from 'init_objects' to 'init_objects_preloader'.
-
-= 4.2.0 =
-
-(2024/08/15) Removed the 'wpsso_features_status' filter hook.
-
-= 4.1.0 =
-
-(2024/02/21) Renamed Twitter to X (Twitter).
-
-= 4.0.0 =
-
-(2023/11/08) Refactored the settings page and metabox load process for WPSSO Core v17.0.0.
 
